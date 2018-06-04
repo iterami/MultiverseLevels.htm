@@ -3,6 +3,7 @@
   "fog": false,
   "entities": [
     {
+      "id": "ground",
       "translate-y": -3,
       "vertex-colors": [
         0.1, 0.4, 0.1, 1,
@@ -18,6 +19,8 @@
       ]
     },
     {
+      "id": "floor",
+      "collision": true,
       "translate-y": -2,
       "vertex-colors": [
         0.5, 0.2, 0, 1,
@@ -33,6 +36,8 @@
       ]
     },
     {
+      "id": "ceiling",
+      "collision": true,
       "translate-y": 2,
       "vertex-colors": [
         0.5, 0.2, 0, 1,
@@ -48,6 +53,8 @@
       ]
     },
     {
+      "id": "wall-0",
+      "collision": true,
       "translate-x": -7,
       "vertex-colors": [
         0.4, 0.1, 0, 1,
@@ -63,6 +70,8 @@
       ]
     },
     {
+      "id": "wall-1",
+      "collision": true,
       "translate-x": 7,
       "vertex-colors": [
         0.4, 0.1, 0, 1,
@@ -78,6 +87,8 @@
       ]
     },
     {
+      "id": "wall-2",
+      "collision": true,
       "translate-x": -5,
       "translate-z": -3,
       "vertex-colors": [
@@ -94,6 +105,8 @@
       ]
     },
     {
+      "id": "wall-3",
+      "collision": true,
       "translate-x": 5,
       "translate-z": -3,
       "vertex-colors": [
@@ -110,6 +123,8 @@
       ]
     },
     {
+      "id": "wall-4",
+      "collision": true,
       "translate-x": -5,
       "translate-z": 3,
       "vertex-colors": [
@@ -126,6 +141,8 @@
       ]
     },
     {
+      "id": "wall-5",
+      "collision": true,
       "translate-x": 5,
       "translate-z": 3,
       "vertex-colors": [
@@ -142,6 +159,7 @@
       ]
     },
     {
+      "id": "tree-base",
       "billboard": true,
       "draw-type": "TRIANGLES",
       "translate-x": -4,
@@ -159,6 +177,7 @@
       ]
     },
     {
+      "id": "tree-leaves",
       "billboard": true,
       "draw-type": "TRIANGLES",
       "translate-x": -4,
