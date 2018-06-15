@@ -160,7 +160,7 @@
     },
     {
       "id": "tree-base",
-      "billboard": true,
+      "billboard": "y",
       "draw-type": "TRIANGLES",
       "translate-x": -4,
       "translate-y": -3,
@@ -178,7 +178,7 @@
     },
     {
       "id": "tree-leaves",
-      "billboard": true,
+      "billboard": "y",
       "draw-type": "TRIANGLES",
       "translate-x": -4,
       "translate-y": -3,

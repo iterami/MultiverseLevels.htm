@@ -38,17 +38,121 @@
       ]
     },
     {
-      "id": "billboarding",
-      "billboard": true,
+      "id": "billboarding-x",
+      "billboard": "x",
+      "translate-x": 5,
+      "translate-z": -10,
       "vertex-colors": [
-        0.1, 0.4, 0.1, 1,
-        0.1, 0.4, 0.1, 1,
-        0.1, 0.4, 0.1, 1
+        1, 0, 0, 1,
+        1, 0, 0, 1,
+        1, 0, 0, 1
       ],
       "vertices": [
         -1, 0, 0, 1,
         1, 0, 0, 1,
         0, 1, 0, 1
+      ]
+    },
+    {
+      "id": "billboarding-y",
+      "billboard": "y",
+      "translate-x": 7,
+      "translate-z": -10,
+      "vertex-colors": [
+        0, 1, 0, 1,
+        0, 1, 0, 1,
+        0, 1, 0, 1
+      ],
+      "vertices": [
+        -1, 0, 0, 1,
+        1, 0, 0, 1,
+        0, 1, 0, 1
+      ]
+    },
+    {
+      "id": "billboarding-z",
+      "billboard": "z",
+      "translate-x": 9,
+      "translate-z": -10,
+      "vertex-colors": [
+        0, 0, 1, 1,
+        0, 0, 1, 1,
+        0, 0, 1, 1
+      ],
+      "vertices": [
+        -1, 0, 0, 1,
+        1, 0, 0, 1,
+        0, 1, 0, 1
+      ]
+    },
+    {
+      "id": "textures-blank-fff",
+      "translate-x": -5,
+      "translate-z": -10,
+      "vertex-colors": [
+        1, 1, 1, 1,
+        1, 1, 1, 1,
+        1, 1, 1, 1,
+        1, 1, 1, 1
+      ],
+      "vertices": [
+        -1, -1, 0, 1,
+        1, -1, 0, 1,
+        1, 1, 0, 1,
+        -1, 1, 0, 1
+      ]
+    },
+    {
+      "id": "textures-blank-0f0",
+      "translate-x": -7,
+      "translate-z": -10,
+      "vertex-colors": [
+        0, 1, 0, 1,
+        0, 1, 0, 1,
+        0, 1, 0, 1,
+        0, 1, 0, 1
+      ],
+      "vertices": [
+        -1, -1, 0, 1,
+        1, -1, 0, 1,
+        1, 1, 0, 1,
+        -1, 1, 0, 1
+      ]
+    },
+    {
+      "id": "textures-default-fff",
+      "translate-x": -5,
+      "translate-y": 2,
+      "translate-z": -10,
+      "vertex-colors": [
+        1, 1, 1, 1,
+        1, 1, 1, 1,
+        1, 1, 1, 1,
+        1, 1, 1, 1
+      ],
+      "vertices": [
+        -1, -1, 0, 1,
+        1, -1, 0, 1,
+        1, 1, 0, 1,
+        -1, 1, 0, 1
+      ]
+    },
+    {
+      "id": "textures-default-0f0",
+      "translate-x": -7,
+      "translate-y": 2,
+      "translate-z": -10,
+      "vertex-colors": [
+        0, 1, 0, 1,
+        0, 1, 0, 1,
+        0, 1, 0, 1,
+        0, 1, 0, 1
+      ],
+      "vertices": [
+        -1, -1, 0, 1,
+        1, -1, 0, 1,
+        1, 1, 0, 1,
+        -1, 1, 0, 1
       ]
     }
   ]
