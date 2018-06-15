@@ -5,8 +5,8 @@
       "id": "axis-x",
       "draw-type": "LINES",
       "vertex-colors": [
-        1, 1, 1, 1,
-        1, 1, 1, 1
+        1, 0, 0, 1,
+        1, 0, 0, 1
       ],
       "vertices": [
         -100, 0, 0, 1,
@@ -17,8 +17,8 @@
       "id": "axis-y",
       "draw-type": "LINES",
       "vertex-colors": [
-        1, 1, 1, 1,
-        1, 1, 1, 1
+        0, 1, 0, 1,
+        0, 1, 0, 1
       ],
       "vertices": [
         0, -100, 0, 1,
@@ -29,8 +29,8 @@
       "id": "axis-z",
       "draw-type": "LINES",
       "vertex-colors": [
-        1, 1, 1, 1,
-        1, 1, 1, 1
+        0, 0, 1, 1,
+        0, 0, 1, 1
       ],
       "vertices": [
         0, 0, -100, 1,
