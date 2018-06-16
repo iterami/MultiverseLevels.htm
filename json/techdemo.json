@@ -156,6 +156,60 @@
         1, 1, 0, 1,
         -1, 1, 0, 1
       ]
+    },
+    {
+      "id": "transparency-b",
+      "translate-x": -8,
+      "translate-y": 2,
+      "translate-z": -7,
+      "vertex-colors": [
+        0, 0, 1, 0.5,
+        0, 0, 1, 0.5,
+        0, 0, 1, 0.5,
+        0, 0, 1, 0.5
+      ],
+      "vertices": [
+        -1, -1, 0, 1,
+        1, -1, 0, 1,
+        1, 1, 0, 1,
+        -1, 1, 0, 1
+      ]
+    },
+    {
+      "id": "transparency-g",
+      "translate-x": -6,
+      "translate-y": 2,
+      "translate-z": -6,
+      "vertex-colors": [
+        0, 1, 0, 0.5,
+        0, 1, 0, 0.5,
+        0, 1, 0, 0.5,
+        0, 1, 0, 0.5
+      ],
+      "vertices": [
+        -1, -1, 0, 1,
+        1, -1, 0, 1,
+        1, 1, 0, 1,
+        -1, 1, 0, 1
+      ]
+    },
+    {
+      "id": "transparency-r",
+      "translate-x": -7,
+      "translate-y": 2,
+      "translate-z": -5,
+      "vertex-colors": [
+        1, 0, 0, 0.5,
+        1, 0, 0, 0.5,
+        1, 0, 0, 0.5,
+        1, 0, 0, 0.5
+      ],
+      "vertices": [
+        -1, -1, 0, 1,
+        1, -1, 0, 1,
+        1, 1, 0, 1,
+        -1, 1, 0, 1
+      ]
     }
   ]
 }
