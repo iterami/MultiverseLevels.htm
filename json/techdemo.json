@@ -120,7 +120,8 @@
       ]
     },
     {
-      "id": "textures-default-fff",
+      "id": "textures-debug-fff",
+      "texture": "_debug",
       "translate-x": -5,
       "translate-y": 2,
       "translate-z": -10,
@@ -138,7 +139,8 @@
       ]
     },
     {
-      "id": "textures-default-0f0",
+      "id": "textures-debug-0f0",
+      "texture": "_debug",
       "translate-x": -7,
       "translate-y": 2,
       "translate-z": -10,
