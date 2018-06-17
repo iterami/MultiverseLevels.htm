@@ -39,7 +39,9 @@
     },
     {
       "id": "billboarding-x",
-      "billboard": "x",
+      "billboard": [
+        "x"
+      ],
       "translate-x": 5,
       "translate-z": -10,
       "vertex-colors": [
@@ -54,8 +56,71 @@
       ]
     },
     {
+      "id": "billboarding-xy",
+      "billboard": [
+        "x",
+        "y"
+      ],
+      "translate-x": 5,
+      "translate-y": 2,
+      "translate-z": -10,
+      "vertex-colors": [
+        1, 1, 0, 1,
+        1, 1, 0, 1,
+        1, 1, 0, 1
+      ],
+      "vertices": [
+        -1, 0, 0, 1,
+        1, 0, 0, 1,
+        0, 1, 0, 1
+      ]
+    },
+    {
+      "id": "billboarding-xyz",
+      "billboard": [
+        "x",
+        "y",
+        "z"
+      ],
+      "translate-x": 7,
+      "translate-y": 4,
+      "translate-z": -10,
+      "vertex-colors": [
+        1, 1, 1, 1,
+        1, 1, 1, 1,
+        1, 1, 1, 1
+      ],
+      "vertices": [
+        -1, 0, 0, 1,
+        1, 0, 0, 1,
+        0, 1, 0, 1
+      ]
+    },
+    {
+      "id": "billboarding-xz",
+      "billboard": [
+        "x",
+        "z"
+      ],
+      "translate-x": 7,
+      "translate-y": 2,
+      "translate-z": -10,
+      "vertex-colors": [
+        1, 0, 1, 1,
+        1, 0, 1, 1,
+        1, 0, 1, 1
+      ],
+      "vertices": [
+        -1, 0, 0, 1,
+        1, 0, 0, 1,
+        0, 1, 0, 1
+      ]
+    },
+    {
       "id": "billboarding-y",
-      "billboard": "y",
+      "billboard": [
+        "y"
+      ],
       "translate-x": 7,
       "translate-z": -10,
       "vertex-colors": [
@@ -70,8 +135,30 @@
       ]
     },
     {
+      "id": "billboarding-yz",
+      "billboard": [
+        "y",
+        "z"
+      ],
+      "translate-x": 9,
+      "translate-y": 2,
+      "translate-z": -10,
+      "vertex-colors": [
+        0, 1, 1, 1,
+        0, 1, 1, 1,
+        0, 1, 1, 1
+      ],
+      "vertices": [
+        -1, 0, 0, 1,
+        1, 0, 0, 1,
+        0, 1, 0, 1
+      ]
+    },
+    {
       "id": "billboarding-z",
-      "billboard": "z",
+      "billboard": [
+        "z"
+      ],
       "translate-x": 9,
       "translate-z": -10,
       "vertex-colors": [
