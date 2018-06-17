@@ -86,6 +86,23 @@
       ]
     },
     {
+      "id": "skybox-top",
+      "skybox": true,
+      "translate-y": 2,
+      "vertex-colors": [
+        0, 0, 0.5, 1,
+        0, 0, 0.5, 1,
+        0, 0, 0.5, 1,
+        0, 0, 0.5, 1
+      ],
+      "vertices": [
+        10, 0, -10, 1,
+        10, 0, 10, 1,
+        -10, 0, 10, 1,
+        -10, 0, -10, 1
+      ]
+    },
+    {
       "id": "textures-blank-fff",
       "translate-x": -5,
       "translate-z": -10,
