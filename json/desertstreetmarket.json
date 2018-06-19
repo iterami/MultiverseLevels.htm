@@ -133,6 +133,34 @@
       ]
     },
     {
+      "id": "barrier-0",
+      "collision": true,
+      "draw": false,
+      "rotate-x": 270,
+      "translate-y": 3,
+      "translate-z": 5,
+      "vertices": [
+        25, 0, -5, 1,
+        -15, 0, -5, 1,
+        -15, 0, 5, 1,
+        25, 0, 5, 1
+      ]
+    },
+    {
+      "id": "barrier-1",
+      "collision": true,
+      "draw": false,
+      "rotate-z": 90,
+      "translate-x": 25,
+      "translate-y": 3,
+      "vertices": [
+        5, 0, -35, 1,
+        -5, 0, -35, 1,
+        -5, 0, 5, 1,
+        5, 0, 5, 1
+      ]
+    },
+    {
       "id": "wall-back",
       "collision": true,
       "rotate-x": 90,
