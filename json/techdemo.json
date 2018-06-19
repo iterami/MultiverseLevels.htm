@@ -173,6 +173,24 @@
       ]
     },
     {
+      "id": "flee",
+      "billboard": [
+        "y"
+      ],
+      "dz": -0.1,
+      "translate-z": -23,
+      "vertex-colors": [
+        1, 1, 1, 1,
+        1, 1, 1, 1,
+        1, 1, 1, 1
+      ],
+      "vertices": [
+        -10, 0, 0, 1,
+        10, 0, 0, 1,
+        0, 10, 0, 1
+      ]
+    },
+    {
       "id": "skybox-top",
       "skybox": true,
       "translate-y": 2,
