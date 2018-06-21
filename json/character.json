@@ -2,12 +2,98 @@
   "character": {
     "entities": [
       {
-        "id": "character",
+        "id": "character-top",
+        "translate-y": 2,
         "vertex-colors": [
           0, 0.7, 0, 1,
           0, 0.7, 0, 1,
           0, 0.7, 0, 1,
           0, 0.7, 0, 1
+        ],
+        "vertices": [
+          2, 0, -2, 1,
+          -2, 0, -2, 1,
+          -2, 0, 2, 1,
+          2, 0, 2, 1
+        ]
+      },
+      {
+        "id": "character-bottom",
+        "rotate-x": 180,
+        "translate-y": -2,
+        "vertex-colors": [
+          0, 0.7, 0, 1,
+          0, 0.7, 0, 1,
+          0, 0.7, 0, 1,
+          0, 0.7, 0, 1
+        ],
+        "vertices": [
+          2, 0, -2, 1,
+          -2, 0, -2, 1,
+          -2, 0, 2, 1,
+          2, 0, 2, 1
+        ]
+      },
+      {
+        "id": "character-left",
+        "rotate-z": 90,
+        "translate-x": -2,
+        "vertex-colors": [
+          0, 0.6, 0, 1,
+          0, 0.6, 0, 1,
+          0, 0.6, 0, 1,
+          0, 0.6, 0, 1
+        ],
+        "vertices": [
+          2, 0, -2, 1,
+          -2, 0, -2, 1,
+          -2, 0, 2, 1,
+          2, 0, 2, 1
+        ]
+      },
+      {
+        "id": "character-right",
+        "rotate-z": 270,
+        "translate-x": 2,
+        "vertex-colors": [
+          0, 0.6, 0, 1,
+          0, 0.6, 0, 1,
+          0, 0.6, 0, 1,
+          0, 0.6, 0, 1
+        ],
+        "vertices": [
+          2, 0, -2, 1,
+          -2, 0, -2, 1,
+          -2, 0, 2, 1,
+          2, 0, 2, 1
+        ]
+      },
+      {
+        "id": "character-front",
+        "rotate-x": 90,
+        "translate-z": 2,
+        "vertex-colors": [
+          0, 0.5, 0, 1,
+          0, 0.5, 0, 1,
+          0, 0.5, 0, 1,
+          0, 0.5, 0, 1
+        ],
+        "vertices": [
+          2, 0, -2, 1,
+          -2, 0, -2, 1,
+          -2, 0, 2, 1,
+          2, 0, 2, 1
+        ]
+      },
+      {
+        "id": "character-back",
+        "rotate-x": 270,
+        "translate-z": -2,
+        "vertex-colors": [
+          0, 0.5, 0, 1,
+          0, 0.5, 0, 1,
+          0, 0.5, 0, 1,
+          0, 0.5, 0, 1
         ],
         "vertices": [
           2, 0, -2, 1,
