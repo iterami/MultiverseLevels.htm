@@ -173,6 +173,63 @@
       ]
     },
     {
+      "id": "collision-x",
+      "collision": true,
+      "rotate-z": 270,
+      "translate-x": -50,
+      "translate-z": -30,
+      "vertex-colors": [
+        1, 0, 0, 1,
+        1, 0, 0, 1,
+        1, 0, 0, 1,
+        1, 0, 0, 1
+      ],
+      "vertices": [
+        10, 0, -10, 1,
+        -10, 0, -10, 1,
+        -10, 0, 10, 1,
+        10, 0, 10, 1
+      ]
+    },
+    {
+      "id": "collision-y",
+      "collision": true,
+      "translate-x": -40,
+      "translate-y": -10,
+      "translate-z": -30,
+      "vertex-colors": [
+        0, 1, 0, 1,
+        0, 1, 0, 1,
+        0, 1, 0, 1,
+        0, 1, 0, 1
+      ],
+      "vertices": [
+        10, 0, -10, 1,
+        -10, 0, -10, 1,
+        -10, 0, 10, 1,
+        10, 0, 10, 1
+      ]
+    },
+    {
+      "id": "collision-z",
+      "collision": true,
+      "rotate-x": 90,
+      "translate-x": -40,
+      "translate-z": -40,
+      "vertex-colors": [
+        0, 0, 1, 1,
+        0, 0, 1, 1,
+        0, 0, 1, 1,
+        0, 0, 1, 1
+      ],
+      "vertices": [
+        10, 0, -10, 1,
+        -10, 0, -10, 1,
+        -10, 0, 10, 1,
+        10, 0, 10, 1
+      ]
+    },
+    {
       "id": "flee",
       "billboard": [
         "y"
