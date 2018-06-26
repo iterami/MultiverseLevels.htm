@@ -191,6 +191,24 @@
       ]
     },
     {
+      "id": "flee-attached",
+      "attach": "flee",
+      "billboard": [
+        "y"
+      ],
+      "translate-y": 10,
+      "vertex-colors": [
+        0.5, 0.5, 0.5, 1,
+        0.5, 0.5, 0.5, 1,
+        0.5, 0.5, 0.5, 1
+      ],
+      "vertices": [
+        -2, 0, 0, 1,
+        2, 0, 0, 1,
+        0, 2, 0, 1
+      ]
+    },
+    {
       "id": "skybox-top",
       "skybox": true,
       "translate-y": 2,
