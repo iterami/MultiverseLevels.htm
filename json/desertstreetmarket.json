@@ -441,7 +441,6 @@
     },
     {
       "id": "pillar-4-0",
-      "collision": true,
       "rotate-x": 270,
       "translate-x": -30,
       "translate-y": 19,
@@ -461,7 +460,6 @@
     },
     {
       "id": "pillar-4-1",
-      "collision": true,
       "rotate-x": 90,
       "translate-x": -30,
       "translate-y": 19,
@@ -481,7 +479,6 @@
     },
     {
       "id": "pillar-4-2",
-      "collision": true,
       "rotate-z": 270,
       "translate-x": -25,
       "translate-y": 19,
