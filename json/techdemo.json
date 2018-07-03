@@ -266,6 +266,24 @@
       ]
     },
     {
+      "id": "floor",
+      "collision": true,
+      "translate-y": -20,
+      "translate-z": -40,
+      "vertex-colors": [
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1
+      ],
+      "vertices": [
+        -50, 0, 50, 1,
+        50, 0, 50, 1,
+        50, 0, -50, 1,
+        -50, 0, -50, 1
+      ]
+    },
+    {
       "id": "skybox-top",
       "skybox": true,
       "translate-y": 2,

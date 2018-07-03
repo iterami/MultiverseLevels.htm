@@ -36,7 +36,25 @@
       ]
     },
     {
-      "id": "ground-blue",
+      "id": "blue-battlements-ground",
+      "collision": true,
+      "translate-x": -140,
+      "translate-y": 30,
+      "vertex-colors": [
+        0.15, 0.15, 0.15, 1,
+        0.15, 0.15, 0.15, 1,
+        0.15, 0.15, 0.15, 1,
+        0.15, 0.15, 0.15, 1
+      ],
+      "vertices": [
+        20, 0, -60, 1,
+        -20, 0, -60, 1,
+        -20, 0, 60, 1,
+        20, 0, 60, 1
+      ]
+    },
+    {
+      "id": "blue-outside-ground",
       "collision": true,
       "translate-x": -90,
       "translate-y": -2,
@@ -54,7 +72,25 @@
       ]
     },
     {
-      "id": "ground-red",
+      "id": "red-battlements-ground",
+      "collision": true,
+      "translate-x": 140,
+      "translate-y": 30,
+      "vertex-colors": [
+        0.15, 0.15, 0.15, 1,
+        0.15, 0.15, 0.15, 1,
+        0.15, 0.15, 0.15, 1,
+        0.15, 0.15, 0.15, 1
+      ],
+      "vertices": [
+        20, 0, -60, 1,
+        -20, 0, -60, 1,
+        -20, 0, 60, 1,
+        20, 0, 60, 1
+      ]
+    },
+    {
+      "id": "red-outside-ground",
       "collision": true,
       "translate-x": 90,
       "translate-y": -2,
