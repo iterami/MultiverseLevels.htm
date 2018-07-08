@@ -1,6 +1,6 @@
 'use strict';
 
-var multiverselevels = {
+window.multiverselevels = {
   'citymaze': 'City Maze',
   'desertstreetmarket': 'Desert Street Market',
   'dreams': 'Dreams',
