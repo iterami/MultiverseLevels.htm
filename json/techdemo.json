@@ -283,6 +283,26 @@
       ]
     },
     {
+      "id": "item",
+      "collision": true,
+      "item": "techdemo-item",
+      "rotate-x": 90,
+      "translate-y": -98,
+      "translate-z": -23,
+      "vertex-colors": [
+        0, 1, 0, 1,
+        0, 1, 0, 1,
+        0, 1, 0, 1,
+        0, 1, 0, 1
+      ],
+      "vertices": [
+        2, 0, -2, 1,
+        -2, 0, -2, 1,
+        -2, 0, 2, 1,
+        2, 0, 2, 1
+      ]
+    },
+    {
       "id": "skybox-top",
       "skybox": true,
       "translate-y": 2,
