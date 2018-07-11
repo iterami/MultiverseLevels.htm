@@ -249,11 +249,11 @@
     },
     {
       "id": "flee-attached",
-      "attach": "flee",
+      "attach-to": "flee",
+      "attach-offset-y": 10,
       "billboard": [
         "y"
       ],
-      "translate-y": 10,
       "vertex-colors": [
         0.5, 0.5, 0.5, 1,
         0.5, 0.5, 0.5, 1,
