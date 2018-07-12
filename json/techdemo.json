@@ -304,8 +304,8 @@
     },
     {
       "id": "skybox-top",
+      "attach-offset-y": 2,
       "skybox": true,
-      "translate-y": 2,
       "vertex-colors": [
         0, 0, 0.5, 1,
         0, 0, 0.5, 1,
