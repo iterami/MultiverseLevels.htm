@@ -271,6 +271,46 @@
       ]
     },
     {
+      "id": "tower-0-wall-inner-4",
+      "collision": true,
+      "rotate-z": 90,
+      "translate-x": -25,
+      "translate-y": 1,
+      "translate-z": 10,
+      "vertex-colors": [
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1
+      ],
+      "vertices": [
+        3, 0, -10, 1,
+        -3, 0, -10, 1,
+        -3, 0, 10, 1,
+        3, 0, 10, 1
+      ]
+    },
+    {
+      "id": "tower-0-wall-inner-5",
+      "collision": true,
+      "rotate-z": 90,
+      "translate-x": -25,
+      "translate-y": 1,
+      "translate-z": 45,
+      "vertex-colors": [
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1
+      ],
+      "vertices": [
+        3, 0, -15, 1,
+        -3, 0, -15, 1,
+        -3, 0, 15, 1,
+        3, 0, 15, 1
+      ]
+    },
+    {
       "id": "tower-0-wall-outer-0",
       "collision": true,
       "rotate-z": 270,
@@ -499,6 +539,46 @@
         -22, 0, -20, 1,
         -22, 0, 20, 1,
         22, 0, 20, 1
+      ]
+    },
+    {
+      "id": "tower-1-wall-inner-4",
+      "collision": true,
+      "rotate-z": 270,
+      "translate-x": 25,
+      "translate-y": 1,
+      "translate-z": 10,
+      "vertex-colors": [
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1
+      ],
+      "vertices": [
+        3, 0, -10, 1,
+        -3, 0, -10, 1,
+        -3, 0, 10, 1,
+        3, 0, 10, 1
+      ]
+    },
+    {
+      "id": "tower-1-wall-inner-5",
+      "collision": true,
+      "rotate-z": 270,
+      "translate-x": 25,
+      "translate-y": 1,
+      "translate-z": 35,
+      "vertex-colors": [
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1
+      ],
+      "vertices": [
+        3, 0, -5, 1,
+        -3, 0, -5, 1,
+        -3, 0, 5, 1,
+        3, 0, 5, 1
       ]
     },
     {
