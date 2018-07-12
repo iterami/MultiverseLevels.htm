@@ -1,5 +1,10 @@
 {
   "fog": false,
+  "spawn-rotate-x": 25,
+  "spawn-rotate-y": 315,
+  "spawn-translate-x": 5,
+  "spawn-translate-y": 5,
+  "spawn-translate-z": 5,
   "entities": [
     {
       "id": "axis-x",
