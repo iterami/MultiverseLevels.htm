@@ -6,6 +6,7 @@ window.multiverselevels = {
   'dreams': 'Dreams',
   'fortress': 'Fortress',
   'roadside': 'Roadside',
+  'rpg': 'RPG',
   'showman': 'Showman',
   'subway': 'Subway Station',
   'techdemo': 'Tech Demo',
