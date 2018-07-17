@@ -2,7 +2,6 @@
   "clearcolor-blue": 0.1,
   "clearcolor-green": 0.5,
   "clearcolor-red": 0.7,
-  "fog": false,
   "entities": [
     {
       "id": "ground-inside",

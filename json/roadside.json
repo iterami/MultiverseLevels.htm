@@ -1,4 +1,5 @@
 {
+  "fog-state": true,
   "entities": [
     {
       "id": "bar-floor-arcade",

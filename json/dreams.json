@@ -1,7 +1,6 @@
 {
   "clearcolor-red": 0.2,
   "clearcolor-green": 0.1,
-  "fog": false,
   "entities": [
     {
       "id": "base",

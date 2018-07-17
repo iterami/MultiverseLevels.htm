@@ -1,6 +1,5 @@
 {
   "clearcolor-blue": 0.1,
-  "fog": false,
   "entities": [
     {
       "id": "ground",

@@ -6,7 +6,6 @@
   "direction-green": 1,
   "direction-red": 1,
   "direction-vector": "0, 1, -.8",
-  "fog": false,
   "spawn-rotate-x": 25,
   "spawn-rotate-y": 315,
   "spawn-translate-x": 5,
