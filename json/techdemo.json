@@ -1,4 +1,11 @@
 {
+  "ambient-blue": 0,
+  "ambient-green": 0,
+  "ambient-red": 0,
+  "direction-blue": 1,
+  "direction-green": 1,
+  "direction-red": 1,
+  "direction-vector": "0, 1, -.8",
   "fog": false,
   "spawn-rotate-x": 25,
   "spawn-rotate-y": 315,
