@@ -1,9 +1,9 @@
 {
   "clearcolor-blue": 0.1,
+  "spawn-translate-y": 3,
   "entities": [
     {
       "id": "ground",
-      "translate-y": -3,
       "vertex-colors": [
         0.1, 0.4, 0.1, 1,
         0.1, 0.4, 0.1, 1,
@@ -20,7 +20,7 @@
     {
       "id": "floor",
       "collision": true,
-      "translate-y": -2,
+      "translate-y": 1,
       "vertex-colors": [
         0.5, 0.2, 0, 1,
         0.5, 0.2, 0, 1,
@@ -37,7 +37,7 @@
     {
       "id": "ceiling",
       "collision": true,
-      "translate-y": 2,
+      "translate-y": 5,
       "vertex-colors": [
         0.5, 0.2, 0, 1,
         0.5, 0.2, 0, 1,
@@ -54,6 +54,7 @@
     {
       "id": "wall-0",
       "collision": true,
+      "translate-y": 3,
       "translate-x": -7,
       "vertex-colors": [
         0.4, 0.1, 0, 1,
@@ -71,6 +72,7 @@
     {
       "id": "wall-1",
       "collision": true,
+      "translate-y": 3,
       "translate-x": 7,
       "vertex-colors": [
         0.4, 0.1, 0, 1,
@@ -89,6 +91,7 @@
       "id": "wall-2",
       "collision": true,
       "translate-x": -5,
+      "translate-y": 3,
       "translate-z": -3,
       "vertex-colors": [
         0.45, 0.1, 0, 1,
@@ -107,6 +110,7 @@
       "id": "wall-3",
       "collision": true,
       "translate-x": 5,
+      "translate-y": 3,
       "translate-z": -3,
       "vertex-colors": [
         0.45, 0.1, 0, 1,
@@ -125,6 +129,7 @@
       "id": "wall-4",
       "collision": true,
       "translate-x": -5,
+      "translate-y": 3,
       "translate-z": 3,
       "vertex-colors": [
         0.45, 0.1, 0, 1,
@@ -143,6 +148,7 @@
       "id": "wall-5",
       "collision": true,
       "translate-x": 5,
+      "translate-y": 3,
       "translate-z": 3,
       "vertex-colors": [
         0.45, 0.1, 0, 1,
@@ -164,7 +170,6 @@
       ],
       "draw-type": "TRIANGLES",
       "translate-x": -4,
-      "translate-y": -3,
       "translate-z": -15,
       "vertex-colors": [
         0.4, 0.2, 0, 1,
@@ -184,7 +189,6 @@
       ],
       "draw-type": "TRIANGLES",
       "translate-x": -4,
-      "translate-y": -3,
       "translate-z": -15,
       "vertex-colors": [
         0.1, 0.3, 0.1, 1,

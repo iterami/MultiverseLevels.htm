@@ -1,9 +1,9 @@
 {
+  "spawn-translate-y": 3,
   "entities": [
     {
       "id": "dock-0",
       "collision": true,
-      "translate-y": -5,
       "translate-z": -10,
       "vertex-colors": [
         0.15, 0.15, 0.15, 1,
@@ -22,7 +22,6 @@
       "id": "dock-1",
       "collision": true,
       "translate-x": -30,
-      "translate-y": -5,
       "translate-z": -40,
       "vertex-colors": [
         0.15, 0.15, 0.15, 1,
@@ -41,7 +40,6 @@
       "id": "dock-2",
       "collision": true,
       "translate-x": -60,
-      "translate-y": -5,
       "translate-z": -10,
       "vertex-colors": [
         0.15, 0.15, 0.15, 1,
@@ -60,7 +58,7 @@
       "id": "pier-lower-0",
       "collision": true,
       "translate-x": -110,
-      "translate-y": -3,
+      "translate-y": 2,
       "vertex-colors": [
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1,
@@ -78,7 +76,7 @@
       "id": "pier-upper-0",
       "collision": true,
       "translate-x": -130,
-      "translate-y": 10,
+      "translate-y": 12,
       "translate-z": -170,
       "vertex-colors": [
         0.11, 0.11, 0.11, 1,
@@ -96,7 +94,7 @@
     {
       "id": "pier-upper-1",
       "translate-x": -130,
-      "translate-y": 10,
+      "translate-y": 12,
       "translate-z": 160,
       "vertex-colors": [
         0.08, 0.08, 0.08, 1,
@@ -114,7 +112,7 @@
     {
       "id": "pier-upper-2",
       "translate-x": -170,
-      "translate-y": 10,
+      "translate-y": 12,
       "translate-z": -5,
       "vertex-colors": [
         0.11, 0.11, 0.11, 1,

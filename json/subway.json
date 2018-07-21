@@ -1,10 +1,11 @@
 {
+  "spawn-translate-y": 3,
   "entities": [
     {
       "id": "ceiling",
       "rotate-x": 180,
       "translate-x": -25,
-      "translate-y": 20,
+      "translate-y": 25,
       "translate-z": -40,
       "vertex-colors": [
         0.05, 0.05, 0.05, 1,
@@ -23,7 +24,7 @@
       "id": "ceiling-fade-0",
       "rotate-x": 180,
       "translate-x": -40,
-      "translate-y": 20,
+      "translate-y": 25,
       "translate-z": 30,
       "vertex-colors": [
         0, 0, 0, 1,
@@ -42,7 +43,7 @@
       "id": "ceiling-fade-1",
       "rotate-x": 180,
       "translate-x": -40,
-      "translate-y": 20,
+      "translate-y": 25,
       "translate-z": -110,
       "vertex-colors": [
         0.05, 0.05, 0.05, 1,
@@ -60,7 +61,7 @@
     {
       "id": "ground-tracks",
       "translate-x": -45,
-      "translate-y": -10,
+      "translate-y": -5,
       "translate-z": -40,
       "vertex-colors": [
         0.02, 0.02, 0.02, 1,
@@ -78,7 +79,7 @@
     {
       "id": "ground-tracks-fade-0",
       "translate-x": -45,
-      "translate-y": -10,
+      "translate-y": -5,
       "translate-z": -110,
       "vertex-colors": [
         0, 0, 0, 1,
@@ -96,7 +97,7 @@
     {
       "id": "ground-tracks-fade-1",
       "translate-x": -45,
-      "translate-y": -10,
+      "translate-y": -5,
       "translate-z": 30,
       "vertex-colors": [
         0.02, 0.02, 0.02, 1,
@@ -114,7 +115,6 @@
     {
       "id": "platform",
       "collision": true,
-      "translate-y": -5,
       "translate-z": -40,
       "vertex-colors": [
         0.1, 0.1, 0.1, 1,
@@ -135,7 +135,7 @@
       "draw": false,
       "rotate-z": 270,
       "translate-x": -20,
-      "translate-y": 5,
+      "translate-y": 10,
       "translate-z": -40,
       "vertex-colors": [
         0, 0, 0, 1,
@@ -154,7 +154,7 @@
       "id": "tracks-00",
       "draw-type": "LINES",
       "translate-x": -60,
-      "translate-y": -9,
+      "translate-y": -4,
       "vertex-colors": [
         1, 1, 1, 1,
         1, 1, 1, 1
@@ -168,7 +168,7 @@
       "id": "tracks-01",
       "draw-type": "LINES",
       "translate-x": -50,
-      "translate-y": -9,
+      "translate-y": -4,
       "vertex-colors": [
         1, 1, 1, 1,
         1, 1, 1, 1
@@ -182,7 +182,7 @@
       "id": "tracks-10",
       "draw-type": "LINES",
       "translate-x": -40,
-      "translate-y": -9,
+      "translate-y": -4,
       "vertex-colors": [
         1, 1, 1, 1,
         1, 1, 1, 1
@@ -196,7 +196,7 @@
       "id": "tracks-11",
       "draw-type": "LINES",
       "translate-x": -30,
-      "translate-y": -9,
+      "translate-y": -4,
       "vertex-colors": [
         1, 1, 1, 1,
         1, 1, 1, 1
@@ -210,7 +210,7 @@
       "id": "wall-far",
       "rotate-z": 270,
       "translate-x": -70,
-      "translate-y": 5,
+      "translate-y": 10,
       "translate-z": -40,
       "vertex-colors": [
         0.04, 0.04, 0.04, 1,
@@ -229,7 +229,7 @@
       "id": "wall-far-fade-0",
       "rotate-z": 270,
       "translate-x": -70,
-      "translate-y": 5,
+      "translate-y": 10,
       "translate-z": -110,
       "vertex-colors": [
         0, 0, 0, 1,
@@ -248,7 +248,7 @@
       "id": "wall-far-fade-1",
       "rotate-z": 270,
       "translate-x": -70,
-      "translate-y": 5,
+      "translate-y": 10,
       "translate-z": 30,
       "vertex-colors": [
         0.04, 0.04, 0.04, 1,
@@ -268,7 +268,7 @@
       "collision": true,
       "rotate-z": 90,
       "translate-x": 20,
-      "translate-y": 5,
+      "translate-y": 10,
       "translate-z": -40,
       "vertex-colors": [
         0.11, 0.11, 0.11, 1,
@@ -287,7 +287,7 @@
       "id": "wall-platform-1",
       "collision": true,
       "rotate-x": 90,
-      "translate-y": 5,
+      "translate-y": 10,
       "translate-z": -90,
       "vertex-colors": [
         0.12, 0.12, 0.12, 1,
@@ -306,7 +306,7 @@
       "id": "wall-platform-2",
       "collision": true,
       "rotate-x": 270,
-      "translate-y": 5,
+      "translate-y": 10,
       "translate-z": 10,
       "vertex-colors": [
         0.12, 0.12, 0.12, 1,

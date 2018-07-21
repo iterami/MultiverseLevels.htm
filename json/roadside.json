@@ -1,10 +1,11 @@
 {
   "fog-state": true,
+  "spawn-translate-y": 3,
   "entities": [
     {
       "id": "bar-floor-arcade",
       "translate-x": 30,
-      "translate-y": -4.98,
+      "translate-y": 0.02,
       "translate-z": -100,
       "vertex-colors": [
         0.15, 0.15, 0.15, 1,
@@ -22,7 +23,7 @@
     {
       "id": "bar-floor-bar",
       "translate-x": 120,
-      "translate-y": -4.98,
+      "translate-y": 0.02,
       "translate-z": -110,
       "vertex-colors": [
         0.15, 0.15, 0.15, 1,
@@ -40,7 +41,7 @@
     {
       "id": "bar-floor-hall-0",
       "translate-x": 70,
-      "translate-y": -4.99,
+      "translate-y": 0.01,
       "translate-z": -150,
       "vertex-colors": [
         0.1, 0.1, 0.1, 1,
@@ -58,7 +59,7 @@
     {
       "id": "bar-floor-main",
       "translate-x": 80,
-      "translate-y": -4.99,
+      "translate-y": 0.01,
       "translate-z": -90,
       "vertex-colors": [
         0.1, 0.1, 0.1, 1,
@@ -76,7 +77,6 @@
     {
       "id": "dirt",
       "collision": true,
-      "translate-y": -5,
       "translate-z": -50,
       "vertex-colors": [
         0.25, 0.1, 0, 1,
@@ -94,7 +94,7 @@
     {
       "id": "road",
       "translate-x": -20,
-      "translate-y": -4.99,
+      "translate-y": 0.01,
       "translate-z": -50,
       "vertex-colors": [
         0.1, 0.1, 0.1, 1,

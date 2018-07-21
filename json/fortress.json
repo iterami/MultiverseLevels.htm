@@ -1,9 +1,9 @@
 {
+  "spawn-translate-y": 3,
   "entities": [
     {
       "id": "bridge-floor",
       "collision": true,
-      "translate-y": -2,
       "vertex-colors": [
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1,
@@ -151,7 +151,6 @@
       "id": "blue-outside-ground",
       "collision": true,
       "translate-x": -90,
-      "translate-y": -2,
       "vertex-colors": [
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1,
@@ -282,7 +281,6 @@
       "id": "red-outside-ground",
       "collision": true,
       "translate-x": 90,
-      "translate-y": -2,
       "vertex-colors": [
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1,
