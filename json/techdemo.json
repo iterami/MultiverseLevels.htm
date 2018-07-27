@@ -2,6 +2,26 @@
   "ambient-blue": 0,
   "ambient-green": 0,
   "ambient-red": 0,
+  "characters": [
+    {
+      "id": "techdemo-character",
+      "entities": [
+        {
+          "id": "techdemo-character-attached",
+          "vertex-colors": [
+            1, 0, 0, 1,
+            0, 1, 0, 1,
+            0, 0, 1, 1
+          ],
+          "vertices": [
+            -2, 0, 0, 1,
+            2, 0, 0, 1,
+            0, 2, 0, 1
+          ]
+        }
+      ]
+    }
+  ],
   "directional-blue": 1,
   "directional-green": 1,
   "directional-red": 1,
