@@ -1,0 +1,106 @@
+{
+  "multiplier-jump": 2,
+  "multiplier-speed": 4,
+  "spawn-translate-y": 3,
+  "entities": [
+    {
+      "id": "floor",
+      "collision": true,
+      "translate-z": -90,
+      "vertex-colors": [
+        0.2, 0, 0, 1,
+        0.2, 0, 0, 1,
+        0.2, 0, 0, 1,
+        0.2, 0, 0, 1
+      ],
+      "vertices": [
+        100, 0, -100, 1,
+        -100, 0, -100, 1,
+        -100, 0, 100, 1,
+        100, 0, 100, 1
+      ]
+    },
+    {
+      "id": "wall-0",
+      "collision": true,
+      "draw": false,
+      "rotate-x": 90,
+      "translate-y": 50,
+      "translate-z": -190,
+      "vertex-colors": [
+        0, 0, 0, 1,
+        0, 0, 0, 1,
+        0, 0, 0, 1,
+        0, 0, 0, 1
+      ],
+      "vertices": [
+        100, 0, -50, 1,
+        -100, 0, -50, 1,
+        -100, 0, 50, 1,
+        100, 0, 50, 1
+      ]
+    },
+    {
+      "id": "wall-1",
+      "collision": true,
+      "draw": false,
+      "rotate-x": 270,
+      "translate-y": 50,
+      "translate-z": 10,
+      "vertex-colors": [
+        0, 0, 0, 1,
+        0, 0, 0, 1,
+        0, 0, 0, 1,
+        0, 0, 0, 1
+      ],
+      "vertices": [
+        100, 0, -50, 1,
+        -100, 0, -50, 1,
+        -100, 0, 50, 1,
+        100, 0, 50, 1
+      ]
+    },
+    {
+      "id": "wall-2",
+      "collision": true,
+      "draw": false,
+      "rotate-z": 90,
+      "translate-x": 100,
+      "translate-y": 50,
+      "translate-z": -90,
+      "vertex-colors": [
+        0, 0, 0, 1,
+        0, 0, 0, 1,
+        0, 0, 0, 1,
+        0, 0, 0, 1
+      ],
+      "vertices": [
+        50, 0, -100, 1,
+        -50, 0, -100, 1,
+        -50, 0, 100, 1,
+        50, 0, 100, 1
+      ]
+    },
+    {
+      "id": "wall-3",
+      "collision": true,
+      "draw": false,
+      "rotate-z": 270,
+      "translate-x": -100,
+      "translate-y": 50,
+      "translate-z": -90,
+      "vertex-colors": [
+        0, 0, 0, 1,
+        0, 0, 0, 1,
+        0, 0, 0, 1,
+        0, 0, 0, 1
+      ],
+      "vertices": [
+        50, 0, -100, 1,
+        -50, 0, -100, 1,
+        -50, 0, 100, 1,
+        50, 0, 100, 1
+      ]
+    }
+  ]
+}

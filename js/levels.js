@@ -5,6 +5,7 @@ window.multiverselevels = {
   'desertstreetmarket': 'Desert Street Market',
   'dreams': 'Dreams',
   'fortress': 'Fortress',
+  'platform': 'Platform',
   'roadside': 'Roadside',
   'rpg': 'RPG',
   'showman': 'Showman',
