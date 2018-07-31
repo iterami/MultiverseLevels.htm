@@ -1,6 +1,7 @@
 {
   "multiplier-jump": 2,
   "multiplier-speed": 4,
+  "spawn-rotate-x": 30,
   "spawn-translate-y": 4,
   "entities": [
     {
