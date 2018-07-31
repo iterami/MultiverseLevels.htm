@@ -331,6 +331,26 @@
       ]
     },
     {
+      "id": "kill",
+      "collision": true,
+      "kill": true,
+      "rotate-z": 270,
+      "translate-x": -50,
+      "translate-y": -95,
+      "vertex-colors": [
+        1, 0, 0, 1,
+        1, 0, 0, 1,
+        1, 0, 0, 1,
+        1, 0, 0, 1
+      ],
+      "vertices": [
+        5, 0, -5, 1,
+        -5, 0, -5, 1,
+        -5, 0, 5, 1,
+        5, 0, 5, 1
+      ]
+    },
+    {
       "id": "randomized",
       "vertex-colors": [
         0.1, 0.3, 0.1, 1,
