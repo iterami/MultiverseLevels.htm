@@ -4,6 +4,26 @@
   "spawn-translate-y": 4,
   "entities": [
     {
+      "id": "goal-coin",
+      "collision": true,
+      "item": "Coin",
+      "rotate-x": 90,
+      "translate-y": 3,
+      "translate-z": -189,
+      "vertex-colors": [
+        0.7, 0.7, 0, 1,
+        0.7, 0.7, 0, 1,
+        0.7, 0.7, 0, 1,
+        0.7, 0.7, 0, 1
+      ],
+      "vertices": [
+        2, 0, -2, 1,
+        -2, 0, -2, 1,
+        -2, 0, 2, 1,
+        2, 0, 2, 1
+      ]
+    },
+    {
       "id": "lava",
       "collision": true,
       "kill": true,
@@ -19,6 +39,62 @@
         -100, 0, -100, 1,
         -100, 0, 100, 1,
         100, 0, 100, 1
+      ]
+    },
+    {
+      "id": "platform-0",
+      "collision": true,
+      "translate-x": -30,
+      "translate-y": 1,
+      "translate-z": -60,
+      "vertex-colors": [
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1
+      ],
+      "vertices": [
+        10, 0, -10, 1,
+        -10, 0, -10, 1,
+        -10, 0, 10, 1,
+        10, 0, 10, 1
+      ]
+    },
+    {
+      "id": "platform-1",
+      "collision": true,
+      "translate-x": 30,
+      "translate-y": 1,
+      "translate-z": -120,
+      "vertex-colors": [
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1
+      ],
+      "vertices": [
+        10, 0, -10, 1,
+        -10, 0, -10, 1,
+        -10, 0, 10, 1,
+        10, 0, 10, 1
+      ]
+    },
+    {
+      "id": "platform-goal",
+      "collision": true,
+      "translate-y": 1,
+      "translate-z": -180,
+      "vertex-colors": [
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1
+      ],
+      "vertices": [
+        10, 0, -10, 1,
+        -10, 0, -10, 1,
+        -10, 0, 10, 1,
+        10, 0, 10, 1
       ]
     },
     {
