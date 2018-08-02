@@ -10,7 +10,7 @@
       "item": "Coin",
       "rotate-x": 90,
       "translate-y": 3,
-      "translate-z": -189,
+      "translate-z": -199,
       "vertex-colors": [
         0.7, 0.7, 0, 1,
         0.7, 0.7, 0, 1,
@@ -28,7 +28,6 @@
       "id": "lava",
       "collision": true,
       "kill": true,
-      "translate-z": -90,
       "vertex-colors": [
         0.2, 0, 0, 1,
         0.2, 0, 0, 1,
@@ -36,10 +35,10 @@
         0.2, 0, 0, 1
       ],
       "vertices": [
-        100, 0, -100, 1,
-        -100, 0, -100, 1,
-        -100, 0, 100, 1,
-        100, 0, 100, 1
+        200, 0, -200, 1,
+        -200, 0, -200, 1,
+        -200, 0, 200, 1,
+        200, 0, 200, 1
       ]
     },
     {
@@ -47,7 +46,7 @@
       "collision": true,
       "translate-x": -30,
       "translate-y": 1,
-      "translate-z": -60,
+      "translate-z": -70,
       "vertex-colors": [
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1,
@@ -66,7 +65,7 @@
       "collision": true,
       "translate-x": 30,
       "translate-y": 1,
-      "translate-z": -120,
+      "translate-z": -130,
       "vertex-colors": [
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1,
@@ -84,7 +83,7 @@
       "id": "platform-goal",
       "collision": true,
       "translate-y": 1,
-      "translate-z": -180,
+      "translate-z": -190,
       "vertex-colors": [
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1,
@@ -113,88 +112,6 @@
         -10, 0, -10, 1,
         -10, 0, 10, 1,
         10, 0, 10, 1
-      ]
-    },
-    {
-      "id": "wall-0",
-      "collision": true,
-      "draw": false,
-      "rotate-x": 90,
-      "translate-y": 50,
-      "translate-z": -190,
-      "vertex-colors": [
-        0, 0, 0, 1,
-        0, 0, 0, 1,
-        0, 0, 0, 1,
-        0, 0, 0, 1
-      ],
-      "vertices": [
-        100, 0, -50, 1,
-        -100, 0, -50, 1,
-        -100, 0, 50, 1,
-        100, 0, 50, 1
-      ]
-    },
-    {
-      "id": "wall-1",
-      "collision": true,
-      "draw": false,
-      "rotate-x": 270,
-      "translate-y": 50,
-      "translate-z": 10,
-      "vertex-colors": [
-        0, 0, 0, 1,
-        0, 0, 0, 1,
-        0, 0, 0, 1,
-        0, 0, 0, 1
-      ],
-      "vertices": [
-        100, 0, -50, 1,
-        -100, 0, -50, 1,
-        -100, 0, 50, 1,
-        100, 0, 50, 1
-      ]
-    },
-    {
-      "id": "wall-2",
-      "collision": true,
-      "draw": false,
-      "rotate-z": 90,
-      "translate-x": 100,
-      "translate-y": 50,
-      "translate-z": -90,
-      "vertex-colors": [
-        0, 0, 0, 1,
-        0, 0, 0, 1,
-        0, 0, 0, 1,
-        0, 0, 0, 1
-      ],
-      "vertices": [
-        50, 0, -100, 1,
-        -50, 0, -100, 1,
-        -50, 0, 100, 1,
-        50, 0, 100, 1
-      ]
-    },
-    {
-      "id": "wall-3",
-      "collision": true,
-      "draw": false,
-      "rotate-z": 270,
-      "translate-x": -100,
-      "translate-y": 50,
-      "translate-z": -90,
-      "vertex-colors": [
-        0, 0, 0, 1,
-        0, 0, 0, 1,
-        0, 0, 0, 1,
-        0, 0, 0, 1
-      ],
-      "vertices": [
-        50, 0, -100, 1,
-        -50, 0, -100, 1,
-        -50, 0, 100, 1,
-        50, 0, 100, 1
       ]
     }
   ]
