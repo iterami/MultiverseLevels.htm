@@ -26,8 +26,8 @@
     },
     {
       "id": "lava",
+      "collide-type": "kill",
       "collision": true,
-      "kill": true,
       "vertex-colors": [
         0.2, 0, 0, 1,
         0.2, 0, 0, 1,

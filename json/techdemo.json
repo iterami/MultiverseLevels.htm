@@ -332,8 +332,8 @@
     },
     {
       "id": "kill",
+      "collide-type": "kill",
       "collision": true,
-      "kill": true,
       "rotate-z": 270,
       "translate-x": -50,
       "translate-y": -95,
