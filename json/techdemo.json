@@ -332,7 +332,7 @@
     },
     {
       "id": "kill",
-      "collide-type": "kill",
+      "collide-event": "kill",
       "collision": true,
       "rotate-z": 270,
       "translate-x": -50,
