@@ -22,6 +22,20 @@
       ]
     }
   ],
+  "cuboids": [
+    {
+      "collision": true,
+      "exclude": {
+        "bottom": true
+      },
+      "height": 10,
+      "length": 5,
+      "prefix": "techdemo-cuboid",
+      "translate-x": 40,
+      "translate-z": -30,
+      "width": 20
+    }
+  ],
   "directional-blue": 1,
   "directional-green": 1,
   "directional-red": 1,
