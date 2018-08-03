@@ -1,4 +1,49 @@
 {
+  "cuboids": [
+    {
+      "collision": true,
+      "height": 2,
+      "prefix": "platform-0",
+      "length": 10,
+      "translate-x": -30,
+      "translate-y": 9,
+      "translate-z": -70,
+      "width": 10
+    },
+    {
+      "collision": true,
+      "height": 2,
+      "prefix": "platform-1",
+      "length": 20,
+      "translate-x": 30,
+      "translate-y": 11,
+      "translate-z": -130,
+      "width": 20
+    },
+    {
+      "collision": true,
+      "exclude": {
+        "bottom": true
+      },
+      "height": 10,
+      "prefix": "platform-goal",
+      "length": 20,
+      "translate-y": 5,
+      "translate-z": -190,
+      "width": 20
+    },
+    {
+      "collision": true,
+      "exclude": {
+        "bottom": true
+      },
+      "height": 10,
+      "prefix": "platform-spawn",
+      "length": 30,
+      "translate-y": 5,
+      "width": 30
+    }
+  ],
   "multiplier-jump": 2,
   "multiplier-speed": 4,
   "spawn-rotate-x": 30,
@@ -39,155 +84,6 @@
         -500, 0, -500, 1,
         -500, 0, 500, 1,
         500, 0, 500, 1
-      ]
-    },
-    {
-      "id": "platform-0",
-      "collision": true,
-      "translate-x": -30,
-      "translate-y": 10,
-      "translate-z": -70,
-      "vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "vertices": [
-        10, 0, -10, 1,
-        -10, 0, -10, 1,
-        -10, 0, 10, 1,
-        10, 0, 10, 1
-      ]
-    },
-    {
-      "id": "platform-1",
-      "collision": true,
-      "translate-x": 30,
-      "translate-y": 12,
-      "translate-z": -130,
-      "vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "vertices": [
-        10, 0, -10, 1,
-        -10, 0, -10, 1,
-        -10, 0, 10, 1,
-        10, 0, 10, 1
-      ]
-    },
-    {
-      "id": "platform-goal",
-      "collision": true,
-      "translate-y": 10,
-      "translate-z": -190,
-      "vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "vertices": [
-        10, 0, -10, 1,
-        -10, 0, -10, 1,
-        -10, 0, 10, 1,
-        10, 0, 10, 1
-      ]
-    },
-    {
-      "id": "platform-spawn-0",
-      "collision": true,
-      "translate-y": 10,
-      "vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "vertices": [
-        20, 0, -20, 1,
-        -20, 0, -20, 1,
-        -20, 0, 20, 1,
-        20, 0, 20, 1
-      ]
-    },
-    {
-      "id": "platform-spawn-1",
-      "collision": true,
-      "rotate-x": 90,
-      "translate-y": 5,
-      "translate-z": 20,
-      "vertex-colors": [
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1
-      ],
-      "vertices": [
-        20, 0, -5, 1,
-        -20, 0, -5, 1,
-        -20, 0, 5, 1,
-        20, 0, 5, 1
-      ]
-    },
-    {
-      "id": "platform-spawn-2",
-      "collision": true,
-      "rotate-x": 270,
-      "translate-y": 5,
-      "translate-z": -20,
-      "vertex-colors": [
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1
-      ],
-      "vertices": [
-        20, 0, -5, 1,
-        -20, 0, -5, 1,
-        -20, 0, 5, 1,
-        20, 0, 5, 1
-      ]
-    },
-    {
-      "id": "platform-spawn-3",
-      "collision": true,
-      "rotate-z": 90,
-      "translate-x": -20,
-      "translate-y": 5,
-      "vertex-colors": [
-        0.04, 0.04, 0.04, 1,
-        0.04, 0.04, 0.04, 1,
-        0.04, 0.04, 0.04, 1,
-        0.04, 0.04, 0.04, 1
-      ],
-      "vertices": [
-        5, 0, -20, 1,
-        -5, 0, -20, 1,
-        -5, 0, 20, 1,
-        5, 0, 20, 1
-      ]
-    },
-    {
-      "id": "platform-spawn-4",
-      "collision": true,
-      "rotate-z": 270,
-      "translate-x": 20,
-      "translate-y": 5,
-      "vertex-colors": [
-        0.04, 0.04, 0.04, 1,
-        0.04, 0.04, 0.04, 1,
-        0.04, 0.04, 0.04, 1,
-        0.04, 0.04, 0.04, 1
-      ],
-      "vertices": [
-        5, 0, -20, 1,
-        -5, 0, -20, 1,
-        -5, 0, 20, 1,
-        5, 0, 20, 1
       ]
     }
   ]
