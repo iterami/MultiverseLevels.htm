@@ -31,8 +31,7 @@
       "height": 10,
       "length": 5,
       "prefix": "techdemo-cuboid",
-      "translate-x": 40,
-      "translate-z": -30,
+      "translate-x": 60,
       "width": 20
     }
   ],
@@ -365,21 +364,6 @@
       ]
     },
     {
-      "id": "randomized",
-      "vertex-colors": [
-        0.1, 0.3, 0.1, 1,
-        0.1, 0.3, 0.1, 1,
-        0.1, 0.3, 0.1, 1,
-        0.1, 0.3, 0.1, 1
-      ],
-      "vertices": [
-        2, 0, -2, 1,
-        -2, 0, -2, 1,
-        -2, 0, 2, 1,
-        2, 0, 2, 1
-      ]
-    },
-    {
       "id": "skybox-top",
       "attach-offset-y": 2,
       "skybox": true,
@@ -526,18 +510,26 @@
   "randomized": [
     {
       "ids": [
-        "randomized"
+        "techdemo-cuboid-back",
+        "techdemo-cuboid-front",
+        "techdemo-cuboid-left",
+        "techdemo-cuboid-right",
+        "techdemo-cuboid-top"
       ],
-      "max": 100,
-      "min": -100,
+      "max": 30,
+      "min": -30,
       "property": "translate-x"
     },
     {
       "ids": [
-        "randomized"
+        "techdemo-cuboid-back",
+        "techdemo-cuboid-front",
+        "techdemo-cuboid-left",
+        "techdemo-cuboid-right",
+        "techdemo-cuboid-top"
       ],
-      "max": 100,
-      "min": -100,
+      "max": 50,
+      "min": -50,
       "property": "translate-z"
     }
   ]
