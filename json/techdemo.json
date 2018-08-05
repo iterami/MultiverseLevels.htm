@@ -381,6 +381,19 @@
       ]
     },
     {
+      "id": "spawner",
+      "draw-type": "POINTS",
+      "spawn-entity": true,
+      "translate-x": -40,
+      "translate-z": 10,
+      "vertex-colors": [
+        0, 0, 1, 1
+      ],
+      "vertices": [
+        0, 0, 0, 1
+      ]
+    },
+    {
       "id": "textures-blank-fff",
       "translate-x": -5,
       "translate-z": -15,
