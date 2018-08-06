@@ -623,6 +623,18 @@
         -21, 0, 5, 1,
         21, 0, 5, 1
       ]
+    },
+    {
+      "id": "temp-invisible-0",
+      "collision": true,
+      "draw": false,
+      "translate-x": 20,
+      "vertices": [
+        5, 0, -5, 1,
+        -5, 0, -5, 1,
+        -5, 0, 5, 1,
+        5, 0, 5, 1
+      ]
     }
   ]
 }

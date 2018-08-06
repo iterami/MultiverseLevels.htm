@@ -57,6 +57,24 @@
       ]
     },
     {
+      "id": "bar-floor-hall-1",
+      "translate-x": 40,
+      "translate-y": 0.01,
+      "translate-z": -160,
+      "vertex-colors": [
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1
+      ],
+      "vertices": [
+        20, 0, -10, 1,
+        -20, 0, -10, 1,
+        -20, 0, 10, 1,
+        20, 0, 10, 1
+      ]
+    },
+    {
       "id": "bar-floor-main",
       "translate-x": 80,
       "translate-y": 0.01,
@@ -93,7 +111,7 @@
     },
     {
       "id": "road",
-      "translate-x": -20,
+      "translate-x": -70,
       "translate-y": 0.01,
       "translate-z": -50,
       "vertex-colors": [

@@ -26,12 +26,31 @@
     {
       "collision": true,
       "exclude": {
-        "bottom": true
+        "back": true
       },
-      "height": 10,
-      "length": 5,
-      "prefix": "techdemo-cuboid",
-      "translate-x": 60,
+      "height": 50,
+      "length": 10,
+      "prefix": "techdemo-collision-cuboid",
+      "translate-x": -40,
+      "translate-z": -30,
+      "vertex-colors-front": [
+        0, 0.5, 0, 1,
+        0, 0.5, 0, 1,
+        0, 0.5, 0, 1,
+        0, 0.5, 0, 1
+      ],
+      "vertex-colors-right": [
+        0, 0, 0.5, 1,
+        0, 0, 0.5, 1,
+        0, 0, 0.5, 1,
+        0, 0, 0.5, 1
+      ],
+      "vertex-colors-top": [
+        0.5, 0, 0, 1,
+        0.5, 0, 0, 1,
+        0.5, 0, 0, 1,
+        0.5, 0, 0, 1
+      ],
       "width": 20
     }
   ],
@@ -214,63 +233,6 @@
         -2, 0, 0, 1,
         2, 0, 0, 1,
         0, 2, 0, 1
-      ]
-    },
-    {
-      "id": "collision-x",
-      "collision": true,
-      "rotate-z": 270,
-      "translate-x": -50,
-      "translate-z": -30,
-      "vertex-colors": [
-        1, 0, 0, 1,
-        1, 0, 0, 1,
-        1, 0, 0, 1,
-        1, 0, 0, 1
-      ],
-      "vertices": [
-        10, 0, -10, 1,
-        -10, 0, -10, 1,
-        -10, 0, 10, 1,
-        10, 0, 10, 1
-      ]
-    },
-    {
-      "id": "collision-y",
-      "collision": true,
-      "translate-x": -40,
-      "translate-y": -10,
-      "translate-z": -30,
-      "vertex-colors": [
-        0, 1, 0, 1,
-        0, 1, 0, 1,
-        0, 1, 0, 1,
-        0, 1, 0, 1
-      ],
-      "vertices": [
-        10, 0, -10, 1,
-        -10, 0, -10, 1,
-        -10, 0, 10, 1,
-        10, 0, 10, 1
-      ]
-    },
-    {
-      "id": "collision-z",
-      "collision": true,
-      "rotate-x": 90,
-      "translate-x": -40,
-      "translate-z": -40,
-      "vertex-colors": [
-        0, 0, 1, 1,
-        0, 0, 1, 1,
-        0, 0, 1, 1,
-        0, 0, 1, 1
-      ],
-      "vertices": [
-        10, 0, -10, 1,
-        -10, 0, -10, 1,
-        -10, 0, 10, 1,
-        10, 0, 10, 1
       ]
     },
     {
@@ -523,26 +485,10 @@
   "randomized": [
     {
       "ids": [
-        "techdemo-cuboid-back",
-        "techdemo-cuboid-front",
-        "techdemo-cuboid-left",
-        "techdemo-cuboid-right",
-        "techdemo-cuboid-top"
+        "kill"
       ],
-      "max": 30,
-      "min": -30,
-      "property": "translate-x"
-    },
-    {
-      "ids": [
-        "techdemo-cuboid-back",
-        "techdemo-cuboid-front",
-        "techdemo-cuboid-left",
-        "techdemo-cuboid-right",
-        "techdemo-cuboid-top"
-      ],
-      "max": 50,
-      "min": -50,
+      "max": 100,
+      "min": -100,
       "property": "translate-z"
     }
   ]

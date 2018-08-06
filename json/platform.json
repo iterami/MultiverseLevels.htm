@@ -5,9 +5,9 @@
       "height": 2,
       "prefix": "platform-0",
       "length": 10,
-      "translate-x": -30,
-      "translate-y": 9,
-      "translate-z": -70,
+      "translate-x": -25,
+      "translate-y": 8,
+      "translate-z": -65,
       "vertex-colors-back": [
         0.12, 0.12, 0.12, 1,
         0.12, 0.12, 0.12, 1,
@@ -51,9 +51,9 @@
       "height": 2,
       "prefix": "platform-1",
       "length": 20,
-      "translate-x": 30,
+      "translate-x": 20,
       "translate-y": 11,
-      "translate-z": -130,
+      "translate-z": -113,
       "vertex-colors-back": [
         0.12, 0.12, 0.12, 1,
         0.12, 0.12, 0.12, 1,
@@ -91,6 +91,92 @@
         0.2, 0.2, 0.2, 1
       ],
       "width": 20
+    },
+    {
+      "collision": true,
+      "exclude": {
+        "bottom": true
+      },
+      "height": 2,
+      "prefix": "platform-2",
+      "length": 20,
+      "translate-x": -40,
+      "translate-y": 2,
+      "translate-z": -142,
+      "vertex-colors-back": [
+        0.12, 0.12, 0.12, 1,
+        0.12, 0.12, 0.12, 1,
+        0.12, 0.12, 0.12, 1,
+        0.12, 0.12, 0.12, 1
+      ],
+      "vertex-colors-front": [
+        0.12, 0.12, 0.12, 1,
+        0.12, 0.12, 0.12, 1,
+        0.12, 0.12, 0.12, 1,
+        0.12, 0.12, 0.12, 1
+      ],
+      "vertex-colors-left": [
+        0.09, 0.09, 0.09, 1,
+        0.09, 0.09, 0.09, 1,
+        0.09, 0.09, 0.09, 1,
+        0.09, 0.09, 0.09, 1
+      ],
+      "vertex-colors-right": [
+        0.09, 0.09, 0.09, 1,
+        0.09, 0.09, 0.09, 1,
+        0.09, 0.09, 0.09, 1,
+        0.09, 0.09, 0.09, 1
+      ],
+      "vertex-colors-top": [
+        0.2, 0.2, 0.2, 1,
+        0.2, 0.2, 0.2, 1,
+        0.2, 0.2, 0.2, 1,
+        0.2, 0.2, 0.2, 1
+      ],
+      "width": 20
+    },
+    {
+      "collision": true,
+      "exclude": {
+        "bottom": true
+      },
+      "height": 20,
+      "prefix": "platform-far",
+      "length": 15,
+      "translate-x": -273,
+      "translate-y": 10,
+      "translate-z": 273,
+      "vertex-colors-back": [
+        0.12, 0.12, 0.12, 1,
+        0.12, 0.12, 0.12, 1,
+        0.12, 0.12, 0.12, 1,
+        0.12, 0.12, 0.12, 1
+      ],
+      "vertex-colors-front": [
+        0.12, 0.12, 0.12, 1,
+        0.12, 0.12, 0.12, 1,
+        0.12, 0.12, 0.12, 1,
+        0.12, 0.12, 0.12, 1
+      ],
+      "vertex-colors-left": [
+        0.09, 0.09, 0.09, 1,
+        0.09, 0.09, 0.09, 1,
+        0.09, 0.09, 0.09, 1,
+        0.09, 0.09, 0.09, 1
+      ],
+      "vertex-colors-right": [
+        0.09, 0.09, 0.09, 1,
+        0.09, 0.09, 0.09, 1,
+        0.09, 0.09, 0.09, 1,
+        0.09, 0.09, 0.09, 1
+      ],
+      "vertex-colors-top": [
+        0.2, 0.2, 0.2, 1,
+        0.2, 0.2, 0.2, 1,
+        0.2, 0.2, 0.2, 1,
+        0.2, 0.2, 0.2, 1
+      ],
+      "width": 15
     },
     {
       "collision": true,
@@ -216,6 +302,44 @@
         -500, 0, -500, 1,
         -500, 0, 500, 1,
         500, 0, 500, 1
+      ]
+    },
+    {
+      "id": "shadow-platform-0",
+      "alpha": 0.5,
+      "translate-x": -25,
+      "translate-y": 0.01,
+      "translate-z": -65,
+      "vertex-colors": [
+        0, 0, 0, 1,
+        0, 0, 0, 1,
+        0, 0, 0, 1,
+        0, 0, 0, 1
+      ],
+      "vertices": [
+        5, 0, -5, 1,
+        -5, 0, -5, 1,
+        -5, 0, 5, 1,
+        5, 0, 5, 1
+      ]
+    },
+    {
+      "id": "shadow-platform-1",
+      "alpha": 0.5,
+      "translate-x": 20,
+      "translate-y": 0.01,
+      "translate-z": -113,
+      "vertex-colors": [
+        0, 0, 0, 1,
+        0, 0, 0, 1,
+        0, 0, 0, 1,
+        0, 0, 0, 1
+      ],
+      "vertices": [
+        10, 0, -10, 1,
+        -10, 0, -10, 1,
+        -10, 0, 10, 1,
+        10, 0, 10, 1
       ]
     }
   ]

@@ -3,7 +3,6 @@
 window.multiverselevels = {
   'citymaze': 'City Maze',
   'desertstreetmarket': 'Desert Street Market',
-  'dreams': 'Dreams',
   'fortress': 'Fortress',
   'platform': 'Platform',
   'roadside': 'Roadside',
