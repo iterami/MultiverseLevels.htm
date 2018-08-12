@@ -54,9 +54,7 @@
       "width": 20
     }
   ],
-  "directional-blue": 1,
-  "directional-green": 1,
-  "directional-red": 1,
+  "directional-state": true,
   "directional-vector": "0, 1, -.8",
   "spawn-rotate-x": 25,
   "spawn-rotate-y": 315,
