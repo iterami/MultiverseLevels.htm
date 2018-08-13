@@ -367,6 +367,7 @@
       "draw-type": "POINTS",
       "spawn-entity": true,
       "translate-x": -40,
+      "translate-y": 10,
       "translate-z": 10,
       "vertex-colors": [
         0, 0, 1, 1
