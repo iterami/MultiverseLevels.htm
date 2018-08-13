@@ -236,6 +236,46 @@
       ]
     },
     {
+      "id": "damage-heal",
+      "collide-damage": -10,
+      "collision": true,
+      "rotate-z": 270,
+      "translate-x": -50,
+      "translate-y": -95,
+      "vertex-colors": [
+        0, 1, 0, 1,
+        0, 1, 0, 1,
+        0, 1, 0, 1,
+        0, 1, 0, 1
+      ],
+      "vertices": [
+        5, 0, -5, 1,
+        -5, 0, -5, 1,
+        -5, 0, 5, 1,
+        5, 0, 5, 1
+      ]
+    },
+    {
+      "id": "damage-hurt",
+      "collide-damage": 10,
+      "collision": true,
+      "rotate-z": 270,
+      "translate-x": -50,
+      "translate-y": -95,
+      "vertex-colors": [
+        1, 0, 0, 1,
+        1, 0, 0, 1,
+        1, 0, 0, 1,
+        1, 0, 0, 1
+      ],
+      "vertices": [
+        5, 0, -5, 1,
+        -5, 0, -5, 1,
+        -5, 0, 5, 1,
+        5, 0, 5, 1
+      ]
+    },
+    {
       "id": "flee",
       "billboard": [
         "y"
@@ -303,26 +343,6 @@
         -2, 0, -2, 1,
         -2, 0, 2, 1,
         2, 0, 2, 1
-      ]
-    },
-    {
-      "id": "kill",
-      "collide-damage": 10,
-      "collision": true,
-      "rotate-z": 270,
-      "translate-x": -50,
-      "translate-y": -95,
-      "vertex-colors": [
-        1, 0, 0, 1,
-        1, 0, 0, 1,
-        1, 0, 0, 1,
-        1, 0, 0, 1
-      ],
-      "vertices": [
-        5, 0, -5, 1,
-        -5, 0, -5, 1,
-        -5, 0, 5, 1,
-        5, 0, 5, 1
       ]
     },
     {
@@ -485,7 +505,15 @@
   "randomized": [
     {
       "ids": [
-        "kill"
+        "damage-heal"
+      ],
+      "max": 50,
+      "min": -50,
+      "property": "translate-z"
+    },
+    {
+      "ids": [
+        "damage-hurt"
       ],
       "max": 50,
       "min": -50,
