@@ -1,5 +1,6 @@
 {
   "fog-state": true,
+  "multiplier-speed": 2,
   "spawn-translate-y": 3,
   "entities": [
     {
