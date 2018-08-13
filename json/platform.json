@@ -289,7 +289,7 @@
     },
     {
       "id": "lava",
-      "collide-event": "kill",
+      "collide-damage": "1000",
       "collision": true,
       "vertex-colors": [
         0.2, 0, 0, 1,

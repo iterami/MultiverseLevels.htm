@@ -305,7 +305,7 @@
     },
     {
       "id": "kill",
-      "collide-event": "kill",
+      "collide-damage": 10,
       "collision": true,
       "rotate-z": 270,
       "translate-x": -50,
