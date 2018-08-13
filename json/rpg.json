@@ -6,6 +6,7 @@
   "entities": [
     {
       "id": "forest-cliff-outer-0",
+      "collision": true,
       "rotate-z": 90,
       "translate-x": 460,
       "translate-y": 20,
@@ -24,6 +25,7 @@
     },
     {
       "id": "forest-cliff-outer-1",
+      "collision": true,
       "rotate-x": 90,
       "translate-x": 250,
       "translate-y": 20,
@@ -43,6 +45,7 @@
     },
     {
       "id": "forest-cliff-outer-2",
+      "collision": true,
       "rotate-x": 270,
       "translate-x": 250,
       "translate-y": 20,
@@ -62,6 +65,7 @@
     },
     {
       "id": "forest-cliff-inner-0",
+      "collision": true,
       "rotate-x": 90,
       "translate-x": 155,
       "translate-y": 20,
@@ -81,6 +85,7 @@
     },
     {
       "id": "forest-cliff-inner-1",
+      "collision": true,
       "rotate-z": 90,
       "translate-x": 210,
       "translate-y": 10,
@@ -99,6 +104,7 @@
     },
     {
       "id": "forest-cliff-inner-2",
+      "collision": true,
       "rotate-x": 90,
       "translate-x": 240,
       "translate-y": 10,
@@ -118,6 +124,7 @@
     },
     {
       "id": "forest-cliff-inner-3",
+      "collision": true,
       "rotate-z": 270,
       "translate-x": 270,
       "translate-y": 10,
@@ -136,6 +143,7 @@
     },
     {
       "id": "forest-cliff-inner-4",
+      "collision": true,
       "rotate-z": 270,
       "translate-x": 270,
       "translate-y": 20,
