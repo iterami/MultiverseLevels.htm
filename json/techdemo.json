@@ -55,7 +55,6 @@
       "width": 20
     }
   ],
-  "directional-state": true,
   "directional-vector": "0, 1, -.8",
   "multiplier-speed": 5,
   "multiplier-jump": 5,
