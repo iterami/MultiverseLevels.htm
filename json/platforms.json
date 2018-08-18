@@ -18,11 +18,11 @@
     },
     {
       "collision": true,
-      "height": 2,
+      "height": 20,
       "prefix": "platform-1",
       "length": 20,
-      "translate-x": 20,
-      "translate-y": 20,
+      "translate-x": 25,
+      "translate-y": 10,
       "translate-z": -100,
       "vertex-colors-all": [
         0.1, 0.1, 0.1, 1,
@@ -30,7 +30,7 @@
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1
       ],
-      "width": 20
+      "width": 25
     },
     {
       "collision": true,
@@ -72,22 +72,23 @@
     {
       "collision": true,
       "exclude": {
+        "back": true,
         "bottom": true,
         "front": true
       },
       "height": 2,
       "prefix": "platform-4",
-      "length": 70,
-      "translate-x": 10,
+      "length": 80,
+      "translate-x": 15,
       "translate-y": 1,
-      "translate-z": -50,
+      "translate-z": -55,
       "vertex-colors-all": [
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1
       ],
-      "width": 10
+      "width": 5
     },
     {
       "collision": true,
@@ -123,7 +124,7 @@
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1
       ],
-      "width": 30
+      "width": 35
     }
   ],
   "multiplier-jump": 2,
@@ -185,25 +186,6 @@
         -5, 0, -5, 1,
         -5, 0, 5, 1,
         5, 0, 5, 1
-      ]
-    },
-    {
-      "id": "shadow-platform-1",
-      "alpha": 0.5,
-      "translate-x": 20,
-      "translate-y": 0.01,
-      "translate-z": -100,
-      "vertex-colors": [
-        0, 0, 0, 1,
-        0, 0, 0, 1,
-        0, 0, 0, 1,
-        0, 0, 0, 1
-      ],
-      "vertices": [
-        10, 0, -10, 1,
-        -10, 0, -10, 1,
-        -10, 0, 10, 1,
-        10, 0, 10, 1
       ]
     }
   ]
