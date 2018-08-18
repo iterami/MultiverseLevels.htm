@@ -91,7 +91,6 @@
       "width": 5
     },
     {
-      "collision": true,
       "exclude": {
         "bottom": true
       },
@@ -107,6 +106,16 @@
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1
       ],
+      "width": 15
+    },
+    {
+      "height": 20,
+      "prefix": "platform-5-tree",
+      "length": 15,
+      "translate-x": -273,
+      "translate-y": 20,
+      "translate-z": 273,
+      "tree": true,
       "width": 15
     },
     {

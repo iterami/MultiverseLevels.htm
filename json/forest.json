@@ -1,4 +1,93 @@
 {
+  "cuboids": [
+    {
+      "collision": true,
+      "height": 15,
+      "prefix": "tree-0",
+      "length": 15,
+      "translate-x": -20,
+      "tree": true,
+      "width": 15
+    },
+    {
+      "collision": true,
+      "height": 20,
+      "prefix": "tree-1",
+      "length": 20,
+      "translate-x": 148,
+      "translate-z": 55,
+      "tree": true,
+      "width": 20
+    },
+    {
+      "collision": true,
+      "height": 20,
+      "prefix": "tree-2",
+      "length": 20,
+      "translate-x": -99,
+      "translate-z": -42,
+      "tree": true,
+      "width": 20
+    },
+    {
+      "collision": true,
+      "height": 15,
+      "prefix": "tree-4",
+      "length": 15,
+      "translate-x": -83,
+      "translate-z": 107,
+      "tree": true,
+      "width": 15
+    },
+    {
+      "collision": true,
+      "height": 30,
+      "prefix": "tree-5",
+      "length": 30,
+      "translate-x": -123,
+      "tree": true,
+      "width": 30
+    },
+    {
+      "collision": true,
+      "height": 10,
+      "prefix": "tree-6",
+      "length": 10,
+      "translate-x": -166,
+      "translate-z": -64,
+      "tree": true,
+      "width": 10
+    },
+    {
+      "collision": true,
+      "height": 10,
+      "prefix": "tree-7",
+      "length": 10,
+      "translate-x": -173,
+      "translate-z": 96,
+      "tree": true,
+      "width": 10
+    },
+    {
+      "height": 15,
+      "prefix": "tree-8",
+      "length": 15,
+      "translate-x": 18,
+      "translate-y": 20,
+      "translate-z": 50,
+      "tree": true,
+      "width": 15
+    },
+    {
+      "height": 42,
+      "prefix": "tree-9",
+      "length": 42,
+      "translate-y": 42,
+      "translate-z": -111,
+      "tree": true,
+      "width": 42
+    }
+  ],
   "multiplier-speed": 2,
   "spawn-rotate-y": 180,
   "spawn-translate-x": -200,
