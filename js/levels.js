@@ -3,12 +3,8 @@
 window.multiverselevels = {
   'citymaze': 'City Maze',
   'desertstreetmarket': 'Desert Street Market',
-  'fortress': 'Fortress',
-  'platform': 'Platform',
-  'roadside': 'Roadside',
-  'rpg': 'RPG',
-  'showman': 'Showman',
+  'forest': 'Forest',
+  'labs': 'Labs',
+  'platforms': 'Platforms',
   'subway': 'Subway Station',
-  'techdemo': 'Tech Demo',
-  'trains': 'Trains',
 };

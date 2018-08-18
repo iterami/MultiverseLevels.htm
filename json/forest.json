@@ -1,6 +1,7 @@
 {
   "multiplier-speed": 2,
   "spawn-rotate-y": 180,
+  "spawn-translate-x": -200,
   "spawn-translate-y": 3,
   "spawn-translate-z": -65,
   "entities": [
@@ -8,7 +9,7 @@
       "id": "forest-cliff-outer-0",
       "collision": true,
       "rotate-z": 90,
-      "translate-x": 460,
+      "translate-x": 210,
       "translate-y": 20,
       "vertex-colors": [
         0.2, 0.1, 0.05, 1,
@@ -27,7 +28,6 @@
       "id": "forest-cliff-outer-1",
       "collision": true,
       "rotate-x": 90,
-      "translate-x": 250,
       "translate-y": 20,
       "translate-z": -210,
       "vertex-colors": [
@@ -47,7 +47,6 @@
       "id": "forest-cliff-outer-2",
       "collision": true,
       "rotate-x": 270,
-      "translate-x": 250,
       "translate-y": 20,
       "translate-z": 210,
       "vertex-colors": [
@@ -64,10 +63,29 @@
       ]
     },
     {
+      "id": "forest-cliff-outer-3",
+      "collision": true,
+      "rotate-z": 270,
+      "translate-x": -210,
+      "translate-y": 20,
+      "vertex-colors": [
+        0.2, 0.1, 0.05, 1,
+        0.2, 0.1, 0.05, 1,
+        0.2, 0.1, 0.05, 1,
+        0.2, 0.1, 0.05, 1
+      ],
+      "vertices": [
+        20, 0, -210, 1,
+        -20, 0, -210, 1,
+        -20, 0, 210, 1,
+        20, 0, 210, 1
+      ]
+    },
+    {
       "id": "forest-cliff-inner-0",
       "collision": true,
       "rotate-x": 90,
-      "translate-x": 155,
+      "translate-x": -75,
       "translate-y": 20,
       "translate-z": -100,
       "vertex-colors": [
@@ -77,17 +95,16 @@
         0.18, 0.09, 0.045, 1
       ],
       "vertices": [
-        115, 0, -20, 1,
-        -115, 0, -20, 1,
-        -115, 0, 20, 1,
-        115, 0, 20, 1
+        135, 0, -20, 1,
+        -135, 0, -20, 1,
+        -135, 0, 20, 1,
+        135, 0, 20, 1
       ]
     },
     {
       "id": "forest-cliff-inner-1",
       "collision": true,
       "rotate-z": 90,
-      "translate-x": 210,
       "translate-y": 10,
       "vertex-colors": [
         0.2, 0.1, 0.05, 1,
@@ -106,7 +123,7 @@
       "id": "forest-cliff-inner-2",
       "collision": true,
       "rotate-x": 90,
-      "translate-x": 240,
+      "translate-x": 30,
       "translate-y": 10,
       "translate-z": 100,
       "vertex-colors": [
@@ -126,7 +143,7 @@
       "id": "forest-cliff-inner-3",
       "collision": true,
       "rotate-z": 270,
-      "translate-x": 270,
+      "translate-x": 60,
       "translate-y": 10,
       "vertex-colors": [
         0.2, 0.1, 0.05, 1,
@@ -145,7 +162,7 @@
       "id": "forest-cliff-inner-4",
       "collision": true,
       "rotate-z": 270,
-      "translate-x": 270,
+      "translate-x": 60,
       "translate-y": 20,
       "translate-z": -155,
       "vertex-colors": [
@@ -164,7 +181,6 @@
     {
       "id": "forest-floor",
       "collision": true,
-      "translate-x": 250,
       "vertex-colors": [
         0, 0.1, 0, 1,
         0, 0.1, 0, 1,
@@ -176,98 +192,6 @@
         -210, 0, -210, 1,
         -210, 0, 210, 1,
         210, 0, 210, 1
-      ]
-    },
-    {
-      "id": "town-bridge",
-      "collision": true,
-      "translate-x": 30,
-      "vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "vertices": [
-        10, 0, -5, 1,
-        -10, 0, -5, 1,
-        -10, 0, 5, 1,
-        10, 0, 5, 1
-      ]
-    },
-    {
-      "id": "town-floor",
-      "collision": true,
-      "translate-z": -35,
-      "vertex-colors": [
-        0.1, 0.1, 0.15, 1,
-        0.1, 0.1, 0.15, 1,
-        0.1, 0.1, 0.15, 1,
-        0.1, 0.1, 0.15, 1
-      ],
-      "vertices": [
-        20, 0, -40, 1,
-        -20, 0, -40, 1,
-        -20, 0, 40, 1,
-        20, 0, 40, 1
-      ]
-    },
-    {
-      "id": "town-wall-0",
-      "collision": true,
-      "rotate-z": 270,
-      "translate-x": -20,
-      "translate-y": 10,
-      "translate-z": -35,
-      "vertex-colors": [
-        0.07, 0.07, 0.07, 1,
-        0.07, 0.07, 0.07, 1,
-        0.07, 0.07, 0.07, 1,
-        0.07, 0.07, 0.07, 1
-      ],
-      "vertices": [
-        10, 0, -40, 1,
-        -10, 0, -40, 1,
-        -10, 0, 40, 1,
-        10, 0, 40, 1
-      ]
-    },
-    {
-      "id": "town-wall-1",
-      "collision": true,
-      "rotate-x": 90,
-      "translate-y": 10,
-      "translate-z": -75,
-      "vertex-colors": [
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1
-      ],
-      "vertices": [
-        20, 0, -10, 1,
-        -20, 0, -10, 1,
-        -20, 0, 10, 1,
-        20, 0, 10, 1
-      ]
-    },
-    {
-      "id": "town-wall-2",
-      "collision": true,
-      "rotate-x": 270,
-      "translate-y": 10,
-      "translate-z": 5,
-      "vertex-colors": [
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1
-      ],
-      "vertices": [
-        20, 0, -10, 1,
-        -20, 0, -10, 1,
-        -20, 0, 10, 1,
-        20, 0, 10, 1
       ]
     }
   ]

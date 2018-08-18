@@ -2,6 +2,7 @@
   "clearcolor-blue": 0.1,
   "clearcolor-green": 0.5,
   "clearcolor-red": 0.7,
+  "directional-state": false,
   "spawn-translate-y": 3,
   "entities": [
     {
