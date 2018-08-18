@@ -28,6 +28,7 @@
       "id": "forest-cliff-outer-1",
       "collision": true,
       "rotate-x": 90,
+      "translate-x": 135,
       "translate-y": 20,
       "translate-z": -210,
       "vertex-colors": [
@@ -37,10 +38,10 @@
         0.18, 0.09, 0.045, 1
       ],
       "vertices": [
-        210, 0, -20, 1,
-        -210, 0, -20, 1,
-        -210, 0, 20, 1,
-        210, 0, 20, 1
+        75, 0, -20, 1,
+        -75, 0, -20, 1,
+        -75, 0, 20, 1,
+        75, 0, 20, 1
       ]
     },
     {
@@ -179,7 +180,7 @@
       ]
     },
     {
-      "id": "forest-floor",
+      "id": "forest-floor-0",
       "collision": true,
       "vertex-colors": [
         0, 0.1, 0, 1,
@@ -192,6 +193,43 @@
         -210, 0, -210, 1,
         -210, 0, 210, 1,
         210, 0, 210, 1
+      ]
+    },
+    {
+      "id": "forest-floor-1",
+      "collision": true,
+      "translate-x": 30,
+      "translate-y": 20,
+      "vertex-colors": [
+        0, 0.2, 0, 1,
+        0, 0.2, 0, 1,
+        0, 0.2, 0, 1,
+        0, 0.2, 0, 1
+      ],
+      "vertices": [
+        30, 0, -100, 1,
+        -30, 0, -100, 1,
+        -30, 0, 100, 1,
+        30, 0, 100, 1
+      ]
+    },
+    {
+      "id": "forest-floor-2",
+      "collision": true,
+      "translate-x": -75,
+      "translate-y": 40,
+      "translate-z": -155,
+      "vertex-colors": [
+        0, 0.2, 0, 1,
+        0, 0.2, 0, 1,
+        0, 0.2, 0, 1,
+        0, 0.2, 0, 1
+      ],
+      "vertices": [
+        135, 0, -55, 1,
+        -135, 0, -55, 1,
+        -135, 0, 55, 1,
+        135, 0, 55, 1
       ]
     }
   ]

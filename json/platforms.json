@@ -6,8 +6,8 @@
       "prefix": "platform-0",
       "length": 10,
       "translate-x": -25,
-      "translate-y": 8,
-      "translate-z": -65,
+      "translate-y": 15,
+      "translate-z": -55,
       "vertex-colors-all": [
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1,
@@ -22,8 +22,8 @@
       "prefix": "platform-1",
       "length": 20,
       "translate-x": 20,
-      "translate-y": 11,
-      "translate-z": -113,
+      "translate-y": 20,
+      "translate-z": -100,
       "vertex-colors-all": [
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1,
@@ -41,7 +41,7 @@
       "prefix": "platform-2",
       "length": 20,
       "translate-x": -40,
-      "translate-y": 2,
+      "translate-y": 1,
       "translate-z": -142,
       "vertex-colors-all": [
         0.1, 0.1, 0.1, 1,
@@ -56,8 +56,46 @@
       "exclude": {
         "bottom": true
       },
+      "height": 10,
+      "prefix": "platform-3",
+      "length": 20,
+      "translate-y": 5,
+      "translate-z": -190,
+      "vertex-colors-all": [
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1
+      ],
+      "width": 20
+    },
+    {
+      "collision": true,
+      "exclude": {
+        "bottom": true,
+        "front": true
+      },
+      "height": 2,
+      "prefix": "platform-4",
+      "length": 70,
+      "translate-x": 10,
+      "translate-y": 1,
+      "translate-z": -50,
+      "vertex-colors-all": [
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1
+      ],
+      "width": 10
+    },
+    {
+      "collision": true,
+      "exclude": {
+        "bottom": true
+      },
       "height": 20,
-      "prefix": "platform-far",
+      "prefix": "platform-5",
       "length": 15,
       "translate-x": -273,
       "translate-y": 10,
@@ -69,24 +107,6 @@
         0.1, 0.1, 0.1, 1
       ],
       "width": 15
-    },
-    {
-      "collision": true,
-      "exclude": {
-        "bottom": true
-      },
-      "height": 10,
-      "prefix": "platform-goal",
-      "length": 20,
-      "translate-y": 5,
-      "translate-z": -190,
-      "vertex-colors-all": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "width": 20
     },
     {
       "collision": true,
@@ -153,7 +173,7 @@
       "alpha": 0.5,
       "translate-x": -25,
       "translate-y": 0.01,
-      "translate-z": -65,
+      "translate-z": -55,
       "vertex-colors": [
         0, 0, 0, 1,
         0, 0, 0, 1,
@@ -172,7 +192,7 @@
       "alpha": 0.5,
       "translate-x": 20,
       "translate-y": 0.01,
-      "translate-z": -113,
+      "translate-z": -100,
       "vertex-colors": [
         0, 0, 0, 1,
         0, 0, 0, 1,
