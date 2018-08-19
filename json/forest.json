@@ -158,6 +158,7 @@
       "rotate-z": 270,
       "translate-x": -210,
       "translate-y": 20,
+      "translate-z": 55,
       "vertex-colors": [
         0.2, 0.1, 0.05, 1,
         0.2, 0.1, 0.05, 1,
@@ -165,10 +166,10 @@
         0.2, 0.1, 0.05, 1
       ],
       "vertices": [
-        20, 0, -210, 1,
-        -20, 0, -210, 1,
-        -20, 0, 210, 1,
-        20, 0, 210, 1
+        20, 0, -155, 1,
+        -20, 0, -155, 1,
+        -20, 0, 155, 1,
+        20, 0, 155, 1
       ]
     },
     {
@@ -286,7 +287,6 @@
     },
     {
       "id": "forest-floor-1",
-      "collision": true,
       "translate-x": 30,
       "translate-y": 20,
       "vertex-colors": [
@@ -304,7 +304,6 @@
     },
     {
       "id": "forest-floor-2",
-      "collision": true,
       "translate-x": -75,
       "translate-y": 40,
       "translate-z": -155,
