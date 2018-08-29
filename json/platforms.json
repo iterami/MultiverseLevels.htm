@@ -1,9 +1,9 @@
 {
   "cuboids": [
     {
+      "prefix": "platform-0",
       "collision": true,
       "height": 2,
-      "prefix": "platform-0",
       "length": 10,
       "translate-x": -25,
       "translate-y": 15,
@@ -17,9 +17,9 @@
       "width": 10
     },
     {
+      "prefix": "platform-1",
       "collision": true,
       "height": 20,
-      "prefix": "platform-1",
       "length": 20,
       "translate-x": 25,
       "translate-y": 10,
@@ -33,12 +33,12 @@
       "width": 25
     },
     {
+      "prefix": "platform-2",
       "collision": true,
       "exclude": {
         "bottom": true
       },
       "height": 2,
-      "prefix": "platform-2",
       "length": 20,
       "translate-x": -40,
       "translate-y": 1,
@@ -52,12 +52,12 @@
       "width": 20
     },
     {
+      "prefix": "platform-3",
       "collision": true,
       "exclude": {
         "bottom": true
       },
       "height": 10,
-      "prefix": "platform-3",
       "length": 20,
       "translate-y": 5,
       "translate-z": -190,
@@ -70,6 +70,7 @@
       "width": 20
     },
     {
+      "prefix": "platform-4",
       "collision": true,
       "exclude": {
         "back": true,
@@ -77,7 +78,6 @@
         "front": true
       },
       "height": 2,
-      "prefix": "platform-4",
       "length": 80,
       "translate-x": 15,
       "translate-y": 1,
@@ -91,11 +91,11 @@
       "width": 5
     },
     {
+      "prefix": "platform-5",
       "exclude": {
         "bottom": true
       },
       "height": 20,
-      "prefix": "platform-5",
       "length": 15,
       "translate-x": -273,
       "translate-y": 10,
@@ -109,8 +109,8 @@
       "width": 15
     },
     {
-      "height": 20,
       "prefix": "platform-5-tree",
+      "height": 20,
       "length": 15,
       "translate-x": -273,
       "translate-y": 20,
@@ -119,12 +119,12 @@
       "width": 15
     },
     {
+      "prefix": "platform-spawn",
       "collision": true,
       "exclude": {
         "bottom": true
       },
       "height": 10,
-      "prefix": "platform-spawn",
       "length": 30,
       "translate-y": 5,
       "vertex-colors-all": [

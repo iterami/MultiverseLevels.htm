@@ -25,13 +25,13 @@
   ],
   "cuboids": [
     {
+      "prefix": "techdemo-collision-cuboid",
       "collision": true,
       "exclude": {
         "back": true
       },
       "height": 50,
       "length": 10,
-      "prefix": "techdemo-collision-cuboid",
       "translate-x": -40,
       "translate-z": -30,
       "vertex-colors-front": [
