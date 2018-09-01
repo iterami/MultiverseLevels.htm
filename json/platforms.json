@@ -78,10 +78,10 @@
         "front": true
       },
       "height": 2,
-      "length": 80,
+      "length": 75,
       "translate-x": 15,
       "translate-y": 1,
-      "translate-z": -55,
+      "translate-z": -52.5,
       "vertex-colors-all": [
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1,
