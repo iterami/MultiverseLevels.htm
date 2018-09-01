@@ -20,7 +20,8 @@
           ]
         }
       ],
-      "level": 5
+      "level": 5,
+      "talk": "Hello, this is the tech demo!"
     }
   ],
   "cuboids": [
@@ -60,9 +61,9 @@
   "multiplier-jump": 5,
   "spawn-rotate-x": 25,
   "spawn-rotate-y": 315,
-  "spawn-translate-x": 5,
-  "spawn-translate-y": 5,
-  "spawn-translate-z": 5,
+  "spawn-translate-x": 20,
+  "spawn-translate-y": 20,
+  "spawn-translate-z": 20,
   "entities": [
     {
       "id": "axis-x",
