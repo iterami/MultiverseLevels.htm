@@ -1,5 +1,8 @@
 'use strict';
 
+window.multiversecharacters = {
+  'character-default': 'Default',
+};
 window.multiverselevels = {
   'citymaze': 'City Maze',
   'desertstreetmarket': 'Desert Street Market',
