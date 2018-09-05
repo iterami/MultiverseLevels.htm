@@ -28,7 +28,7 @@
       "trade": [
         {
           "get-amount": 10,
-          "get-id": "coins",
+          "get-id": "Coins",
           "give-amount": 1,
           "give-id": "techdemo-traded-item"
         }
