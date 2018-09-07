@@ -424,7 +424,7 @@
     },
     {
       "id": "textures-debug-fff",
-      "texture": "_debug",
+      "texture": "_webgl-texture-debug",
       "translate-x": -5,
       "translate-y": 4,
       "translate-z": -15,
@@ -443,7 +443,7 @@
     },
     {
       "id": "textures-debug-0f0",
-      "texture": "_debug",
+      "texture": "_webgl-texture-debug",
       "translate-x": -9,
       "translate-y": 4,
       "translate-z": -15,
