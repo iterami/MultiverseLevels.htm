@@ -47,6 +47,35 @@
         0.1, 0.1, 0.1, 1
       ],
       "width": -200
+    },
+    {
+      "prefix": "pillar-of-transparency",
+      "all-alpha": 0.5,
+      "exclude": {
+        "bottom": true,
+        "top": true
+      },
+      "front-vertex-colors": [
+        0, 1, 0, 1,
+        0, 1, 0, 1,
+        0, 1, 0, 1,
+        0, 1, 0, 1
+      ],
+      "height": 50,
+      "left-vertex-colors": [
+        1, 0, 0, 1,
+        1, 0, 0, 1,
+        1, 0, 0, 1,
+        1, 0, 0, 1
+      ],
+      "length": 20,
+      "right-vertex-colors": [
+        0, 0, 1, 1,
+        0, 0, 1, 1,
+        0, 0, 1, 1,
+        0, 0, 1, 1
+      ],
+      "width": 20
     }
   ],
   "multiplier-speed": 5,
@@ -404,76 +433,6 @@
         2, -2, 0, 1,
         2, 2, 0, 1,
         -2, 2, 0, 1
-      ]
-    },
-    {
-      "id": "transparency-blue",
-      "alpha": 0.5,
-      "collision": true,
-      "rotate-z": 270,
-      "translate-x": 10,
-      "vertex-colors": [
-        0, 0, 1, 1,
-        0, 0, 1, 1,
-        0, 0, 1, 1,
-        0, 0, 1, 1
-      ],
-      "vertices": [
-        25, 0, -10, 1,
-        -25, 0, -10, 1,
-        -25, 0, 10, 1,
-        25, 0, 10, 1
-      ]
-    },
-    {
-      "id": "transparency-green",
-      "alpha": 0.5,
-      "collision": true,
-      "rotate-x": 90,
-      "translate-z": 10,
-      "vertex-colors": [
-        0, 1, 0, 1,
-        0, 1, 0, 1,
-        0, 1, 0, 1,
-        0, 1, 0, 1
-      ],
-      "vertices": [
-        10, 0, -25, 1,
-        -10, 0, -25, 1,
-        -10, 0, 25, 1,
-        10, 0, 25, 1
-      ]
-    },
-    {
-      "id": "transparency-random",
-      "alpha": 0.5,
-      "collision": true,
-      "rotate-x": 270,
-      "translate-z": -10,
-      "vertices": [
-        10, 0, -25, 1,
-        -10, 0, -25, 1,
-        -10, 0, 25, 1,
-        10, 0, 25, 1
-      ]
-    },
-    {
-      "id": "transparency-red",
-      "alpha": 0.5,
-      "collision": true,
-      "rotate-z": 90,
-      "translate-x": -10,
-      "vertex-colors": [
-        1, 0, 0, 1,
-        1, 0, 0, 1,
-        1, 0, 0, 1,
-        1, 0, 0, 1
-      ],
-      "vertices": [
-        25, 0, -10, 1,
-        -25, 0, -10, 1,
-        -25, 0, 10, 1,
-        25, 0, 10, 1
       ]
     }
   ],
