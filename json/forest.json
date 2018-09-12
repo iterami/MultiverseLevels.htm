@@ -1,18 +1,16 @@
 {
   "cuboids": [
     {
-      "collision": true,
-      "height": 15,
       "prefix": "tree-0",
+      "height": 15,
       "length": 15,
       "translate-x": -20,
       "tree": true,
       "width": 15
     },
     {
-      "collision": true,
-      "height": 20,
       "prefix": "tree-1",
+      "height": 20,
       "length": 20,
       "translate-x": 148,
       "translate-z": 55,
@@ -20,9 +18,8 @@
       "width": 20
     },
     {
-      "collision": true,
-      "height": 20,
       "prefix": "tree-2",
+      "height": 20,
       "length": 20,
       "translate-x": -99,
       "translate-z": -42,
@@ -30,9 +27,8 @@
       "width": 20
     },
     {
-      "collision": true,
+      "prefix": "tree-3",
       "height": 15,
-      "prefix": "tree-4",
       "length": 15,
       "translate-x": -83,
       "translate-z": 107,
@@ -40,18 +36,16 @@
       "width": 15
     },
     {
-      "collision": true,
+      "prefix": "tree-4",
       "height": 30,
-      "prefix": "tree-5",
       "length": 30,
       "translate-x": -123,
       "tree": true,
       "width": 30
     },
     {
-      "collision": true,
+      "prefix": "tree-5",
       "height": 10,
-      "prefix": "tree-6",
       "length": 10,
       "translate-x": -166,
       "translate-z": -64,
@@ -59,9 +53,8 @@
       "width": 10
     },
     {
-      "collision": true,
+      "prefix": "tree-6",
       "height": 10,
-      "prefix": "tree-7",
       "length": 10,
       "translate-x": -173,
       "translate-z": 96,
@@ -69,8 +62,8 @@
       "width": 10
     },
     {
+      "prefix": "tree-7",
       "height": 15,
-      "prefix": "tree-8",
       "length": 15,
       "translate-x": 18,
       "translate-y": 20,
@@ -79,8 +72,8 @@
       "width": 15
     },
     {
+      "prefix": "tree-8",
       "height": 42,
-      "prefix": "tree-9",
       "length": 42,
       "translate-y": 40,
       "translate-z": -111,

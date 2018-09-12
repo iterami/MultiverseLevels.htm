@@ -38,10 +38,9 @@
   "cuboids": [
     {
       "prefix": "museum",
-      "collision": true,
       "height": -50,
       "length": -200,
-      "vertex-colors-top": [
+      "top-vertex-colors": [
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1,

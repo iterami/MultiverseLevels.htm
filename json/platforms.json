@@ -2,39 +2,42 @@
   "cuboids": [
     {
       "prefix": "platform-0",
-      "collision": true,
+      "all-vertex-colors": [
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1
+      ],
       "height": 2,
       "length": 10,
       "translate-x": -25,
       "translate-y": 15,
       "translate-z": -55,
-      "vertex-colors-all": [
+      "width": 10
+    },
+    {
+      "prefix": "platform-1",
+      "all-vertex-colors": [
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1
       ],
-      "width": 10
-    },
-    {
-      "prefix": "platform-1",
-      "collision": true,
       "height": 20,
       "length": 20,
       "translate-x": 25,
       "translate-y": 10,
       "translate-z": -100,
-      "vertex-colors-all": [
+      "width": 25
+    },
+    {
+      "prefix": "platform-2",
+      "all-vertex-colors": [
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1
       ],
-      "width": 25
-    },
-    {
-      "prefix": "platform-2",
-      "collision": true,
       "exclude": {
         "bottom": true
       },
@@ -43,17 +46,16 @@
       "translate-x": -40,
       "translate-y": 1,
       "translate-z": -142,
-      "vertex-colors-all": [
+      "width": 20
+    },
+    {
+      "prefix": "platform-3",
+      "all-vertex-colors": [
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1
       ],
-      "width": 20
-    },
-    {
-      "prefix": "platform-3",
-      "collision": true,
       "exclude": {
         "bottom": true
       },
@@ -61,17 +63,16 @@
       "length": 20,
       "translate-y": 5,
       "translate-z": -190,
-      "vertex-colors-all": [
+      "width": 20
+    },
+    {
+      "prefix": "platform-4",
+      "all-vertex-colors": [
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1
       ],
-      "width": 20
-    },
-    {
-      "prefix": "platform-4",
-      "collision": true,
       "exclude": {
         "back": true,
         "bottom": true,
@@ -82,16 +83,17 @@
       "translate-x": 15,
       "translate-y": 1,
       "translate-z": -52.5,
-      "vertex-colors-all": [
+      "width": 5
+    },
+    {
+      "prefix": "platform-5",
+      "all-vertex-colors": [
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1
       ],
-      "width": 5
-    },
-    {
-      "prefix": "platform-5",
+      "all-collision": false,
       "exclude": {
         "bottom": true
       },
@@ -100,16 +102,11 @@
       "translate-x": -273,
       "translate-y": 10,
       "translate-z": 273,
-      "vertex-colors-all": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
       "width": 15
     },
     {
       "prefix": "platform-5-tree",
+      "all-collision": false,
       "height": 20,
       "length": 15,
       "translate-x": -273,
@@ -120,19 +117,18 @@
     },
     {
       "prefix": "platform-spawn",
-      "collision": true,
+      "all-vertex-colors": [
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1
+      ],
       "exclude": {
         "bottom": true
       },
       "height": 10,
       "length": 30,
       "translate-y": 5,
-      "vertex-colors-all": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
       "width": 35
     }
   ],
