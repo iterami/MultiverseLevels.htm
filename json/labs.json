@@ -5,6 +5,7 @@
       "entities": [
         {
           "id": "techdemo-character-attached",
+          "billboard": "y",
           "vertex-colors": [
             1, 0, 0, 1,
             0, 1, 0, 1,

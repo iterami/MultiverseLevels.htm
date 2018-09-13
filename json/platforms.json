@@ -10,7 +10,7 @@
       ],
       "height": 2,
       "length": 10,
-      "translate-x": -25,
+      "translate-x": -20,
       "translate-y": 15,
       "translate-z": -55,
       "width": 10
@@ -23,6 +23,9 @@
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1
       ],
+      "exclude": {
+        "bottom": true
+      },
       "height": 20,
       "length": 20,
       "translate-x": 25,
@@ -59,11 +62,12 @@
       "exclude": {
         "bottom": true
       },
-      "height": 10,
-      "length": 20,
-      "translate-y": 5,
-      "translate-z": -190,
-      "width": 20
+      "height": 2,
+      "length": 40,
+      "translate-x": 10,
+      "translate-y": 1,
+      "translate-z": -185,
+      "width": 15
     },
     {
       "prefix": "platform-4",
@@ -93,27 +97,41 @@
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1
       ],
-      "all-collision": false,
       "exclude": {
         "bottom": true
       },
-      "height": 20,
-      "length": 15,
-      "translate-x": -273,
-      "translate-y": 10,
-      "translate-z": 273,
-      "width": 15
+      "height": 50,
+      "length": 25,
+      "translate-x": -20,
+      "translate-y": 25,
+      "translate-z": -180,
+      "width": 25
     },
     {
       "prefix": "platform-5-tree",
       "all-collision": false,
-      "height": 20,
+      "height": 10,
       "length": 15,
-      "translate-x": -273,
-      "translate-y": 20,
-      "translate-z": 273,
+      "translate-x": -25,
+      "translate-y": 50,
+      "translate-z": -175,
       "tree": true,
       "width": 15
+    },
+    {
+      "prefix": "platform-6",
+      "all-vertex-colors": [
+        0.08, 0.08, 0.08, 1,
+        0.08, 0.08, 0.08, 1,
+        0.08, 0.08, 0.08, 1,
+        0.08, 0.08, 0.08, 1
+      ],
+      "height": 20,
+      "length": 19,
+      "translate-x": 5,
+      "translate-y": 30,
+      "translate-z": -150,
+      "width": 39
     },
     {
       "prefix": "platform-spawn",
@@ -138,11 +156,12 @@
   "spawn-translate-y": 15,
   "entities": [
     {
-      "id": "goal-coins",
+      "id": "coin-0",
       "collision": true,
       "item": "Coins",
       "rotate-x": 90,
-      "translate-y": 13,
+      "translate-x": 10,
+      "translate-y": 5,
       "translate-z": -199,
       "vertex-colors": [
         0.7, 0.7, 0, 1,
@@ -175,9 +194,30 @@
       ]
     },
     {
+      "id": "lava-pillar-0",
+      "collide-damage": "1000",
+      "collision": true,
+      "vertex-colors": [
+        0.2, 0, 0, 1,
+        0.2, 0, 0, 1,
+        0.2, 0, 0, 1,
+        0.2, 0, 0, 1
+      ],
+      "rotate-z": 90,
+      "translate-x": -15,
+      "translate-y": 20,
+      "translate-z": -155,
+      "vertices": [
+        20, 0, -5, 1,
+        -20, 0, -5, 1,
+        -20, 0, 5, 1,
+        20, 0, 5, 1
+      ]
+    },
+    {
       "id": "shadow-platform-0",
       "alpha": 0.5,
-      "translate-x": -25,
+      "translate-x": -20,
       "translate-y": 0.01,
       "translate-z": -55,
       "vertex-colors": [
