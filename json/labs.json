@@ -20,7 +20,9 @@
       ],
       "inventory": {
         "techdemo-traded-item": {
-          "amount": 100
+          "amount": 100,
+          "equipped": false,
+          "stats": {}
         }
       },
       "level": 5,
@@ -335,7 +337,7 @@
     {
       "id": "item",
       "collision": true,
-      "item": "techdemo-item",
+      "item-id": "techdemo-item",
       "rotate-x": 90,
       "translate-y": -98,
       "translate-z": -23,
