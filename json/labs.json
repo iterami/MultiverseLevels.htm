@@ -19,7 +19,9 @@
         }
       ],
       "inventory": {
-        "techdemo-traded-item": 100
+        "techdemo-traded-item": {
+          "amount": 100
+        }
       },
       "level": 5,
       "talk": "Hello, this is the tech demo!",
