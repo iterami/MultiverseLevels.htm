@@ -19,8 +19,26 @@
         }
       ],
       "inventory": {
-        "techdemo-traded-item": {
+        "techdemo-hat": {
           "amount": 100,
+          "entities": [
+            {
+              "attach-offset-y": 2.5,
+              "billboard": [
+                "y"
+              ],
+              "vertex-colors": [
+                1, 0, 0, 1,
+                0, 1, 0, 1,
+                0, 0, 1, 1
+              ],
+              "vertices": [
+                -2, 0, 0, 1,
+                2, 0, 0, 1,
+                0, 2, 0, 1
+              ]
+            }
+          ],
           "equipped": false,
           "stats": {}
         }
@@ -32,7 +50,7 @@
           "get-amount": 10,
           "get-id": "Coins",
           "give-amount": 1,
-          "give-id": "techdemo-traded-item"
+          "give-id": "techdemo-hat"
         }
       ],
       "translate-x": 70,
