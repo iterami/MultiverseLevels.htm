@@ -40,6 +40,7 @@
             }
           ],
           "equipped": false,
+          "spell": false,
           "stats": {}
         }
       },
@@ -356,8 +357,12 @@
       "id": "item",
       "collision": true,
       "item-id": "techdemo-item",
+      "item-spell": true,
+      "item-spellproperties": {
+        "gravity": false
+      },
       "rotate-x": 90,
-      "translate-y": -98,
+      "translate-y": -23,
       "translate-z": -23,
       "vertex-colors": [
         0, 1, 0, 1,
