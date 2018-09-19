@@ -134,6 +134,24 @@
       "width": 39
     },
     {
+      "prefix": "platform-7",
+      "all-vertex-colors": [
+        0.08, 0.08, 0.08, 1,
+        0.08, 0.08, 0.08, 1,
+        0.08, 0.08, 0.08, 1,
+        0.08, 0.08, 0.08, 1
+      ],
+      "exclude": {
+        "bottom": true
+      },
+      "height": 10,
+      "length": 20,
+      "translate-x": -85,
+      "translate-y": 5,
+      "translate-z": -25,
+      "width": 20
+    },
+    {
       "prefix": "platform-spawn",
       "all-vertex-colors": [
         0.1, 0.1, 0.1, 1,

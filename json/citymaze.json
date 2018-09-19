@@ -154,6 +154,105 @@
       ]
     },
     {
+      "id": "sewer-floor-0",
+      "collision": true,
+      "translate-x": -50,
+      "translate-y": -50,
+      "translate-z": -50,
+      "vertex-colors": [
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1
+      ],
+      "vertices": [
+        15, 0, -15, 1,
+        -15, 0, -15, 1,
+        -15, 0, 15, 1,
+        15, 0, 15, 1
+      ]
+    },
+    {
+      "id": "sewer-wall-0",
+      "collision": true,
+      "rotate-z": 90,
+      "translate-x": -35,
+      "translate-y": -35,
+      "translate-z": -50,
+      "vertex-colors": [
+        0.08, 0.08, 0.08, 1,
+        0.08, 0.08, 0.08, 1,
+        0.08, 0.08, 0.08, 1,
+        0.08, 0.08, 0.08, 1
+      ],
+      "vertices": [
+        15, 0, -15, 1,
+        -15, 0, -15, 1,
+        -15, 0, 15, 1,
+        15, 0, 15, 1
+      ]
+    },
+    {
+      "id": "sewer-wall-1",
+      "collision": true,
+      "rotate-z": 270,
+      "translate-x": -65,
+      "translate-y": -35,
+      "translate-z": -50,
+      "vertex-colors": [
+        0.08, 0.08, 0.08, 1,
+        0.08, 0.08, 0.08, 1,
+        0.08, 0.08, 0.08, 1,
+        0.08, 0.08, 0.08, 1
+      ],
+      "vertices": [
+        15, 0, -15, 1,
+        -15, 0, -15, 1,
+        -15, 0, 15, 1,
+        15, 0, 15, 1
+      ]
+    },
+    {
+      "id": "sewer-wall-2",
+      "collision": true,
+      "rotate-x": 90,
+      "translate-x": -50,
+      "translate-y": -30,
+      "translate-z": -65,
+      "vertex-colors": [
+        0.08, 0.08, 0.08, 1,
+        0.08, 0.08, 0.08, 1,
+        0.08, 0.08, 0.08, 1,
+        0.08, 0.08, 0.08, 1
+      ],
+      "vertices": [
+        15, 0, -10, 1,
+        -15, 0, -10, 1,
+        -15, 0, 10, 1,
+        15, 0, 10, 1
+      ]
+    },
+    {
+      "id": "sewer-wall-4",
+      "collision": true,
+      "rotate-x": 270,
+      "translate-x": -50,
+      "translate-y": -30,
+      "translate-z": -35,
+      "vertex-colors": [
+        0.08, 0.08, 0.08, 1,
+        0.08, 0.08, 0.08, 1,
+        0.08, 0.08, 0.08, 1,
+        0.08, 0.08, 0.08, 1
+      ],
+      "vertices": [
+        15, 0, -10, 1,
+        -15, 0, -10, 1,
+        -15, 0, 10, 1,
+        15, 0, 10, 1
+      ]
+    },
+    {
       "id": "sidewalk-base",
       "collision": true,
       "translate-z": -50,
@@ -811,85 +910,6 @@
         -5, 0, -30, 1,
         -5, 0, 30, 1,
         5, 0, 30, 1
-      ]
-    },
-    {
-      "id": "sewer-floor-0",
-      "collision": true,
-      "translate-x": -50,
-      "translate-y": -50,
-      "translate-z": -50,
-      "vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "vertices": [
-        15, 0, -15, 1,
-        -15, 0, -15, 1,
-        -15, 0, 15, 1,
-        15, 0, 15, 1
-      ]
-    },
-    {
-      "id": "sewer-wall-0",
-      "collision": true,
-      "rotate-z": 90,
-      "translate-x": -35,
-      "translate-y": -35,
-      "translate-z": -50,
-      "vertex-colors": [
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1
-      ],
-      "vertices": [
-        15, 0, -15, 1,
-        -15, 0, -15, 1,
-        -15, 0, 15, 1,
-        15, 0, 15, 1
-      ]
-    },
-    {
-      "id": "sewer-wall-1",
-      "collision": true,
-      "rotate-z": 270,
-      "translate-x": -65,
-      "translate-y": -35,
-      "translate-z": -50,
-      "vertex-colors": [
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1
-      ],
-      "vertices": [
-        15, 0, -15, 1,
-        -15, 0, -15, 1,
-        -15, 0, 15, 1,
-        15, 0, 15, 1
-      ]
-    },
-    {
-      "id": "sewer-wall-2",
-      "collision": true,
-      "rotate-x": 90,
-      "translate-x": -50,
-      "translate-y": -35,
-      "translate-z": -65,
-      "vertex-colors": [
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1
-      ],
-      "vertices": [
-        15, 0, -15, 1,
-        -15, 0, -15, 1,
-        -15, 0, 15, 1,
-        15, 0, 15, 1
       ]
     }
   ]
