@@ -104,6 +104,29 @@
   ],
   "multiplier-speed": 5,
   "multiplier-jump": 3,
+  "paths": {
+    "tour-loop": {
+      "end": 1,
+      "points": [
+        {
+          "translate-x": 50,
+          "translate-z": 50
+        },
+        {
+          "translate-x": 50,
+          "translate-z": -50
+        },
+        {
+          "translate-x": -50,
+          "translate-z": -50
+        },
+        {
+          "translate-x": -50,
+          "translate-z": 50
+        }
+      ]
+    }
+  },
   "spawn-rotate-x": 25,
   "spawn-rotate-y": 315,
   "spawn-translate-x": 80,
@@ -326,7 +349,8 @@
       "billboard": [
         "y"
       ],
-      "dz": -0.1,
+      "path-active": true,
+      "path-id": "tour-loop",
       "translate-z": -23,
       "vertex-colors": [
         1, 1, 1, 1,
