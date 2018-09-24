@@ -346,9 +346,6 @@
     },
     {
       "id": "flee",
-      "billboard": [
-        "y"
-      ],
       "path-active": true,
       "path-id": "tour-loop",
       "translate-z": -23,
@@ -367,6 +364,9 @@
       "id": "flee-attached",
       "attach-to": "flee",
       "attach-offset-y": 10,
+      "billboard": [
+        "y"
+      ],
       "vertex-colors": [
         0.5, 0.5, 0.5, 1,
         0.5, 0.5, 0.5, 1,
