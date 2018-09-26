@@ -152,6 +152,24 @@
       "width": 20
     },
     {
+      "prefix": "platform-8",
+      "all-vertex-colors": [
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1
+      ],
+      "exclude": {
+        "bottom": true
+      },
+      "height": 2,
+      "length": 20,
+      "translate-x": 70,
+      "translate-y": 1,
+      "translate-z": -195,
+      "width": 20
+    },
+    {
       "prefix": "platform-spawn",
       "all-vertex-colors": [
         0.1, 0.1, 0.1, 1,
@@ -170,6 +188,23 @@
   ],
   "multiplier-jump": 2,
   "multiplier-speed": 4,
+  "paths": {
+    "platform-8-obstacle": {
+      "end": -1,
+      "points": [
+        {
+          "translate-x": 35,
+          "translate-y": 10,
+          "translate-z": -225
+        },
+        {
+          "translate-x": 35,
+          "translate-y": 10,
+          "translate-z": -175
+        }
+      ]
+    }
+  },
   "spawn-rotate-x": 30,
   "spawn-translate-y": 15,
   "entities": [
@@ -177,10 +212,10 @@
       "id": "coin-0",
       "collision": true,
       "item-id": "Coins",
-      "rotate-x": 90,
-      "translate-x": 10,
+      "rotate-z": 90,
+      "translate-x": 75,
       "translate-y": 5,
-      "translate-z": -199,
+      "translate-z": -195,
       "vertex-colors": [
         0.7, 0.7, 0, 1,
         0.7, 0.7, 0, 1,
@@ -215,16 +250,37 @@
       "id": "lava-pillar-0",
       "collide-damage": "1000",
       "collision": true,
+      "rotate-z": 90,
+      "translate-x": -15,
+      "translate-y": 20,
+      "translate-z": -155,
       "vertex-colors": [
         0.2, 0, 0, 1,
         0.2, 0, 0, 1,
         0.2, 0, 0, 1,
         0.2, 0, 0, 1
       ],
+      "vertices": [
+        20, 0, -5, 1,
+        -20, 0, -5, 1,
+        -20, 0, 5, 1,
+        20, 0, 5, 1
+      ]
+    },
+    {
+      "id": "platform-8-obstacle",
+      "collision": true,
+      "path-id": "platform-8-obstacle",
       "rotate-z": 90,
-      "translate-x": -15,
-      "translate-y": 20,
-      "translate-z": -155,
+      "translate-x": 35,
+      "translate-y": 10,
+      "translate-z": -175,
+      "vertex-colors": [
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1
+      ],
       "vertices": [
         20, 0, -5, 1,
         -20, 0, -5, 1,
