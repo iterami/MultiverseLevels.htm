@@ -105,6 +105,51 @@
   "multiplier-speed": 5,
   "multiplier-jump": 3,
   "paths": {
+    "path-moving-x": {
+      "end": -1,
+      "points": [
+        {
+          "translate-x": -30,
+          "translate-z": 60
+        },
+        {
+          "translate-x": -50,
+          "translate-z": 60
+        },
+        {
+          "translate-x": 0,
+          "translate-z": 0
+        }
+      ]
+    },
+    "path-moving-y": {
+      "end": -1,
+      "points": [
+        {
+          "translate-x": -50,
+          "translate-y": -20,
+          "translate-z": 60
+        },
+        {
+          "translate-x": -50,
+          "translate-y": 20,
+          "translate-z": 60
+        }
+      ]
+    },
+    "path-moving-z": {
+      "end": -1,
+      "points": [
+        {
+          "translate-x": -60,
+          "translate-z": 60
+        },
+        {
+          "translate-x": -60,
+          "translate-z": 40
+        }
+      ]
+    },
     "tour-loop": {
       "end": 1,
       "points": [
@@ -366,6 +411,65 @@
         -2, 0, -2, 1,
         -2, 0, 2, 1,
         2, 0, 2, 1
+      ]
+    },
+    {
+      "id": "moving-x",
+      "path-id": "path-moving-x",
+      "rotate-z": 90,
+      "translate-x": -40,
+      "translate-y": -15,
+      "translate-z": 60,
+      "vertex-colors": [
+        1, 0, 0, 1,
+        1, 0, 0, 1,
+        1, 0, 0, 1,
+        1, 0, 0, 1
+      ],
+      "vertices": [
+        10, 0, -10, 1,
+        -10, 0, -10, 1,
+        -10, 0, 10, 1,
+        10, 0, 10, 1
+      ]
+    },
+    {
+      "id": "moving-y",
+      "path-id": "path-moving-y",
+      "translate-x": -50,
+      "translate-y": -20,
+      "translate-z": 60,
+      "vertex-colors": [
+        0, 1, 0, 1,
+        0, 1, 0, 1,
+        0, 1, 0, 1,
+        0, 1, 0, 1
+      ],
+      "vertices": [
+        10, 0, -10, 1,
+        -10, 0, -10, 1,
+        -10, 0, 10, 1,
+        10, 0, 10, 1
+      ]
+    },
+    {
+      "id": "moving-z",
+      "path-id": "path-moving-z",
+      "rotate-x": 90,
+      "translate-x": -60,
+      "translate-y": -15,
+      "translate-z": 60,
+      "vertex-colors": [
+        0, 0, 1, 1,
+        0, 0, 1, 1,
+        0, 0, 1, 1,
+        0, 0, 1, 1
+      ],
+      "vertices": [
+        10, 0, -10, 1,
+        -10, 0, -10, 1,
+        -10, 0, 10, 1,
+        10, 0, 10, 1
       ]
     },
     {
