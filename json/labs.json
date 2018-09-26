@@ -568,7 +568,7 @@
       ]
     },
     {
-      "id": "touring-labs",
+      "id": "touring-labs-loop",
       "path-id": "tour-loop",
       "billboard": [
         "y"
@@ -585,8 +585,8 @@
       ]
     },
     {
-      "id": "touring-labs-attached",
-      "attach-to": "touring-labs",
+      "id": "touring-labs-loop-attached",
+      "attach-to": "touring-labs-loop",
       "attach-offset-y": 10,
       "vertex-colors": [
         0.5, 0.5, 0.5, 1,
@@ -597,6 +597,25 @@
         -2, 0, 0, 1,
         2, 0, 0, 1,
         0, 2, 0, 1
+      ]
+    },
+    {
+      "id": "touring-labs-reservse",
+      "path-end": -1,
+      "path-id": "tour-loop",
+      "path-point": 3,
+      "billboard": [
+        "y"
+      ],
+      "vertex-colors": [
+        1, 1, 1, 1,
+        1, 1, 1, 1,
+        1, 1, 1, 1
+      ],
+      "vertices": [
+        -10, 0, 0, 1,
+        10, 0, 0, 1,
+        0, 10, 0, 1
       ]
     }
   ],
