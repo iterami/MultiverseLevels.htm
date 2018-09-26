@@ -415,6 +415,7 @@
     },
     {
       "id": "moving-x",
+      "collision": true,
       "path-id": "path-moving-x",
       "rotate-z": 90,
       "translate-x": -40,
@@ -435,6 +436,7 @@
     },
     {
       "id": "moving-y",
+      "collision": true,
       "path-id": "path-moving-y",
       "translate-x": -50,
       "translate-y": -20,
@@ -454,6 +456,7 @@
     },
     {
       "id": "moving-z",
+      "collision": true,
       "path-id": "path-moving-z",
       "rotate-x": 90,
       "translate-x": -60,
