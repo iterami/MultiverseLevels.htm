@@ -345,40 +345,6 @@
       ]
     },
     {
-      "id": "flee",
-      "path-active": true,
-      "path-id": "tour-loop",
-      "translate-z": -23,
-      "vertex-colors": [
-        1, 1, 1, 1,
-        1, 1, 1, 1,
-        1, 1, 1, 1
-      ],
-      "vertices": [
-        -10, 0, 0, 1,
-        10, 0, 0, 1,
-        0, 10, 0, 1
-      ]
-    },
-    {
-      "id": "flee-attached",
-      "attach-to": "flee",
-      "attach-offset-y": 10,
-      "billboard": [
-        "y"
-      ],
-      "vertex-colors": [
-        0.5, 0.5, 0.5, 1,
-        0.5, 0.5, 0.5, 1,
-        0.5, 0.5, 0.5, 1
-      ],
-      "vertices": [
-        -2, 0, 0, 1,
-        2, 0, 0, 1,
-        0, 2, 0, 1
-      ]
-    },
-    {
       "id": "item",
       "collision": true,
       "item-id": "techdemo-item",
@@ -492,6 +458,40 @@
         -10, 0, -10, 1,
         -10, 0, 10, 1,
         10, 0, 10, 1
+      ]
+    },
+    {
+      "id": "touring-labs",
+      "path-active": true,
+      "path-id": "tour-loop",
+      "translate-z": -23,
+      "vertex-colors": [
+        1, 1, 1, 1,
+        1, 1, 1, 1,
+        1, 1, 1, 1
+      ],
+      "vertices": [
+        -10, 0, 0, 1,
+        10, 0, 0, 1,
+        0, 10, 0, 1
+      ]
+    },
+    {
+      "id": "touring-labs-attached",
+      "attach-to": "touring-labs",
+      "attach-offset-y": 10,
+      "billboard": [
+        "y"
+      ],
+      "vertex-colors": [
+        0.5, 0.5, 0.5, 1,
+        0.5, 0.5, 0.5, 1,
+        0.5, 0.5, 0.5, 1
+      ],
+      "vertices": [
+        -2, 0, 0, 1,
+        2, 0, 0, 1,
+        0, 2, 0, 1
       ]
     }
   ],
