@@ -464,6 +464,9 @@
       "id": "touring-labs",
       "path-active": true,
       "path-id": "tour-loop",
+      "billboard": [
+        "y"
+      ],
       "vertex-colors": [
         1, 1, 1, 1,
         1, 1, 1, 1,
@@ -479,9 +482,6 @@
       "id": "touring-labs-attached",
       "attach-to": "touring-labs",
       "attach-offset-y": 10,
-      "billboard": [
-        "y"
-      ],
       "vertex-colors": [
         0.5, 0.5, 0.5, 1,
         0.5, 0.5, 0.5, 1,
