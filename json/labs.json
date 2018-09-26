@@ -110,19 +110,19 @@
       "points": [
         {
           "translate-x": 50,
-          "translate-z": 50
+          "translate-z": -50
         },
         {
           "translate-x": 50,
-          "translate-z": -50
-        },
-        {
-          "translate-x": -50,
-          "translate-z": -50
+          "translate-z": 50
         },
         {
           "translate-x": -50,
           "translate-z": 50
+        },
+        {
+          "translate-x": -50,
+          "translate-z": -50
         }
       ]
     }
@@ -464,7 +464,6 @@
       "id": "touring-labs",
       "path-active": true,
       "path-id": "tour-loop",
-      "translate-z": -23,
       "vertex-colors": [
         1, 1, 1, 1,
         1, 1, 1, 1,
