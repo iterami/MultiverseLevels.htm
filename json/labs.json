@@ -462,7 +462,6 @@
     },
     {
       "id": "touring-labs",
-      "path-active": true,
       "path-id": "tour-loop",
       "billboard": [
         "y"
