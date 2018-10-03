@@ -128,14 +128,10 @@
     {
       "type": "webgl_cuboid_tree",
       "properties": {
-        "prefix": "platform-5",
-        "all-collision": false,
-        "height": 10,
-        "length": 15,
+        "prefix": "platform-5-tree",
         "translate-x": -25,
         "translate-y": 50,
-        "translate-z": -175,
-        "width": 15
+        "translate-z": -175
       }
     },
     {
