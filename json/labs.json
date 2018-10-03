@@ -114,6 +114,8 @@
       "type": "webgl_cuboid_tree",
       "properties": {
         "prefix": "tree-cuboid",
+        "collision-leaves": true,
+        "collision-trunk": true,
         "translate-x": 85,
         "translate-y": -25,
         "translate-z": 20
