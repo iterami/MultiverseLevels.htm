@@ -1,52 +1,61 @@
 {
-  "cuboids": [
+  "prefabs": [
     {
-      "prefix": "train-0",
-      "all-collision": false,
-      "all-vertex-colors": [
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "height": 25,
-      "length": 70,
-      "translate-x": -55,
-      "translate-y": 10,
-      "translate-z": 36,
-      "width": 17
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "train-0",
+        "all-collision": false,
+        "all-vertex-colors": [
+          0.08, 0.08, 0.08, 1,
+          0.08, 0.08, 0.08, 1,
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1
+        ],
+        "height": 25,
+        "length": 70,
+        "translate-x": -55,
+        "translate-y": 10,
+        "translate-z": 36,
+        "width": 17
+      }
     },
     {
-      "prefix": "train-1",
-      "all-collision": false,
-      "all-vertex-colors": [
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "height": 25,
-      "length": 70,
-      "translate-x": -55,
-      "translate-y": 10,
-      "translate-z": -36,
-      "width": 17
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "train-1",
+        "all-collision": false,
+        "all-vertex-colors": [
+          0.08, 0.08, 0.08, 1,
+          0.08, 0.08, 0.08, 1,
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1
+        ],
+        "height": 25,
+        "length": 70,
+        "translate-x": -55,
+        "translate-y": 10,
+        "translate-z": -36,
+        "width": 17
+      }
     },
     {
-      "prefix": "train-2",
-      "all-collision": false,
-      "all-vertex-colors": [
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "height": 25,
-      "length": 70,
-      "translate-x": -55,
-      "translate-y": 10,
-      "translate-z": -108,
-      "width": 17
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "train-2",
+        "all-collision": false,
+        "all-vertex-colors": [
+          0.08, 0.08, 0.08, 1,
+          0.08, 0.08, 0.08, 1,
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1
+        ],
+        "height": 25,
+        "length": 70,
+        "translate-x": -55,
+        "translate-y": 10,
+        "translate-z": -108,
+        "width": 17
+      }
     }
   ],
   "spawn-translate-y": 3,

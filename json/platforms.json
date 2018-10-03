@@ -1,189 +1,221 @@
 {
-  "cuboids": [
+  "prefabs": [
     {
-      "prefix": "platform-0",
-      "all-vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "height": 2,
-      "length": 10,
-      "translate-x": -20,
-      "translate-y": 15,
-      "translate-z": -55,
-      "width": 10
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "platform-0",
+        "all-vertex-colors": [
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1
+        ],
+        "height": 2,
+        "length": 10,
+        "translate-x": -20,
+        "translate-y": 15,
+        "translate-z": -55,
+        "width": 10
+      }
     },
     {
-      "prefix": "platform-1",
-      "all-vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "exclude": {
-        "bottom": true
-      },
-      "height": 20,
-      "length": 20,
-      "translate-x": 25,
-      "translate-y": 10,
-      "translate-z": -100,
-      "width": 25
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "platform-1",
+        "all-vertex-colors": [
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1
+        ],
+        "exclude": {
+          "bottom": true
+        },
+        "height": 20,
+        "length": 20,
+        "translate-x": 25,
+        "translate-y": 10,
+        "translate-z": -100,
+        "width": 25
+      }
     },
     {
-      "prefix": "platform-2",
-      "all-vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "exclude": {
-        "bottom": true
-      },
-      "height": 2,
-      "length": 20,
-      "translate-x": -40,
-      "translate-y": 1,
-      "translate-z": -142,
-      "width": 20
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "platform-2",
+        "all-vertex-colors": [
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1
+        ],
+        "exclude": {
+          "bottom": true
+        },
+        "height": 2,
+        "length": 20,
+        "translate-x": -40,
+        "translate-y": 1,
+        "translate-z": -142,
+        "width": 20
+      }
     },
     {
-      "prefix": "platform-3",
-      "all-vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "exclude": {
-        "bottom": true
-      },
-      "height": 2,
-      "length": 40,
-      "translate-x": 10,
-      "translate-y": 1,
-      "translate-z": -185,
-      "width": 15
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "platform-3",
+        "all-vertex-colors": [
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1
+        ],
+        "exclude": {
+          "bottom": true
+        },
+        "height": 2,
+        "length": 40,
+        "translate-x": 10,
+        "translate-y": 1,
+        "translate-z": -185,
+        "width": 15
+      }
     },
     {
-      "prefix": "platform-4",
-      "all-vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "exclude": {
-        "back": true,
-        "bottom": true,
-        "front": true
-      },
-      "height": 2,
-      "length": 75,
-      "translate-x": 15,
-      "translate-y": 1,
-      "translate-z": -52.5,
-      "width": 5
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "platform-4",
+        "all-vertex-colors": [
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1
+        ],
+        "exclude": {
+          "back": true,
+          "bottom": true,
+          "front": true
+        },
+        "height": 2,
+        "length": 75,
+        "translate-x": 15,
+        "translate-y": 1,
+        "translate-z": -52.5,
+        "width": 5
+      }
     },
     {
-      "prefix": "platform-5",
-      "all-vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "exclude": {
-        "bottom": true
-      },
-      "height": 50,
-      "length": 25,
-      "translate-x": -20,
-      "translate-y": 25,
-      "translate-z": -180,
-      "width": 25
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "platform-5",
+        "all-vertex-colors": [
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1
+        ],
+        "exclude": {
+          "bottom": true
+        },
+        "height": 50,
+        "length": 25,
+        "translate-x": -20,
+        "translate-y": 25,
+        "translate-z": -180,
+        "width": 25
+      }
     },
     {
-      "prefix": "platform-5-tree",
-      "all-collision": false,
-      "height": 10,
-      "length": 15,
-      "translate-x": -25,
-      "translate-y": 50,
-      "translate-z": -175,
-      "tree": true,
-      "width": 15
+      "type": "webgl_cuboid_tree",
+      "properties": {
+        "prefix": "platform-5",
+        "all-collision": false,
+        "height": 10,
+        "length": 15,
+        "translate-x": -25,
+        "translate-y": 50,
+        "translate-z": -175,
+        "width": 15
+      }
     },
     {
-      "prefix": "platform-6",
-      "all-vertex-colors": [
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1
-      ],
-      "height": 20,
-      "length": 19,
-      "translate-x": 5,
-      "translate-y": 30,
-      "translate-z": -150,
-      "width": 39
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "platform-6",
+        "all-vertex-colors": [
+          0.08, 0.08, 0.08, 1,
+          0.08, 0.08, 0.08, 1,
+          0.08, 0.08, 0.08, 1,
+          0.08, 0.08, 0.08, 1
+        ],
+        "height": 20,
+        "length": 19,
+        "translate-x": 5,
+        "translate-y": 30,
+        "translate-z": -150,
+        "width": 39
+      }
     },
     {
-      "prefix": "platform-7",
-      "all-vertex-colors": [
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1
-      ],
-      "exclude": {
-        "bottom": true
-      },
-      "height": 10,
-      "length": 20,
-      "translate-x": -85,
-      "translate-y": 5,
-      "translate-z": -25,
-      "width": 20
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "platform-7",
+        "all-vertex-colors": [
+          0.08, 0.08, 0.08, 1,
+          0.08, 0.08, 0.08, 1,
+          0.08, 0.08, 0.08, 1,
+          0.08, 0.08, 0.08, 1
+        ],
+        "exclude": {
+          "bottom": true
+        },
+        "height": 10,
+        "length": 20,
+        "translate-x": -85,
+        "translate-y": 5,
+        "translate-z": -25,
+        "width": 20
+      }
     },
     {
-      "prefix": "platform-8",
-      "all-vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "exclude": {
-        "bottom": true
-      },
-      "height": 2,
-      "length": 20,
-      "translate-x": 70,
-      "translate-y": 1,
-      "translate-z": -195,
-      "width": 20
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "platform-8",
+        "all-vertex-colors": [
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1
+        ],
+        "exclude": {
+          "bottom": true
+        },
+        "height": 2,
+        "length": 20,
+        "translate-x": 70,
+        "translate-y": 1,
+        "translate-z": -195,
+        "width": 20
+      }
     },
     {
-      "prefix": "platform-spawn",
-      "all-vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "exclude": {
-        "bottom": true
-      },
-      "height": 10,
-      "length": 30,
-      "translate-y": 5,
-      "width": 35
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "platform-spawn",
+        "all-vertex-colors": [
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1
+        ],
+        "exclude": {
+          "bottom": true
+        },
+        "height": 10,
+        "length": 30,
+        "translate-y": 5,
+        "width": 35
+      }
     }
   ],
   "multiplier-jump": 2,
