@@ -131,7 +131,13 @@
         "prefix": "platform-5-tree",
         "translate-x": -25,
         "translate-y": 50,
-        "translate-z": -175
+        "translate-z": -175,
+        "vertex-colors-leaves": [
+          0.666, 0, 0, 1,
+          0.666, 0, 0, 1,
+          0.666, 0, 0, 1,
+          0.666, 0, 0, 1
+        ]
       }
     },
     {
