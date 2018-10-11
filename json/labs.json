@@ -152,16 +152,14 @@
       "end": -1,
       "points": [
         {
-          "translate-x": -30,
-          "translate-z": 60
-        },
-        {
-          "translate-x": -50,
+          "translate-x": -60,
+          "translate-y": -15,
           "translate-z": 60
         },
         {
           "translate-x": 0,
-          "translate-z": 0
+          "translate-y": -15,
+          "translate-z": 60
         }
       ]
     },
@@ -170,12 +168,12 @@
       "points": [
         {
           "translate-x": -50,
-          "translate-y": -20,
+          "translate-y": 25,
           "translate-z": 60
         },
         {
           "translate-x": -50,
-          "translate-y": 20,
+          "translate-y": -25,
           "translate-z": 60
         }
       ]
@@ -185,11 +183,13 @@
       "points": [
         {
           "translate-x": -60,
+          "translate-y": -15,
           "translate-z": 60
         },
         {
           "translate-x": -60,
-          "translate-z": 40
+          "translate-y": -15,
+          "translate-z": 0
         }
       ]
     },
@@ -461,9 +461,7 @@
       "collision": true,
       "path-id": "path-moving-x",
       "rotate-z": 90,
-      "translate-x": -40,
       "translate-y": -15,
-      "translate-z": 60,
       "vertex-colors": [
         1, 0, 0, 1,
         1, 0, 0, 1,
@@ -481,9 +479,6 @@
       "id": "moving-y",
       "collision": true,
       "path-id": "path-moving-y",
-      "translate-x": -50,
-      "translate-y": -20,
-      "translate-z": 60,
       "vertex-colors": [
         0, 1, 0, 1,
         0, 1, 0, 1,
@@ -502,9 +497,7 @@
       "collision": true,
       "path-id": "path-moving-z",
       "rotate-x": 90,
-      "translate-x": -60,
       "translate-y": -15,
-      "translate-z": 60,
       "vertex-colors": [
         0, 0, 1, 1,
         0, 0, 1, 1,
