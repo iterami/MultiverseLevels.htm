@@ -117,12 +117,6 @@
         "all-collision": false,
         "height": -5,
         "length": -5,
-        "bottom-vertex-colors": [
-          0.1, 0.1, 0.1, 1,
-          0.1, 0.1, 0.1, 1,
-          0.1, 0.1, 0.1, 1,
-          0.1, 0.1, 0.1, 1
-        ],
         "width": -5,
         "groups": [
           "skybox"
