@@ -212,6 +212,24 @@
         "translate-y": 5,
         "width": 35
       }
+    },
+    {
+      "type": "webgl_skybox",
+      "properties": {
+        "prefix": "skybox",
+        "bottom-color-bottom": [
+          0, 0, 0, 1
+        ],
+        "bottom-color-top": [
+          0.2, 0, 0, 1
+        ],
+        "top-color-bottom": [
+          0.2, 0, 0, 1
+        ],
+        "top-color-top": [
+          0, 0, 0, 1
+        ]
+      }
     }
   ],
   "multiplier-jump": 2,

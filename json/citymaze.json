@@ -1,6 +1,26 @@
 {
   "fog-state": true,
   "multiplier-speed": 2,
+  "prefabs": [
+    {
+      "type": "webgl_skybox",
+      "properties": {
+        "prefix": "skybox",
+        "bottom-color-bottom": [
+          0, 0, 0, 1
+        ],
+        "bottom-color-top": [
+          0, 0, 0.1, 1
+        ],
+        "top-color-bottom": [
+          0, 0, 0.1, 1
+        ],
+        "top-color-top": [
+          0, 0, 0, 1
+        ]
+      }
+    }
+  ],
   "spawn-translate-y": 3,
   "entities": [
     {
