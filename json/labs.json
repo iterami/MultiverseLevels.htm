@@ -111,6 +111,25 @@
       }
     },
     {
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "skybox",
+        "all-collision": false,
+        "height": -5,
+        "length": -5,
+        "bottom-vertex-colors": [
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1,
+          0.1, 0.1, 0.1, 1
+        ],
+        "width": -5,
+        "groups": [
+          "skybox"
+        ]
+      }
+    },
+    {
       "type": "webgl_cuboid_tree",
       "properties": {
         "prefix": "tree-cuboid",
@@ -503,21 +522,6 @@
         -10, 0, -10, 1,
         -10, 0, 10, 1,
         10, 0, 10, 1
-      ]
-    },
-    {
-      "id": "skybox",
-      "attach-offset-y": 5,
-      "collides": false,
-      "rotate-x": 180,
-      "vertices": [
-        10, 0, -10, 1,
-        -10, 0, -10, 1,
-        -10, 0, 10, 1,
-        10, 0, 10, 1
-      ],
-      "groups": [
-        "skybox"
       ]
     },
     {
