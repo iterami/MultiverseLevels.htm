@@ -245,13 +245,9 @@
       "end": -1,
       "points": [
         {
-          "translate-x": 35,
-          "translate-y": 10,
           "translate-z": -225
         },
         {
-          "translate-x": 35,
-          "translate-y": 10,
           "translate-z": -175
         }
       ]
