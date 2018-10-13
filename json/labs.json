@@ -469,8 +469,8 @@
       "id": "moving-y",
       "collision": true,
       "path-id": "path-moving-y",
-      "translate-x": -90,
-      "translate-z": 90,
+      "translate-x": -70,
+      "translate-z": 70,
       "vertex-colors": [
         0, 1, 0, 1,
         0, 1, 0, 1,
@@ -589,6 +589,46 @@
         0, 1, 0, 1,
         0, 1, 0, 1,
         0, 1, 0, 1
+      ],
+      "vertices": [
+        10, 0, -10, 1,
+        -10, 0, -10, 1,
+        -10, 0, 10, 1,
+        10, 0, 10, 1
+      ]
+    },
+    {
+      "id": "thin-x",
+      "collision": true,
+      "rotate-z": 270,
+      "translate-x": -60,
+      "translate-y": -15,
+      "translate-z": 60,
+      "vertex-colors": [
+        1, 0, 0, 1,
+        1, 0, 0, 1,
+        1, 0, 0, 1,
+        1, 0, 0, 1
+      ],
+      "vertices": [
+        10, 0, -10, 1,
+        -10, 0, -10, 1,
+        -10, 0, 10, 1,
+        10, 0, 10, 1
+      ]
+    },
+    {
+      "id": "thin-z",
+      "collision": true,
+      "rotate-x": 270,
+      "translate-x": -60,
+      "translate-y": -15,
+      "translate-z": 60,
+      "vertex-colors": [
+        0, 0, 1, 1,
+        0, 0, 1, 1,
+        0, 0, 1, 1,
+        0, 0, 1, 1
       ],
       "vertices": [
         10, 0, -10, 1,
