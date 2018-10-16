@@ -9,4 +9,5 @@ window.multiverselevels = {
   'labs': 'Labs',
   'platforms': 'Platforms',
   'subway': 'Subway Station',
+  'sunset': 'Sunset',
 };
