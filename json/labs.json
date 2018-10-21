@@ -115,9 +115,9 @@
       "properties": {
         "prefix": "skybox",
         "all-collision": false,
-        "height": -5,
-        "length": -5,
-        "width": -5,
+        "height": -99,
+        "length": -99,
+        "width": -99,
         "groups": [
           "skybox"
         ]
