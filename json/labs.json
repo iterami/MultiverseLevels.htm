@@ -559,7 +559,7 @@
     },
     {
       "id": "textures-debug-fff",
-      "texture": "_texture-debug",
+      "texture": "debug.png",
       "rotate-x": 90,
       "translate-x": 10,
       "translate-y": 10,
@@ -579,7 +579,7 @@
     },
     {
       "id": "textures-debug-0f0",
-      "texture": "_texture-debug",
+      "texture": "debug.png",
       "rotate-x": 90,
       "translate-x": -10,
       "translate-y": 10,
