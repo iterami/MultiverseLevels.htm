@@ -522,7 +522,8 @@
     {
       "id": "textures-0f0-debug",
       "rotate-x": 90,
-      "texture": "debug.png",
+      "texture-id": "debug.png",
+      "texture-repeat": 2,
       "translate-x": -10,
       "translate-y": 10,
       "translate-z": -99.9,
@@ -561,7 +562,8 @@
     {
       "id": "textures-fff-debug",
       "rotate-x": 90,
-      "texture": "debug.png",
+      "texture-id": "debug.png",
+      "texture-repeat": 2,
       "translate-x": 10,
       "translate-y": 10,
       "translate-z": -99.9,
