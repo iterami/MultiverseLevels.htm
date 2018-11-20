@@ -520,16 +520,17 @@
       ]
     },
     {
-      "id": "textures-blank-fff",
+      "id": "textures-0f0-debug",
       "rotate-x": 90,
-      "translate-x": 10,
-      "translate-y": -10,
+      "texture": "debug.png",
+      "translate-x": -10,
+      "translate-y": 10,
       "translate-z": -99.9,
       "vertex-colors": [
-        1, 1, 1, 1,
-        1, 1, 1, 1,
-        1, 1, 1, 1,
-        1, 1, 1, 1
+        0, 1, 0, 1,
+        0, 1, 0, 1,
+        0, 1, 0, 1,
+        0, 1, 0, 1
       ],
       "vertices": [
         10, 0, -10, 1,
@@ -539,7 +540,7 @@
       ]
     },
     {
-      "id": "textures-blank-0f0",
+      "id": "textures-0f0-default",
       "rotate-x": 90,
       "translate-x": -10,
       "translate-y": -10,
@@ -558,9 +559,9 @@
       ]
     },
     {
-      "id": "textures-debug-fff",
-      "texture": "debug.png",
+      "id": "textures-fff-debug",
       "rotate-x": 90,
+      "texture": "debug.png",
       "translate-x": 10,
       "translate-y": 10,
       "translate-z": -99.9,
@@ -578,17 +579,16 @@
       ]
     },
     {
-      "id": "textures-debug-0f0",
-      "texture": "debug.png",
+      "id": "textures-fff-default",
       "rotate-x": 90,
-      "translate-x": -10,
-      "translate-y": 10,
+      "translate-x": 10,
+      "translate-y": -10,
       "translate-z": -99.9,
       "vertex-colors": [
-        0, 1, 0, 1,
-        0, 1, 0, 1,
-        0, 1, 0, 1,
-        0, 1, 0, 1
+        1, 1, 1, 1,
+        1, 1, 1, 1,
+        1, 1, 1, 1,
+        1, 1, 1, 1
       ],
       "vertices": [
         10, 0, -10, 1,
