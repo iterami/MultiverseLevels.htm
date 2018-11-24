@@ -282,11 +282,13 @@
       "id": "lava",
       "collide-damage": "1000",
       "collision": true,
+      "texture-id": "lava.png",
+      "texture-repeat": 50,
       "vertex-colors": [
-        0.2, 0, 0, 1,
-        0.2, 0, 0, 1,
-        0.2, 0, 0, 1,
-        0.2, 0, 0, 1
+        1, 1, 1, 1,
+        1, 1, 1, 1,
+        1, 1, 1, 1,
+        1, 1, 1, 1
       ],
       "vertices": [
         500, 0, -500, 1,
