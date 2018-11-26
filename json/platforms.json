@@ -302,14 +302,15 @@
       "collide-damage": "1000",
       "collision": true,
       "rotate-z": 90,
+      "texture-id": "lava.png",
       "translate-x": -15,
       "translate-y": 20,
       "translate-z": -155,
       "vertex-colors": [
-        0.2, 0, 0, 1,
-        0.2, 0, 0, 1,
-        0.2, 0, 0, 1,
-        0.2, 0, 0, 1
+        0.5, 0.5, 0.5, 1,
+        0.5, 0.5, 0.5, 1,
+        0.5, 0.5, 0.5, 1,
+        0.5, 0.5, 0.5, 1
       ],
       "vertices": [
         20, 0, -5, 1,
