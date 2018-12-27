@@ -1,6 +1,5 @@
 {
   "spawn-rotate-x": 45,
-  "spawn-translate-y": 3,
   "characters": [
     {
       "id": "_me",
@@ -110,6 +109,7 @@
       "id": "base",
       "collide-damage": -1,
       "collision": true,
+      "translate-y": -5,
       "vertex-colors": [
         0, 0.1, 0, 1,
         0, 0.1, 0, 1,
