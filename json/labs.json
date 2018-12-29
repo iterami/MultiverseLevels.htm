@@ -72,7 +72,7 @@
           0.7, 0.5, 0.1, 1,
           0.7, 0.5, 0.1, 1
         ],
-        "translate-x": -290,
+        "translate-x": -270,
         "translate-y": 42,
         "translate-z": -25,
         "width": -160
@@ -403,7 +403,7 @@
     {
       "id": "citymaze-base",
       "collision": true,
-      "translate-x": 200,
+      "translate-x": 160,
       "vertex-colors": [
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1,
@@ -420,7 +420,7 @@
     {
       "id": "citymaze-grate-0",
       "collision": true,
-      "translate-x": 143,
+      "translate-x": 103,
       "translate-z": -50,
       "vertex-colors": [
         0.2, 0.2, 0.2, 1,
@@ -438,7 +438,7 @@
     {
       "id": "citymaze-grate-1",
       "collision": true,
-      "translate-x": 150.5,
+      "translate-x": 110.5,
       "translate-z": -57,
       "vertex-colors": [
         0.2, 0.2, 0.2, 1,
@@ -456,7 +456,7 @@
     {
       "id": "citymaze-grate-2",
       "collision": true,
-      "translate-x": 150.5,
+      "translate-x": 110.5,
       "translate-z": -43,
       "vertex-colors": [
         0.2, 0.2, 0.2, 1,
@@ -475,7 +475,7 @@
       "id": "citymaze-grate-entrance-0",
       "collision": true,
       "rotate-z": 270,
-      "translate-x": 146,
+      "translate-x": 106,
       "translate-y": -10,
       "translate-z": -50,
       "vertex-colors": [
@@ -495,7 +495,7 @@
       "id": "citymaze-grate-entrance-1",
       "collision": true,
       "rotate-z": 90,
-      "translate-x": 155,
+      "translate-x": 115,
       "translate-y": -10,
       "translate-z": -50,
       "vertex-colors": [
@@ -515,7 +515,7 @@
       "id": "citymaze-grate-entrance-2",
       "collision": true,
       "rotate-x": 90,
-      "translate-x": 150,
+      "translate-x": 110,
       "translate-y": -10,
       "translate-z": -54,
       "vertex-colors": [
@@ -535,7 +535,7 @@
       "id": "citymaze-grate-entrance-3",
       "collision": true,
       "rotate-x": 270,
-      "translate-x": 150,
+      "translate-x": 110,
       "translate-y": -10,
       "translate-z": -46,
       "vertex-colors": [
@@ -554,8 +554,8 @@
     {
       "id": "citymaze-sewer-floor-0",
       "collision": true,
-      "translate-x": 150,
-      "translate-y": -50,
+      "translate-x": 110,
+      "translate-y": -60,
       "translate-z": -50,
       "vertex-colors": [
         0.1, 0.1, 0.1, 1,
@@ -574,8 +574,8 @@
       "id": "citymaze-sewer-wall-0",
       "collision": true,
       "rotate-z": 90,
-      "translate-x": 165,
-      "translate-y": -35,
+      "translate-x": 125,
+      "translate-y": -45,
       "translate-z": -50,
       "vertex-colors": [
         0.08, 0.08, 0.08, 1,
@@ -594,8 +594,8 @@
       "id": "citymaze-sewer-wall-1",
       "collision": true,
       "rotate-z": 270,
-      "translate-x": 135,
-      "translate-y": -35,
+      "translate-x": 95,
+      "translate-y": -45,
       "translate-z": -50,
       "vertex-colors": [
         0.08, 0.08, 0.08, 1,
@@ -614,8 +614,8 @@
       "id": "citymaze-sewer-wall-2",
       "collision": true,
       "rotate-x": 90,
-      "translate-x": 150,
-      "translate-y": -30,
+      "translate-x": 110,
+      "translate-y": -40,
       "translate-z": -65,
       "vertex-colors": [
         0.08, 0.08, 0.08, 1,
@@ -634,8 +634,8 @@
       "id": "citymaze-sewer-wall-4",
       "collision": true,
       "rotate-x": 270,
-      "translate-x": 150,
-      "translate-y": -30,
+      "translate-x": 110,
+      "translate-y": -40,
       "translate-z": -35,
       "vertex-colors": [
         0.08, 0.08, 0.08, 1,
@@ -653,7 +653,7 @@
     {
       "id": "citymaze-sidewalk-base",
       "collision": true,
-      "translate-x": 200,
+      "translate-x": 160,
       "translate-z": -50,
       "vertex-colors": [
         0.2, 0.2, 0.2, 1,
@@ -670,7 +670,7 @@
     },
     {
       "id": "citymaze-tower-0-base",
-      "translate-x": 170,
+      "translate-x": 130,
       "translate-y": 0.01,
       "translate-z": 20,
       "vertex-colors": [
@@ -689,7 +689,7 @@
     {
       "id": "citymaze-tower-0-floor0-ceiling",
       "rotate-x": 180,
-      "translate-x": 157.5,
+      "translate-x": 117.5,
       "translate-y": 17,
       "translate-z": 30,
       "vertex-colors": [
@@ -709,7 +709,7 @@
       "id": "citymaze-tower-0-wall-inner-0",
       "collision": true,
       "rotate-z": 270,
-      "translate-x": 140,
+      "translate-x": 100,
       "translate-y": 25,
       "translate-z": 30,
       "vertex-colors": [
@@ -729,7 +729,7 @@
       "id": "citymaze-tower-0-wall-inner-1",
       "collision": true,
       "rotate-x": 270,
-      "translate-x": 160,
+      "translate-x": 120,
       "translate-y": 25,
       "translate-z": 60,
       "vertex-colors": [
@@ -749,7 +749,7 @@
       "id": "citymaze-tower-0-wall-inner-2",
       "collision": true,
       "rotate-x": 90,
-      "translate-x": 160,
+      "translate-x": 120,
       "translate-y": 25,
       "vertex-colors": [
         0.1, 0.1, 0.1, 1,
@@ -768,7 +768,7 @@
       "id": "citymaze-tower-0-wall-inner-3",
       "collision": true,
       "rotate-z": 90,
-      "translate-x": 175,
+      "translate-x": 135,
       "translate-y": 28,
       "translate-z": 30,
       "vertex-colors": [
@@ -788,7 +788,7 @@
       "id": "citymaze-tower-0-wall-inner-4",
       "collision": true,
       "rotate-z": 90,
-      "translate-x": 175,
+      "translate-x": 135,
       "translate-y": 3,
       "translate-z": 10,
       "vertex-colors": [
@@ -808,7 +808,7 @@
       "id": "citymaze-tower-0-wall-inner-5",
       "collision": true,
       "rotate-z": 90,
-      "translate-x": 175,
+      "translate-x": 135,
       "translate-y": 3,
       "translate-z": 45,
       "vertex-colors": [
@@ -828,7 +828,7 @@
       "id": "citymaze-tower-0-wall-outer-0",
       "collision": true,
       "rotate-z": 270,
-      "translate-x": 175,
+      "translate-x": 135,
       "translate-y": 28,
       "translate-z": 30,
       "vertex-colors": [
@@ -848,7 +848,7 @@
       "id": "citymaze-tower-0-wall-outer-1",
       "collision": true,
       "rotate-z": 270,
-      "translate-x": 175,
+      "translate-x": 135,
       "translate-y": 3,
       "translate-z": 45,
       "vertex-colors": [
@@ -868,7 +868,7 @@
       "id": "citymaze-tower-0-wall-outer-2",
       "collision": true,
       "rotate-z": 270,
-      "translate-x": 175,
+      "translate-x": 135,
       "translate-y": 3,
       "translate-z": 10,
       "vertex-colors": [
@@ -888,7 +888,7 @@
       "id": "citymaze-tower-0-wall-outer-3",
       "collision": true,
       "rotate-x": 270,
-      "translate-x": 160,
+      "translate-x": 120,
       "translate-y": 25,
       "vertex-colors": [
         0.15, 0.15, 0.15, 1,
@@ -906,7 +906,7 @@
     {
       "id": "citymaze-tower-bridge-0",
       "rotate-x": 180,
-      "translate-x": 200,
+      "translate-x": 160,
       "translate-y": 22,
       "translate-z": 20,
       "vertex-colors": [
@@ -925,7 +925,7 @@
     {
       "id": "citymaze-tower-bridge-1",
       "rotate-x": 270,
-      "translate-x": 200,
+      "translate-x": 160,
       "translate-y": 27,
       "translate-z": 15,
       "vertex-colors": [
@@ -944,7 +944,7 @@
     {
       "id": "citymaze-tower-bridge-2",
       "rotate-x": 90,
-      "translate-x": 200,
+      "translate-x": 160,
       "translate-y": 27,
       "translate-z": 25,
       "vertex-colors": [
@@ -962,7 +962,7 @@
     },
     {
       "id": "citymaze-tower-1-base",
-      "translate-x": 230,
+      "translate-x": 190,
       "translate-y": 0.01,
       "translate-z": 20,
       "vertex-colors": [
@@ -981,7 +981,7 @@
     {
       "id": "citymaze-tower-1-floor0-ceiling",
       "rotate-x": 180,
-      "translate-x": 242.5,
+      "translate-x": 202.5,
       "translate-y": 17,
       "translate-z": 20,
       "vertex-colors": [
@@ -1001,7 +1001,7 @@
       "id": "citymaze-tower-1-wall-inner-0",
       "collision": true,
       "rotate-z": 90,
-      "translate-x": 260,
+      "translate-x": 220,
       "translate-y": 25,
       "translate-z": 20,
       "vertex-colors": [
@@ -1021,7 +1021,7 @@
       "id": "citymaze-tower-1-wall-inner-1",
       "collision": true,
       "rotate-x": 270,
-      "translate-x": 240,
+      "translate-x": 200,
       "translate-y": 25,
       "translate-z": 40,
       "vertex-colors": [
@@ -1041,7 +1041,7 @@
       "id": "citymaze-tower-1-wall-inner-2",
       "collision": true,
       "rotate-x": 90,
-      "translate-x": 240,
+      "translate-x": 200,
       "translate-y": 25,
       "vertex-colors": [
         0.1, 0.1, 0.1, 1,
@@ -1060,7 +1060,7 @@
       "id": "citymaze-tower-1-wall-inner-3",
       "collision": true,
       "rotate-z": 270,
-      "translate-x": 225,
+      "translate-x": 185,
       "translate-y": 28,
       "translate-z": 20,
       "vertex-colors": [
@@ -1080,7 +1080,7 @@
       "id": "citymaze-tower-1-wall-inner-4",
       "collision": true,
       "rotate-z": 270,
-      "translate-x": 225,
+      "translate-x": 185,
       "translate-y": 3,
       "translate-z": 10,
       "vertex-colors": [
@@ -1100,7 +1100,7 @@
       "id": "citymaze-tower-1-wall-inner-5",
       "collision": true,
       "rotate-z": 270,
-      "translate-x": 225,
+      "translate-x": 185,
       "translate-y": 3,
       "translate-z": 35,
       "vertex-colors": [
@@ -1120,7 +1120,7 @@
       "id": "citymaze-tower-1-wall-outer-0",
       "collision": true,
       "rotate-x": 90,
-      "translate-x": 240,
+      "translate-x": 200,
       "translate-y": 25,
       "translate-z": 40,
       "vertex-colors": [
@@ -1140,7 +1140,7 @@
       "id": "citymaze-tower-1-wall-outer-1",
       "collision": true,
       "rotate-z": 90,
-      "translate-x": 225,
+      "translate-x": 185,
       "translate-y": 28,
       "translate-z": 20,
       "vertex-colors": [
@@ -1160,7 +1160,7 @@
       "id": "citymaze-tower-1-wall-outer-2",
       "collision": true,
       "rotate-z": 90,
-      "translate-x": 225,
+      "translate-x": 185,
       "translate-y": 3,
       "translate-z": 10,
       "vertex-colors": [
@@ -1180,7 +1180,7 @@
       "id": "citymaze-tower-1-wall-outer-3",
       "collision": true,
       "rotate-z": 90,
-      "translate-x": 225,
+      "translate-x": 185,
       "translate-y": 3,
       "translate-z": 35,
       "vertex-colors": [
@@ -1200,7 +1200,7 @@
       "id": "citymaze-tower-1-wall-outer-4",
       "collision": true,
       "rotate-x": 270,
-      "translate-x": 240,
+      "translate-x": 200,
       "translate-y": 25,
       "vertex-colors": [
         0.15, 0.15, 0.15, 1,
@@ -1219,7 +1219,7 @@
       "id": "citymaze-wall-0",
       "collision": true,
       "rotate-x": 90,
-      "translate-x": 200,
+      "translate-x": 160,
       "translate-y": 5,
       "translate-z": -60,
       "vertex-colors": [
@@ -1239,7 +1239,7 @@
       "id": "citymaze-wall-1",
       "collision": true,
       "rotate-z": 90,
-      "translate-x": 260,
+      "translate-x": 220,
       "translate-y": 5,
       "translate-z": -30,
       "vertex-colors": [
@@ -1259,7 +1259,7 @@
       "id": "citymaze-wall-2",
       "collision": true,
       "rotate-z": 90,
-      "translate-x": 260,
+      "translate-x": 220,
       "translate-y": 5,
       "translate-z": 50,
       "vertex-colors": [
@@ -1279,7 +1279,7 @@
       "id": "citymaze-wall-3",
       "collision": true,
       "rotate-x": 270,
-      "translate-x": 220,
+      "translate-x": 180,
       "translate-y": 5,
       "translate-z": 60,
       "vertex-colors": [
@@ -1299,7 +1299,7 @@
       "id": "citymaze-wall-4",
       "collision": true,
       "rotate-z": 270,
-      "translate-x": 140,
+      "translate-x": 100,
       "translate-y": 5,
       "translate-z": -30,
       "vertex-colors": [
@@ -1356,7 +1356,7 @@
     },
     {
       "id": "dsm-ground-inside",
-      "translate-x": -300,
+      "translate-x": -280,
       "translate-y": 0.01,
       "translate-z": -40,
       "vertex-colors": [
@@ -1374,7 +1374,7 @@
     },
     {
       "id": "dsm-ground-outside-0",
-      "translate-x": -300,
+      "translate-x": -280,
       "translate-y": 0.01,
       "vertex-colors": [
         0.4, 0.15, 0, 1,
@@ -1391,7 +1391,7 @@
     },
     {
       "id": "dsm-ground-outside-1",
-      "translate-x": -260,
+      "translate-x": -240,
       "translate-y": 0.01,
       "translate-z": -40,
       "vertex-colors": [
@@ -1411,7 +1411,7 @@
       "id": "dsm-sand-0",
       "collision": true,
       "rotate-z": 270,
-      "translate-x": -330,
+      "translate-x": -310,
       "translate-y": 10,
       "vertex-colors": [
         0.5882, 0.4196, 0.0863, 1,
@@ -1430,7 +1430,7 @@
       "id": "dsm-sand-1",
       "collision": true,
       "rotate-x": 90,
-      "translate-x": -260,
+      "translate-x": -240,
       "translate-y": 10,
       "translate-z": -70,
       "vertex-colors": [
@@ -1450,7 +1450,7 @@
       "id": "dsm-wall-back",
       "collision": true,
       "rotate-x": 90,
-      "translate-x": -300,
+      "translate-x": -280,
       "translate-y": 12,
       "translate-z": -64,
       "vertex-colors": [
@@ -1470,7 +1470,7 @@
       "id": "dsm-wall-left",
       "collision": true,
       "rotate-z": 270,
-      "translate-x": -324,
+      "translate-x": -304,
       "translate-y": 10,
       "translate-z": -40,
       "vertex-colors": [
@@ -1490,7 +1490,7 @@
       "id": "dsm-pillar-0-0",
       "collision": true,
       "rotate-x": 270,
-      "translate-x": -280,
+      "translate-x": -260,
       "translate-y": 42,
       "translate-z": -30,
       "vertex-colors": [
@@ -1510,7 +1510,7 @@
       "id": "dsm-pillar-0-1",
       "collision": true,
       "rotate-x": 90,
-      "translate-x": -280,
+      "translate-x": -260,
       "translate-y": 42,
       "translate-z": -10,
       "vertex-colors": [
@@ -1530,7 +1530,7 @@
       "id": "dsm-pillar-0-2",
       "collision": true,
       "rotate-z": 90,
-      "translate-x": -290,
+      "translate-x": -270,
       "translate-y": 42,
       "translate-z": -20,
       "vertex-colors": [
@@ -1550,7 +1550,7 @@
       "id": "dsm-pillar-0-3",
       "collision": true,
       "rotate-z": 270,
-      "translate-x": -270,
+      "translate-x": -250,
       "translate-y": 42,
       "translate-z": -20,
       "vertex-colors": [
@@ -1570,7 +1570,7 @@
       "id": "dsm-pillar-1-0",
       "collision": true,
       "rotate-x": 270,
-      "translate-x": -320,
+      "translate-x": -300,
       "translate-y": 42,
       "translate-z": -30,
       "vertex-colors": [
@@ -1590,7 +1590,7 @@
       "id": "dsm-pillar-1-1",
       "collision": true,
       "rotate-x": 90,
-      "translate-x": -320,
+      "translate-x": -300,
       "translate-y": 42,
       "translate-z": -10,
       "vertex-colors": [
@@ -1610,7 +1610,7 @@
       "id": "dsm-pillar-1-2",
       "collision": true,
       "rotate-z": 270,
-      "translate-x": -310,
+      "translate-x": -290,
       "translate-y": 42,
       "translate-z": -20,
       "vertex-colors": [
@@ -1630,7 +1630,7 @@
       "id": "dsm-pillar-2-0",
       "collision": true,
       "rotate-x": 90,
-      "translate-x": -280,
+      "translate-x": -260,
       "translate-y": 42,
       "translate-z": -50,
       "vertex-colors": [
@@ -1650,7 +1650,7 @@
       "id": "dsm-pillar-2-1",
       "collision": true,
       "rotate-z": 90,
-      "translate-x": -290,
+      "translate-x": -270,
       "translate-y": 42,
       "translate-z": -60,
       "vertex-colors": [
@@ -1670,7 +1670,7 @@
       "id": "dsm-pillar-2-2",
       "collision": true,
       "rotate-z": 270,
-      "translate-x": -270,
+      "translate-x": -250,
       "translate-y": 42,
       "translate-z": -60,
       "vertex-colors": [
@@ -1690,7 +1690,7 @@
       "id": "dsm-pillar-3-0",
       "collision": true,
       "rotate-x": 90,
-      "translate-x": -320,
+      "translate-x": -300,
       "translate-y": 42,
       "translate-z": -50,
       "vertex-colors": [
@@ -1710,7 +1710,7 @@
       "id": "dsm-pillar-3-1",
       "collision": true,
       "rotate-z": 270,
-      "translate-x": -310,
+      "translate-x": -290,
       "translate-y": 42,
       "translate-z": -60,
       "vertex-colors": [
@@ -1729,7 +1729,7 @@
     {
       "id": "dsm-pillar-4-0",
       "rotate-x": 270,
-      "translate-x": -360,
+      "translate-x": -340,
       "translate-y": 42,
       "translate-z": -30,
       "vertex-colors": [
@@ -1748,7 +1748,7 @@
     {
       "id": "dsm-pillar-4-1",
       "rotate-x": 90,
-      "translate-x": -360,
+      "translate-x": -340,
       "translate-y": 42,
       "translate-z": -10,
       "vertex-colors": [
@@ -1767,7 +1767,7 @@
     {
       "id": "dsm-pillar-4-2",
       "rotate-z": 270,
-      "translate-x": -350,
+      "translate-x": -330,
       "translate-y": 42,
       "translate-z": -20,
       "vertex-colors": [
@@ -1786,7 +1786,7 @@
     {
       "id": "dsm-pillar-5-0",
       "rotate-x": 90,
-      "translate-x": -360,
+      "translate-x": -340,
       "translate-y": 42,
       "translate-z": -50,
       "vertex-colors": [
@@ -1805,7 +1805,7 @@
     {
       "id": "dsm-pillar-5-1",
       "rotate-z": 270,
-      "translate-x": -350,
+      "translate-x": -330,
       "translate-y": 42,
       "translate-z": -60,
       "vertex-colors": [
@@ -1824,7 +1824,7 @@
     {
       "id": "dsm-pillar-6-0",
       "rotate-x": 90,
-      "translate-x": -280,
+      "translate-x": -260,
       "translate-y": 42,
       "translate-z": -90,
       "vertex-colors": [
@@ -1843,7 +1843,7 @@
     {
       "id": "dsm-pillar-6-1",
       "rotate-z": 90,
-      "translate-x": -290,
+      "translate-x": -270,
       "translate-y": 42,
       "translate-z": -100,
       "vertex-colors": [
@@ -1862,7 +1862,7 @@
     {
       "id": "dsm-pillar-6-2",
       "rotate-z": 270,
-      "translate-x": -270,
+      "translate-x": -250,
       "translate-y": 42,
       "translate-z": -100,
       "vertex-colors": [
@@ -1881,7 +1881,7 @@
     {
       "id": "dsm-pillar-7-0",
       "rotate-x": 90,
-      "translate-x": -320,
+      "translate-x": -300,
       "translate-y": 42,
       "translate-z": -90,
       "vertex-colors": [
@@ -1900,7 +1900,7 @@
     {
       "id": "dsm-pillar-7-1",
       "rotate-z": 270,
-      "translate-x": -310,
+      "translate-x": -290,
       "translate-y": 42,
       "translate-z": -100,
       "vertex-colors": [
