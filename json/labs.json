@@ -1338,13 +1338,14 @@
       "id": "damage-hurt",
       "collide-damage": 1,
       "collision": true,
+      "texture-id": "lava.png",
       "translate-y": -23,
       "translate-z": -90,
       "vertex-colors": [
-        1, 0, 0, 1,
-        1, 0, 0, 1,
-        1, 0, 0, 1,
-        1, 0, 0, 1
+        1, 1, 1, 1,
+        1, 1, 1, 1,
+        1, 1, 1, 1,
+        1, 1, 1, 1
       ],
       "vertices": [
         10, 0, -10, 1,
@@ -2405,86 +2406,6 @@
       ]
     },
     {
-      "id": "textures-0f0-debug",
-      "rotate-x": 90,
-      "texture-id": "debug.png",
-      "texture-repeat": 2,
-      "translate-x": -10,
-      "translate-y": 10,
-      "translate-z": -99.9,
-      "vertex-colors": [
-        0, 1, 0, 1,
-        0, 1, 0, 1,
-        0, 1, 0, 1,
-        0, 1, 0, 1
-      ],
-      "vertices": [
-        10, 0, -10, 1,
-        -10, 0, -10, 1,
-        -10, 0, 10, 1,
-        10, 0, 10, 1
-      ]
-    },
-    {
-      "id": "textures-0f0-default",
-      "rotate-x": 90,
-      "translate-x": -10,
-      "translate-y": -10,
-      "translate-z": -99.9,
-      "vertex-colors": [
-        0, 1, 0, 1,
-        0, 1, 0, 1,
-        0, 1, 0, 1,
-        0, 1, 0, 1
-      ],
-      "vertices": [
-        10, 0, -10, 1,
-        -10, 0, -10, 1,
-        -10, 0, 10, 1,
-        10, 0, 10, 1
-      ]
-    },
-    {
-      "id": "textures-fff-debug",
-      "rotate-x": 90,
-      "texture-id": "debug.png",
-      "texture-repeat": 2,
-      "translate-x": 10,
-      "translate-y": 10,
-      "translate-z": -99.9,
-      "vertex-colors": [
-        1, 1, 1, 1,
-        1, 1, 1, 1,
-        1, 1, 1, 1,
-        1, 1, 1, 1
-      ],
-      "vertices": [
-        10, 0, -10, 1,
-        -10, 0, -10, 1,
-        -10, 0, 10, 1,
-        10, 0, 10, 1
-      ]
-    },
-    {
-      "id": "textures-fff-default",
-      "rotate-x": 90,
-      "translate-x": 10,
-      "translate-y": -10,
-      "translate-z": -99.9,
-      "vertex-colors": [
-        1, 1, 1, 1,
-        1, 1, 1, 1,
-        1, 1, 1, 1,
-        1, 1, 1, 1
-      ],
-      "vertices": [
-        10, 0, -10, 1,
-        -10, 0, -10, 1,
-        -10, 0, 10, 1,
-        10, 0, 10, 1
-      ]
-    },
-    {
       "id": "thin-x",
       "collision": true,
       "rotate-z": 270,
@@ -2558,23 +2479,23 @@
       ]
     },
     {
-      "id": "touring-labs-reservse",
+      "id": "touring-labs-platform",
+      "collision": true,
       "path-end": -1,
       "path-id": "tour-loop",
       "path-point": 3,
-      "billboard": [
-        "y"
-      ],
-      "translate-y": -25,
+      "translate-y": -20,
       "vertex-colors": [
+        1, 1, 1, 1,
         1, 1, 1, 1,
         1, 1, 1, 1,
         1, 1, 1, 1
       ],
       "vertices": [
-        -10, 0, 0, 1,
-        10, 0, 0, 1,
-        0, 10, 0, 1
+        10, 0, -10, 1,
+        -10, 0, -10, 1,
+        -10, 0, 10, 1,
+        10, 0, 10, 1
       ]
     }
   ],
