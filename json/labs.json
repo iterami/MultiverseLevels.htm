@@ -63,6 +63,24 @@
     {
       "type": "webgl_cuboid",
       "properties": {
+        "prefix": "dsm-skybox",
+        "height": -84,
+        "length": -170,
+        "all-vertex-colors": [
+          0.7, 0.5, 0.1, 1,
+          0.7, 0.5, 0.1, 1,
+          0.7, 0.5, 0.1, 1,
+          0.7, 0.5, 0.1, 1
+        ],
+        "translate-x": -290,
+        "translate-y": 42,
+        "translate-z": -25,
+        "width": -160
+      }
+    },
+    {
+      "type": "webgl_cuboid",
+      "properties": {
         "prefix": "museum",
         "exclude": {
           "bottom": true
@@ -1337,9 +1355,9 @@
     },
     {
       "id": "dsm-ground-inside",
-      "collision": true,
       "translate-x": -300,
-      "translate-z": -20,
+      "translate-y": 0.01,
+      "translate-z": -40,
       "vertex-colors": [
         0.4, 0.15, 0, 1,
         0.4, 0.15, 0, 1,
@@ -1347,16 +1365,16 @@
         0.4, 0.15, 0, 1
       ],
       "vertices": [
-        15, 0, -12, 1,
-        -12, 0, -12, 1,
-        -12, 0, 15, 1,
-        15, 0, 15, 1
+        30, 0, -24, 1,
+        -24, 0, -24, 1,
+        -24, 0, 30, 1,
+        30, 0, 30, 1
       ]
     },
     {
       "id": "dsm-ground-outside-0",
-      "collision": true,
       "translate-x": -300,
+      "translate-y": 0.01,
       "vertex-colors": [
         0.4, 0.15, 0, 1,
         0.4, 0.15, 0, 1,
@@ -1364,17 +1382,17 @@
         0.5882, 0.4196, 0.0863, 1
       ],
       "vertices": [
-        15, 0, -5, 1,
-        -15, 0, -5, 1,
-        -15, 0, 5, 1,
-        25, 0, 5, 1
+        30, 0, -10, 1,
+        -30, 0, -10, 1,
+        -30, 0, 10, 1,
+        50, 0, 10, 1
       ]
     },
     {
       "id": "dsm-ground-outside-1",
-      "collision": true,
-      "translate-x": -280,
-      "translate-z": -20,
+      "translate-x": -260,
+      "translate-y": 0.01,
+      "translate-z": -40,
       "vertex-colors": [
         0.5882, 0.4196, 0.0863, 1,
         0.4, 0.15, 0, 1,
@@ -1382,17 +1400,18 @@
         0.5882, 0.4196, 0.0863, 1
       ],
       "vertices": [
-        5, 0, -15, 1,
-        -5, 0, -15, 1,
-        -5, 0, 15, 1,
-        5, 0, 25, 1
+        10, 0, -30, 1,
+        -10, 0, -30, 1,
+        -10, 0, 30, 1,
+        10, 0, 50, 1
       ]
     },
     {
       "id": "dsm-sand-0",
       "collision": true,
-      "translate-x": -300,
-      "translate-z": 10,
+      "rotate-z": 270,
+      "translate-x": -330,
+      "translate-y": 10,
       "vertex-colors": [
         0.5882, 0.4196, 0.0863, 1,
         0.5882, 0.4196, 0.0863, 1,
@@ -1400,56 +1419,19 @@
         0.7, 0.5, 0.1, 1
       ],
       "vertices": [
-        25, 0, -5, 1,
-        -15, 0, -5, 1,
-        -15, 0, 20, 1,
-        45, 0, 20, 1
+        10, 0, -10, 1,
+        -14, 0, -10, 1,
+        -14, 0, 60, 1,
+        10, 0, 60, 1
       ]
     },
     {
       "id": "dsm-sand-1",
       "collision": true,
-      "translate-x": -270,
-      "translate-z": -20,
-      "vertex-colors": [
-        0.7, 0.5, 0.1, 1,
-        0.5882, 0.4196, 0.0863, 1,
-        0.5882, 0.4196, 0.0863, 1,
-        0.7, 0.5, 0.1, 1
-      ],
-      "vertices": [
-        15, 0, -15, 1,
-        -5, 0, -15, 1,
-        -5, 0, 25, 1,
-        15, 0, 50, 1
-      ]
-    },
-    {
-      "id": "dsm-sand-2",
-      "collision": true,
-      "rotate-z": 270,
-      "translate-x": -315,
-      "translate-y": 5,
-      "vertex-colors": [
-        0.5882, 0.4196, 0.0863, 1,
-        0.5882, 0.4196, 0.0863, 1,
-        0.7, 0.5, 0.1, 1,
-        0.7, 0.5, 0.1, 1
-      ],
-      "vertices": [
-        5, 0, -5, 1,
-        -7, 0, -5, 1,
-        -7, 0, 30, 1,
-        5, 0, 30, 1
-      ]
-    },
-    {
-      "id": "dsm-sand-3",
-      "collision": true,
       "rotate-x": 90,
-      "translate-x": -280,
-      "translate-y": 5,
-      "translate-z": -35,
+      "translate-x": -260,
+      "translate-y": 10,
+      "translate-z": -70,
       "vertex-colors": [
         0.7, 0.5, 0.1, 1,
         0.5882, 0.4196, 0.0863, 1,
@@ -1457,10 +1439,10 @@
         0.7, 0.5, 0.1, 1
       ],
       "vertices": [
-        25, 0, -8, 1,
-        -5, 0, -8, 1,
-        -5, 0, 5, 1,
-        25, 0, 5, 1
+        50, 0, -16, 1,
+        -10, 0, -16, 1,
+        -10, 0, 10, 1,
+        50, 0, 10, 1
       ]
     },
     {
@@ -1468,8 +1450,8 @@
       "collision": true,
       "rotate-x": 90,
       "translate-x": -300,
-      "translate-y": 6,
-      "translate-z": -32,
+      "translate-y": 12,
+      "translate-z": -64,
       "vertex-colors": [
         0.38, 0.12, 0, 1,
         0.38, 0.12, 0, 1,
@@ -1477,19 +1459,19 @@
         0.38, 0.12, 0, 1
       ],
       "vertices": [
-        5, 0, -6, 1,
-        -5, 0, -6, 1,
-        -5, 0, 6, 1,
-        5, 0, 6, 1
+        10, 0, -12, 1,
+        -10, 0, -12, 1,
+        -10, 0, 12, 1,
+        10, 0, 12, 1
       ]
     },
     {
       "id": "dsm-wall-left",
       "collision": true,
       "rotate-z": 270,
-      "translate-x": -312,
-      "translate-y": 5,
-      "translate-z": -20,
+      "translate-x": -324,
+      "translate-y": 10,
+      "translate-z": -40,
       "vertex-colors": [
         0.38, 0.12, 0, 1,
         0.38, 0.12, 0, 1,
@@ -1497,19 +1479,19 @@
         0.38, 0.12, 0, 1
       ],
       "vertices": [
-        5, 0, -5, 1,
-        -5, 0, -5, 1,
-        -5, 0, 5, 1,
-        5, 0, 5, 1
+        10, 0, -10, 1,
+        -10, 0, -10, 1,
+        -10, 0, 10, 1,
+        10, 0, 10, 1
       ]
     },
     {
       "id": "dsm-pillar-0-0",
       "collision": true,
       "rotate-x": 270,
-      "translate-x": -290,
-      "translate-y": 21,
-      "translate-z": -15,
+      "translate-x": -280,
+      "translate-y": 42,
+      "translate-z": -30,
       "vertex-colors": [
         0.4, 0.1, 0, 1,
         0.4, 0.1, 0, 1,
@@ -1517,19 +1499,19 @@
         0.7, 0.5, 0.1, 1
       ],
       "vertices": [
-        5, 0, -21, 1,
-        -5, 0, -21, 1,
-        -5, 0, 21, 1,
-        5, 0, 21, 1
+        10, 0, -42, 1,
+        -10, 0, -42, 1,
+        -10, 0, 42, 1,
+        10, 0, 42, 1
       ]
     },
     {
       "id": "dsm-pillar-0-1",
       "collision": true,
       "rotate-x": 90,
-      "translate-x": -290,
-      "translate-y": 21,
-      "translate-z": -5,
+      "translate-x": -280,
+      "translate-y": 42,
+      "translate-z": -10,
       "vertex-colors": [
         0.7, 0.5, 0.1, 1,
         0.7, 0.5, 0.1, 1,
@@ -1537,19 +1519,19 @@
         0.4, 0.1, 0, 1
       ],
       "vertices": [
-        5, 0, -21, 1,
-        -5, 0, -21, 1,
-        -5, 0, 21, 1,
-        5, 0, 21, 1
+        10, 0, -42, 1,
+        -10, 0, -42, 1,
+        -10, 0, 42, 1,
+        10, 0, 42, 1
       ]
     },
     {
       "id": "dsm-pillar-0-2",
       "collision": true,
       "rotate-z": 90,
-      "translate-x": -295,
-      "translate-y": 21,
-      "translate-z": -10,
+      "translate-x": -290,
+      "translate-y": 42,
+      "translate-z": -20,
       "vertex-colors": [
         0.7, 0.5, 0.1, 1,
         0.4, 0.1, 0, 1,
@@ -1557,19 +1539,19 @@
         0.7, 0.5, 0.1, 1
       ],
       "vertices": [
-        21, 0, -5, 1,
-        -21, 0, -5, 1,
-        -21, 0, 5, 1,
-        21, 0, 5, 1
+        42, 0, -10, 1,
+        -42, 0, -10, 1,
+        -42, 0, 10, 1,
+        42, 0, 10, 1
       ]
     },
     {
       "id": "dsm-pillar-0-3",
       "collision": true,
       "rotate-z": 270,
-      "translate-x": -285,
-      "translate-y": 21,
-      "translate-z": -10,
+      "translate-x": -270,
+      "translate-y": 42,
+      "translate-z": -20,
       "vertex-colors": [
         0.4, 0.1, 0, 1,
         0.7, 0.5, 0.1, 1,
@@ -1577,19 +1559,19 @@
         0.4, 0.1, 0, 1
       ],
       "vertices": [
-        21, 0, -5, 1,
-        -21, 0, -5, 1,
-        -21, 0, 5, 1,
-        21, 0, 5, 1
+        42, 0, -10, 1,
+        -42, 0, -10, 1,
+        -42, 0, 10, 1,
+        42, 0, 10, 1
       ]
     },
     {
       "id": "dsm-pillar-1-0",
       "collision": true,
       "rotate-x": 270,
-      "translate-x": -310,
-      "translate-y": 21,
-      "translate-z": -15,
+      "translate-x": -320,
+      "translate-y": 42,
+      "translate-z": -30,
       "vertex-colors": [
         0.4, 0.1, 0, 1,
         0.4, 0.1, 0, 1,
@@ -1597,19 +1579,19 @@
         0.7, 0.5, 0.1, 1
       ],
       "vertices": [
-        5, 0, -21, 1,
-        -5, 0, -21, 1,
-        -5, 0, 21, 1,
-        5, 0, 21, 1
+        10, 0, -42, 1,
+        -10, 0, -42, 1,
+        -10, 0, 42, 1,
+        10, 0, 42, 1
       ]
     },
     {
       "id": "dsm-pillar-1-1",
       "collision": true,
       "rotate-x": 90,
-      "translate-x": -310,
-      "translate-y": 21,
-      "translate-z": -5,
+      "translate-x": -320,
+      "translate-y": 42,
+      "translate-z": -10,
       "vertex-colors": [
         0.7, 0.5, 0.1, 1,
         0.7, 0.5, 0.1, 1,
@@ -1617,19 +1599,19 @@
         0.4, 0.1, 0, 1
       ],
       "vertices": [
-        5, 0, -21, 1,
-        -5, 0, -21, 1,
-        -5, 0, 21, 1,
-        5, 0, 21, 1
+        10, 0, -42, 1,
+        -10, 0, -42, 1,
+        -10, 0, 42, 1,
+        10, 0, 42, 1
       ]
     },
     {
       "id": "dsm-pillar-1-2",
       "collision": true,
       "rotate-z": 270,
-      "translate-x": -305,
-      "translate-y": 21,
-      "translate-z": -10,
+      "translate-x": -310,
+      "translate-y": 42,
+      "translate-z": -20,
       "vertex-colors": [
         0.4, 0.1, 0, 1,
         0.7, 0.5, 0.1, 1,
@@ -1637,19 +1619,19 @@
         0.4, 0.1, 0, 1
       ],
       "vertices": [
-        21, 0, -5, 1,
-        -21, 0, -5, 1,
-        -21, 0, 5, 1,
-        21, 0, 5, 1
+        42, 0, -10, 1,
+        -42, 0, -10, 1,
+        -42, 0, 10, 1,
+        42, 0, 10, 1
       ]
     },
     {
       "id": "dsm-pillar-2-0",
       "collision": true,
       "rotate-x": 90,
-      "translate-x": -290,
-      "translate-y": 21,
-      "translate-z": -25,
+      "translate-x": -280,
+      "translate-y": 42,
+      "translate-z": -50,
       "vertex-colors": [
         0.7, 0.5, 0.1, 1,
         0.7, 0.5, 0.1, 1,
@@ -1657,19 +1639,19 @@
         0.4, 0.1, 0, 1
       ],
       "vertices": [
-        5, 0, -21, 1,
-        -5, 0, -21, 1,
-        -5, 0, 21, 1,
-        5, 0, 21, 1
+        10, 0, -42, 1,
+        -10, 0, -42, 1,
+        -10, 0, 42, 1,
+        10, 0, 42, 1
       ]
     },
     {
       "id": "dsm-pillar-2-1",
       "collision": true,
       "rotate-z": 90,
-      "translate-x": -295,
-      "translate-y": 21,
-      "translate-z": -30,
+      "translate-x": -290,
+      "translate-y": 42,
+      "translate-z": -60,
       "vertex-colors": [
         0.7, 0.5, 0.1, 1,
         0.4, 0.1, 0, 1,
@@ -1677,19 +1659,19 @@
         0.7, 0.5, 0.1, 1
       ],
       "vertices": [
-        21, 0, -5, 1,
-        -21, 0, -5, 1,
-        -21, 0, 5, 1,
-        21, 0, 5, 1
+        42, 0, -10, 1,
+        -42, 0, -10, 1,
+        -42, 0, 10, 1,
+        42, 0, 10, 1
       ]
     },
     {
       "id": "dsm-pillar-2-2",
       "collision": true,
       "rotate-z": 270,
-      "translate-x": -285,
-      "translate-y": 21,
-      "translate-z": -30,
+      "translate-x": -270,
+      "translate-y": 42,
+      "translate-z": -60,
       "vertex-colors": [
         0.4, 0.1, 0, 1,
         0.7, 0.5, 0.1, 1,
@@ -1697,19 +1679,19 @@
         0.4, 0.1, 0, 1
       ],
       "vertices": [
-        21, 0, -5, 1,
-        -21, 0, -5, 1,
-        -21, 0, 5, 1,
-        21, 0, 5, 1
+        42, 0, -10, 1,
+        -42, 0, -10, 1,
+        -42, 0, 10, 1,
+        42, 0, 10, 1
       ]
     },
     {
       "id": "dsm-pillar-3-0",
       "collision": true,
       "rotate-x": 90,
-      "translate-x": -310,
-      "translate-y": 21,
-      "translate-z": -25,
+      "translate-x": -320,
+      "translate-y": 42,
+      "translate-z": -50,
       "vertex-colors": [
         0.7, 0.5, 0.1, 1,
         0.7, 0.5, 0.1, 1,
@@ -1717,19 +1699,19 @@
         0.4, 0.1, 0, 1
       ],
       "vertices": [
-        5, 0, -21, 1,
-        -5, 0, -21, 1,
-        -5, 0, 21, 1,
-        5, 0, 21, 1
+        10, 0, -42, 1,
+        -10, 0, -42, 1,
+        -10, 0, 42, 1,
+        10, 0, 42, 1
       ]
     },
     {
       "id": "dsm-pillar-3-1",
       "collision": true,
       "rotate-z": 270,
-      "translate-x": -305,
-      "translate-y": 21,
-      "translate-z": -30,
+      "translate-x": -310,
+      "translate-y": 42,
+      "translate-z": -60,
       "vertex-colors": [
         0.4, 0.1, 0, 1,
         0.7, 0.5, 0.1, 1,
@@ -1737,18 +1719,18 @@
         0.4, 0.1, 0, 1
       ],
       "vertices": [
-        21, 0, -5, 1,
-        -21, 0, -5, 1,
-        -21, 0, 5, 1,
-        21, 0, 5, 1
+        42, 0, -10, 1,
+        -42, 0, -10, 1,
+        -42, 0, 10, 1,
+        42, 0, 10, 1
       ]
     },
     {
       "id": "dsm-pillar-4-0",
       "rotate-x": 270,
-      "translate-x": -330,
-      "translate-y": 21,
-      "translate-z": -15,
+      "translate-x": -360,
+      "translate-y": 42,
+      "translate-z": -30,
       "vertex-colors": [
         0.4, 0.1, 0, 1,
         0.4, 0.1, 0, 1,
@@ -1756,18 +1738,18 @@
         0.7, 0.5, 0.1, 1
       ],
       "vertices": [
-        5, 0, -21, 1,
-        -5, 0, -21, 1,
-        -5, 0, 21, 1,
-        5, 0, 21, 1
+        10, 0, -42, 1,
+        -10, 0, -42, 1,
+        -10, 0, 42, 1,
+        10, 0, 42, 1
       ]
     },
     {
       "id": "dsm-pillar-4-1",
       "rotate-x": 90,
-      "translate-x": -330,
-      "translate-y": 21,
-      "translate-z": -5,
+      "translate-x": -360,
+      "translate-y": 42,
+      "translate-z": -10,
       "vertex-colors": [
         0.7, 0.5, 0.1, 1,
         0.7, 0.5, 0.1, 1,
@@ -1775,18 +1757,18 @@
         0.4, 0.1, 0, 1
       ],
       "vertices": [
-        5, 0, -21, 1,
-        -5, 0, -21, 1,
-        -5, 0, 21, 1,
-        5, 0, 21, 1
+        10, 0, -42, 1,
+        -10, 0, -42, 1,
+        -10, 0, 42, 1,
+        10, 0, 42, 1
       ]
     },
     {
       "id": "dsm-pillar-4-2",
       "rotate-z": 270,
-      "translate-x": -325,
-      "translate-y": 21,
-      "translate-z": -10,
+      "translate-x": -350,
+      "translate-y": 42,
+      "translate-z": -20,
       "vertex-colors": [
         0.4, 0.1, 0, 1,
         0.7, 0.5, 0.1, 1,
@@ -1794,18 +1776,18 @@
         0.4, 0.1, 0, 1
       ],
       "vertices": [
-        21, 0, -5, 1,
-        -21, 0, -5, 1,
-        -21, 0, 5, 1,
-        21, 0, 5, 1
+        42, 0, -10, 1,
+        -42, 0, -10, 1,
+        -42, 0, 10, 1,
+        42, 0, 10, 1
       ]
     },
     {
       "id": "dsm-pillar-5-0",
       "rotate-x": 90,
-      "translate-x": -330,
-      "translate-y": 21,
-      "translate-z": -25,
+      "translate-x": -360,
+      "translate-y": 42,
+      "translate-z": -50,
       "vertex-colors": [
         0.7, 0.5, 0.1, 1,
         0.7, 0.5, 0.1, 1,
@@ -1813,18 +1795,18 @@
         0.4, 0.1, 0, 1
       ],
       "vertices": [
-        5, 0, -21, 1,
-        -5, 0, -21, 1,
-        -5, 0, 21, 1,
-        5, 0, 21, 1
+        10, 0, -42, 1,
+        -10, 0, -42, 1,
+        -10, 0, 42, 1,
+        10, 0, 42, 1
       ]
     },
     {
       "id": "dsm-pillar-5-1",
       "rotate-z": 270,
-      "translate-x": -325,
-      "translate-y": 21,
-      "translate-z": -30,
+      "translate-x": -350,
+      "translate-y": 42,
+      "translate-z": -60,
       "vertex-colors": [
         0.4, 0.1, 0, 1,
         0.7, 0.5, 0.1, 1,
@@ -1832,18 +1814,18 @@
         0.4, 0.1, 0, 1
       ],
       "vertices": [
-        21, 0, -5, 1,
-        -21, 0, -5, 1,
-        -21, 0, 5, 1,
-        21, 0, 5, 1
+        42, 0, -10, 1,
+        -42, 0, -10, 1,
+        -42, 0, 10, 1,
+        42, 0, 10, 1
       ]
     },
     {
       "id": "dsm-pillar-6-0",
       "rotate-x": 90,
-      "translate-x": -290,
-      "translate-y": 21,
-      "translate-z": -45,
+      "translate-x": -280,
+      "translate-y": 42,
+      "translate-z": -90,
       "vertex-colors": [
         0.7, 0.5, 0.1, 1,
         0.7, 0.5, 0.1, 1,
@@ -1851,18 +1833,18 @@
         0.4, 0.1, 0, 1
       ],
       "vertices": [
-        5, 0, -21, 1,
-        -5, 0, -21, 1,
-        -5, 0, 21, 1,
-        5, 0, 21, 1
+        10, 0, -42, 1,
+        -10, 0, -42, 1,
+        -10, 0, 42, 1,
+        10, 0, 42, 1
       ]
     },
     {
       "id": "dsm-pillar-6-1",
       "rotate-z": 90,
-      "translate-x": -295,
-      "translate-y": 21,
-      "translate-z": -50,
+      "translate-x": -290,
+      "translate-y": 42,
+      "translate-z": -100,
       "vertex-colors": [
         0.7, 0.5, 0.1, 1,
         0.4, 0.1, 0, 1,
@@ -1870,18 +1852,18 @@
         0.7, 0.5, 0.1, 1
       ],
       "vertices": [
-        21, 0, -5, 1,
-        -21, 0, -5, 1,
-        -21, 0, 5, 1,
-        21, 0, 5, 1
+        42, 0, -10, 1,
+        -42, 0, -10, 1,
+        -42, 0, 10, 1,
+        42, 0, 10, 1
       ]
     },
     {
       "id": "dsm-pillar-6-2",
       "rotate-z": 270,
-      "translate-x": -285,
-      "translate-y": 21,
-      "translate-z": -50,
+      "translate-x": -270,
+      "translate-y": 42,
+      "translate-z": -100,
       "vertex-colors": [
         0.4, 0.1, 0, 1,
         0.7, 0.5, 0.1, 1,
@@ -1889,18 +1871,18 @@
         0.4, 0.1, 0, 1
       ],
       "vertices": [
-        21, 0, -5, 1,
-        -21, 0, -5, 1,
-        -21, 0, 5, 1,
-        21, 0, 5, 1
+        42, 0, -10, 1,
+        -42, 0, -10, 1,
+        -42, 0, 10, 1,
+        42, 0, 10, 1
       ]
     },
     {
       "id": "dsm-pillar-7-0",
       "rotate-x": 90,
-      "translate-x": -310,
-      "translate-y": 21,
-      "translate-z": -45,
+      "translate-x": -320,
+      "translate-y": 42,
+      "translate-z": -90,
       "vertex-colors": [
         0.7, 0.5, 0.1, 1,
         0.7, 0.5, 0.1, 1,
@@ -1908,18 +1890,18 @@
         0.4, 0.1, 0, 1
       ],
       "vertices": [
-        5, 0, -21, 1,
-        -5, 0, -21, 1,
-        -5, 0, 21, 1,
-        5, 0, 21, 1
+        10, 0, -42, 1,
+        -10, 0, -42, 1,
+        -10, 0, 42, 1,
+        10, 0, 42, 1
       ]
     },
     {
       "id": "dsm-pillar-7-1",
       "rotate-z": 270,
-      "translate-x": -305,
-      "translate-y": 21,
-      "translate-z": -50,
+      "translate-x": -310,
+      "translate-y": 42,
+      "translate-z": -100,
       "vertex-colors": [
         0.4, 0.1, 0, 1,
         0.7, 0.5, 0.1, 1,
@@ -1927,22 +1909,10 @@
         0.4, 0.1, 0, 1
       ],
       "vertices": [
-        21, 0, -5, 1,
-        -21, 0, -5, 1,
-        -21, 0, 5, 1,
-        21, 0, 5, 1
-      ]
-    },
-    {
-      "id": "dsm-temp-invisible-0",
-      "collision": true,
-      "draw": false,
-      "translate-x": -280,
-      "vertices": [
-        5, 0, -5, 1,
-        -5, 0, -5, 1,
-        -5, 0, 5, 1,
-        5, 0, 5, 1
+        42, 0, -10, 1,
+        -42, 0, -10, 1,
+        -42, 0, 10, 1,
+        42, 0, 10, 1
       ]
     },
     {
