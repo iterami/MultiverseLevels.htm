@@ -11,11 +11,15 @@
           0.1, 0.1, 0.1, 1
         ],
         "height": 2,
-        "length": 10,
+        "length": 15,
+        "properties": {
+          "path-id": "platform-0-obstacle",
+          "speed": 0.5
+        },
         "translate-x": -20,
         "translate-y": 15,
         "translate-z": -55,
-        "width": 10
+        "width": 15
       }
     },
     {
@@ -74,11 +78,11 @@
           "bottom": true
         },
         "height": 2,
-        "length": 40,
+        "length": 45,
         "translate-x": 10,
         "translate-y": 1,
         "translate-z": -185,
-        "width": 15
+        "width": 20
       }
     },
     {
@@ -173,7 +177,7 @@
         },
         "height": 10,
         "length": 20,
-        "translate-x": -85,
+        "translate-x": -105,
         "translate-y": 5,
         "translate-z": -25,
         "width": 20
@@ -242,6 +246,17 @@
   "multiplier-jump": 2,
   "multiplier-speed": 4,
   "paths": {
+    "platform-0-obstacle": {
+      "end": -1,
+      "points": [
+        {
+          "translate-x": -50
+        },
+        {
+          "translate-x": 50
+        }
+      ]
+    },
     "platform-8-obstacle": {
       "end": -1,
       "points": [
@@ -344,6 +359,8 @@
     {
       "id": "shadow-platform-0",
       "alpha": 0.5,
+      "path-id": "platform-0-obstacle",
+      "speed": 0.5,
       "translate-x": -20,
       "translate-y": 0.01,
       "translate-z": -55,
@@ -354,10 +371,10 @@
         0, 0, 0, 1
       ],
       "vertices": [
-        5, 0, -5, 1,
-        -5, 0, -5, 1,
-        -5, 0, 5, 1,
-        5, 0, 5, 1
+        7.5, 0, -7.5, 1,
+        -7.5, 0, -7.5, 1,
+        -7.5, 0, 7.5, 1,
+        7.5, 0, 7.5, 1
       ]
     },
     {
