@@ -142,6 +142,23 @@
       }
     },
     {
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "tram",
+        "exclude": {
+          "bottom": true
+        },
+        "height": -5,
+        "length": -30,
+        "properties": {
+          "path-id": "tour-loop",
+          "speed": 0.5
+        },
+        "translate-y": -15,
+        "width": -30
+      }
+    },
+    {
       "type": "webgl_cuboid_tree",
       "properties": {
         "prefix": "tree-cuboid",
@@ -2437,59 +2454,6 @@
         0, 0, 1, 1,
         0, 0, 1, 1,
         0, 0, 1, 1
-      ],
-      "vertices": [
-        10, 0, -10, 1,
-        -10, 0, -10, 1,
-        -10, 0, 10, 1,
-        10, 0, 10, 1
-      ]
-    },
-    {
-      "id": "touring-labs-loop",
-      "path-id": "tour-loop",
-      "billboard": [
-        "y"
-      ],
-      "translate-y": -25,
-      "vertex-colors": [
-        1, 1, 1, 1,
-        1, 1, 1, 1,
-        1, 1, 1, 1
-      ],
-      "vertices": [
-        -10, 0, 0, 1,
-        10, 0, 0, 1,
-        0, 10, 0, 1
-      ]
-    },
-    {
-      "id": "touring-labs-loop-attached",
-      "attach-to": "touring-labs-loop",
-      "attach-offset-y": 10,
-      "vertex-colors": [
-        0.5, 0.5, 0.5, 1,
-        0.5, 0.5, 0.5, 1,
-        0.5, 0.5, 0.5, 1
-      ],
-      "vertices": [
-        -2, 0, 0, 1,
-        2, 0, 0, 1,
-        0, 2, 0, 1
-      ]
-    },
-    {
-      "id": "touring-labs-platform",
-      "collision": true,
-      "path-end": -1,
-      "path-id": "tour-loop",
-      "path-point": 3,
-      "translate-y": -20,
-      "vertex-colors": [
-        1, 1, 1, 1,
-        1, 1, 1, 1,
-        1, 1, 1, 1,
-        1, 1, 1, 1
       ],
       "vertices": [
         10, 0, -10, 1,
