@@ -119,9 +119,7 @@
         "height": 2,
         "length": 75,
         "properties": {
-          "texture-id": "stone.png",
-          "texture-repeat-x": 2,
-          "texture-repeat-y": 2
+          "texture-id": "stone.png"
         },
         "translate-x": 15,
         "translate-y": 1,
@@ -365,6 +363,7 @@
       "collision": true,
       "rotate-z": 90,
       "texture-id": "lava.png",
+      "texture-repeat-y": 2,
       "translate-x": -15,
       "translate-y": 20,
       "translate-z": -155,
@@ -388,6 +387,7 @@
       "rotate-z": 90,
       "speed": 1,
       "texture-id": "lava.png",
+      "texture-repeat-y": 2,
       "translate-x": 35,
       "translate-y": 10,
       "translate-z": -175,
