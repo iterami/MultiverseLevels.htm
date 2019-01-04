@@ -14,7 +14,9 @@
         "length": 15,
         "properties": {
           "path-id": "platform-0-obstacle",
-          "speed": 0.5
+          "speed": 0.5,
+          "texture-id": "stone.png",
+          "texture-repeat": 1
         },
         "translate-x": -20,
         "translate-y": 15,
@@ -37,6 +39,10 @@
         },
         "height": 20,
         "length": 20,
+        "properties": {
+          "texture-id": "stone.png",
+          "texture-repeat": 2
+        },
         "translate-x": 25,
         "translate-y": 10,
         "translate-z": -100,
@@ -58,6 +64,10 @@
         },
         "height": 2,
         "length": 20,
+        "properties": {
+          "texture-id": "stone.png",
+          "texture-repeat": 2
+        },
         "translate-x": -40,
         "translate-y": 1,
         "translate-z": -142,
@@ -79,6 +89,10 @@
         },
         "height": 2,
         "length": 45,
+        "properties": {
+          "texture-id": "stone.png",
+          "texture-repeat": 2
+        },
         "translate-x": 10,
         "translate-y": 1,
         "translate-z": -185,
@@ -102,6 +116,10 @@
         },
         "height": 2,
         "length": 75,
+        "properties": {
+          "texture-id": "stone.png",
+          "texture-repeat": 2
+        },
         "translate-x": 15,
         "translate-y": 1,
         "translate-z": -52.5,
@@ -123,6 +141,10 @@
         },
         "height": 50,
         "length": 25,
+        "properties": {
+          "texture-id": "stone.png",
+          "texture-repeat": 3
+        },
         "translate-x": -20,
         "translate-y": 25,
         "translate-z": -180,
@@ -156,6 +178,10 @@
         ],
         "height": 20,
         "length": 19,
+        "properties": {
+          "texture-id": "stone.png",
+          "texture-repeat": 2
+        },
         "translate-x": 5,
         "translate-y": 30,
         "translate-z": -150,
@@ -177,6 +203,10 @@
         },
         "height": 10,
         "length": 20,
+        "properties": {
+          "texture-id": "stone.png",
+          "texture-repeat": 2
+        },
         "translate-x": -105,
         "translate-y": 5,
         "translate-z": -25,
@@ -198,6 +228,10 @@
         },
         "height": 2,
         "length": 20,
+        "properties": {
+          "texture-id": "stone.png",
+          "texture-repeat": 2
+        },
         "translate-x": 70,
         "translate-y": 1,
         "translate-z": -195,
@@ -216,6 +250,10 @@
         ],
         "exclude": {
           "bottom": true
+        },
+        "properties": {
+          "texture-id": "stone.png",
+          "texture-repeat": 3
         },
         "height": 10,
         "length": 30,
@@ -340,14 +378,15 @@
       "path-id": "platform-8-obstacle",
       "rotate-z": 90,
       "speed": 1,
+      "texture-id": "lava.png",
       "translate-x": 35,
       "translate-y": 10,
       "translate-z": -175,
       "vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
+        0.5, 0.5, 0.5, 1,
+        0.5, 0.5, 0.5, 1,
+        0.5, 0.5, 0.5, 1,
+        0.5, 0.5, 0.5, 1
       ],
       "vertices": [
         20, 0, -5, 1,
