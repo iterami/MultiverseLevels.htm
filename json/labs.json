@@ -64,14 +64,14 @@
       "type": "webgl_cuboid",
       "properties": {
         "prefix": "dsm-skybox",
-        "height": -84,
-        "length": -170,
         "all-vertex-colors": [
           0.7, 0.5, 0.1, 1,
           0.7, 0.5, 0.1, 1,
           0.7, 0.5, 0.1, 1,
           0.7, 0.5, 0.1, 1
         ],
+        "height": -84,
+        "length": -170,
         "translate-x": -270,
         "translate-y": 42,
         "translate-z": -25,
@@ -81,12 +81,6 @@
     {
       "type": "webgl_cuboid",
       "properties": {
-        "all-vertex-colors": [
-          0.5, 0.5, 0.5, 1,
-          0.5, 0.5, 0.5, 1,
-          0.5, 0.5, 0.5, 1,
-          0.5, 0.5, 0.5, 1
-        ],
         "prefix": "hurt-cube",
         "height": 15,
         "length": 15,
@@ -109,12 +103,12 @@
         },
         "height": -50,
         "length": -200,
-        "top-vertex-colors": [
-          0.1, 0.1, 0.1, 1,
-          0.1, 0.1, 0.1, 1,
-          0.1, 0.1, 0.1, 1,
-          0.1, 0.1, 0.1, 1
-        ],
+        "properties": {
+          "texture-id": "stone.png",
+          "texture-repeat-x": 10,
+          "texture-repeat-y": 10
+        },
+        "random-colors": true,
         "width": -200
       }
     },
@@ -127,26 +121,9 @@
           "bottom": true,
           "top": true
         },
-        "front-vertex-colors": [
-          0, 1, 0, 1,
-          0, 1, 0, 1,
-          0, 1, 0, 1,
-          0, 1, 0, 1
-        ],
         "height": 50,
-        "left-vertex-colors": [
-          1, 0, 0, 1,
-          1, 0, 0, 1,
-          1, 0, 0, 1,
-          1, 0, 0, 1
-        ],
         "length": 20,
-        "right-vertex-colors": [
-          0, 0, 1, 1,
-          0, 0, 1, 1,
-          0, 0, 1, 1,
-          0, 0, 1, 1
-        ],
+        "random-colors": true,
         "width": 20
       }
     },
@@ -157,6 +134,7 @@
         "all-collision": false,
         "height": -99,
         "length": -99,
+        "random-colors": true,
         "width": -99,
         "groups": [
           "skybox"
@@ -176,6 +154,7 @@
           "path-id": "tour-loop",
           "speed": 0.5
         },
+        "random-colors": true,
         "translate-y": -15,
         "width": -30
       }
