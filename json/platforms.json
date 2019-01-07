@@ -342,8 +342,8 @@
       "collide-damage": "1000",
       "collision": true,
       "texture-id": "lava.png",
-      "texture-repeat-x": 50,
-      "texture-repeat-y": 50,
+      "texture-repeat-x": 25,
+      "texture-repeat-y": 25,
       "vertex-colors": [
         0.5, 0.5, 0.5, 1,
         0.5, 0.5, 0.5, 1,
