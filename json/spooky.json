@@ -1,0 +1,22 @@
+{
+  "fog-density": 0.0003,
+  "fog-state": true,
+  "prefabs": [
+    {
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "facility",
+        "height": -100,
+        "length": -300,
+        "properties": {
+          "texture-id": "stone.png",
+          "texture-repeat-x": 10,
+          "texture-repeat-y": 10
+        },
+        "width": -300
+      }
+    }
+  ],
+  "entities": [
+  ]
+}

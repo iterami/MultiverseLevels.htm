@@ -6,4 +6,5 @@ window.multiversecharacters = {
 window.multiverselevels = {
   'labs': 'Labs',
   'platforms': 'Platforms',
+  'spooky': 'Spooky',
 };
