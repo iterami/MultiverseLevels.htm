@@ -99,7 +99,8 @@
       "properties": {
         "prefix": "museum",
         "exclude": {
-          "bottom": true
+          "bottom": true,
+          "right": true
         },
         "height": -50,
         "length": -200,
@@ -2015,9 +2016,9 @@
     },
     {
       "id": "subway-ceiling",
+      "collision": true,
       "rotate-x": 180,
       "translate-x": -145,
-      "translate-y": 25,
       "translate-z": -40,
       "vertex-colors": [
         0.05, 0.05, 0.05, 1,
@@ -2034,9 +2035,9 @@
     },
     {
       "id": "subway-ceiling-fade-0",
+      "collision": true,
       "rotate-x": 180,
       "translate-x": -160,
-      "translate-y": 25,
       "translate-z": 130,
       "vertex-colors": [
         0, 0, 0, 1,
@@ -2053,9 +2054,9 @@
     },
     {
       "id": "subway-ceiling-fade-1",
+      "collision": true,
       "rotate-x": 180,
       "translate-x": -160,
-      "translate-y": 25,
       "translate-z": -210,
       "vertex-colors": [
         0.05, 0.05, 0.05, 1,
@@ -2072,8 +2073,9 @@
     },
     {
       "id": "subway-ground-tracks",
+      "collision": true,
       "translate-x": -165,
-      "translate-y": -5,
+      "translate-y": -30,
       "translate-z": -40,
       "vertex-colors": [
         0.02, 0.02, 0.02, 1,
@@ -2090,8 +2092,9 @@
     },
     {
       "id": "subway-ground-tracks-fade-0",
+      "collision": true,
       "translate-x": -165,
-      "translate-y": -5,
+      "translate-y": -30,
       "translate-z": -210,
       "vertex-colors": [
         0, 0, 0, 1,
@@ -2108,8 +2111,9 @@
     },
     {
       "id": "subway-ground-tracks-fade-1",
+      "collision": true,
       "translate-x": -165,
-      "translate-y": -5,
+      "translate-y": -30,
       "translate-z": 130,
       "vertex-colors": [
         0.02, 0.02, 0.02, 1,
@@ -2128,6 +2132,7 @@
       "id": "subway-platform",
       "collision": true,
       "translate-x": -120,
+      "translate-y": -25,
       "translate-z": -40,
       "vertex-colors": [
         0.1, 0.1, 0.1, 1,
@@ -2143,79 +2148,10 @@
       ]
     },
     {
-      "id": "subway-safety",
-      "collision": true,
-      "draw": false,
-      "rotate-z": 270,
-      "translate-x": -140,
-      "translate-y": 10,
-      "translate-z": -40,
-      "vertices": [
-        15, 0, -150, 1,
-        -15, 0, -150, 1,
-        -15, 0, 150, 1,
-        15, 0, 150, 1
-      ]
-    },
-    {
-      "id": "subway-tracks-00",
+      "id": "subway-tracks-0",
       "draw-type": "LINE_STRIP",
-      "translate-x": -180,
-      "translate-y": -4,
-      "vertex-colors": [
-        0, 0, 0, 1,
-        0.5, 0.5, 0.5, 1,
-        0.5, 0.5, 0.5, 1,
-        0, 0, 0, 1
-      ],
-      "vertices": [
-        0, 0, -230, 1,
-        0, 0, -200, 1,
-        0, 0, 125, 1,
-        0, 0, 150, 1
-      ]
-    },
-    {
-      "id": "subway-tracks-01",
-      "draw-type": "LINE_STRIP",
-      "translate-x": -170,
-      "translate-y": -4,
-      "vertex-colors": [
-        0, 0, 0, 1,
-        0.5, 0.5, 0.5, 1,
-        0.5, 0.5, 0.5, 1,
-        0, 0, 0, 1
-      ],
-      "vertices": [
-        0, 0, -230, 1,
-        0, 0, -200, 1,
-        0, 0, 125, 1,
-        0, 0, 150, 1
-      ]
-    },
-    {
-      "id": "subway-tracks-10",
-      "draw-type": "LINE_STRIP",
-      "translate-x": -160,
-      "translate-y": -4,
-      "vertex-colors": [
-        0, 0, 0, 1,
-        0.5, 0.5, 0.5, 1,
-        0.5, 0.5, 0.5, 1,
-        0, 0, 0, 1
-      ],
-      "vertices": [
-        0, 0, -230, 1,
-        0, 0, -200, 1,
-        0, 0, 125, 1,
-        0, 0, 150, 1
-      ]
-    },
-    {
-      "id": "subway-tracks-11",
-      "draw-type": "LINE_STRIP",
-      "translate-x": -150,
-      "translate-y": -4,
+      "translate-x": -165,
+      "translate-y": -29,
       "vertex-colors": [
         0, 0, 0, 1,
         0.5, 0.5, 0.5, 1,
@@ -2231,9 +2167,10 @@
     },
     {
       "id": "subway-wall-far",
+      "collision": true,
       "rotate-z": 270,
       "translate-x": -190,
-      "translate-y": 10,
+      "translate-y": -15,
       "translate-z": -40,
       "vertex-colors": [
         0.04, 0.04, 0.04, 1,
@@ -2250,9 +2187,10 @@
     },
     {
       "id": "subway-wall-far-fade-0",
+      "collision": true,
       "rotate-z": 270,
       "translate-x": -190,
-      "translate-y": 10,
+      "translate-y": -15,
       "translate-z": -210,
       "vertex-colors": [
         0, 0, 0, 1,
@@ -2269,9 +2207,10 @@
     },
     {
       "id": "subway-wall-far-fade-1",
+      "collision": true,
       "rotate-z": 270,
       "translate-x": -190,
-      "translate-y": 10,
+      "translate-y": -15,
       "translate-z": 130,
       "vertex-colors": [
         0.04, 0.04, 0.04, 1,
@@ -2288,9 +2227,10 @@
     },
     {
       "id": "subway-wall-near-fade-0",
+      "collision": true,
       "rotate-z": 90,
       "translate-x": -140,
-      "translate-y": 10,
+      "translate-y": -15,
       "translate-z": -210,
       "vertex-colors": [
         0, 0, 0, 1,
@@ -2307,9 +2247,10 @@
     },
     {
       "id": "subway-wall-near-fade-1",
+      "collision": true,
       "rotate-z": 90,
       "translate-x": -140,
-      "translate-y": 10,
+      "translate-y": -15,
       "translate-z": 130,
       "vertex-colors": [
         0.07, 0.07, 0.07, 1,
@@ -2325,31 +2266,11 @@
       ]
     },
     {
-      "id": "subway-wall-platform-0",
-      "collision": true,
-      "rotate-z": 90,
-      "translate-x": -100,
-      "translate-y": 12.5,
-      "translate-z": -40,
-      "vertex-colors": [
-        0.11, 0.11, 0.11, 1,
-        0.11, 0.11, 0.11, 1,
-        0.11, 0.11, 0.11, 1,
-        0.11, 0.11, 0.11, 1
-      ],
-      "vertices": [
-        12.5, 0, -150, 1,
-        -12.5, 0, -150, 1,
-        -12.5, 0, 150, 1,
-        12.5, 0, 150, 1
-      ]
-    },
-    {
       "id": "subway-wall-platform-1",
       "collision": true,
       "rotate-x": 90,
       "translate-x": -120,
-      "translate-y": 12.5,
+      "translate-y": -12.5,
       "translate-z": -190,
       "vertex-colors": [
         0.12, 0.12, 0.12, 1,
@@ -2369,7 +2290,7 @@
       "collision": true,
       "rotate-x": 270,
       "translate-x": -120,
-      "translate-y": 12.5,
+      "translate-y": -12.5,
       "translate-z": 110,
       "vertex-colors": [
         0.12, 0.12, 0.12, 1,
@@ -2386,9 +2307,10 @@
     },
     {
       "id": "subway-wall-platform-3",
+      "collision": true,
       "rotate-z": 90,
       "translate-x": -140,
-      "translate-y": -3,
+      "translate-y": -28,
       "translate-z": -40,
       "vertex-colors": [
         0.07, 0.07, 0.07, 1,
