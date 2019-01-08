@@ -6,6 +6,7 @@
         {
           "id": "techdemo-character-attached",
           "billboard": "y",
+          "collision": false,
           "vertex-colors": [
             1, 0, 0, 1,
             0, 1, 0, 1,
@@ -27,6 +28,7 @@
               "billboard": [
                 "y"
               ],
+              "collision": false,
               "vertex-colors": [
                 1, 0, 0, 1,
                 0, 1, 0, 1,
@@ -164,8 +166,6 @@
       "type": "webgl_cuboid_tree",
       "properties": {
         "prefix": "tree-cuboid",
-        "collision-leaves": true,
-        "collision-trunk": true,
         "translate-x": 85,
         "translate-y": -25,
         "translate-z": 20
@@ -247,6 +247,7 @@
   "entities": [
     {
       "id": "axis-x",
+      "collision": false,
       "draw-type": "LINES",
       "vertex-colors": [
         1, 0, 0, 1,
@@ -259,6 +260,7 @@
     },
     {
       "id": "axis-y",
+      "collision": false,
       "draw-type": "LINES",
       "vertex-colors": [
         0, 1, 0, 1,
@@ -271,6 +273,7 @@
     },
     {
       "id": "axis-z",
+      "collision": false,
       "draw-type": "LINES",
       "vertex-colors": [
         0, 0, 1, 1,
@@ -286,6 +289,7 @@
       "billboard": [
         "x"
       ],
+      "collision": false,
       "translate-x": 40,
       "translate-y": -20,
       "translate-z": -30,
@@ -306,6 +310,7 @@
         "x",
         "y"
       ],
+      "collision": false,
       "translate-x": 40,
       "translate-y": -20,
       "translate-z": -40,
@@ -327,6 +332,7 @@
         "y",
         "z"
       ],
+      "collision": false,
       "translate-x": 50,
       "translate-y": -20,
       "translate-z": -50,
@@ -347,6 +353,7 @@
         "x",
         "z"
       ],
+      "collision": false,
       "translate-x": 50,
       "translate-y": -20,
       "translate-z": -40,
@@ -366,6 +373,7 @@
       "billboard": [
         "y"
       ],
+      "collision": false,
       "translate-x": 50,
       "translate-y": -20,
       "translate-z": -30,
@@ -386,6 +394,7 @@
         "y",
         "z"
       ],
+      "collision": false,
       "translate-x": 60,
       "translate-y": -20,
       "translate-z": -40,
@@ -405,6 +414,7 @@
       "billboard": [
         "z"
       ],
+      "collision": false,
       "translate-x": 60,
       "translate-y": -20,
       "translate-z": -30,
@@ -421,7 +431,6 @@
     },
     {
       "id": "citymaze-base",
-      "collision": true,
       "translate-x": 160,
       "vertex-colors": [
         0.1, 0.1, 0.1, 1,
@@ -438,7 +447,6 @@
     },
     {
       "id": "citymaze-grate-0",
-      "collision": true,
       "translate-x": 103,
       "translate-z": -50,
       "vertex-colors": [
@@ -456,7 +464,6 @@
     },
     {
       "id": "citymaze-grate-1",
-      "collision": true,
       "translate-x": 110.5,
       "translate-z": -57,
       "vertex-colors": [
@@ -474,7 +481,6 @@
     },
     {
       "id": "citymaze-grate-2",
-      "collision": true,
       "translate-x": 110.5,
       "translate-z": -43,
       "vertex-colors": [
@@ -492,7 +498,6 @@
     },
     {
       "id": "citymaze-grate-entrance-0",
-      "collision": true,
       "rotate-z": 270,
       "translate-x": 106,
       "translate-y": -10,
@@ -512,7 +517,6 @@
     },
     {
       "id": "citymaze-grate-entrance-1",
-      "collision": true,
       "rotate-z": 90,
       "translate-x": 115,
       "translate-y": -10,
@@ -532,7 +536,6 @@
     },
     {
       "id": "citymaze-grate-entrance-2",
-      "collision": true,
       "rotate-x": 90,
       "translate-x": 110,
       "translate-y": -10,
@@ -552,7 +555,6 @@
     },
     {
       "id": "citymaze-grate-entrance-3",
-      "collision": true,
       "rotate-x": 270,
       "translate-x": 110,
       "translate-y": -10,
@@ -572,7 +574,6 @@
     },
     {
       "id": "citymaze-sewer-floor-0",
-      "collision": true,
       "translate-x": 110,
       "translate-y": -60,
       "translate-z": -50,
@@ -591,7 +592,6 @@
     },
     {
       "id": "citymaze-sewer-wall-0",
-      "collision": true,
       "rotate-z": 90,
       "translate-x": 125,
       "translate-y": -45,
@@ -611,7 +611,6 @@
     },
     {
       "id": "citymaze-sewer-wall-1",
-      "collision": true,
       "rotate-z": 270,
       "translate-x": 95,
       "translate-y": -45,
@@ -631,7 +630,6 @@
     },
     {
       "id": "citymaze-sewer-wall-2",
-      "collision": true,
       "rotate-x": 90,
       "translate-x": 110,
       "translate-y": -40,
@@ -651,7 +649,6 @@
     },
     {
       "id": "citymaze-sewer-wall-4",
-      "collision": true,
       "rotate-x": 270,
       "translate-x": 110,
       "translate-y": -40,
@@ -671,7 +668,6 @@
     },
     {
       "id": "citymaze-sidewalk-base",
-      "collision": true,
       "translate-x": 160,
       "translate-z": -50,
       "vertex-colors": [
@@ -726,7 +722,6 @@
     },
     {
       "id": "citymaze-tower-0-wall-inner-0",
-      "collision": true,
       "rotate-z": 270,
       "translate-x": 100,
       "translate-y": 25,
@@ -746,7 +741,6 @@
     },
     {
       "id": "citymaze-tower-0-wall-inner-1",
-      "collision": true,
       "rotate-x": 270,
       "translate-x": 120,
       "translate-y": 25,
@@ -766,7 +760,6 @@
     },
     {
       "id": "citymaze-tower-0-wall-inner-2",
-      "collision": true,
       "rotate-x": 90,
       "translate-x": 120,
       "translate-y": 25,
@@ -785,7 +778,6 @@
     },
     {
       "id": "citymaze-tower-0-wall-inner-3",
-      "collision": true,
       "rotate-z": 90,
       "translate-x": 135,
       "translate-y": 28,
@@ -805,7 +797,6 @@
     },
     {
       "id": "citymaze-tower-0-wall-inner-4",
-      "collision": true,
       "rotate-z": 90,
       "translate-x": 135,
       "translate-y": 3,
@@ -825,7 +816,6 @@
     },
     {
       "id": "citymaze-tower-0-wall-inner-5",
-      "collision": true,
       "rotate-z": 90,
       "translate-x": 135,
       "translate-y": 3,
@@ -845,7 +835,6 @@
     },
     {
       "id": "citymaze-tower-0-wall-outer-0",
-      "collision": true,
       "rotate-z": 270,
       "translate-x": 135,
       "translate-y": 28,
@@ -865,7 +854,6 @@
     },
     {
       "id": "citymaze-tower-0-wall-outer-1",
-      "collision": true,
       "rotate-z": 270,
       "translate-x": 135,
       "translate-y": 3,
@@ -885,7 +873,6 @@
     },
     {
       "id": "citymaze-tower-0-wall-outer-2",
-      "collision": true,
       "rotate-z": 270,
       "translate-x": 135,
       "translate-y": 3,
@@ -905,7 +892,6 @@
     },
     {
       "id": "citymaze-tower-0-wall-outer-3",
-      "collision": true,
       "rotate-x": 270,
       "translate-x": 120,
       "translate-y": 25,
@@ -1018,7 +1004,6 @@
     },
     {
       "id": "citymaze-tower-1-wall-inner-0",
-      "collision": true,
       "rotate-z": 90,
       "translate-x": 220,
       "translate-y": 25,
@@ -1038,7 +1023,6 @@
     },
     {
       "id": "citymaze-tower-1-wall-inner-1",
-      "collision": true,
       "rotate-x": 270,
       "translate-x": 200,
       "translate-y": 25,
@@ -1058,7 +1042,6 @@
     },
     {
       "id": "citymaze-tower-1-wall-inner-2",
-      "collision": true,
       "rotate-x": 90,
       "translate-x": 200,
       "translate-y": 25,
@@ -1077,7 +1060,6 @@
     },
     {
       "id": "citymaze-tower-1-wall-inner-3",
-      "collision": true,
       "rotate-z": 270,
       "translate-x": 185,
       "translate-y": 28,
@@ -1097,7 +1079,6 @@
     },
     {
       "id": "citymaze-tower-1-wall-inner-4",
-      "collision": true,
       "rotate-z": 270,
       "translate-x": 185,
       "translate-y": 3,
@@ -1117,7 +1098,6 @@
     },
     {
       "id": "citymaze-tower-1-wall-inner-5",
-      "collision": true,
       "rotate-z": 270,
       "translate-x": 185,
       "translate-y": 3,
@@ -1137,7 +1117,6 @@
     },
     {
       "id": "citymaze-tower-1-wall-outer-0",
-      "collision": true,
       "rotate-x": 90,
       "translate-x": 200,
       "translate-y": 25,
@@ -1157,7 +1136,6 @@
     },
     {
       "id": "citymaze-tower-1-wall-outer-1",
-      "collision": true,
       "rotate-z": 90,
       "translate-x": 185,
       "translate-y": 28,
@@ -1177,7 +1155,6 @@
     },
     {
       "id": "citymaze-tower-1-wall-outer-2",
-      "collision": true,
       "rotate-z": 90,
       "translate-x": 185,
       "translate-y": 3,
@@ -1197,7 +1174,6 @@
     },
     {
       "id": "citymaze-tower-1-wall-outer-3",
-      "collision": true,
       "rotate-z": 90,
       "translate-x": 185,
       "translate-y": 3,
@@ -1217,7 +1193,6 @@
     },
     {
       "id": "citymaze-tower-1-wall-outer-4",
-      "collision": true,
       "rotate-x": 270,
       "translate-x": 200,
       "translate-y": 25,
@@ -1236,7 +1211,6 @@
     },
     {
       "id": "citymaze-wall-0",
-      "collision": true,
       "rotate-x": 90,
       "translate-x": 160,
       "translate-y": 5,
@@ -1256,7 +1230,6 @@
     },
     {
       "id": "citymaze-wall-1",
-      "collision": true,
       "rotate-z": 90,
       "translate-x": 220,
       "translate-y": 5,
@@ -1276,7 +1249,6 @@
     },
     {
       "id": "citymaze-wall-2",
-      "collision": true,
       "rotate-z": 90,
       "translate-x": 220,
       "translate-y": 5,
@@ -1296,7 +1268,6 @@
     },
     {
       "id": "citymaze-wall-3",
-      "collision": true,
       "rotate-x": 270,
       "translate-x": 180,
       "translate-y": 5,
@@ -1316,7 +1287,6 @@
     },
     {
       "id": "citymaze-wall-4",
-      "collision": true,
       "rotate-z": 270,
       "translate-x": 100,
       "translate-y": 5,
@@ -1337,7 +1307,6 @@
     {
       "id": "damage-heal",
       "collide-damage": -1,
-      "collision": true,
       "translate-y": -23,
       "translate-z": -90,
       "vertex-colors": [
@@ -1408,7 +1377,6 @@
     },
     {
       "id": "dsm-sand-0",
-      "collision": true,
       "rotate-z": 270,
       "translate-x": -310,
       "translate-y": 10,
@@ -1427,7 +1395,6 @@
     },
     {
       "id": "dsm-sand-1",
-      "collision": true,
       "rotate-x": 90,
       "translate-x": -240,
       "translate-y": 10,
@@ -1447,7 +1414,6 @@
     },
     {
       "id": "dsm-wall-back",
-      "collision": true,
       "rotate-x": 90,
       "translate-x": -280,
       "translate-y": 12,
@@ -1467,7 +1433,6 @@
     },
     {
       "id": "dsm-wall-left",
-      "collision": true,
       "rotate-z": 270,
       "translate-x": -304,
       "translate-y": 10,
@@ -1487,7 +1452,6 @@
     },
     {
       "id": "dsm-pillar-0-0",
-      "collision": true,
       "rotate-x": 270,
       "translate-x": -260,
       "translate-y": 42,
@@ -1507,7 +1471,6 @@
     },
     {
       "id": "dsm-pillar-0-1",
-      "collision": true,
       "rotate-x": 90,
       "translate-x": -260,
       "translate-y": 42,
@@ -1527,7 +1490,6 @@
     },
     {
       "id": "dsm-pillar-0-2",
-      "collision": true,
       "rotate-z": 90,
       "translate-x": -270,
       "translate-y": 42,
@@ -1547,7 +1509,6 @@
     },
     {
       "id": "dsm-pillar-0-3",
-      "collision": true,
       "rotate-z": 270,
       "translate-x": -250,
       "translate-y": 42,
@@ -1567,7 +1528,6 @@
     },
     {
       "id": "dsm-pillar-1-0",
-      "collision": true,
       "rotate-x": 270,
       "translate-x": -300,
       "translate-y": 42,
@@ -1587,7 +1547,6 @@
     },
     {
       "id": "dsm-pillar-1-1",
-      "collision": true,
       "rotate-x": 90,
       "translate-x": -300,
       "translate-y": 42,
@@ -1607,7 +1566,6 @@
     },
     {
       "id": "dsm-pillar-1-2",
-      "collision": true,
       "rotate-z": 270,
       "translate-x": -290,
       "translate-y": 42,
@@ -1627,7 +1585,6 @@
     },
     {
       "id": "dsm-pillar-2-0",
-      "collision": true,
       "rotate-x": 90,
       "translate-x": -260,
       "translate-y": 42,
@@ -1647,7 +1604,6 @@
     },
     {
       "id": "dsm-pillar-2-1",
-      "collision": true,
       "rotate-z": 90,
       "translate-x": -270,
       "translate-y": 42,
@@ -1667,7 +1623,6 @@
     },
     {
       "id": "dsm-pillar-2-2",
-      "collision": true,
       "rotate-z": 270,
       "translate-x": -250,
       "translate-y": 42,
@@ -1687,7 +1642,6 @@
     },
     {
       "id": "dsm-pillar-3-0",
-      "collision": true,
       "rotate-x": 90,
       "translate-x": -300,
       "translate-y": 42,
@@ -1707,7 +1661,6 @@
     },
     {
       "id": "dsm-pillar-3-1",
-      "collision": true,
       "rotate-z": 270,
       "translate-x": -290,
       "translate-y": 42,
@@ -1917,7 +1870,6 @@
     },
     {
       "id": "item",
-      "collision": true,
       "item-id": "techdemo-item",
       "item-spell": true,
       "item-spellproperties": {
@@ -1941,7 +1893,6 @@
     },
     {
       "id": "moving-x",
-      "collision": true,
       "path-id": "path-moving-x",
       "rotate-z": 270,
       "translate-x": -90,
@@ -1962,7 +1913,6 @@
     },
     {
       "id": "moving-y",
-      "collision": true,
       "path-id": "path-moving-y",
       "translate-x": -70,
       "translate-z": 70,
@@ -1981,7 +1931,6 @@
     },
     {
       "id": "moving-z",
-      "collision": true,
       "path-id": "path-moving-z",
       "rotate-x": 270,
       "translate-x": -90,
@@ -2016,7 +1965,6 @@
     },
     {
       "id": "subway-ceiling",
-      "collision": true,
       "rotate-x": 180,
       "translate-x": -145,
       "translate-z": -40,
@@ -2035,7 +1983,6 @@
     },
     {
       "id": "subway-ceiling-fade-0",
-      "collision": true,
       "rotate-x": 180,
       "translate-x": -160,
       "translate-z": 130,
@@ -2054,7 +2001,6 @@
     },
     {
       "id": "subway-ceiling-fade-1",
-      "collision": true,
       "rotate-x": 180,
       "translate-x": -160,
       "translate-z": -210,
@@ -2073,7 +2019,6 @@
     },
     {
       "id": "subway-ground-tracks",
-      "collision": true,
       "translate-x": -165,
       "translate-y": -30,
       "translate-z": -40,
@@ -2092,7 +2037,6 @@
     },
     {
       "id": "subway-ground-tracks-fade-0",
-      "collision": true,
       "translate-x": -165,
       "translate-y": -30,
       "translate-z": -210,
@@ -2111,7 +2055,6 @@
     },
     {
       "id": "subway-ground-tracks-fade-1",
-      "collision": true,
       "translate-x": -165,
       "translate-y": -30,
       "translate-z": 130,
@@ -2130,7 +2073,6 @@
     },
     {
       "id": "subway-platform",
-      "collision": true,
       "translate-x": -120,
       "translate-y": -25,
       "translate-z": -40,
@@ -2149,6 +2091,7 @@
     },
     {
       "id": "subway-tracks-0",
+      "collision": false,
       "draw-type": "LINE_STRIP",
       "translate-x": -165,
       "translate-y": -29,
@@ -2167,7 +2110,6 @@
     },
     {
       "id": "subway-wall-far",
-      "collision": true,
       "rotate-z": 270,
       "translate-x": -190,
       "translate-y": -15,
@@ -2187,7 +2129,6 @@
     },
     {
       "id": "subway-wall-far-fade-0",
-      "collision": true,
       "rotate-z": 270,
       "translate-x": -190,
       "translate-y": -15,
@@ -2207,7 +2148,6 @@
     },
     {
       "id": "subway-wall-far-fade-1",
-      "collision": true,
       "rotate-z": 270,
       "translate-x": -190,
       "translate-y": -15,
@@ -2227,7 +2167,6 @@
     },
     {
       "id": "subway-wall-near-fade-0",
-      "collision": true,
       "rotate-z": 90,
       "translate-x": -140,
       "translate-y": -15,
@@ -2247,7 +2186,6 @@
     },
     {
       "id": "subway-wall-near-fade-1",
-      "collision": true,
       "rotate-z": 90,
       "translate-x": -140,
       "translate-y": -15,
@@ -2267,7 +2205,6 @@
     },
     {
       "id": "subway-wall-platform-1",
-      "collision": true,
       "rotate-x": 90,
       "translate-x": -120,
       "translate-y": -12.5,
@@ -2287,7 +2224,6 @@
     },
     {
       "id": "subway-wall-platform-2",
-      "collision": true,
       "rotate-x": 270,
       "translate-x": -120,
       "translate-y": -12.5,
@@ -2307,7 +2243,6 @@
     },
     {
       "id": "subway-wall-platform-3",
-      "collision": true,
       "rotate-z": 90,
       "translate-x": -140,
       "translate-y": -28,
@@ -2327,7 +2262,6 @@
     },
     {
       "id": "thin-x",
-      "collision": true,
       "rotate-z": 270,
       "translate-x": -60,
       "translate-y": -15,
@@ -2347,7 +2281,6 @@
     },
     {
       "id": "thin-z",
-      "collision": true,
       "rotate-x": 270,
       "translate-x": -60,
       "translate-y": -15,

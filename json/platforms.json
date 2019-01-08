@@ -318,7 +318,6 @@
   "entities": [
     {
       "id": "coin-0",
-      "collision": true,
       "item-id": "Coins",
       "rotate-z": 90,
       "translate-x": 75,
@@ -340,7 +339,6 @@
     {
       "id": "lava",
       "collide-damage": "1000",
-      "collision": true,
       "texture-id": "lava.png",
       "texture-repeat-x": 25,
       "texture-repeat-y": 25,
@@ -360,7 +358,6 @@
     {
       "id": "lava-pillar-0",
       "collide-damage": "1000",
-      "collision": true,
       "rotate-z": 90,
       "texture-id": "lava.png",
       "texture-repeat-y": 2,
@@ -382,7 +379,6 @@
     },
     {
       "id": "platform-8-obstacle",
-      "collision": true,
       "path-id": "platform-8-obstacle",
       "rotate-z": 90,
       "speed": 1,
@@ -407,6 +403,7 @@
     {
       "id": "shadow-platform-0",
       "alpha": 0.5,
+      "collision": false,
       "path-id": "platform-0-obstacle",
       "speed": 0.5,
       "translate-x": -20,
@@ -428,6 +425,7 @@
     {
       "id": "shadow-platform-6",
       "alpha": 0.5,
+      "collision": false,
       "translate-x": 5,
       "translate-y": 0.01,
       "translate-z": -150,
