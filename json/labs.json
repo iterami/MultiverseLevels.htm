@@ -47,7 +47,7 @@
         }
       },
       "level": 5,
-      "talk": "Hello, this is the tech demo!",
+      "talk": "Welcome to the iterami labs!",
       "trade": [
         {
           "get-amount": 10,
@@ -56,9 +56,9 @@
           "give-id": "techdemo-hat"
         }
       ],
-      "translate-x": 70,
+      "translate-x": 40,
       "translate-y": 25,
-      "translate-z": 70
+      "translate-z": 40
     }
   ],
   "prefabs": [
@@ -216,8 +216,8 @@
   },
   "spawn-rotate-x": 25,
   "spawn-rotate-y": 315,
-  "spawn-translate-x": 80,
-  "spawn-translate-z": 80,
+  "spawn-translate-x": 50,
+  "spawn-translate-z": 50,
   "entities": [
     {
       "id": "axis-x",

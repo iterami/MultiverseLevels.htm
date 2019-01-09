@@ -2,6 +2,7 @@
   "camera-zoom-max": 0,
   "fog-density": 0.001,
   "fog-state": true,
+  "multiplier-jump": 0,
   "prefabs": [
     {
       "type": "webgl_cuboid",

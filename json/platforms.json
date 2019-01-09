@@ -18,8 +18,8 @@
           "texture-id": "stone.png"
         },
         "translate-x": -20,
-        "translate-y": 15,
-        "translate-z": -55,
+        "translate-y": 20,
+        "translate-z": -50,
         "width": 15
       }
     },
