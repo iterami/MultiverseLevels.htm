@@ -145,24 +145,6 @@
       }
     },
     {
-      "type": "webgl_cuboid",
-      "properties": {
-        "prefix": "tram",
-        "exclude": {
-          "bottom": true
-        },
-        "height": -5,
-        "length": -30,
-        "properties": {
-          "path-id": "tour-loop",
-          "speed": 0.5
-        },
-        "random-colors": true,
-        "translate-y": -15,
-        "width": -30
-      }
-    },
-    {
       "type": "webgl_cuboid_tree",
       "properties": {
         "prefix": "tree-cuboid",
@@ -218,24 +200,16 @@
         }
       ]
     },
-    "tour-loop": {
+    "tram-loop": {
       "end": 1,
       "points": [
         {
-          "translate-x": 50,
-          "translate-z": -50
+          "translate-x": -165,
+          "translate-z": -250
         },
         {
-          "translate-x": 50,
-          "translate-z": 50
-        },
-        {
-          "translate-x": -50,
-          "translate-z": 50
-        },
-        {
-          "translate-x": -50,
-          "translate-z": -50
+          "translate-x": -165,
+          "translate-z": 170
         }
       ]
     }
@@ -1982,93 +1956,21 @@
       ]
     },
     {
-      "id": "subway-ceiling-fade-0",
-      "rotate-x": 180,
-      "translate-x": -160,
-      "translate-z": 130,
-      "vertex-colors": [
-        0, 0, 0, 1,
-        0, 0, 0, 1,
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1
-      ],
-      "vertices": [
-        30, 0, -20, 1,
-        -30, 0, -20, 1,
-        -30, 0, 20, 1,
-        30, 0, 20, 1
-      ]
-    },
-    {
-      "id": "subway-ceiling-fade-1",
-      "rotate-x": 180,
-      "translate-x": -160,
-      "translate-z": -210,
-      "vertex-colors": [
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1,
-        0, 0, 0, 1,
-        0, 0, 0, 1
-      ],
-      "vertices": [
-        30, 0, -20, 1,
-        -30, 0, -20, 1,
-        -30, 0, 20, 1,
-        30, 0, 20, 1
-      ]
-    },
-    {
       "id": "subway-ground-tracks",
       "translate-x": -165,
       "translate-y": -30,
       "translate-z": -40,
       "vertex-colors": [
-        0.02, 0.02, 0.02, 1,
-        0.02, 0.02, 0.02, 1,
-        0.02, 0.02, 0.02, 1,
-        0.02, 0.02, 0.02, 1
+        0.01, 0.01, 0.01, 1,
+        0.01, 0.01, 0.01, 1,
+        0.01, 0.01, 0.01, 1,
+        0.01, 0.01, 0.01, 1
       ],
       "vertices": [
         25, 0, -150, 1,
         -25, 0, -150, 1,
         -25, 0, 150, 1,
         25, 0, 150, 1
-      ]
-    },
-    {
-      "id": "subway-ground-tracks-fade-0",
-      "translate-x": -165,
-      "translate-y": -30,
-      "translate-z": -210,
-      "vertex-colors": [
-        0, 0, 0, 1,
-        0, 0, 0, 1,
-        0.02, 0.02, 0.02, 1,
-        0.02, 0.02, 0.02, 1
-      ],
-      "vertices": [
-        25, 0, -20, 1,
-        -25, 0, -20, 1,
-        -25, 0, 20, 1,
-        25, 0, 20, 1
-      ]
-    },
-    {
-      "id": "subway-ground-tracks-fade-1",
-      "translate-x": -165,
-      "translate-y": -30,
-      "translate-z": 130,
-      "vertex-colors": [
-        0.02, 0.02, 0.02, 1,
-        0.02, 0.02, 0.02, 1,
-        0, 0, 0, 1,
-        0, 0, 0, 1
-      ],
-      "vertices": [
-        25, 0, -20, 1,
-        -25, 0, -20, 1,
-        -25, 0, 20, 1,
-        25, 0, 20, 1
       ]
     },
     {
@@ -2096,16 +1998,12 @@
       "translate-x": -165,
       "translate-y": -29,
       "vertex-colors": [
-        0, 0, 0, 1,
         0.5, 0.5, 0.5, 1,
-        0.5, 0.5, 0.5, 1,
-        0, 0, 0, 1
+        0.5, 0.5, 0.5, 1
       ],
       "vertices": [
-        0, 0, -230, 1,
-        0, 0, -200, 1,
-        0, 0, 125, 1,
-        0, 0, 150, 1
+        0, 0, -250, 1,
+        0, 0, 170, 1
       ]
     },
     {
@@ -2125,82 +2023,6 @@
         -15, 0, -150, 1,
         -15, 0, 150, 1,
         15, 0, 150, 1
-      ]
-    },
-    {
-      "id": "subway-wall-far-fade-0",
-      "rotate-z": 270,
-      "translate-x": -190,
-      "translate-y": -15,
-      "translate-z": -210,
-      "vertex-colors": [
-        0, 0, 0, 1,
-        0, 0, 0, 1,
-        0.04, 0.04, 0.04, 1,
-        0.04, 0.04, 0.04, 1
-      ],
-      "vertices": [
-        15, 0, -20, 1,
-        -15, 0, -20, 1,
-        -15, 0, 20, 1,
-        15, 0, 20, 1
-      ]
-    },
-    {
-      "id": "subway-wall-far-fade-1",
-      "rotate-z": 270,
-      "translate-x": -190,
-      "translate-y": -15,
-      "translate-z": 130,
-      "vertex-colors": [
-        0.04, 0.04, 0.04, 1,
-        0.04, 0.04, 0.04, 1,
-        0, 0, 0, 1,
-        0, 0, 0, 1
-      ],
-      "vertices": [
-        15, 0, -20, 1,
-        -15, 0, -20, 1,
-        -15, 0, 20, 1,
-        15, 0, 20, 1
-      ]
-    },
-    {
-      "id": "subway-wall-near-fade-0",
-      "rotate-z": 90,
-      "translate-x": -140,
-      "translate-y": -15,
-      "translate-z": -210,
-      "vertex-colors": [
-        0, 0, 0, 1,
-        0, 0, 0, 1,
-        0.07, 0.07, 0.07, 1,
-        0.07, 0.07, 0.07, 1
-      ],
-      "vertices": [
-        15, 0, -20, 1,
-        -15, 0, -20, 1,
-        -15, 0, 20, 1,
-        15, 0, 20, 1
-      ]
-    },
-    {
-      "id": "subway-wall-near-fade-1",
-      "rotate-z": 90,
-      "translate-x": -140,
-      "translate-y": -15,
-      "translate-z": 130,
-      "vertex-colors": [
-        0.07, 0.07, 0.07, 1,
-        0.07, 0.07, 0.07, 1,
-        0, 0, 0, 1,
-        0, 0, 0, 1
-      ],
-      "vertices": [
-        15, 0, -20, 1,
-        -15, 0, -20, 1,
-        -15, 0, 20, 1,
-        15, 0, 20, 1
       ]
     },
     {
@@ -2296,6 +2118,26 @@
         -10, 0, -10, 1,
         -10, 0, 10, 1,
         10, 0, 10, 1
+      ]
+    },
+    {
+      "id": "tram",
+      "path-id": "tram-loop",
+      "speed": 1,
+      "texture-id": "stone.png",
+      "translate-x": -165,
+      "translate-y": -25,
+      "vertex-colors": [
+        0.5, 0.5, 0.5, 1,
+        0.5, 0.5, 0.5, 1,
+        0.5, 0.5, 0.5, 1,
+        0.5, 0.5, 0.5, 1
+      ],
+      "vertices": [
+        25, 0, -25, 1,
+        -25, 0, -25, 1,
+        -25, 0, 25, 1,
+        25, 0, 25, 1
       ]
     }
   ]
