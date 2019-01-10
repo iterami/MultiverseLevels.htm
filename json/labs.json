@@ -205,6 +205,14 @@
           "translate-z": -300
         },
         {
+          "translate-x": 165,
+          "translate-z": -300
+        },
+        {
+          "translate-x": 165,
+          "translate-z": 300
+        },
+        {
           "translate-x": -165,
           "translate-z": 300
         }
@@ -1076,15 +1084,19 @@
     {
       "id": "subway-tracks-0",
       "collision": false,
-      "draw-type": "LINE_STRIP",
+      "draw-type": "LINE_LOOP",
       "translate-x": -165,
       "translate-y": -29,
       "vertex-colors": [
+        0.5, 0.5, 0.5, 1,
+        0.5, 0.5, 0.5, 1,
         0.5, 0.5, 0.5, 1,
         0.5, 0.5, 0.5, 1
       ],
       "vertices": [
         0, 0, -300, 1,
+        330, 0, -300, 1,
+        330, 0, 300, 1,
         0, 0, 300, 1
       ]
     },
@@ -1235,12 +1247,35 @@
       ]
     },
     {
-      "id": "tram",
+      "id": "tram-0",
       "path-id": "tram-loop",
       "speed": 1,
       "texture-id": "stone.png",
       "translate-x": -165,
       "translate-y": -25,
+      "translate-z": 300,
+      "vertex-colors": [
+        0.5, 0.5, 0.5, 1,
+        0.5, 0.5, 0.5, 1,
+        0.5, 0.5, 0.5, 1,
+        0.5, 0.5, 0.5, 1
+      ],
+      "vertices": [
+        25, 0, -25, 1,
+        -25, 0, -25, 1,
+        -25, 0, 25, 1,
+        25, 0, 25, 1
+      ]
+    },
+    {
+      "id": "tram-1",
+      "path-id": "tram-loop",
+      "path-point": 2,
+      "speed": 1,
+      "texture-id": "stone.png",
+      "translate-x": 165,
+      "translate-y": -25,
+      "translate-z": -300,
       "vertex-colors": [
         0.5, 0.5, 0.5, 1,
         0.5, 0.5, 0.5, 1,
