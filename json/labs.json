@@ -56,9 +56,7 @@
           "give-id": "techdemo-hat"
         }
       ],
-      "translate-x": 40,
-      "translate-y": 25,
-      "translate-z": 40
+      "translate-x": 25
     }
   ],
   "prefabs": [
@@ -99,9 +97,8 @@
     {
       "type": "webgl_cuboid",
       "properties": {
-        "prefix": "museum",
+        "prefix": "landing",
         "exclude": {
-          "bottom": true,
           "right": true
         },
         "height": -50,
@@ -150,7 +147,7 @@
         "prefix": "tree-cuboid",
         "translate-x": 85,
         "translate-y": -25,
-        "translate-z": 20
+        "translate-z": -20
       }
     },
     {
@@ -159,7 +156,7 @@
         "prefix": "tree-lines",
         "translate-x": 65,
         "translate-y": -25,
-        "translate-z": 20,
+        "translate-z": -20,
         "trunk-count-min": 5
       }
     }
@@ -205,11 +202,11 @@
       "points": [
         {
           "translate-x": -165,
-          "translate-z": -250
+          "translate-z": -300
         },
         {
           "translate-x": -165,
-          "translate-z": 170
+          "translate-z": 300
         }
       ]
     }
@@ -219,45 +216,6 @@
   "spawn-translate-x": 50,
   "spawn-translate-z": 50,
   "entities": [
-    {
-      "id": "axis-x",
-      "collision": false,
-      "draw-type": "LINES",
-      "vertex-colors": [
-        1, 0, 0, 1,
-        1, 0, 0, 1
-      ],
-      "vertices": [
-        -100, 0, 0, 1,
-        100, 0, 0, 1
-      ]
-    },
-    {
-      "id": "axis-y",
-      "collision": false,
-      "draw-type": "LINES",
-      "vertex-colors": [
-        0, 1, 0, 1,
-        0, 1, 0, 1
-      ],
-      "vertices": [
-        0, -25, 0, 1,
-        0, 25, 0, 1
-      ]
-    },
-    {
-      "id": "axis-z",
-      "collision": false,
-      "draw-type": "LINES",
-      "vertex-colors": [
-        0, 0, 1, 1,
-        0, 0, 1, 1
-      ],
-      "vertices": [
-        0, 0, -100, 1,
-        0, 0, 100, 1
-      ]
-    },
     {
       "id": "billboarding-x",
       "billboard": [
@@ -401,899 +359,6 @@
         -2, 0, 0, 1,
         2, 0, 0, 1,
         0, 2, 0, 1
-      ]
-    },
-    {
-      "id": "citymaze-base",
-      "translate-x": 160,
-      "vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "vertices": [
-        60, 0, -40, 1,
-        -60, 0, -40, 1,
-        -60, 0, 60, 1,
-        60, 0, 60, 1
-      ]
-    },
-    {
-      "id": "citymaze-grate-0",
-      "translate-x": 103,
-      "translate-z": -50,
-      "vertex-colors": [
-        0.2, 0.2, 0.2, 1,
-        0.2, 0.2, 0.2, 1,
-        0.2, 0.2, 0.2, 1,
-        0.2, 0.2, 0.2, 1
-      ],
-      "vertices": [
-        3, 0, -10, 1,
-        -3, 0, -10, 1,
-        -3, 0, 10, 1,
-        3, 0, 10, 1
-      ]
-    },
-    {
-      "id": "citymaze-grate-1",
-      "translate-x": 110.5,
-      "translate-z": -57,
-      "vertex-colors": [
-        0.2, 0.2, 0.2, 1,
-        0.2, 0.2, 0.2, 1,
-        0.2, 0.2, 0.2, 1,
-        0.2, 0.2, 0.2, 1
-      ],
-      "vertices": [
-        4.5, 0, -3, 1,
-        -4.5, 0, -3, 1,
-        -4.5, 0, 3, 1,
-        4.5, 0, 3, 1
-      ]
-    },
-    {
-      "id": "citymaze-grate-2",
-      "translate-x": 110.5,
-      "translate-z": -43,
-      "vertex-colors": [
-        0.2, 0.2, 0.2, 1,
-        0.2, 0.2, 0.2, 1,
-        0.2, 0.2, 0.2, 1,
-        0.2, 0.2, 0.2, 1
-      ],
-      "vertices": [
-        4.5, 0, -3, 1,
-        -4.5, 0, -3, 1,
-        -4.5, 0, 3, 1,
-        4.5, 0, 3, 1
-      ]
-    },
-    {
-      "id": "citymaze-grate-entrance-0",
-      "rotate-z": 270,
-      "translate-x": 106,
-      "translate-y": -10,
-      "translate-z": -50,
-      "vertex-colors": [
-        0.17, 0.17, 0.17, 1,
-        0.17, 0.17, 0.17, 1,
-        0.17, 0.17, 0.17, 1,
-        0.17, 0.17, 0.17, 1
-      ],
-      "vertices": [
-        10, 0, -4, 1,
-        -10, 0, -4, 1,
-        -10, 0, 4, 1,
-        10, 0, 4, 1
-      ]
-    },
-    {
-      "id": "citymaze-grate-entrance-1",
-      "rotate-z": 90,
-      "translate-x": 115,
-      "translate-y": -10,
-      "translate-z": -50,
-      "vertex-colors": [
-        0.17, 0.17, 0.17, 1,
-        0.17, 0.17, 0.17, 1,
-        0.17, 0.17, 0.17, 1,
-        0.17, 0.17, 0.17, 1
-      ],
-      "vertices": [
-        10, 0, -4, 1,
-        -10, 0, -4, 1,
-        -10, 0, 4, 1,
-        10, 0, 4, 1
-      ]
-    },
-    {
-      "id": "citymaze-grate-entrance-2",
-      "rotate-x": 90,
-      "translate-x": 110,
-      "translate-y": -10,
-      "translate-z": -54,
-      "vertex-colors": [
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1
-      ],
-      "vertices": [
-        5, 0, -10, 1,
-        -4, 0, -10, 1,
-        -4, 0, 10, 1,
-        5, 0, 10, 1
-      ]
-    },
-    {
-      "id": "citymaze-grate-entrance-3",
-      "rotate-x": 270,
-      "translate-x": 110,
-      "translate-y": -10,
-      "translate-z": -46,
-      "vertex-colors": [
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1
-      ],
-      "vertices": [
-        5, 0, -10, 1,
-        -4, 0, -10, 1,
-        -4, 0, 10, 1,
-        5, 0, 10, 1
-      ]
-    },
-    {
-      "id": "citymaze-sewer-floor-0",
-      "translate-x": 110,
-      "translate-y": -60,
-      "translate-z": -50,
-      "vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "vertices": [
-        15, 0, -15, 1,
-        -15, 0, -15, 1,
-        -15, 0, 15, 1,
-        15, 0, 15, 1
-      ]
-    },
-    {
-      "id": "citymaze-sewer-wall-0",
-      "rotate-z": 90,
-      "translate-x": 125,
-      "translate-y": -45,
-      "translate-z": -50,
-      "vertex-colors": [
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1
-      ],
-      "vertices": [
-        15, 0, -15, 1,
-        -15, 0, -15, 1,
-        -15, 0, 15, 1,
-        15, 0, 15, 1
-      ]
-    },
-    {
-      "id": "citymaze-sewer-wall-1",
-      "rotate-z": 270,
-      "translate-x": 95,
-      "translate-y": -45,
-      "translate-z": -50,
-      "vertex-colors": [
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1
-      ],
-      "vertices": [
-        15, 0, -15, 1,
-        -15, 0, -15, 1,
-        -15, 0, 15, 1,
-        15, 0, 15, 1
-      ]
-    },
-    {
-      "id": "citymaze-sewer-wall-2",
-      "rotate-x": 90,
-      "translate-x": 110,
-      "translate-y": -40,
-      "translate-z": -65,
-      "vertex-colors": [
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1
-      ],
-      "vertices": [
-        15, 0, -10, 1,
-        -15, 0, -10, 1,
-        -15, 0, 10, 1,
-        15, 0, 10, 1
-      ]
-    },
-    {
-      "id": "citymaze-sewer-wall-4",
-      "rotate-x": 270,
-      "translate-x": 110,
-      "translate-y": -40,
-      "translate-z": -35,
-      "vertex-colors": [
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1,
-        0.08, 0.08, 0.08, 1
-      ],
-      "vertices": [
-        15, 0, -10, 1,
-        -15, 0, -10, 1,
-        -15, 0, 10, 1,
-        15, 0, 10, 1
-      ]
-    },
-    {
-      "id": "citymaze-sidewalk-base",
-      "translate-x": 160,
-      "translate-z": -50,
-      "vertex-colors": [
-        0.2, 0.2, 0.2, 1,
-        0.2, 0.2, 0.2, 1,
-        0.2, 0.2, 0.2, 1,
-        0.2, 0.2, 0.2, 1
-      ],
-      "vertices": [
-        60, 0, -10, 1,
-        -45, 0, -10, 1,
-        -45, 0, 10, 1,
-        60, 0, 10, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-0-base",
-      "translate-x": 130,
-      "translate-y": 0.01,
-      "translate-z": 20,
-      "vertex-colors": [
-        0.2, 0.2, 0.2, 1,
-        0.2, 0.2, 0.2, 1,
-        0.2, 0.2, 0.2, 1,
-        0.2, 0.2, 0.2, 1
-      ],
-      "vertices": [
-        15, 0, -30, 1,
-        -30, 0, -30, 1,
-        -30, 0, 40, 1,
-        15, 0, 40, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-0-floor0-ceiling",
-      "rotate-x": 180,
-      "translate-x": 117.5,
-      "translate-y": 17,
-      "translate-z": 30,
-      "vertex-colors": [
-        0.2, 0.2, 0.2, 1,
-        0.2, 0.2, 0.2, 1,
-        0.2, 0.2, 0.2, 1,
-        0.2, 0.2, 0.2, 1
-      ],
-      "vertices": [
-        17.5, 0, -30, 1,
-        -17.5, 0, -30, 1,
-        -17.5, 0, 30, 1,
-        17.5, 0, 30, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-0-wall-inner-0",
-      "rotate-z": 270,
-      "translate-x": 100,
-      "translate-y": 25,
-      "translate-z": 30,
-      "vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "vertices": [
-        25, 0, -30, 1,
-        -25, 0, -30, 1,
-        -25, 0, 30, 1,
-        25, 0, 30, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-0-wall-inner-1",
-      "rotate-x": 270,
-      "translate-x": 120,
-      "translate-y": 25,
-      "translate-z": 60,
-      "vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "vertices": [
-        15, 0, -25, 1,
-        -20, 0, -25, 1,
-        -20, 0, 25, 1,
-        15, 0, 25, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-0-wall-inner-2",
-      "rotate-x": 90,
-      "translate-x": 120,
-      "translate-y": 25,
-      "vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "vertices": [
-        15, 0, -25, 1,
-        -20, 0, -25, 1,
-        -20, 0, 25, 1,
-        15, 0, 25, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-0-wall-inner-3",
-      "rotate-z": 90,
-      "translate-x": 135,
-      "translate-y": 28,
-      "translate-z": 30,
-      "vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "vertices": [
-        22, 0, -30, 1,
-        -22, 0, -30, 1,
-        -22, 0, 30, 1,
-        22, 0, 30, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-0-wall-inner-4",
-      "rotate-z": 90,
-      "translate-x": 135,
-      "translate-y": 3,
-      "translate-z": 10,
-      "vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "vertices": [
-        3, 0, -10, 1,
-        -3, 0, -10, 1,
-        -3, 0, 10, 1,
-        3, 0, 10, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-0-wall-inner-5",
-      "rotate-z": 90,
-      "translate-x": 135,
-      "translate-y": 3,
-      "translate-z": 45,
-      "vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "vertices": [
-        3, 0, -15, 1,
-        -3, 0, -15, 1,
-        -3, 0, 15, 1,
-        3, 0, 15, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-0-wall-outer-0",
-      "rotate-z": 270,
-      "translate-x": 135,
-      "translate-y": 28,
-      "translate-z": 30,
-      "vertex-colors": [
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1
-      ],
-      "vertices": [
-        22, 0, -30, 1,
-        -22, 0, -30, 1,
-        -22, 0, 30, 1,
-        22, 0, 30, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-0-wall-outer-1",
-      "rotate-z": 270,
-      "translate-x": 135,
-      "translate-y": 3,
-      "translate-z": 45,
-      "vertex-colors": [
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1
-      ],
-      "vertices": [
-        3, 0, -15, 1,
-        -3, 0, -15, 1,
-        -3, 0, 15, 1,
-        3, 0, 15, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-0-wall-outer-2",
-      "rotate-z": 270,
-      "translate-x": 135,
-      "translate-y": 3,
-      "translate-z": 10,
-      "vertex-colors": [
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1
-      ],
-      "vertices": [
-        3, 0, -10, 1,
-        -3, 0, -10, 1,
-        -3, 0, 10, 1,
-        3, 0, 10, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-0-wall-outer-3",
-      "rotate-x": 270,
-      "translate-x": 120,
-      "translate-y": 25,
-      "vertex-colors": [
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1
-      ],
-      "vertices": [
-        15, 0, -25, 1,
-        -20, 0, -25, 1,
-        -20, 0, 25, 1,
-        15, 0, 25, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-bridge-0",
-      "rotate-x": 180,
-      "translate-x": 160,
-      "translate-y": 22,
-      "translate-z": 20,
-      "vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "vertices": [
-        25, 0, -5, 1,
-        -25, 0, -5, 1,
-        -25, 0, 5, 1,
-        25, 0, 5, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-bridge-1",
-      "rotate-x": 270,
-      "translate-x": 160,
-      "translate-y": 27,
-      "translate-z": 15,
-      "vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "vertices": [
-        25, 0, -5, 1,
-        -25, 0, -5, 1,
-        -25, 0, 5, 1,
-        25, 0, 5, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-bridge-2",
-      "rotate-x": 90,
-      "translate-x": 160,
-      "translate-y": 27,
-      "translate-z": 25,
-      "vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "vertices": [
-        25, 0, -5, 1,
-        -25, 0, -5, 1,
-        -25, 0, 5, 1,
-        25, 0, 5, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-1-base",
-      "translate-x": 190,
-      "translate-y": 0.01,
-      "translate-z": 20,
-      "vertex-colors": [
-        0.2, 0.2, 0.2, 1,
-        0.2, 0.2, 0.2, 1,
-        0.2, 0.2, 0.2, 1,
-        0.2, 0.2, 0.2, 1
-      ],
-      "vertices": [
-        30, 0, -30, 1,
-        -15, 0, -30, 1,
-        -15, 0, 40, 1,
-        30, 0, 40, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-1-floor0-ceiling",
-      "rotate-x": 180,
-      "translate-x": 202.5,
-      "translate-y": 17,
-      "translate-z": 20,
-      "vertex-colors": [
-        0.2, 0.2, 0.2, 1,
-        0.2, 0.2, 0.2, 1,
-        0.2, 0.2, 0.2, 1,
-        0.2, 0.2, 0.2, 1
-      ],
-      "vertices": [
-        17.5, 0, -20, 1,
-        -17.5, 0, -20, 1,
-        -17.5, 0, 20, 1,
-        17.5, 0, 20, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-1-wall-inner-0",
-      "rotate-z": 90,
-      "translate-x": 220,
-      "translate-y": 25,
-      "translate-z": 20,
-      "vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "vertices": [
-        25, 0, -20, 1,
-        -25, 0, -20, 1,
-        -25, 0, 20, 1,
-        25, 0, 20, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-1-wall-inner-1",
-      "rotate-x": 270,
-      "translate-x": 200,
-      "translate-y": 25,
-      "translate-z": 40,
-      "vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "vertices": [
-        20, 0, -25, 1,
-        -15, 0, -25, 1,
-        -15, 0, 25, 1,
-        20, 0, 25, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-1-wall-inner-2",
-      "rotate-x": 90,
-      "translate-x": 200,
-      "translate-y": 25,
-      "vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "vertices": [
-        20, 0, -25, 1,
-        -15, 0, -25, 1,
-        -15, 0, 25, 1,
-        20, 0, 25, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-1-wall-inner-3",
-      "rotate-z": 270,
-      "translate-x": 185,
-      "translate-y": 28,
-      "translate-z": 20,
-      "vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "vertices": [
-        22, 0, -20, 1,
-        -22, 0, -20, 1,
-        -22, 0, 20, 1,
-        22, 0, 20, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-1-wall-inner-4",
-      "rotate-z": 270,
-      "translate-x": 185,
-      "translate-y": 3,
-      "translate-z": 10,
-      "vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "vertices": [
-        3, 0, -10, 1,
-        -3, 0, -10, 1,
-        -3, 0, 10, 1,
-        3, 0, 10, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-1-wall-inner-5",
-      "rotate-z": 270,
-      "translate-x": 185,
-      "translate-y": 3,
-      "translate-z": 35,
-      "vertex-colors": [
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1,
-        0.1, 0.1, 0.1, 1
-      ],
-      "vertices": [
-        3, 0, -5, 1,
-        -3, 0, -5, 1,
-        -3, 0, 5, 1,
-        3, 0, 5, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-1-wall-outer-0",
-      "rotate-x": 90,
-      "translate-x": 200,
-      "translate-y": 25,
-      "translate-z": 40,
-      "vertex-colors": [
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1
-      ],
-      "vertices": [
-        20, 0, -25, 1,
-        -15, 0, -25, 1,
-        -15, 0, 25, 1,
-        20, 0, 25, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-1-wall-outer-1",
-      "rotate-z": 90,
-      "translate-x": 185,
-      "translate-y": 28,
-      "translate-z": 20,
-      "vertex-colors": [
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1
-      ],
-      "vertices": [
-        22, 0, -20, 1,
-        -22, 0, -20, 1,
-        -22, 0, 20, 1,
-        22, 0, 20, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-1-wall-outer-2",
-      "rotate-z": 90,
-      "translate-x": 185,
-      "translate-y": 3,
-      "translate-z": 10,
-      "vertex-colors": [
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1
-      ],
-      "vertices": [
-        3, 0, -10, 1,
-        -3, 0, -10, 1,
-        -3, 0, 10, 1,
-        3, 0, 10, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-1-wall-outer-3",
-      "rotate-z": 90,
-      "translate-x": 185,
-      "translate-y": 3,
-      "translate-z": 35,
-      "vertex-colors": [
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1
-      ],
-      "vertices": [
-        3, 0, -5, 1,
-        -3, 0, -5, 1,
-        -3, 0, 5, 1,
-        3, 0, 5, 1
-      ]
-    },
-    {
-      "id": "citymaze-tower-1-wall-outer-4",
-      "rotate-x": 270,
-      "translate-x": 200,
-      "translate-y": 25,
-      "vertex-colors": [
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1,
-        0.15, 0.15, 0.15, 1
-      ],
-      "vertices": [
-        20, 0, -25, 1,
-        -15, 0, -25, 1,
-        -15, 0, 25, 1,
-        20, 0, 25, 1
-      ]
-    },
-    {
-      "id": "citymaze-wall-0",
-      "rotate-x": 90,
-      "translate-x": 160,
-      "translate-y": 5,
-      "translate-z": -60,
-      "vertex-colors": [
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1
-      ],
-      "vertices": [
-        60, 0, -5, 1,
-        -60, 0, -5, 1,
-        -60, 0, 5, 1,
-        60, 0, 5, 1
-      ]
-    },
-    {
-      "id": "citymaze-wall-1",
-      "rotate-z": 90,
-      "translate-x": 220,
-      "translate-y": 5,
-      "translate-z": -30,
-      "vertex-colors": [
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1
-      ],
-      "vertices": [
-        5, 0, -30, 1,
-        -5, 0, -30, 1,
-        -5, 0, 30, 1,
-        5, 0, 30, 1
-      ]
-    },
-    {
-      "id": "citymaze-wall-2",
-      "rotate-z": 90,
-      "translate-x": 220,
-      "translate-y": 5,
-      "translate-z": 50,
-      "vertex-colors": [
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1
-      ],
-      "vertices": [
-        5, 0, -10, 1,
-        -5, 0, -10, 1,
-        -5, 0, 10, 1,
-        5, 0, 10, 1
-      ]
-    },
-    {
-      "id": "citymaze-wall-3",
-      "rotate-x": 270,
-      "translate-x": 180,
-      "translate-y": 5,
-      "translate-z": 60,
-      "vertex-colors": [
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1
-      ],
-      "vertices": [
-        40, 0, -5, 1,
-        -45, 0, -5, 1,
-        -45, 0, 5, 1,
-        40, 0, 5, 1
-      ]
-    },
-    {
-      "id": "citymaze-wall-4",
-      "rotate-z": 270,
-      "translate-x": 100,
-      "translate-y": 5,
-      "translate-z": -30,
-      "vertex-colors": [
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1,
-        0.05, 0.05, 0.05, 1
-      ],
-      "vertices": [
-        5, 0, -30, 1,
-        -5, 0, -30, 1,
-        -5, 0, 30, 1,
-        5, 0, 30, 1
-      ]
-    },
-    {
-      "id": "damage-heal",
-      "collide-damage": -1,
-      "translate-y": -23,
-      "translate-z": -90,
-      "vertex-colors": [
-        0, 1, 0, 1,
-        0, 1, 0, 1,
-        0, 1, 0, 1,
-        0, 1, 0, 1
-      ],
-      "vertices": [
-        10, 0, -10, 1,
-        -10, 0, -10, 1,
-        -10, 0, 10, 1,
-        10, 0, 10, 1
       ]
     },
     {
@@ -1866,6 +931,25 @@
       ]
     },
     {
+      "id": "landing-pad",
+      "collide-damage": -1,
+      "translate-x": 50,
+      "translate-y": -24.9,
+      "translate-z": 50,
+      "vertex-colors": [
+        0, 0.1, 0, 1,
+        0, 0.1, 0, 1,
+        0, 0.1, 0, 1,
+        0, 0.1, 0, 1
+      ],
+      "vertices": [
+        10, 0, -10, 1,
+        -10, 0, -10, 1,
+        -10, 0, 10, 1,
+        10, 0, 10, 1
+      ]
+    },
+    {
       "id": "moving-x",
       "path-id": "path-moving-x",
       "rotate-z": 270,
@@ -1941,7 +1025,7 @@
       "id": "subway-ceiling",
       "rotate-x": 180,
       "translate-x": -145,
-      "translate-z": -40,
+      "translate-y": 25,
       "vertex-colors": [
         0.05, 0.05, 0.05, 1,
         0.05, 0.05, 0.05, 1,
@@ -1949,17 +1033,16 @@
         0.05, 0.05, 0.05, 1
       ],
       "vertices": [
-        45, 0, -150, 1,
-        -45, 0, -150, 1,
-        -45, 0, 150, 1,
-        45, 0, 150, 1
+        45, 0, -200, 1,
+        -45, 0, -200, 1,
+        -45, 0, 200, 1,
+        45, 0, 200, 1
       ]
     },
     {
       "id": "subway-ground-tracks",
       "translate-x": -165,
       "translate-y": -30,
-      "translate-z": -40,
       "vertex-colors": [
         0.01, 0.01, 0.01, 1,
         0.01, 0.01, 0.01, 1,
@@ -1967,17 +1050,16 @@
         0.01, 0.01, 0.01, 1
       ],
       "vertices": [
-        25, 0, -150, 1,
-        -25, 0, -150, 1,
-        -25, 0, 150, 1,
-        25, 0, 150, 1
+        25, 0, -200, 1,
+        -25, 0, -200, 1,
+        -25, 0, 200, 1,
+        25, 0, 200, 1
       ]
     },
     {
       "id": "subway-platform",
       "translate-x": -120,
       "translate-y": -25,
-      "translate-z": -40,
       "vertex-colors": [
         0.1, 0.1, 0.1, 1,
         0.1, 0.1, 0.1, 1,
@@ -1985,10 +1067,10 @@
         0.1, 0.1, 0.1, 1
       ],
       "vertices": [
-        20, 0, -150, 1,
-        -20, 0, -150, 1,
-        -20, 0, 150, 1,
-        20, 0, 150, 1
+        20, 0, -200, 1,
+        -20, 0, -200, 1,
+        -20, 0, 200, 1,
+        20, 0, 200, 1
       ]
     },
     {
@@ -2002,16 +1084,15 @@
         0.5, 0.5, 0.5, 1
       ],
       "vertices": [
-        0, 0, -250, 1,
-        0, 0, 170, 1
+        0, 0, -300, 1,
+        0, 0, 300, 1
       ]
     },
     {
       "id": "subway-wall-far",
       "rotate-z": 270,
       "translate-x": -190,
-      "translate-y": -15,
-      "translate-z": -40,
+      "translate-y": -2.5,
       "vertex-colors": [
         0.04, 0.04, 0.04, 1,
         0.04, 0.04, 0.04, 1,
@@ -2019,18 +1100,35 @@
         0.04, 0.04, 0.04, 1
       ],
       "vertices": [
-        15, 0, -150, 1,
-        -15, 0, -150, 1,
-        -15, 0, 150, 1,
-        15, 0, 150, 1
+        27.5, 0, -200, 1,
+        -27.5, 0, -200, 1,
+        -27.5, 0, 200, 1,
+        27.5, 0, 200, 1
+      ]
+    },
+    {
+      "id": "subway-wall-platform-0",
+      "rotate-z": 90,
+      "translate-x": -100,
+      "translate-z": -150,
+      "vertex-colors": [
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1
+      ],
+      "vertices": [
+        25, 0, -50, 1,
+        -25, 0, -50, 1,
+        -25, 0, 50, 1,
+        25, 0, 50, 1
       ]
     },
     {
       "id": "subway-wall-platform-1",
       "rotate-x": 90,
       "translate-x": -120,
-      "translate-y": -12.5,
-      "translate-z": -190,
+      "translate-z": -200,
       "vertex-colors": [
         0.12, 0.12, 0.12, 1,
         0.12, 0.12, 0.12, 1,
@@ -2038,18 +1136,17 @@
         0.12, 0.12, 0.12, 1
       ],
       "vertices": [
-        20, 0, -12.5, 1,
-        -20, 0, -12.5, 1,
-        -20, 0, 12.5, 1,
-        20, 0, 12.5, 1
+        20, 0, -25, 1,
+        -20, 0, -25, 1,
+        -20, 0, 25, 1,
+        20, 0, 25, 1
       ]
     },
     {
       "id": "subway-wall-platform-2",
       "rotate-x": 270,
       "translate-x": -120,
-      "translate-y": -12.5,
-      "translate-z": 110,
+      "translate-z": 200,
       "vertex-colors": [
         0.12, 0.12, 0.12, 1,
         0.12, 0.12, 0.12, 1,
@@ -2057,10 +1154,10 @@
         0.12, 0.12, 0.12, 1
       ],
       "vertices": [
-        20, 0, -12.5, 1,
-        -20, 0, -12.5, 1,
-        -20, 0, 12.5, 1,
-        20, 0, 12.5, 1
+        20, 0, -25, 1,
+        -20, 0, -25, 1,
+        -20, 0, 25, 1,
+        20, 0, 25, 1
       ]
     },
     {
@@ -2068,7 +1165,6 @@
       "rotate-z": 90,
       "translate-x": -140,
       "translate-y": -28,
-      "translate-z": -40,
       "vertex-colors": [
         0.07, 0.07, 0.07, 1,
         0.07, 0.07, 0.07, 1,
@@ -2076,10 +1172,28 @@
         0.07, 0.07, 0.07, 1
       ],
       "vertices": [
-        3, 0, -150, 1,
-        -2, 0, -150, 1,
-        -2, 0, 150, 1,
-        3, 0, 150, 1
+        3, 0, -200, 1,
+        -2, 0, -200, 1,
+        -2, 0, 200, 1,
+        3, 0, 200, 1
+      ]
+    },
+    {
+      "id": "subway-wall-platform-4",
+      "rotate-z": 90,
+      "translate-x": -100,
+      "translate-z": 150,
+      "vertex-colors": [
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1,
+        0.1, 0.1, 0.1, 1
+      ],
+      "vertices": [
+        25, 0, -50, 1,
+        -25, 0, -50, 1,
+        -25, 0, 50, 1,
+        25, 0, 50, 1
       ]
     },
     {
