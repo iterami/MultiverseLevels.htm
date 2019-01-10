@@ -63,6 +63,25 @@
     {
       "type": "webgl_cuboid",
       "properties": {
+        "prefix": "collision-room",
+        "exclude": {
+          "back": true
+        },
+        "height": -50,
+        "length": -100,
+        "properties": {
+          "texture-id": "stone.png",
+          "texture-repeat-x": 10,
+          "texture-repeat-y": 10
+        },
+        "random-colors": true,
+        "translate-z": 150,
+        "width": -200
+      }
+    },
+    {
+      "type": "webgl_cuboid",
+      "properties": {
         "prefix": "dsm-skybox",
         "all-vertex-colors": [
           0.7, 0.5, 0.1, 1,
@@ -81,22 +100,6 @@
     {
       "type": "webgl_cuboid",
       "properties": {
-        "prefix": "hurt-cube",
-        "height": 15,
-        "length": 15,
-        "properties": {
-          "collide-damage": 1,
-          "texture-id": "debug.png"
-        },
-        "translate-x": 75,
-        "translate-y": -10,
-        "translate-z": -75,
-        "width": 15
-      }
-    },
-    {
-      "type": "webgl_cuboid",
-      "properties": {
         "prefix": "landing",
         "exclude": {
           "right": true
@@ -110,6 +113,58 @@
         },
         "random-colors": true,
         "width": -200
+      }
+    },
+    {
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "prefab-room",
+        "exclude": {
+          "front": true
+        },
+        "height": -50,
+        "length": -100,
+        "properties": {
+          "texture-id": "stone.png",
+          "texture-repeat-x": 10,
+          "texture-repeat-y": 10
+        },
+        "random-colors": true,
+        "translate-z": -150,
+        "width": -200
+      }
+    },
+    {
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "prefab-room-cube",
+        "height": 20,
+        "length": 20,
+        "properties": {
+          "collide-damage": 1,
+          "texture-id": "debug.png"
+        },
+        "translate-x": 50,
+        "translate-z": -150,
+        "width": 20
+      }
+    },
+    {
+      "type": "webgl_cuboid_tree",
+      "properties": {
+        "prefix": "prefab-room-tree-cuboid",
+        "translate-x": -50,
+        "translate-y": -25,
+        "translate-z": -150
+      }
+    },
+    {
+      "type": "webgl_lines_tree",
+      "properties": {
+        "prefix": "prefab-room-tree-lines",
+        "translate-y": -25,
+        "translate-z": -150,
+        "trunk-count-min": 5
       }
     },
     {
@@ -140,25 +195,6 @@
           "skybox"
         ]
       }
-    },
-    {
-      "type": "webgl_cuboid_tree",
-      "properties": {
-        "prefix": "tree-cuboid",
-        "translate-x": 85,
-        "translate-y": -25,
-        "translate-z": -20
-      }
-    },
-    {
-      "type": "webgl_lines_tree",
-      "properties": {
-        "prefix": "tree-lines",
-        "translate-x": 65,
-        "translate-y": -25,
-        "translate-z": -20,
-        "trunk-count-min": 5
-      }
     }
   ],
   "multiplier-speed": 5,
@@ -171,7 +207,7 @@
           "translate-x": -100
         },
         {
-          "translate-x": 0
+          "translate-x": 50
         }
       ]
     },
@@ -190,10 +226,10 @@
       "end": -1,
       "points": [
         {
-          "translate-z": 100
+          "translate-z": 250
         },
         {
-          "translate-z": 0
+          "translate-z": 100
         }
       ]
     },
@@ -202,19 +238,19 @@
       "points": [
         {
           "translate-x": -165,
-          "translate-z": -300
+          "translate-z": -250
         },
         {
           "translate-x": 165,
-          "translate-z": -300
+          "translate-z": -250
         },
         {
           "translate-x": 165,
-          "translate-z": 300
+          "translate-z": 250
         },
         {
           "translate-x": -165,
-          "translate-z": 300
+          "translate-z": 250
         }
       ]
     }
@@ -232,16 +268,16 @@
       "collision": false,
       "translate-x": 40,
       "translate-y": -20,
-      "translate-z": -30,
+      "translate-z": 130,
       "vertex-colors": [
         1, 0, 0, 1,
         1, 0, 0, 1,
         1, 0, 0, 1
       ],
       "vertices": [
-        -2, 0, 0, 1,
-        2, 0, 0, 1,
-        0, 2, 0, 1
+        -5, 0, 0, 1,
+        5, 0, 0, 1,
+        0, 5, 0, 1
       ]
     },
     {
@@ -253,16 +289,16 @@
       "collision": false,
       "translate-x": 40,
       "translate-y": -20,
-      "translate-z": -40,
+      "translate-z": 140,
       "vertex-colors": [
         1, 1, 0, 1,
         1, 1, 0, 1,
         1, 1, 0, 1
       ],
       "vertices": [
-        -2, 0, 0, 1,
-        2, 0, 0, 1,
-        0, 2, 0, 1
+        -5, 0, 0, 1,
+        5, 0, 0, 1,
+        0, 5, 0, 1
       ]
     },
     {
@@ -275,16 +311,16 @@
       "collision": false,
       "translate-x": 50,
       "translate-y": -20,
-      "translate-z": -50,
+      "translate-z": 150,
       "vertex-colors": [
         1, 1, 1, 1,
         1, 1, 1, 1,
         1, 1, 1, 1
       ],
       "vertices": [
-        -2, 0, 0, 1,
-        2, 0, 0, 1,
-        0, 2, 0, 1
+        -5, 0, 0, 1,
+        5, 0, 0, 1,
+        0, 5, 0, 1
       ]
     },
     {
@@ -296,16 +332,16 @@
       "collision": false,
       "translate-x": 50,
       "translate-y": -20,
-      "translate-z": -40,
+      "translate-z": 140,
       "vertex-colors": [
         1, 0, 1, 1,
         1, 0, 1, 1,
         1, 0, 1, 1
       ],
       "vertices": [
-        -2, 0, 0, 1,
-        2, 0, 0, 1,
-        0, 2, 0, 1
+        -5, 0, 0, 1,
+        5, 0, 0, 1,
+        0, 5, 0, 1
       ]
     },
     {
@@ -316,16 +352,16 @@
       "collision": false,
       "translate-x": 50,
       "translate-y": -20,
-      "translate-z": -30,
+      "translate-z": 130,
       "vertex-colors": [
         0, 1, 0, 1,
         0, 1, 0, 1,
         0, 1, 0, 1
       ],
       "vertices": [
-        -2, 0, 0, 1,
-        2, 0, 0, 1,
-        0, 2, 0, 1
+        -5, 0, 0, 1,
+        5, 0, 0, 1,
+        0, 5, 0, 1
       ]
     },
     {
@@ -337,16 +373,16 @@
       "collision": false,
       "translate-x": 60,
       "translate-y": -20,
-      "translate-z": -40,
+      "translate-z": 140,
       "vertex-colors": [
         0, 1, 1, 1,
         0, 1, 1, 1,
         0, 1, 1, 1
       ],
       "vertices": [
-        -2, 0, 0, 1,
-        2, 0, 0, 1,
-        0, 2, 0, 1
+        -5, 0, 0, 1,
+        5, 0, 0, 1,
+        0, 5, 0, 1
       ]
     },
     {
@@ -357,16 +393,16 @@
       "collision": false,
       "translate-x": 60,
       "translate-y": -20,
-      "translate-z": -30,
+      "translate-z": 130,
       "vertex-colors": [
         0, 0, 1, 1,
         0, 0, 1, 1,
         0, 0, 1, 1
       ],
       "vertices": [
-        -2, 0, 0, 1,
-        2, 0, 0, 1,
-        0, 2, 0, 1
+        -5, 0, 0, 1,
+        5, 0, 0, 1,
+        0, 5, 0, 1
       ]
     },
     {
@@ -961,9 +997,9 @@
       "id": "moving-x",
       "path-id": "path-moving-x",
       "rotate-z": 270,
-      "translate-x": -90,
+      "translate-x": -100,
       "translate-y": -15,
-      "translate-z": 90,
+      "translate-z": 110,
       "vertex-colors": [
         1, 0, 0, 1,
         1, 0, 0, 1,
@@ -981,7 +1017,7 @@
       "id": "moving-y",
       "path-id": "path-moving-y",
       "translate-x": -70,
-      "translate-z": 70,
+      "translate-z": 130,
       "vertex-colors": [
         0, 1, 0, 1,
         0, 1, 0, 1,
@@ -998,10 +1034,11 @@
     {
       "id": "moving-z",
       "path-id": "path-moving-z",
-      "rotate-x": 270,
+      "rotate-x": 90,
+      "speed": 1,
       "translate-x": -90,
       "translate-y": -15,
-      "translate-z": 90,
+      "translate-z": 100,
       "vertex-colors": [
         0, 0, 1, 1,
         0, 0, 1, 1,
@@ -1019,9 +1056,7 @@
       "id": "spawner",
       "draw-type": "POINTS",
       "spawn-entity": true,
-      "translate-x": -40,
-      "translate-y": 10,
-      "translate-z": 10,
+      "translate-z": 110,
       "vertex-colors": [
         0, 0, 1, 1
       ],
@@ -1094,10 +1129,27 @@
         1, 1, 1, 1
       ],
       "vertices": [
-        0, 0, -300, 1,
-        330, 0, -300, 1,
-        330, 0, 300, 1,
-        0, 0, 300, 1
+        0, 0, -250, 1,
+        330, 0, -250, 1,
+        330, 0, 250, 1,
+        0, 0, 250, 1
+      ]
+    },
+    {
+      "id": "subway-wall-back",
+      "rotate-z": 270,
+      "translate-x": 100,
+      "vertex-colors": [
+        0.04, 0.04, 0.04, 1,
+        0.04, 0.04, 0.04, 1,
+        0.04, 0.04, 0.04, 1,
+        0.04, 0.04, 0.04, 1
+      ],
+      "vertices": [
+        25, 0, -200, 1,
+        -25, 0, -200, 1,
+        -25, 0, 200, 1,
+        25, 0, 200, 1
       ]
     },
     {
@@ -1213,7 +1265,7 @@
       "rotate-z": 270,
       "translate-x": -60,
       "translate-y": -15,
-      "translate-z": 60,
+      "translate-z": 140,
       "vertex-colors": [
         1, 0, 0, 1,
         1, 0, 0, 1,
@@ -1229,10 +1281,10 @@
     },
     {
       "id": "thin-z",
-      "rotate-x": 270,
+      "rotate-x": 90,
       "translate-x": -60,
       "translate-y": -15,
-      "translate-z": 60,
+      "translate-z": 140,
       "vertex-colors": [
         0, 0, 1, 1,
         0, 0, 1, 1,
@@ -1253,7 +1305,7 @@
       "texture-id": "stone.png",
       "translate-x": -165,
       "translate-y": -25,
-      "translate-z": 300,
+      "translate-z": 250,
       "vertex-colors": [
         0.5, 0.5, 0.5, 1,
         0.5, 0.5, 0.5, 1,
@@ -1275,7 +1327,7 @@
       "texture-id": "stone.png",
       "translate-x": 165,
       "translate-y": -25,
-      "translate-z": -300,
+      "translate-z": -250,
       "vertex-colors": [
         0.5, 0.5, 0.5, 1,
         0.5, 0.5, 0.5, 1,
