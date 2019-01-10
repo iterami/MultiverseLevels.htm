@@ -67,16 +67,16 @@
         "exclude": {
           "back": true
         },
-        "height": -50,
-        "length": -100,
         "properties": {
           "texture-id": "stone.png",
           "texture-repeat-x": 10,
           "texture-repeat-y": 10
         },
         "random-colors": true,
-        "translate-z": 150,
-        "width": -200
+        "size-x": -200,
+        "size-y": -50,
+        "size-z": -100,
+        "translate-z": 150
       }
     },
     {
@@ -89,12 +89,12 @@
           0.7, 0.5, 0.1, 1,
           0.7, 0.5, 0.1, 1
         ],
-        "height": -84,
-        "length": -170,
+        "size-x": -160,
+        "size-y": -84,
+        "size-z": -170,
         "translate-x": -270,
         "translate-y": 42,
-        "translate-z": -25,
-        "width": -160
+        "translate-z": -25
       }
     },
     {
@@ -104,15 +104,15 @@
         "exclude": {
           "right": true
         },
-        "height": -50,
-        "length": -200,
         "properties": {
           "texture-id": "stone.png",
           "texture-repeat-x": 10,
           "texture-repeat-y": 10
         },
         "random-colors": true,
-        "width": -200
+        "size-x": -200,
+        "size-y": -50,
+        "size-z": -200
       }
     },
     {
@@ -122,31 +122,31 @@
         "exclude": {
           "front": true
         },
-        "height": -50,
-        "length": -100,
         "properties": {
           "texture-id": "stone.png",
           "texture-repeat-x": 10,
           "texture-repeat-y": 10
         },
         "random-colors": true,
-        "translate-z": -150,
-        "width": -200
+        "size-x": -200,
+        "size-y": -50,
+        "size-z": -100,
+        "translate-z": -150
       }
     },
     {
       "type": "webgl_cuboid",
       "properties": {
         "prefix": "prefab-room-cube",
-        "height": 20,
-        "length": 20,
         "properties": {
           "collide-damage": 1,
           "texture-id": "debug.png"
         },
+        "size-x": 20,
+        "size-y": 20,
+        "size-z": 20,
         "translate-x": 50,
-        "translate-z": -150,
-        "width": 20
+        "translate-z": -150
       }
     },
     {
@@ -176,10 +176,10 @@
           "bottom": true,
           "top": true
         },
-        "height": 50,
-        "length": 20,
         "random-colors": true,
-        "width": 20
+        "size-x": 20,
+        "size-y": 50,
+        "size-z": 20
       }
     },
     {
@@ -187,10 +187,10 @@
       "properties": {
         "prefix": "skybox",
         "all-collision": false,
-        "height": -99,
-        "length": -99,
         "random-colors": true,
-        "width": -99,
+        "size-x": -99,
+        "size-y": -99,
+        "size-z": -99,
         "groups": [
           "skybox"
         ]

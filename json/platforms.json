@@ -10,17 +10,17 @@
           0.2, 0.2, 0.2, 1,
           0.2, 0.2, 0.2, 1
         ],
-        "height": 2,
-        "length": 15,
         "properties": {
           "path-id": "platform-0-obstacle",
           "speed": 0.5,
           "texture-id": "stone.png"
         },
+        "size-x": 15,
+        "size-y": 2,
+        "size-z": 15,
         "translate-x": -20,
         "translate-y": 20,
-        "translate-z": -50,
-        "width": 15
+        "translate-z": -50
       }
     },
     {
@@ -36,17 +36,17 @@
         "exclude": {
           "bottom": true
         },
-        "height": 20,
-        "length": 20,
         "properties": {
           "texture-id": "stone.png",
           "texture-repeat-x": 2,
           "texture-repeat-y": 2
         },
+        "size-x": 25,
+        "size-y": 20,
+        "size-z": 20,
         "translate-x": 25,
         "translate-y": 10,
-        "translate-z": -100,
-        "width": 25
+        "translate-z": -100
       }
     },
     {
@@ -62,17 +62,17 @@
         "exclude": {
           "bottom": true
         },
-        "height": 2,
-        "length": 20,
         "properties": {
           "texture-id": "stone.png",
           "texture-repeat-x": 2,
           "texture-repeat-y": 2
         },
+        "size-x": 20,
+        "size-y": 2,
+        "size-z": 20,
         "translate-x": -40,
         "translate-y": 1,
-        "translate-z": -142,
-        "width": 20
+        "translate-z": -142
       }
     },
     {
@@ -88,17 +88,17 @@
         "exclude": {
           "bottom": true
         },
-        "height": 2,
-        "length": 45,
         "properties": {
           "texture-id": "stone.png",
           "texture-repeat-x": 2,
           "texture-repeat-y": 2
         },
+        "size-x": 20,
+        "size-y": 2,
+        "size-z": 45,
         "translate-x": 10,
         "translate-y": 1,
-        "translate-z": -185,
-        "width": 20
+        "translate-z": -185
       }
     },
     {
@@ -116,15 +116,15 @@
           "bottom": true,
           "front": true
         },
-        "height": 2,
-        "length": 75,
         "properties": {
           "texture-id": "stone.png"
         },
+        "size-x": 5,
+        "size-y": 2,
+        "size-z": 75,
         "translate-x": 15,
         "translate-y": 1,
-        "translate-z": -52.5,
-        "width": 5
+        "translate-z": -52.5
       }
     },
     {
@@ -140,17 +140,17 @@
         "exclude": {
           "bottom": true
         },
-        "height": 50,
-        "length": 25,
         "properties": {
           "texture-id": "stone.png",
           "texture-repeat-x": 3,
           "texture-repeat-y": 3
         },
+        "size-x": 25,
+        "size-y": 50,
+        "size-z": 25,
         "translate-x": -20,
         "translate-y": 25,
-        "translate-z": -180,
-        "width": 25
+        "translate-z": -180
       }
     },
     {
@@ -178,17 +178,17 @@
           0.2, 0.2, 0.2, 1,
           0.2, 0.2, 0.2, 1
         ],
-        "height": 20,
-        "length": 19,
         "properties": {
           "texture-id": "stone.png",
           "texture-repeat-x": 2,
           "texture-repeat-y": 2
         },
+        "size-x": 39,
+        "size-y": 20,
+        "size-z": 19,
         "translate-x": 5,
         "translate-y": 30,
-        "translate-z": -150,
-        "width": 39
+        "translate-z": -150
       }
     },
     {
@@ -204,17 +204,17 @@
         "exclude": {
           "bottom": true
         },
-        "height": 10,
-        "length": 20,
         "properties": {
           "texture-id": "stone.png",
           "texture-repeat-x": 2,
           "texture-repeat-y": 2
         },
+        "size-x": 20,
+        "size-y": 10,
+        "size-z": 20,
         "translate-x": -105,
         "translate-y": 5,
-        "translate-z": -25,
-        "width": 20
+        "translate-z": -25
       }
     },
     {
@@ -230,17 +230,17 @@
         "exclude": {
           "bottom": true
         },
-        "height": 2,
-        "length": 20,
         "properties": {
           "texture-id": "stone.png",
           "texture-repeat-x": 2,
           "texture-repeat-y": 2
         },
+        "size-x": 20,
+        "size-y": 2,
+        "size-z": 20,
         "translate-x": 70,
         "translate-y": 1,
-        "translate-z": -195,
-        "width": 20
+        "translate-z": -195
       }
     },
     {
@@ -261,10 +261,10 @@
           "texture-repeat-x": 3,
           "texture-repeat-y": 3
         },
-        "height": 10,
-        "length": 30,
-        "translate-y": 5,
-        "width": 35
+        "size-x": 35,
+        "size-y": 10,
+        "size-z": 30,
+        "translate-y": 5
       }
     },
     {
