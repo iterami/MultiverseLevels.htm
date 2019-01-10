@@ -1,17 +1,21 @@
 {
   "camera-zoom-max": 0,
-  "fog-density": 0.001,
+  "fog-density": 0.01,
   "fog-state": true,
   "multiplier-jump": 0,
+  "multiplier-speed": 2,
   "prefabs": [
     {
       "type": "webgl_cuboid",
       "properties": {
         "prefix": "facility",
+        "exclude": {
+          "bottom": true
+        },
         "properties": {
           "texture-id": "stone.png",
-          "texture-repeat-x": 40,
-          "texture-repeat-y": 40
+          "texture-repeat-x": 30,
+          "texture-repeat-y": 30
         },
         "size-x": -200,
         "size-y": -40,
@@ -20,5 +24,16 @@
     }
   ],
   "entities": [
+    {
+      "id": "ground",
+      "draw": false,
+      "translate-y": -15,
+      "vertices": [
+        100, 0, -100, 1,
+        -100, 0, -100, 1,
+        -100, 0, 100, 1,
+        100, 0, 100, 1
+      ]
+    }
   ]
 }
