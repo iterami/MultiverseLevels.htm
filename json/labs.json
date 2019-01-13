@@ -63,25 +63,6 @@
     {
       "type": "webgl_cuboid",
       "properties": {
-        "prefix": "collision-room",
-        "exclude": {
-          "back": true
-        },
-        "properties": {
-          "texture-id": "stone.png",
-          "texture-repeat-x": 10,
-          "texture-repeat-y": 10
-        },
-        "random-colors": true,
-        "size-x": -200,
-        "size-y": -50,
-        "size-z": -100,
-        "translate-z": 150
-      }
-    },
-    {
-      "type": "webgl_cuboid",
-      "properties": {
         "prefix": "dsm-skybox",
         "all-vertex-colors": [
           0.7, 0.5, 0.1, 1,
@@ -112,26 +93,7 @@
         "random-colors": true,
         "size-x": -200,
         "size-y": -50,
-        "size-z": -200
-      }
-    },
-    {
-      "type": "webgl_cuboid",
-      "properties": {
-        "prefix": "prefab-room",
-        "exclude": {
-          "front": true
-        },
-        "properties": {
-          "texture-id": "stone.png",
-          "texture-repeat-x": 10,
-          "texture-repeat-y": 10
-        },
-        "random-colors": true,
-        "size-x": -200,
-        "size-y": -50,
-        "size-z": -100,
-        "translate-z": -150
+        "size-z": -400
       }
     },
     {
@@ -195,6 +157,46 @@
           "skybox"
         ]
       }
+    },
+    {
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "testing-range",
+        "exclude": {
+          "right": true
+        },
+        "properties": {
+          "texture-id": "stone.png",
+          "texture-repeat-x": 10,
+          "texture-repeat-y": 10
+        },
+        "random-colors": true,
+        "size-x": -200,
+        "size-y": -50,
+        "size-z": -400,
+        "translate-y": -51
+      }
+    },
+    {
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "testing-track",
+        "exclude": {
+          "bottom": true,
+          "left": true
+        },
+        "properties": {
+          "texture-id": "stone.png",
+          "texture-repeat-x": 10,
+          "texture-repeat-y": 10
+        },
+        "random-colors": true,
+        "size-x": -291,
+        "size-y": -50,
+        "size-z": -400,
+        "translate-x": -44.5,
+        "translate-y": 51
+      }
     }
   ],
   "multiplier-speed": 5,
@@ -238,20 +240,48 @@
       "points": [
         {
           "translate-x": -165,
+          "translate-y": -25,
           "translate-z": -250
         },
         {
           "translate-x": 165,
+          "translate-y": 51,
           "translate-z": -250
         },
         {
-          "speed": 5,
           "translate-x": 165,
+          "translate-y": 51,
+          "translate-z": 250
+        },
+        {
+          "translate-x": 165,
+          "translate-y": -101,
           "translate-z": 250
         },
         {
           "translate-x": -165,
+          "translate-y": -101,
           "translate-z": 250
+        },
+        {
+          "translate-x": -165,
+          "translate-y": -101,
+          "translate-z": -250
+        },
+        {
+          "translate-x": 165,
+          "translate-y": -25,
+          "translate-z": -250
+        },
+        {
+          "translate-x": 165,
+          "translate-y": -25,
+          "translate-z": 250
+        },
+        {
+          "translate-x": -165,
+          "translate-y": -25,
+          "translate-z": -250
         }
       ]
     }
@@ -1068,7 +1098,7 @@
       ]
     },
     {
-      "id": "subway-ceiling",
+      "id": "station-ceiling",
       "rotate-x": 180,
       "translate-x": -145,
       "translate-y": 25,
@@ -1086,7 +1116,7 @@
       ]
     },
     {
-      "id": "subway-ground-tracks",
+      "id": "station-ground-tracks",
       "translate-x": -165,
       "translate-y": -30,
       "vertex-colors": [
@@ -1103,7 +1133,7 @@
       ]
     },
     {
-      "id": "subway-platform",
+      "id": "station-platform",
       "translate-x": -120,
       "translate-y": -25,
       "vertex-colors": [
@@ -1120,28 +1150,10 @@
       ]
     },
     {
-      "id": "subway-tracks-0",
-      "collision": false,
-      "draw-type": "LINE_LOOP",
-      "translate-x": -165,
-      "translate-y": -29,
-      "vertex-colors": [
-        1, 1, 1, 1,
-        1, 1, 1, 1,
-        1, 1, 1, 1,
-        1, 1, 1, 1
-      ],
-      "vertices": [
-        0, 0, -250, 1,
-        330, 0, -250, 1,
-        330, 0, 250, 1,
-        0, 0, 250, 1
-      ]
-    },
-    {
-      "id": "subway-wall-back",
+      "id": "station-wall-back",
       "rotate-z": 270,
-      "translate-x": 100,
+      "translate-x": 101,
+      "translate-y": -25,
       "vertex-colors": [
         0.04, 0.04, 0.04, 1,
         0.04, 0.04, 0.04, 1,
@@ -1149,14 +1161,14 @@
         0.04, 0.04, 0.04, 1
       ],
       "vertices": [
-        25, 0, -200, 1,
-        -25, 0, -200, 1,
-        -25, 0, 200, 1,
-        25, 0, 200, 1
+        51, 0, -200, 1,
+        -51, 0, -200, 1,
+        -51, 0, 200, 1,
+        51, 0, 200, 1
       ]
     },
     {
-      "id": "subway-wall-far",
+      "id": "station-wall-far",
       "rotate-z": 270,
       "translate-x": -190,
       "translate-y": -2.5,
@@ -1174,25 +1186,7 @@
       ]
     },
     {
-      "id": "subway-wall-platform-0",
-      "rotate-z": 90,
-      "translate-x": -100,
-      "translate-z": -150,
-      "vertex-colors": [
-        0.04, 0.04, 0.04, 1,
-        0.04, 0.04, 0.04, 1,
-        0.04, 0.04, 0.04, 1,
-        0.04, 0.04, 0.04, 1
-      ],
-      "vertices": [
-        25, 0, -50, 1,
-        -25, 0, -50, 1,
-        -25, 0, 50, 1,
-        25, 0, 50, 1
-      ]
-    },
-    {
-      "id": "subway-wall-platform-1",
+      "id": "station-wall-platform-0",
       "rotate-x": 90,
       "translate-x": -120,
       "translate-z": -200,
@@ -1210,7 +1204,7 @@
       ]
     },
     {
-      "id": "subway-wall-platform-2",
+      "id": "station-wall-platform-1",
       "rotate-x": 270,
       "translate-x": -120,
       "translate-z": 200,
@@ -1228,7 +1222,7 @@
       ]
     },
     {
-      "id": "subway-wall-platform-3",
+      "id": "station-wall-platform-2",
       "rotate-z": 90,
       "translate-x": -140,
       "translate-y": -28,
@@ -1243,24 +1237,6 @@
         -2, 0, -200, 1,
         -2, 0, 200, 1,
         3, 0, 200, 1
-      ]
-    },
-    {
-      "id": "subway-wall-platform-4",
-      "rotate-z": 90,
-      "translate-x": -100,
-      "translate-z": 150,
-      "vertex-colors": [
-        0.04, 0.04, 0.04, 1,
-        0.04, 0.04, 0.04, 1,
-        0.04, 0.04, 0.04, 1,
-        0.04, 0.04, 0.04, 1
-      ],
-      "vertices": [
-        25, 0, -50, 1,
-        -25, 0, -50, 1,
-        -25, 0, 50, 1,
-        25, 0, 50, 1
       ]
     },
     {
@@ -1318,6 +1294,35 @@
         -25, 0, -25, 1,
         -25, 0, 25, 1,
         25, 0, 25, 1
+      ]
+    },
+    {
+      "id": "tram-tracks",
+      "collision": false,
+      "draw-type": "LINE_LOOP",
+      "translate-x": -165,
+      "translate-y": -29,
+      "vertex-colors": [
+        1, 1, 1, 1,
+        1, 1, 1, 1,
+        1, 1, 1, 1,
+        1, 1, 1, 1,
+        1, 1, 1, 1,
+        1, 1, 1, 1,
+        1, 1, 1, 1,
+        1, 1, 1, 1,
+        1, 1, 1, 1
+      ],
+      "vertices": [
+        0, 0, -250, 1,
+        330, 75, -250, 1,
+        330, 75, 250, 1,
+        330, -100, 250, 1,
+        0, -75, 250, 1,
+        0, -75, -250, 1,
+        330, 0, -250, 1,
+        330, 0, 250, 1,
+        0, 0, 250, 1
       ]
     }
   ]
