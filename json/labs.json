@@ -244,6 +244,7 @@
           "translate-z": -250
         },
         {
+          "speed": 2,
           "translate-x": 165,
           "translate-y": 51,
           "translate-z": -250
@@ -255,33 +256,37 @@
         },
         {
           "translate-x": 165,
-          "translate-y": -101,
+          "translate-y": -76,
+          "translate-z": 250
+        },
+        {
+          "speed": 2,
+          "translate-x": -165,
+          "translate-y": -76,
           "translate-z": 250
         },
         {
           "translate-x": -165,
-          "translate-y": -101,
-          "translate-z": 250
-        },
-        {
-          "translate-x": -165,
-          "translate-y": -101,
+          "translate-y": -76,
           "translate-z": -250
         },
         {
+          "speed": 2,
           "translate-x": 165,
           "translate-y": -25,
           "translate-z": -250
         },
         {
+          "speed": 2,
           "translate-x": 165,
           "translate-y": -25,
           "translate-z": 250
         },
         {
+          "speed": 2,
           "translate-x": -165,
           "translate-y": -25,
-          "translate-z": -250
+          "translate-z": 250
         }
       ]
     }
@@ -1317,9 +1322,9 @@
         0, 0, -250, 1,
         330, 75, -250, 1,
         330, 75, 250, 1,
-        330, -100, 250, 1,
-        0, -75, 250, 1,
-        0, -75, -250, 1,
+        330, -50, 250, 1,
+        0, -50, 250, 1,
+        0, -50, -250, 1,
         330, 0, -250, 1,
         330, 0, 250, 1,
         0, 0, 250, 1
