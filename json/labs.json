@@ -73,7 +73,7 @@
         "size-x": -160,
         "size-y": -84,
         "size-z": -170,
-        "translate-x": -270,
+        "translate-x": -300,
         "translate-y": 42,
         "translate-z": -25
       }
@@ -443,7 +443,7 @@
     },
     {
       "id": "dsm-ground-inside",
-      "translate-x": -280,
+      "translate-x": -310,
       "translate-y": 0.01,
       "translate-z": -40,
       "vertex-colors": [
@@ -461,7 +461,7 @@
     },
     {
       "id": "dsm-ground-outside-0",
-      "translate-x": -280,
+      "translate-x": -310,
       "translate-y": 0.01,
       "vertex-colors": [
         0.4, 0.15, 0, 1,
@@ -478,7 +478,7 @@
     },
     {
       "id": "dsm-ground-outside-1",
-      "translate-x": -240,
+      "translate-x": -270,
       "translate-y": 0.01,
       "translate-z": -40,
       "vertex-colors": [
@@ -497,7 +497,7 @@
     {
       "id": "dsm-sand-0",
       "rotate-z": 270,
-      "translate-x": -310,
+      "translate-x": -340,
       "translate-y": 10,
       "vertex-colors": [
         0.5882, 0.4196, 0.0863, 1,
@@ -515,7 +515,7 @@
     {
       "id": "dsm-sand-1",
       "rotate-x": 90,
-      "translate-x": -240,
+      "translate-x": -270,
       "translate-y": 10,
       "translate-z": -70,
       "vertex-colors": [
@@ -534,7 +534,7 @@
     {
       "id": "dsm-wall-back",
       "rotate-x": 90,
-      "translate-x": -280,
+      "translate-x": -310,
       "translate-y": 12,
       "translate-z": -64,
       "vertex-colors": [
@@ -553,7 +553,7 @@
     {
       "id": "dsm-wall-left",
       "rotate-z": 270,
-      "translate-x": -304,
+      "translate-x": -334,
       "translate-y": 10,
       "translate-z": -40,
       "vertex-colors": [
@@ -572,7 +572,7 @@
     {
       "id": "dsm-pillar-0-0",
       "rotate-x": 270,
-      "translate-x": -260,
+      "translate-x": -290,
       "translate-y": 42,
       "translate-z": -30,
       "vertex-colors": [
@@ -591,7 +591,7 @@
     {
       "id": "dsm-pillar-0-1",
       "rotate-x": 90,
-      "translate-x": -260,
+      "translate-x": -290,
       "translate-y": 42,
       "translate-z": -10,
       "vertex-colors": [
@@ -610,7 +610,7 @@
     {
       "id": "dsm-pillar-0-2",
       "rotate-z": 90,
-      "translate-x": -270,
+      "translate-x": -300,
       "translate-y": 42,
       "translate-z": -20,
       "vertex-colors": [
@@ -629,7 +629,7 @@
     {
       "id": "dsm-pillar-0-3",
       "rotate-z": 270,
-      "translate-x": -250,
+      "translate-x": -280,
       "translate-y": 42,
       "translate-z": -20,
       "vertex-colors": [
@@ -648,7 +648,7 @@
     {
       "id": "dsm-pillar-1-0",
       "rotate-x": 270,
-      "translate-x": -300,
+      "translate-x": -330,
       "translate-y": 42,
       "translate-z": -30,
       "vertex-colors": [
@@ -667,7 +667,7 @@
     {
       "id": "dsm-pillar-1-1",
       "rotate-x": 90,
-      "translate-x": -300,
+      "translate-x": -330,
       "translate-y": 42,
       "translate-z": -10,
       "vertex-colors": [
@@ -686,7 +686,7 @@
     {
       "id": "dsm-pillar-1-2",
       "rotate-z": 270,
-      "translate-x": -290,
+      "translate-x": -320,
       "translate-y": 42,
       "translate-z": -20,
       "vertex-colors": [
@@ -705,7 +705,7 @@
     {
       "id": "dsm-pillar-2-0",
       "rotate-x": 90,
-      "translate-x": -260,
+      "translate-x": -290,
       "translate-y": 42,
       "translate-z": -50,
       "vertex-colors": [
@@ -724,7 +724,7 @@
     {
       "id": "dsm-pillar-2-1",
       "rotate-z": 90,
-      "translate-x": -270,
+      "translate-x": -300,
       "translate-y": 42,
       "translate-z": -60,
       "vertex-colors": [
@@ -743,7 +743,7 @@
     {
       "id": "dsm-pillar-2-2",
       "rotate-z": 270,
-      "translate-x": -250,
+      "translate-x": -280,
       "translate-y": 42,
       "translate-z": -60,
       "vertex-colors": [
@@ -762,7 +762,7 @@
     {
       "id": "dsm-pillar-3-0",
       "rotate-x": 90,
-      "translate-x": -300,
+      "translate-x": -330,
       "translate-y": 42,
       "translate-z": -50,
       "vertex-colors": [
@@ -781,7 +781,7 @@
     {
       "id": "dsm-pillar-3-1",
       "rotate-z": 270,
-      "translate-x": -290,
+      "translate-x": -320,
       "translate-y": 42,
       "translate-z": -60,
       "vertex-colors": [
@@ -800,7 +800,7 @@
     {
       "id": "dsm-pillar-4-0",
       "rotate-x": 270,
-      "translate-x": -340,
+      "translate-x": -370,
       "translate-y": 42,
       "translate-z": -30,
       "vertex-colors": [
@@ -819,7 +819,7 @@
     {
       "id": "dsm-pillar-4-1",
       "rotate-x": 90,
-      "translate-x": -340,
+      "translate-x": -370,
       "translate-y": 42,
       "translate-z": -10,
       "vertex-colors": [
@@ -838,7 +838,7 @@
     {
       "id": "dsm-pillar-4-2",
       "rotate-z": 270,
-      "translate-x": -330,
+      "translate-x": -360,
       "translate-y": 42,
       "translate-z": -20,
       "vertex-colors": [
@@ -857,7 +857,7 @@
     {
       "id": "dsm-pillar-5-0",
       "rotate-x": 90,
-      "translate-x": -340,
+      "translate-x": -370,
       "translate-y": 42,
       "translate-z": -50,
       "vertex-colors": [
@@ -876,7 +876,7 @@
     {
       "id": "dsm-pillar-5-1",
       "rotate-z": 270,
-      "translate-x": -330,
+      "translate-x": -360,
       "translate-y": 42,
       "translate-z": -60,
       "vertex-colors": [
@@ -895,7 +895,7 @@
     {
       "id": "dsm-pillar-6-0",
       "rotate-x": 90,
-      "translate-x": -260,
+      "translate-x": -290,
       "translate-y": 42,
       "translate-z": -90,
       "vertex-colors": [
@@ -914,7 +914,7 @@
     {
       "id": "dsm-pillar-6-1",
       "rotate-z": 90,
-      "translate-x": -270,
+      "translate-x": -300,
       "translate-y": 42,
       "translate-z": -100,
       "vertex-colors": [
@@ -933,7 +933,7 @@
     {
       "id": "dsm-pillar-6-2",
       "rotate-z": 270,
-      "translate-x": -250,
+      "translate-x": -280,
       "translate-y": 42,
       "translate-z": -100,
       "vertex-colors": [
@@ -952,7 +952,7 @@
     {
       "id": "dsm-pillar-7-0",
       "rotate-x": 90,
-      "translate-x": -300,
+      "translate-x": -330,
       "translate-y": 42,
       "translate-z": -90,
       "vertex-colors": [
@@ -971,7 +971,7 @@
     {
       "id": "dsm-pillar-7-1",
       "rotate-z": 270,
-      "translate-x": -290,
+      "translate-x": -320,
       "translate-y": 42,
       "translate-z": -100,
       "vertex-colors": [
@@ -1385,10 +1385,10 @@
       ]
     },
     {
-      "id": "wall-back",
-      "rotate-z": 270,
-      "translate-x": 101,
-      "translate-y": -25,
+      "id": "wall-outer-xminus",
+      "rotate-z": 90,
+      "translate-x": -191,
+      "translate-y": -6,
       "vertex-colors": [
         0.04, 0.04, 0.04, 1,
         0.04, 0.04, 0.04, 1,
@@ -1396,10 +1396,84 @@
         0.04, 0.04, 0.04, 1
       ],
       "vertices": [
-        51, 0, -200, 1,
-        -51, 0, -200, 1,
-        -51, 0, 200, 1,
-        51, 0, 200, 1
+        82, 0, -201, 1,
+        -82, 0, -201, 1,
+        -82, 0, 201, 1,
+        82, 0, 201, 1
+      ]
+    },
+    {
+      "id": "wall-outer-xplus",
+      "rotate-z": 270,
+      "translate-x": 101,
+      "translate-y": -31,
+      "vertex-colors": [
+        0.04, 0.04, 0.04, 1,
+        0.04, 0.04, 0.04, 1,
+        0.04, 0.04, 0.04, 1,
+        0.04, 0.04, 0.04, 1
+      ],
+      "vertices": [
+        57, 0, -201, 1,
+        -57, 0, -201, 1,
+        -57, 0, 201, 1,
+        57, 0, 201, 1
+      ]
+    },
+    {
+      "id": "wall-outer-yminus",
+      "rotate-x": 180,
+      "translate-x": -45,
+      "translate-y": -88,
+      "vertex-colors": [
+        0.02, 0.02, 0.02, 1,
+        0.02, 0.02, 0.02, 1,
+        0.02, 0.02, 0.02, 1,
+        0.02, 0.02, 0.02, 1
+      ],
+      "vertices": [
+        146, 0, -201, 1,
+        -146, 0, -201, 1,
+        -146, 0, 201, 1,
+        146, 0, 201, 1
+      ]
+    },
+    {
+      "id": "wall-outer-zminus",
+      "rotate-x": 270,
+      "translate-x": -19.5,
+      "translate-y": -6,
+      "translate-z": -201,
+      "vertex-colors": [
+        0.05, 0.05, 0.05, 1,
+        0.05, 0.05, 0.05, 1,
+        0.05, 0.05, 0.05, 1,
+        0.05, 0.05, 0.05, 1
+      ],
+      "vertices": [
+        120.5, 0, -82, 1,
+        -120.5, 0, -82, 1,
+        -120.5, 0, 82, 1,
+        120.5, 0, 82, 1
+      ]
+    },
+    {
+      "id": "wall-outer-zplus",
+      "rotate-x": 90,
+      "translate-x": -19.5,
+      "translate-y": -6,
+      "translate-z": 201,
+      "vertex-colors": [
+        0.05, 0.05, 0.05, 1,
+        0.05, 0.05, 0.05, 1,
+        0.05, 0.05, 0.05, 1,
+        0.05, 0.05, 0.05, 1
+      ],
+      "vertices": [
+        120.5, 0, -82, 1,
+        -120.5, 0, -82, 1,
+        -120.5, 0, 82, 1,
+        120.5, 0, 82, 1
       ]
     }
   ]
