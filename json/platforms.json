@@ -210,17 +210,42 @@
           "texture-repeat-y": 2
         },
         "size-x": 20,
-        "size-y": 10,
+        "size-y": 2,
         "size-z": 20,
-        "translate-x": -105,
-        "translate-y": 5,
-        "translate-z": -25
+        "translate-x": 70,
+        "translate-y": 1,
+        "translate-z": -195
       }
     },
     {
       "type": "webgl_cuboid",
       "properties": {
-        "prefix": "platform-8",
+        "prefix": "platform-gate",
+        "all-vertex-colors": [
+          0.2, 0.2, 0.2, 1,
+          0.2, 0.2, 0.2, 1,
+          0.2, 0.2, 0.2, 1,
+          0.2, 0.2, 0.2, 1
+        ],
+        "exclude": {
+          "bottom": true
+        },
+        "properties": {
+          "texture-id": "stone.png",
+          "texture-repeat-x": 4,
+          "texture-repeat-y": 4
+        },
+        "size-x": 55,
+        "size-y": 10,
+        "size-z": 55,
+        "translate-y": 5,
+        "translate-z": 85
+      }
+    },
+    {
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "platform-gate-end",
         "all-vertex-colors": [
           0.2, 0.2, 0.2, 1,
           0.2, 0.2, 0.2, 1,
@@ -236,11 +261,32 @@
           "texture-repeat-y": 2
         },
         "size-x": 20,
-        "size-y": 2,
+        "size-y": 10,
         "size-z": 20,
-        "translate-x": 70,
-        "translate-y": 1,
-        "translate-z": -195
+        "translate-y": 5,
+        "translate-z": 155
+      }
+    },
+    {
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "platform-gate-wall",
+        "all-vertex-colors": [
+          0.2, 0.2, 0.2, 1,
+          0.2, 0.2, 0.2, 1,
+          0.2, 0.2, 0.2, 1,
+          0.2, 0.2, 0.2, 1
+        ],
+        "properties": {
+          "texture-id": "stone.png",
+          "texture-repeat-x": 1,
+          "texture-repeat-y": 1
+        },
+        "size-x": 55,
+        "size-y": 50,
+        "size-z": 5,
+        "translate-y": 35,
+        "translate-z": 85
       }
     },
     {
@@ -323,6 +369,25 @@
       "translate-x": 75,
       "translate-y": 5,
       "translate-z": -195,
+      "vertex-colors": [
+        0.7, 0.7, 0, 1,
+        0.7, 0.7, 0, 1,
+        0.7, 0.7, 0, 1,
+        0.7, 0.7, 0, 1
+      ],
+      "vertices": [
+        2, 0, -2, 1,
+        -2, 0, -2, 1,
+        -2, 0, 2, 1,
+        2, 0, 2, 1
+      ]
+    },
+    {
+      "id": "coin-1",
+      "item-id": "Coins",
+      "rotate-x": 270,
+      "translate-y": 15,
+      "translate-z": 155,
       "vertex-colors": [
         0.7, 0.7, 0, 1,
         0.7, 0.7, 0, 1,
