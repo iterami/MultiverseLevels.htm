@@ -48,6 +48,7 @@
       },
       "level": 5,
       "talk": "Welcome to the iterami labs!",
+      "talk-range": 50,
       "trade": [
         {
           "get-amount": 10,
