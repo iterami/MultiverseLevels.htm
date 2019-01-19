@@ -1,10 +1,10 @@
 {
   "characters": [
     {
-      "id": "techdemo-character",
+      "id": "labtech-0",
       "entities": [
         {
-          "id": "techdemo-character-attached",
+          "id": "labtech-0-face",
           "billboard": "y",
           "collision": false,
           "vertex-colors": [
@@ -20,7 +20,7 @@
         }
       ],
       "inventory": {
-        "techdemo-hat": {
+        "sample-hat": {
           "amount": 100,
           "entities": [
             {
@@ -54,10 +54,9 @@
           "get-amount": 10,
           "get-id": "Coins",
           "give-amount": 1,
-          "give-id": "techdemo-hat"
+          "give-id": "sample-hat"
         }
-      ],
-      "translate-x": 25
+      ]
     }
   ],
   "prefabs": [
@@ -966,8 +965,8 @@
       ]
     },
     {
-      "id": "item",
-      "item-id": "techdemo-item",
+      "id": "testgun",
+      "item-id": "labs-testgun",
       "item-spell": true,
       "item-spellproperties": {
         "gravity": false
