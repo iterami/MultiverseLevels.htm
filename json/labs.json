@@ -198,10 +198,10 @@
       "end": -1,
       "points": [
         {
-          "translate-y": 25
+          "translate-y": -80
         },
         {
-          "translate-y": -25
+          "translate-y": -26
         }
       ]
     },
@@ -209,10 +209,10 @@
       "end": -1,
       "points": [
         {
-          "translate-z": 250
+          "translate-z": 25
         },
         {
-          "translate-z": 100
+          "translate-z": 125
         }
       ]
     },
@@ -973,8 +973,8 @@
         "gravity": false
       },
       "rotate-x": 90,
-      "translate-y": -23,
-      "translate-z": 23,
+      "translate-x": -120,
+      "translate-y": -78,
       "vertex-colors": [
         0, 1, 0, 1,
         0, 1, 0, 1,
@@ -1013,7 +1013,7 @@
       "speed": 1,
       "rotate-z": 270,
       "translate-x": -100,
-      "translate-y": -65,
+      "translate-y": -71,
       "translate-z": 110,
       "vertex-colors": [
         1, 0, 0, 1,
@@ -1032,8 +1032,8 @@
       "id": "moving-y",
       "path-id": "path-moving-y",
       "speed": 1,
-      "translate-x": -70,
-      "translate-y": -65,
+      "translate-x": 70,
+      "translate-y": -71,
       "translate-z": 130,
       "vertex-colors": [
         0, 1, 0, 1,
@@ -1051,10 +1051,9 @@
     {
       "id": "moving-z",
       "path-id": "path-moving-z",
-      "rotate-x": 90,
+      "rotate-x": 270,
       "speed": 1,
-      "translate-x": -90,
-      "translate-y": -65,
+      "translate-y": -71,
       "translate-z": 100,
       "vertex-colors": [
         0, 0, 1, 1,
@@ -1073,7 +1072,7 @@
       "id": "spawner",
       "draw-type": "POINTS",
       "spawn-entity": true,
-      "translate-z": 110,
+      "translate-y": -50,
       "vertex-colors": [
         0, 0, 1, 1
       ],
@@ -1280,7 +1279,7 @@
     {
       "id": "thin-x",
       "rotate-z": 270,
-      "translate-y": -65,
+      "translate-y": -71,
       "translate-z": 150,
       "vertex-colors": [
         1, 0, 0, 1,
@@ -1297,8 +1296,8 @@
     },
     {
       "id": "thin-z",
-      "rotate-x": 90,
-      "translate-y": -65,
+      "rotate-x": 270,
+      "translate-y": -71,
       "translate-z": 150,
       "vertex-colors": [
         0, 0, 1, 1,
