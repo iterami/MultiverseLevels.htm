@@ -99,40 +99,6 @@
     {
       "type": "webgl_cuboid",
       "properties": {
-        "prefix": "testing-track-cube-0",
-        "properties": {
-          "collide-damage": 1,
-          "texture-id": "debug.png"
-        },
-        "size-x": 40,
-        "size-y": 40,
-        "size-z": 40,
-        "translate-x": -25,
-        "translate-y": 46,
-        "translate-z": 75
-      }
-    },
-    {
-      "type": "webgl_cuboid_tree",
-      "properties": {
-        "prefix": "tree-0",
-        "translate-x": -50,
-        "translate-y": 26,
-        "translate-z": -150
-      }
-    },
-    {
-      "type": "webgl_lines_tree",
-      "properties": {
-        "prefix": "tree-1",
-        "translate-y": 26,
-        "translate-z": -150,
-        "trunk-count-min": 5
-      }
-    },
-    {
-      "type": "webgl_cuboid",
-      "properties": {
         "prefix": "pillar-of-transparency",
         "all-alpha": 0.5,
         "exclude": {
@@ -176,6 +142,40 @@
         "size-y": -50,
         "size-z": -400,
         "translate-y": -56
+      }
+    },
+    {
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "testing-track-cube-0",
+        "properties": {
+          "collide-damage": 1,
+          "texture-id": "debug.png"
+        },
+        "size-x": 40,
+        "size-y": 40,
+        "size-z": 40,
+        "translate-x": -25,
+        "translate-y": 46,
+        "translate-z": 75
+      }
+    },
+    {
+      "type": "webgl_cuboid_tree",
+      "properties": {
+        "prefix": "tree-0",
+        "translate-x": -50,
+        "translate-y": 26,
+        "translate-z": -150
+      }
+    },
+    {
+      "type": "webgl_lines_tree",
+      "properties": {
+        "prefix": "tree-1",
+        "translate-y": 26,
+        "translate-z": -150,
+        "trunk-count-min": 5
       }
     }
   ],
