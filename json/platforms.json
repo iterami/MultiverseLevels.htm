@@ -154,21 +154,6 @@
       }
     },
     {
-      "type": "webgl_cuboid_tree",
-      "properties": {
-        "prefix": "platform-5-tree",
-        "translate-x": -25,
-        "translate-y": 50,
-        "translate-z": -175,
-        "vertex-colors-leaves": [
-          0.666, 0, 0, 1,
-          0.666, 0, 0, 1,
-          0.666, 0, 0, 1,
-          0.666, 0, 0, 1
-        ]
-      }
-    },
-    {
       "type": "webgl_cuboid",
       "properties": {
         "prefix": "platform-6",
@@ -329,6 +314,36 @@
         ],
         "top-color-top": [
           0, 0, 0, 1
+        ]
+      }
+    },
+    {
+      "type": "webgl_cuboid_tree",
+      "properties": {
+        "prefix": "tree-0",
+        "translate-x": -25,
+        "translate-y": 50,
+        "translate-z": -175,
+        "vertex-colors-leaves": [
+          0.666, 0, 0, 1,
+          0.666, 0, 0, 1,
+          0.666, 0, 0, 1,
+          0.666, 0, 0, 1
+        ]
+      }
+    },
+    {
+      "type": "webgl_cuboid_tree",
+      "properties": {
+        "prefix": "tree-1",
+        "translate-x": 18,
+        "translate-y": 40,
+        "translate-z": -152,
+        "vertex-colors-leaves": [
+          0.666, 0, 0, 1,
+          0.666, 0, 0, 1,
+          0.666, 0, 0, 1,
+          0.666, 0, 0, 1
         ]
       }
     }
