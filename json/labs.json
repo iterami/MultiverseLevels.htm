@@ -1,10 +1,10 @@
 {
   "characters": [
     {
-      "id": "labtech-0",
+      "id": "labtech-landing",
       "entities": [
         {
-          "id": "labtech-0-face",
+          "id": "labtech-landing-face",
           "billboard": "y",
           "collision": false,
           "vertex-colors": [
@@ -57,6 +57,31 @@
           "give-id": "sample-hat"
         }
       ]
+    },
+    {
+      "id": "labtech-range",
+      "entities": [
+        {
+          "id": "labtech-range",
+          "billboard": "y",
+          "collision": false,
+          "vertex-colors": [
+            1, 0, 0, 1,
+            0, 1, 0, 1,
+            0, 0, 1, 1
+          ],
+          "vertices": [
+            -2, 0, 0, 1,
+            2, 0, 0, 1,
+            0, 2, 0, 1
+          ]
+        }
+      ],
+      "level": 5,
+      "talk": "Pick up this item and equip it.<br>Press bound fire key to shoot!",
+      "talk-range": 50,
+      "translate-x": -100,
+      "translate-y": -50
     }
   ],
   "prefabs": [
