@@ -1,4 +1,31 @@
 {
+  "characters": [
+    {
+      "id": "guard",
+      "entities": [
+        {
+          "id": "guard-face",
+          "billboard": "y",
+          "collision": false,
+          "vertex-colors": [
+            1, 0, 0, 1,
+            0, 1, 0, 1,
+            0, 0, 1, 1
+          ],
+          "vertices": [
+            -2, 0, 0, 1,
+            2, 0, 0, 1,
+            0, 2, 0, 1
+          ]
+        }
+      ],
+      "level": 273,
+      "talk": "I'll let you pass through once I figure out how it works.",
+      "translate-x": -20,
+      "translate-y": 35,
+      "translate-z": 80
+    }
+  ],
   "prefabs": [
     {
       "type": "webgl_cuboid",
