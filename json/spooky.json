@@ -1,6 +1,6 @@
 {
   "camera-zoom-max": 0,
-  "fog-density": 0.01,
+  "fog-density": 0.009,
   "fog-state": true,
   "multiplier-jump": 0,
   "multiplier-speed": 2,
@@ -17,22 +17,42 @@
           "texture-repeat-x": 30,
           "texture-repeat-y": 30
         },
-        "size-x": -200,
-        "size-y": -40,
-        "size-z": -200
+        "size-x": -400,
+        "size-y": -100,
+        "size-z": -400
       }
     }
   ],
+  "spawn-translate-y": -10,
+  "spawn-translate-z": 190,
   "entities": [
+    {
+      "id": "door-entrance",
+      "rotate-x": 270,
+      "texture-id": "wood.png",
+      "translate-z": 199.95,
+      "vertex-colors": [
+        1, 1, 1, 1,
+        1, 1, 1, 1,
+        1, 1, 1, 1,
+        1, 1, 1, 1
+      ],
+      "vertices": [
+        10, 0, -50, 1,
+        -10, 0, -50, 1,
+        -10, 0, 50, 1,
+        10, 0, 50, 1
+      ]
+    },
     {
       "id": "ground",
       "draw": false,
-      "translate-y": -15,
+      "translate-y": -45,
       "vertices": [
-        100, 0, -100, 1,
-        -100, 0, -100, 1,
-        -100, 0, 100, 1,
-        100, 0, 100, 1
+        250, 0, -250, 1,
+        -250, 0, -250, 1,
+        -250, 0, 250, 1,
+        250, 0, 250, 1
       ]
     },
     {
