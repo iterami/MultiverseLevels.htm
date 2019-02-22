@@ -4,25 +4,6 @@
   "fog-state": true,
   "multiplier-jump": 0,
   "multiplier-speed": 2,
-  "prefabs": [
-    {
-      "type": "webgl_cuboid",
-      "properties": {
-        "prefix": "facility",
-        "exclude": {
-          "bottom": true
-        },
-        "properties": {
-          "texture-id": "stone.png",
-          "texture-repeat-x": 30,
-          "texture-repeat-y": 30
-        },
-        "size-x": -400,
-        "size-y": -100,
-        "size-z": -400
-      }
-    }
-  ],
   "spawn-translate-y": -10,
   "spawn-translate-z": 190,
   "entities": [
@@ -83,6 +64,25 @@
         4, 2, 0, 1,
         0, 6, 0, 1
       ]
+    }
+  ],
+  "prefabs": [
+    {
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "facility",
+        "exclude": {
+          "bottom": true
+        },
+        "properties": {
+          "texture-id": "stone.png",
+          "texture-repeat-x": 30,
+          "texture-repeat-y": 30
+        },
+        "size-x": -400,
+        "size-y": -100,
+        "size-z": -400
+      }
     }
   ]
 }

@@ -1,29 +1,177 @@
 {
-  "characters": [
-    {
-      "id": "guard",
-      "entities": [
+  "multiplier-jump": 2,
+  "multiplier-speed": 4,
+  "paths": {
+    "platform-0-obstacle": {
+      "end": -1,
+      "points": [
         {
-          "id": "guard-face",
-          "billboard": "y",
-          "collision": false,
-          "vertex-colors": [
-            1, 0, 0, 1,
-            0, 1, 0, 1,
-            0, 0, 1, 1
-          ],
-          "vertices": [
-            -2, 0, 0, 1,
-            2, 0, 0, 1,
-            0, 2, 0, 1
-          ]
+          "translate-x": -50
+        },
+        {
+          "translate-x": 50
         }
+      ]
+    },
+    "platform-8-obstacle": {
+      "end": -1,
+      "points": [
+        {
+          "translate-z": -225
+        },
+        {
+          "translate-z": -175
+        }
+      ]
+    }
+  },
+  "spawn-rotate-x": 30,
+  "spawn-translate-y": 15,
+  "entities": [
+    {
+      "id": "coin-0",
+      "item-id": "Coins",
+      "rotate-z": 90,
+      "translate-x": 75,
+      "translate-y": 5,
+      "translate-z": -195,
+      "vertex-colors": [
+        0.7, 0.7, 0, 1,
+        0.7, 0.7, 0, 1,
+        0.7, 0.7, 0, 1,
+        0.7, 0.7, 0, 1
       ],
-      "level": 273,
-      "talk": "I'll let you pass through once I figure out how it works.",
+      "vertices": [
+        2, 0, -2, 1,
+        -2, 0, -2, 1,
+        -2, 0, 2, 1,
+        2, 0, 2, 1
+      ]
+    },
+    {
+      "id": "coin-1",
+      "item-id": "Coins",
+      "rotate-x": 270,
+      "translate-y": 15,
+      "translate-z": 155,
+      "vertex-colors": [
+        0.7, 0.7, 0, 1,
+        0.7, 0.7, 0, 1,
+        0.7, 0.7, 0, 1,
+        0.7, 0.7, 0, 1
+      ],
+      "vertices": [
+        2, 0, -2, 1,
+        -2, 0, -2, 1,
+        -2, 0, 2, 1,
+        2, 0, 2, 1
+      ]
+    },
+    {
+      "id": "lava",
+      "collide-damage": "1000",
+      "texture-id": "lavaleaf.png",
+      "texture-repeat-x": 25,
+      "texture-repeat-y": 25,
+      "vertex-colors": [
+        1, 0, 0, 1,
+        1, 0, 0, 1,
+        1, 0, 0, 1,
+        1, 0, 0, 1
+      ],
+      "vertices": [
+        500, 0, -500, 1,
+        -500, 0, -500, 1,
+        -500, 0, 500, 1,
+        500, 0, 500, 1
+      ]
+    },
+    {
+      "id": "lava-pillar-0",
+      "collide-damage": "1000",
+      "rotate-z": 90,
+      "texture-id": "lavaleaf.png",
+      "texture-repeat-y": 2,
+      "translate-x": -15,
+      "translate-y": 20,
+      "translate-z": -155,
+      "vertex-colors": [
+        1, 0, 0, 1,
+        1, 0, 0, 1,
+        1, 0, 0, 1,
+        1, 0, 0, 1
+      ],
+      "vertices": [
+        20, 0, -5, 1,
+        -20, 0, -5, 1,
+        -20, 0, 5, 1,
+        20, 0, 5, 1
+      ]
+    },
+    {
+      "id": "platform-8-obstacle",
+      "path-id": "platform-8-obstacle",
+      "rotate-z": 90,
+      "speed": 1,
+      "texture-id": "lavaleaf.png",
+      "texture-repeat-y": 2,
+      "translate-x": 35,
+      "translate-y": 20,
+      "translate-z": -175,
+      "vertex-colors": [
+        1, 0, 0, 1,
+        1, 0, 0, 1,
+        1, 0, 0, 1,
+        1, 0, 0, 1
+      ],
+      "vertices": [
+        20, 0, -5, 1,
+        -20, 0, -5, 1,
+        -20, 0, 5, 1,
+        20, 0, 5, 1
+      ]
+    },
+    {
+      "id": "shadow-platform-0",
+      "alpha": 0.5,
+      "collision": false,
+      "path-id": "platform-0-obstacle",
+      "speed": 0.5,
       "translate-x": -20,
-      "translate-y": 35,
-      "translate-z": 80
+      "translate-y": 0.01,
+      "translate-z": -50,
+      "vertex-colors": [
+        0, 0, 0, 1,
+        0, 0, 0, 1,
+        0, 0, 0, 1,
+        0, 0, 0, 1
+      ],
+      "vertices": [
+        7.5, 0, -7.5, 1,
+        -7.5, 0, -7.5, 1,
+        -7.5, 0, 7.5, 1,
+        7.5, 0, 7.5, 1
+      ]
+    },
+    {
+      "id": "shadow-platform-6",
+      "alpha": 0.5,
+      "collision": false,
+      "translate-x": 5,
+      "translate-y": 0.01,
+      "translate-z": -150,
+      "vertex-colors": [
+        0, 0, 0, 1,
+        0, 0, 0, 1,
+        0, 0, 0, 1,
+        0, 0, 0, 1
+      ],
+      "vertices": [
+        19.5, 0, -9.5, 1,
+        -19.5, 0, -9.5, 1,
+        -19.5, 0, 9.5, 1,
+        19.5, 0, 9.5, 1
+      ]
     }
   ],
   "prefabs": [
@@ -375,179 +523,31 @@
       }
     }
   ],
-  "multiplier-jump": 2,
-  "multiplier-speed": 4,
-  "paths": {
-    "platform-0-obstacle": {
-      "end": -1,
-      "points": [
+  "characters": [
+    {
+      "id": "guard",
+      "entities": [
         {
-          "translate-x": -50
-        },
-        {
-          "translate-x": 50
+          "id": "guard-face",
+          "billboard": "y",
+          "collision": false,
+          "vertex-colors": [
+            1, 0, 0, 1,
+            0, 1, 0, 1,
+            0, 0, 1, 1
+          ],
+          "vertices": [
+            -2, 0, 0, 1,
+            2, 0, 0, 1,
+            0, 2, 0, 1
+          ]
         }
-      ]
-    },
-    "platform-8-obstacle": {
-      "end": -1,
-      "points": [
-        {
-          "translate-z": -225
-        },
-        {
-          "translate-z": -175
-        }
-      ]
-    }
-  },
-  "spawn-rotate-x": 30,
-  "spawn-translate-y": 15,
-  "entities": [
-    {
-      "id": "coin-0",
-      "item-id": "Coins",
-      "rotate-z": 90,
-      "translate-x": 75,
-      "translate-y": 5,
-      "translate-z": -195,
-      "vertex-colors": [
-        0.7, 0.7, 0, 1,
-        0.7, 0.7, 0, 1,
-        0.7, 0.7, 0, 1,
-        0.7, 0.7, 0, 1
       ],
-      "vertices": [
-        2, 0, -2, 1,
-        -2, 0, -2, 1,
-        -2, 0, 2, 1,
-        2, 0, 2, 1
-      ]
-    },
-    {
-      "id": "coin-1",
-      "item-id": "Coins",
-      "rotate-x": 270,
-      "translate-y": 15,
-      "translate-z": 155,
-      "vertex-colors": [
-        0.7, 0.7, 0, 1,
-        0.7, 0.7, 0, 1,
-        0.7, 0.7, 0, 1,
-        0.7, 0.7, 0, 1
-      ],
-      "vertices": [
-        2, 0, -2, 1,
-        -2, 0, -2, 1,
-        -2, 0, 2, 1,
-        2, 0, 2, 1
-      ]
-    },
-    {
-      "id": "lava",
-      "collide-damage": "1000",
-      "texture-id": "lavaleaf.png",
-      "texture-repeat-x": 25,
-      "texture-repeat-y": 25,
-      "vertex-colors": [
-        1, 0, 0, 1,
-        1, 0, 0, 1,
-        1, 0, 0, 1,
-        1, 0, 0, 1
-      ],
-      "vertices": [
-        500, 0, -500, 1,
-        -500, 0, -500, 1,
-        -500, 0, 500, 1,
-        500, 0, 500, 1
-      ]
-    },
-    {
-      "id": "lava-pillar-0",
-      "collide-damage": "1000",
-      "rotate-z": 90,
-      "texture-id": "lavaleaf.png",
-      "texture-repeat-y": 2,
-      "translate-x": -15,
-      "translate-y": 20,
-      "translate-z": -155,
-      "vertex-colors": [
-        1, 0, 0, 1,
-        1, 0, 0, 1,
-        1, 0, 0, 1,
-        1, 0, 0, 1
-      ],
-      "vertices": [
-        20, 0, -5, 1,
-        -20, 0, -5, 1,
-        -20, 0, 5, 1,
-        20, 0, 5, 1
-      ]
-    },
-    {
-      "id": "platform-8-obstacle",
-      "path-id": "platform-8-obstacle",
-      "rotate-z": 90,
-      "speed": 1,
-      "texture-id": "lavaleaf.png",
-      "texture-repeat-y": 2,
-      "translate-x": 35,
-      "translate-y": 20,
-      "translate-z": -175,
-      "vertex-colors": [
-        1, 0, 0, 1,
-        1, 0, 0, 1,
-        1, 0, 0, 1,
-        1, 0, 0, 1
-      ],
-      "vertices": [
-        20, 0, -5, 1,
-        -20, 0, -5, 1,
-        -20, 0, 5, 1,
-        20, 0, 5, 1
-      ]
-    },
-    {
-      "id": "shadow-platform-0",
-      "alpha": 0.5,
-      "collision": false,
-      "path-id": "platform-0-obstacle",
-      "speed": 0.5,
+      "level": 273,
+      "talk": "I'll let you pass through once I figure out how it works.",
       "translate-x": -20,
-      "translate-y": 0.01,
-      "translate-z": -50,
-      "vertex-colors": [
-        0, 0, 0, 1,
-        0, 0, 0, 1,
-        0, 0, 0, 1,
-        0, 0, 0, 1
-      ],
-      "vertices": [
-        7.5, 0, -7.5, 1,
-        -7.5, 0, -7.5, 1,
-        -7.5, 0, 7.5, 1,
-        7.5, 0, 7.5, 1
-      ]
-    },
-    {
-      "id": "shadow-platform-6",
-      "alpha": 0.5,
-      "collision": false,
-      "translate-x": 5,
-      "translate-y": 0.01,
-      "translate-z": -150,
-      "vertex-colors": [
-        0, 0, 0, 1,
-        0, 0, 0, 1,
-        0, 0, 0, 1,
-        0, 0, 0, 1
-      ],
-      "vertices": [
-        19.5, 0, -9.5, 1,
-        -19.5, 0, -9.5, 1,
-        -19.5, 0, 9.5, 1,
-        19.5, 0, 9.5, 1
-      ]
+      "translate-y": 35,
+      "translate-z": 80
     }
   ]
 }

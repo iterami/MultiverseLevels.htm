@@ -1,5 +1,24 @@
 {
   "spawn-rotate-x": 45,
+  "entities": [
+    {
+      "id": "base",
+      "collide-damage": -1,
+      "translate-y": -5,
+      "vertex-colors": [
+        0, 0.1, 0, 1,
+        0, 0.1, 0, 1,
+        0, 0.1, 0, 1,
+        0, 0.1, 0, 1
+      ],
+      "vertices": [
+        25, 0, -25, 1,
+        -25, 0, -25, 1,
+        -25, 0, 25, 1,
+        25, 0, 25, 1
+      ]
+    }
+  ],
   "characters": [
     {
       "id": "_me",
@@ -108,25 +127,6 @@
       ],
       "experience": 0,
       "level": 0
-    }
-  ],
-  "entities": [
-    {
-      "id": "base",
-      "collide-damage": -1,
-      "translate-y": -5,
-      "vertex-colors": [
-        0, 0.1, 0, 1,
-        0, 0.1, 0, 1,
-        0, 0.1, 0, 1,
-        0, 0.1, 0, 1
-      ],
-      "vertices": [
-        25, 0, -25, 1,
-        -25, 0, -25, 1,
-        -25, 0, 25, 1,
-        25, 0, 25, 1
-      ]
     }
   ]
 }

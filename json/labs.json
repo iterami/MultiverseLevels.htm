@@ -1,209 +1,4 @@
 {
-  "characters": [
-    {
-      "id": "labtech-landing",
-      "entities": [
-        {
-          "id": "labtech-landing-face",
-          "billboard": "y",
-          "collision": false,
-          "vertex-colors": [
-            1, 0, 0, 1,
-            0, 1, 0, 1,
-            0, 0, 1, 1
-          ],
-          "vertices": [
-            -2, 0, 0, 1,
-            2, 0, 0, 1,
-            0, 2, 0, 1
-          ]
-        }
-      ],
-      "inventory": {
-        "sample-hat": {
-          "amount": 100,
-          "entities": [
-            {
-              "attach-offset-y": 2.5,
-              "billboard": [
-                "y"
-              ],
-              "collision": false,
-              "vertex-colors": [
-                1, 0, 0, 1,
-                0, 1, 0, 1,
-                0, 0, 1, 1
-              ],
-              "vertices": [
-                -2, 0, 0, 1,
-                2, 0, 0, 1,
-                0, 2, 0, 1
-              ]
-            }
-          ],
-          "equipped": false,
-          "spell": false,
-          "stats": {}
-        }
-      },
-      "level": 5,
-      "talk": "Welcome to the iterami labs!",
-      "talk-range": 50,
-      "trade": [
-        {
-          "get-amount": 10,
-          "get-id": "Coins",
-          "give-amount": 1,
-          "give-id": "sample-hat"
-        }
-      ]
-    },
-    {
-      "id": "labtech-range",
-      "entities": [
-        {
-          "id": "labtech-range",
-          "billboard": "y",
-          "collision": false,
-          "vertex-colors": [
-            1, 0, 0, 1,
-            0, 1, 0, 1,
-            0, 0, 1, 1
-          ],
-          "vertices": [
-            -2, 0, 0, 1,
-            2, 0, 0, 1,
-            0, 2, 0, 1
-          ]
-        }
-      ],
-      "level": 5,
-      "talk": "Pick up this item and equip it.<br>Press bound fire key to shoot!",
-      "talk-range": 50,
-      "translate-x": -100,
-      "translate-y": -50
-    }
-  ],
-  "prefabs": [
-    {
-      "type": "webgl_cuboid",
-      "properties": {
-        "prefix": "dsm-skybox",
-        "all-vertex-colors": [
-          0.7, 0.5, 0.1, 1,
-          0.7, 0.5, 0.1, 1,
-          0.7, 0.5, 0.1, 1,
-          0.7, 0.5, 0.1, 1
-        ],
-        "size-x": -160,
-        "size-y": -84,
-        "size-z": -170,
-        "translate-x": -300,
-        "translate-y": 42,
-        "translate-z": -25
-      }
-    },
-    {
-      "type": "webgl_cuboid",
-      "properties": {
-        "prefix": "landing",
-        "exclude": {
-          "right": true
-        },
-        "properties": {
-          "texture-id": "stone.png",
-          "texture-repeat-x": 10,
-          "texture-repeat-y": 10
-        },
-        "random-colors": true,
-        "size-x": -200,
-        "size-y": -50,
-        "size-z": -400
-      }
-    },
-    {
-      "type": "webgl_cuboid",
-      "properties": {
-        "prefix": "pillar-of-transparency",
-        "all-alpha": 0.5,
-        "exclude": {
-          "bottom": true,
-          "top": true
-        },
-        "random-colors": true,
-        "size-x": 20,
-        "size-y": 50,
-        "size-z": 20
-      }
-    },
-    {
-      "type": "webgl_cuboid",
-      "properties": {
-        "prefix": "skybox",
-        "all-collision": false,
-        "random-colors": true,
-        "size-x": -99,
-        "size-y": -99,
-        "size-z": -99,
-        "groups": [
-          "skybox"
-        ]
-      }
-    },
-    {
-      "type": "webgl_cuboid",
-      "properties": {
-        "prefix": "testing-range",
-        "exclude": {
-          "right": true
-        },
-        "properties": {
-          "texture-id": "stone.png",
-          "texture-repeat-x": 10,
-          "texture-repeat-y": 10
-        },
-        "random-colors": true,
-        "size-x": -200,
-        "size-y": -50,
-        "size-z": -400,
-        "translate-y": -56
-      }
-    },
-    {
-      "type": "webgl_cuboid",
-      "properties": {
-        "prefix": "testing-track-cube-0",
-        "properties": {
-          "collide-damage": 1,
-          "texture-id": "debug.png"
-        },
-        "size-x": 40,
-        "size-y": 40,
-        "size-z": 40,
-        "translate-x": -25,
-        "translate-y": 46,
-        "translate-z": 75
-      }
-    },
-    {
-      "type": "webgl_cuboid_tree",
-      "properties": {
-        "prefix": "tree-0",
-        "translate-x": -50,
-        "translate-y": 26,
-        "translate-z": -150
-      }
-    },
-    {
-      "type": "webgl_lines_tree",
-      "properties": {
-        "prefix": "tree-1",
-        "translate-y": 26,
-        "translate-z": -150,
-        "trunk-count-min": 5
-      }
-    }
-  ],
   "multiplier-speed": 5,
   "multiplier-jump": 3,
   "paths": {
@@ -1497,6 +1292,211 @@
         -146, 0, 201, 1,
         146, 0, 201, 1
       ]
+    }
+  ],
+  "prefabs": [
+    {
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "dsm-skybox",
+        "all-vertex-colors": [
+          0.7, 0.5, 0.1, 1,
+          0.7, 0.5, 0.1, 1,
+          0.7, 0.5, 0.1, 1,
+          0.7, 0.5, 0.1, 1
+        ],
+        "size-x": -160,
+        "size-y": -84,
+        "size-z": -170,
+        "translate-x": -300,
+        "translate-y": 42,
+        "translate-z": -25
+      }
+    },
+    {
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "landing",
+        "exclude": {
+          "right": true
+        },
+        "properties": {
+          "texture-id": "stone.png",
+          "texture-repeat-x": 10,
+          "texture-repeat-y": 10
+        },
+        "random-colors": true,
+        "size-x": -200,
+        "size-y": -50,
+        "size-z": -400
+      }
+    },
+    {
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "pillar-of-transparency",
+        "all-alpha": 0.5,
+        "exclude": {
+          "bottom": true,
+          "top": true
+        },
+        "random-colors": true,
+        "size-x": 20,
+        "size-y": 50,
+        "size-z": 20
+      }
+    },
+    {
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "skybox",
+        "all-collision": false,
+        "random-colors": true,
+        "size-x": -99,
+        "size-y": -99,
+        "size-z": -99,
+        "groups": [
+          "skybox"
+        ]
+      }
+    },
+    {
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "testing-range",
+        "exclude": {
+          "right": true
+        },
+        "properties": {
+          "texture-id": "stone.png",
+          "texture-repeat-x": 10,
+          "texture-repeat-y": 10
+        },
+        "random-colors": true,
+        "size-x": -200,
+        "size-y": -50,
+        "size-z": -400,
+        "translate-y": -56
+      }
+    },
+    {
+      "type": "webgl_cuboid",
+      "properties": {
+        "prefix": "testing-track-cube-0",
+        "properties": {
+          "collide-damage": 1,
+          "texture-id": "debug.png"
+        },
+        "size-x": 40,
+        "size-y": 40,
+        "size-z": 40,
+        "translate-x": -25,
+        "translate-y": 46,
+        "translate-z": 75
+      }
+    },
+    {
+      "type": "webgl_cuboid_tree",
+      "properties": {
+        "prefix": "tree-0",
+        "translate-x": -50,
+        "translate-y": 26,
+        "translate-z": -150
+      }
+    },
+    {
+      "type": "webgl_lines_tree",
+      "properties": {
+        "prefix": "tree-1",
+        "translate-y": 26,
+        "translate-z": -150,
+        "trunk-count-min": 5
+      }
+    }
+  ],
+  "characters": [
+    {
+      "id": "labtech-landing",
+      "entities": [
+        {
+          "id": "labtech-landing-face",
+          "billboard": "y",
+          "collision": false,
+          "vertex-colors": [
+            1, 0, 0, 1,
+            0, 1, 0, 1,
+            0, 0, 1, 1
+          ],
+          "vertices": [
+            -2, 0, 0, 1,
+            2, 0, 0, 1,
+            0, 2, 0, 1
+          ]
+        }
+      ],
+      "inventory": {
+        "sample-hat": {
+          "amount": 100,
+          "entities": [
+            {
+              "attach-offset-y": 2.5,
+              "billboard": [
+                "y"
+              ],
+              "collision": false,
+              "vertex-colors": [
+                1, 0, 0, 1,
+                0, 1, 0, 1,
+                0, 0, 1, 1
+              ],
+              "vertices": [
+                -2, 0, 0, 1,
+                2, 0, 0, 1,
+                0, 2, 0, 1
+              ]
+            }
+          ],
+          "equipped": false,
+          "spell": false,
+          "stats": {}
+        }
+      },
+      "level": 5,
+      "talk": "Welcome to the iterami labs!",
+      "talk-range": 50,
+      "trade": [
+        {
+          "get-amount": 10,
+          "get-id": "Coins",
+          "give-amount": 1,
+          "give-id": "sample-hat"
+        }
+      ]
+    },
+    {
+      "id": "labtech-range",
+      "entities": [
+        {
+          "id": "labtech-range",
+          "billboard": "y",
+          "collision": false,
+          "vertex-colors": [
+            1, 0, 0, 1,
+            0, 1, 0, 1,
+            0, 0, 1, 1
+          ],
+          "vertices": [
+            -2, 0, 0, 1,
+            2, 0, 0, 1,
+            0, 2, 0, 1
+          ]
+        }
+      ],
+      "level": 5,
+      "talk": "Pick up this item and equip it.<br>Press bound fire key to shoot!",
+      "talk-range": 50,
+      "translate-x": -100,
+      "translate-y": -50
     }
   ]
 }
