@@ -27,151 +27,238 @@
   },
   "spawn-rotate-x": 30,
   "spawn-translate-y": 15,
-  "entities": [
-    {
-      "id": "coin-0",
-      "item-id": "Coins",
-      "rotate-z": 90,
-      "translate-x": 75,
-      "translate-y": 5,
-      "translate-z": -195,
-      "vertex-colors": [
-        0.7, 0.7, 0, 1,
-        0.7, 0.7, 0, 1,
-        0.7, 0.7, 0, 1,
-        0.7, 0.7, 0, 1
-      ],
-      "vertices": [
-        2, 0, -2, 1,
-        -2, 0, -2, 1,
-        -2, 0, 2, 1,
-        2, 0, 2, 1
-      ]
-    },
-    {
-      "id": "coin-1",
-      "item-id": "Coins",
-      "rotate-x": 270,
-      "translate-y": 15,
-      "translate-z": 155,
-      "vertex-colors": [
-        0.7, 0.7, 0, 1,
-        0.7, 0.7, 0, 1,
-        0.7, 0.7, 0, 1,
-        0.7, 0.7, 0, 1
-      ],
-      "vertices": [
-        2, 0, -2, 1,
-        -2, 0, -2, 1,
-        -2, 0, 2, 1,
-        2, 0, 2, 1
-      ]
-    },
+  "characters": [
     {
       "id": "lava",
-      "collide-damage": "1000",
-      "texture-id": "lavaleaf.png",
-      "texture-repeat-x": 25,
-      "texture-repeat-y": 25,
-      "vertex-colors": [
-        1, 0, 0, 1,
-        1, 0, 0, 1,
-        1, 0, 0, 1,
-        1, 0, 0, 1
-      ],
-      "vertices": [
-        500, 0, -500, 1,
-        -500, 0, -500, 1,
-        -500, 0, 500, 1,
-        500, 0, 500, 1
+      "entities": [
+        {
+          "id": "lava",
+          "collide-damage": "1000",
+          "texture-id": "lavaleaf.png",
+          "texture-repeat-x": 25,
+          "texture-repeat-y": 25,
+          "vertex-colors": [
+           1, 0, 0, 1,
+            1, 0, 0, 1,
+            1, 0, 0, 1,
+            1, 0, 0, 1
+          ],
+          "vertices": [
+            500, 0, -500, 1,
+            -500, 0, -500, 1,
+            -500, 0, 500, 1,
+            500, 0, 500, 1
+          ]
+        },
+        {
+          "id": "lava-pillar-0",
+          "attach-offset-x": -15,
+          "attach-offset-y": 20,
+          "attach-offset-z": -155,
+          "collide-damage": "1000",
+          "rotate-z": 90,
+          "texture-id": "lavaleaf.png",
+          "texture-repeat-y": 2,
+          "vertex-colors": [
+            1, 0, 0, 1,
+            1, 0, 0, 1,
+            1, 0, 0, 1,
+            1, 0, 0, 1
+          ],
+          "vertices": [
+            20, 0, -5, 1,
+            -20, 0, -5, 1,
+            -20, 0, 5, 1,
+            20, 0, 5, 1
+          ]
+        }
       ]
     },
     {
-      "id": "lava-pillar-0",
-      "collide-damage": "1000",
-      "rotate-z": 90,
-      "texture-id": "lavaleaf.png",
-      "texture-repeat-y": 2,
-      "translate-x": -15,
-      "translate-y": 20,
-      "translate-z": -155,
-      "vertex-colors": [
-        1, 0, 0, 1,
-        1, 0, 0, 1,
-        1, 0, 0, 1,
-        1, 0, 0, 1
+      "id": "platform-0",
+      "entities": [
+        {
+          "id": "platform-0-shadow",
+          "alpha": 0.5,
+          "attach-offset-y": -19.99,
+          "collision": false,
+          "vertex-colors": [
+            0, 0, 0, 1,
+            0, 0, 0, 1,
+            0, 0, 0, 1,
+            0, 0, 0, 1
+          ],
+          "vertices": [
+            7.5, 0, -7.5, 1,
+            -7.5, 0, -7.5, 1,
+            -7.5, 0, 7.5, 1,
+            7.5, 0, 7.5, 1
+          ]
+        }
       ],
-      "vertices": [
-        20, 0, -5, 1,
-        -20, 0, -5, 1,
-        -20, 0, 5, 1,
-        20, 0, 5, 1
-      ]
-    },
-    {
-      "id": "platform-8-obstacle",
-      "path-id": "platform-8-obstacle",
-      "rotate-z": 90,
-      "speed": 1,
-      "texture-id": "lavaleaf.png",
-      "texture-repeat-y": 2,
-      "translate-x": 35,
-      "translate-y": 20,
-      "translate-z": -175,
-      "vertex-colors": [
-        1, 0, 0, 1,
-        1, 0, 0, 1,
-        1, 0, 0, 1,
-        1, 0, 0, 1
-      ],
-      "vertices": [
-        20, 0, -5, 1,
-        -20, 0, -5, 1,
-        -20, 0, 5, 1,
-        20, 0, 5, 1
-      ]
-    },
-    {
-      "id": "shadow-platform-0",
-      "alpha": 0.5,
-      "collision": false,
       "path-id": "platform-0-obstacle",
       "speed": 0.5,
       "translate-x": -20,
-      "translate-y": 0.01,
-      "translate-z": -50,
-      "vertex-colors": [
-        0, 0, 0, 1,
-        0, 0, 0, 1,
-        0, 0, 0, 1,
-        0, 0, 0, 1
-      ],
-      "vertices": [
-        7.5, 0, -7.5, 1,
-        -7.5, 0, -7.5, 1,
-        -7.5, 0, 7.5, 1,
-        7.5, 0, 7.5, 1
-      ]
+      "translate-y": 20,
+      "translate-z": -50
     },
     {
-      "id": "shadow-platform-6",
-      "alpha": 0.5,
-      "collision": false,
-      "translate-x": 5,
-      "translate-y": 0.01,
-      "translate-z": -150,
-      "vertex-colors": [
-        0, 0, 0, 1,
-        0, 0, 0, 1,
-        0, 0, 0, 1,
-        0, 0, 0, 1
+      "id": "platform-1",
+      "translate-x": 25,
+      "translate-y": 10,
+      "translate-z": -100
+    },
+    {
+      "id": "platform-2",
+      "translate-x": -40,
+      "translate-y": 1,
+      "translate-z": -142
+    },
+    {
+      "id": "platform-3",
+      "translate-x": 10,
+      "translate-y": 1,
+      "translate-z": -185
+    },
+    {
+      "id": "platform-4",
+      "translate-x": 15,
+      "translate-y": 1,
+      "translate-z": -52.5
+    },
+    {
+      "id": "platform-5",
+      "translate-x": -20,
+      "translate-y": 25,
+      "translate-z": -180
+    },
+    {
+      "id": "platform-6",
+      "entities": [
+        {
+          "id": "platform-6-shadow",
+          "alpha": 0.5,
+          "attach-offset-y": -29.99,
+          "collision": false,
+          "vertex-colors": [
+            0, 0, 0, 1,
+            0, 0, 0, 1,
+            0, 0, 0, 1,
+            0, 0, 0, 1
+          ],
+          "vertices": [
+            19.5, 0, -9.5, 1,
+            -19.5, 0, -9.5, 1,
+            -19.5, 0, 9.5, 1,
+            19.5, 0, 9.5, 1
+          ]
+        }
       ],
-      "vertices": [
-        19.5, 0, -9.5, 1,
-        -19.5, 0, -9.5, 1,
-        -19.5, 0, 9.5, 1,
-        19.5, 0, 9.5, 1
-      ]
+      "translate-x": 5,
+      "translate-y": 30,
+      "translate-z": -150
+    },
+    {
+      "id": "platform-7",
+      "entities": [
+        {
+          "id": "coin-0",
+          "attach-offset-y": 5,
+          "item-id": "Coins",
+          "rotate-z": 90,
+          "vertex-colors": [
+            0.7, 0.7, 0, 1,
+            0.7, 0.7, 0, 1,
+            0.7, 0.7, 0, 1,
+            0.7, 0.7, 0, 1
+          ],
+          "vertices": [
+            2, 0, -2, 1,
+            -2, 0, -2, 1,
+            -2, 0, 2, 1,
+            2, 0, 2, 1
+          ]
+        }
+      ],
+      "translate-x": 70,
+      "translate-y": 1,
+      "translate-z": -195
+    },
+    {
+      "id": "platform-8",
+      "entities": [
+        {
+          "id": "coin-1",
+          "attach-offset-y": 10,
+          "item-id": "Coins",
+          "rotate-x": 270,
+          "vertex-colors": [
+            0.7, 0.7, 0, 1,
+            0.7, 0.7, 0, 1,
+            0.7, 0.7, 0, 1,
+            0.7, 0.7, 0, 1
+          ],
+          "vertices": [
+            2, 0, -2, 1,
+            -2, 0, -2, 1,
+            -2, 0, 2, 1,
+            2, 0, 2, 1
+          ]
+        }
+      ],
+      "translate-y": 5,
+      "translate-z": 155
+    },
+    {
+      "id": "platform-gate",
+      "translate-y": 5,
+      "translate-z": 85
+    },
+    {
+      "id": "platform-spawn",
+      "translate-y": 5
+    },
+    {
+      "id": "gate-0",
+      "translate-y": 35,
+      "translate-z": 85
+    },
+    {
+      "id": "tree-0",
+      "translate-x": -25,
+      "translate-y": 65,
+      "translate-z": -175
+    },
+    {
+      "id": "tree-1",
+      "translate-x": 18,
+      "translate-y": 55,
+      "translate-z": -152
+    },
+    {
+      "id": "guard-0",
+      "entities": [
+        {
+          "id": "guard-0-face",
+          "billboard": "y",
+          "collision": false,
+          "vertex-colors": [
+            1, 0, 0, 1,
+            0, 1, 0, 1,
+            0, 0, 1, 1
+          ],
+          "vertices": [
+            -2, 0, 0, 1,
+            2, 0, 0, 1,
+            0, 2, 0, 1
+          ]
+        }
+      ],
+      "level": 273,
+      "talk": "I'll let you pass through once I figure out how it works.",
+      "translate-x": -20,
+      "translate-y": 35,
+      "translate-z": 80
     }
   ],
   "prefabs": [
@@ -185,17 +272,13 @@
           0.2, 0.2, 0.2, 1,
           0.2, 0.2, 0.2, 1
         ],
+        "character": "platform-0",
         "properties": {
-          "path-id": "platform-0-obstacle",
-          "speed": 0.5,
           "texture-id": "stone.png"
         },
         "size-x": 15,
         "size-y": 2,
-        "size-z": 15,
-        "translate-x": -20,
-        "translate-y": 20,
-        "translate-z": -50
+        "size-z": 15
       }
     },
     {
@@ -208,6 +291,7 @@
           0.2, 0.2, 0.2, 1,
           0.2, 0.2, 0.2, 1
         ],
+        "character": "platform-1",
         "exclude": {
           "bottom": true
         },
@@ -218,10 +302,7 @@
         },
         "size-x": 25,
         "size-y": 20,
-        "size-z": 20,
-        "translate-x": 25,
-        "translate-y": 10,
-        "translate-z": -100
+        "size-z": 20
       }
     },
     {
@@ -234,6 +315,7 @@
           0.2, 0.2, 0.2, 1,
           0.2, 0.2, 0.2, 1
         ],
+        "character": "platform-2",
         "exclude": {
           "bottom": true
         },
@@ -244,10 +326,7 @@
         },
         "size-x": 20,
         "size-y": 2,
-        "size-z": 20,
-        "translate-x": -40,
-        "translate-y": 1,
-        "translate-z": -142
+        "size-z": 20
       }
     },
     {
@@ -260,6 +339,7 @@
           0.2, 0.2, 0.2, 1,
           0.2, 0.2, 0.2, 1
         ],
+        "character": "platform-3",
         "exclude": {
           "bottom": true
         },
@@ -270,10 +350,7 @@
         },
         "size-x": 20,
         "size-y": 2,
-        "size-z": 45,
-        "translate-x": 10,
-        "translate-y": 1,
-        "translate-z": -185
+        "size-z": 45
       }
     },
     {
@@ -286,6 +363,7 @@
           0.2, 0.2, 0.2, 1,
           0.2, 0.2, 0.2, 1
         ],
+        "character": "platform-4",
         "exclude": {
           "back": true,
           "bottom": true,
@@ -296,10 +374,7 @@
         },
         "size-x": 5,
         "size-y": 2,
-        "size-z": 75,
-        "translate-x": 15,
-        "translate-y": 1,
-        "translate-z": -52.5
+        "size-z": 75
       }
     },
     {
@@ -312,6 +387,7 @@
           0.2, 0.2, 0.2, 1,
           0.2, 0.2, 0.2, 1
         ],
+        "character": "platform-5",
         "exclude": {
           "bottom": true
         },
@@ -322,10 +398,7 @@
         },
         "size-x": 25,
         "size-y": 50,
-        "size-z": 25,
-        "translate-x": -20,
-        "translate-y": 25,
-        "translate-z": -180
+        "size-z": 25
       }
     },
     {
@@ -338,6 +411,7 @@
           0.2, 0.2, 0.2, 1,
           0.2, 0.2, 0.2, 1
         ],
+        "character": "platform-6",
         "properties": {
           "texture-id": "stone.png",
           "texture-repeat-x": 2,
@@ -345,10 +419,7 @@
         },
         "size-x": 39,
         "size-y": 20,
-        "size-z": 19,
-        "translate-x": 5,
-        "translate-y": 30,
-        "translate-z": -150
+        "size-z": 19
       }
     },
     {
@@ -361,6 +432,7 @@
           0.2, 0.2, 0.2, 1,
           0.2, 0.2, 0.2, 1
         ],
+        "character": "platform-7",
         "exclude": {
           "bottom": true
         },
@@ -371,10 +443,7 @@
         },
         "size-x": 20,
         "size-y": 2,
-        "size-z": 20,
-        "translate-x": 70,
-        "translate-y": 1,
-        "translate-z": -195
+        "size-z": 20
       }
     },
     {
@@ -387,6 +456,7 @@
           0.2, 0.2, 0.2, 1,
           0.2, 0.2, 0.2, 1
         ],
+        "character": "platform-gate",
         "exclude": {
           "bottom": true
         },
@@ -397,21 +467,20 @@
         },
         "size-x": 55,
         "size-y": 10,
-        "size-z": 55,
-        "translate-y": 5,
-        "translate-z": 85
+        "size-z": 55
       }
     },
     {
       "type": "cuboid",
       "properties": {
-        "prefix": "platform-gate-end",
+        "prefix": "platform-8",
         "all-vertex-colors": [
           0.2, 0.2, 0.2, 1,
           0.2, 0.2, 0.2, 1,
           0.2, 0.2, 0.2, 1,
           0.2, 0.2, 0.2, 1
         ],
+        "character": "platform-8",
         "exclude": {
           "bottom": true
         },
@@ -422,21 +491,20 @@
         },
         "size-x": 20,
         "size-y": 10,
-        "size-z": 20,
-        "translate-y": 5,
-        "translate-z": 155
+        "size-z": 20
       }
     },
     {
       "type": "cuboid",
       "properties": {
-        "prefix": "platform-gate-wall",
+        "prefix": "gate-0",
         "all-vertex-colors": [
           0.2, 0.2, 0.2, 1,
           0.2, 0.2, 0.2, 1,
           0.2, 0.2, 0.2, 1,
           0.2, 0.2, 0.2, 1
         ],
+        "character": "gate-0",
         "properties": {
           "texture-id": "stone.png",
           "texture-repeat-x": 1,
@@ -444,9 +512,7 @@
         },
         "size-x": 55,
         "size-y": 50,
-        "size-z": 5,
-        "translate-y": 35,
-        "translate-z": 85
+        "size-z": 5
       }
     },
     {
@@ -459,6 +525,7 @@
           0.2, 0.2, 0.2, 1,
           0.2, 0.2, 0.2, 1
         ],
+        "character": "platform-spawn",
         "exclude": {
           "bottom": true
         },
@@ -469,8 +536,7 @@
         },
         "size-x": 35,
         "size-y": 10,
-        "size-z": 30,
-        "translate-y": 5
+        "size-z": 30
       }
     },
     {
@@ -496,9 +562,7 @@
       "type": "cuboid_tree",
       "properties": {
         "prefix": "tree-0",
-        "translate-x": -25,
-        "translate-y": 50,
-        "translate-z": -175,
+        "character": "tree-0",
         "vertex-colors-leaves": [
           0.666, 0, 0, 1,
           0.666, 0, 0, 1,
@@ -511,9 +575,7 @@
       "type": "cuboid_tree",
       "properties": {
         "prefix": "tree-1",
-        "translate-x": 18,
-        "translate-y": 40,
-        "translate-z": -152,
+        "character": "tree-1",
         "vertex-colors-leaves": [
           0.666, 0, 0, 1,
           0.666, 0, 0, 1,
@@ -521,33 +583,6 @@
           0.666, 0, 0, 1
         ]
       }
-    }
-  ],
-  "characters": [
-    {
-      "id": "guard",
-      "entities": [
-        {
-          "id": "guard-face",
-          "billboard": "y",
-          "collision": false,
-          "vertex-colors": [
-            1, 0, 0, 1,
-            0, 1, 0, 1,
-            0, 0, 1, 1
-          ],
-          "vertices": [
-            -2, 0, 0, 1,
-            2, 0, 0, 1,
-            0, 2, 0, 1
-          ]
-        }
-      ],
-      "level": 273,
-      "talk": "I'll let you pass through once I figure out how it works.",
-      "translate-x": -20,
-      "translate-y": 35,
-      "translate-z": 80
     }
   ]
 }

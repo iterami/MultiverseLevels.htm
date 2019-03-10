@@ -1,25 +1,28 @@
 {
   "spawn-rotate-x": 45,
-  "entities": [
-    {
-      "id": "base",
-      "collide-damage": -1,
-      "translate-y": -5,
-      "vertex-colors": [
-        0, 0.1, 0, 1,
-        0, 0.1, 0, 1,
-        0, 0.1, 0, 1,
-        0, 0.1, 0, 1
-      ],
-      "vertices": [
-        25, 0, -25, 1,
-        -25, 0, -25, 1,
-        -25, 0, 25, 1,
-        25, 0, 25, 1
-      ]
-    }
-  ],
   "characters": [
+    {
+      "id": "home",
+      "entities": [
+        {
+          "id": "home-0",
+          "attach-offset-y": -5,
+          "collide-damage": -1,
+          "vertex-colors": [
+            0, 0.1, 0, 1,
+            0, 0.1, 0, 1,
+            0, 0.1, 0, 1,
+            0, 0.1, 0, 1
+          ],
+          "vertices": [
+            25, 0, -25, 1,
+            -25, 0, -25, 1,
+            -25, 0, 25, 1,
+            25, 0, 25, 1
+          ]
+        }
+      ]
+    },
     {
       "id": "_me",
       "entities": [

@@ -6,63 +6,73 @@
   "multiplier-speed": 2,
   "spawn-translate-y": -10,
   "spawn-translate-z": 190,
-  "entities": [
+  "characters": [
     {
-      "id": "door-entrance",
-      "rotate-x": 270,
-      "texture-id": "wood.png",
-      "translate-z": 199.95,
-      "vertex-colors": [
-        1, 1, 1, 1,
-        1, 1, 1, 1,
-        1, 1, 1, 1,
-        1, 1, 1, 1
-      ],
-      "vertices": [
-        10, 0, -50, 1,
-        -10, 0, -50, 1,
-        -10, 0, 50, 1,
-        10, 0, 50, 1
-      ]
-    },
-    {
-      "id": "ground",
-      "draw": false,
-      "translate-y": -45,
-      "vertices": [
-        250, 0, -250, 1,
-        -250, 0, -250, 1,
-        -250, 0, 250, 1,
-        250, 0, 250, 1
+      "id": "maze",
+      "entities": [
+        {
+          "id": "entrance",
+          "attach-offset-z": 199.95,
+          "rotate-x": 270,
+          "texture-id": "wood.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+           1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ],
+          "vertices": [
+            10, 0, -50, 1,
+            -10, 0, -50, 1,
+            -10, 0, 50, 1,
+            10, 0, 50, 1
+          ]
+        },
+        {
+          "id": "ground",
+          "attach-offset-y": -45,
+          "draw": false,
+          "vertices": [
+            250, 0, -250, 1,
+            -250, 0, -250, 1,
+            -250, 0, 250, 1,
+            250, 0, 250, 1
+          ]
+        }
       ]
     },
     {
       "id": "???",
-      "alpha": 0.99,
-      "billboard": [
-        "y"
-      ],
-      "collision": false,
-      "draw-type": "TRIANGLE_FAN",
-      "vertex-colors": [
-        0.1, 0, 0, 1,
-        0, 0, 0, 0,
-        0, 0, 0, 0,
-        0, 0, 0, 0,
-        0, 0, 0, 0,
-        0, 0, 0, 0,
-        0, 0, 0, 0,
-        0, 0, 0, 0
-      ],
-      "vertices": [
-        0, 0, 0, 1,
-        0, 6, 0, 1,
-        -4, 2, 0, 1,
-        -4, -2, 0, 1,
-        0, -6, 0, 1,
-        4, -2, 0, 1,
-        4, 2, 0, 1,
-        0, 6, 0, 1
+      "entities": [
+        {
+          "id": "???-face",
+          "alpha": 0.99,
+          "billboard": [
+            "y"
+          ],
+          "collision": false,
+          "draw-type": "TRIANGLE_FAN",
+          "vertex-colors": [
+            0.1, 0, 0, 1,
+            0, 0, 0, 0,
+            0, 0, 0, 0,
+            0, 0, 0, 0,
+            0, 0, 0, 0,
+            0, 0, 0, 0,
+            0, 0, 0, 0,
+            0, 0, 0, 0
+          ],
+          "vertices": [
+            0, 0, 0, 1,
+            0, 6, 0, 1,
+            -4, 2, 0, 1,
+            -4, -2, 0, 1,
+            0, -6, 0, 1,
+            4, -2, 0, 1,
+            4, 2, 0, 1,
+            0, 6, 0, 1
+          ]
+        }
       ]
     }
   ],
@@ -70,7 +80,8 @@
     {
       "type": "cuboid",
       "properties": {
-        "prefix": "facility",
+        "prefix": "walls",
+        "character": "maze",
         "exclude": {
           "bottom": true
         },
