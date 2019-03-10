@@ -68,7 +68,7 @@
   ],
   "prefabs": [
     {
-      "type": "webgl_cuboid",
+      "type": "cuboid",
       "properties": {
         "prefix": "facility",
         "exclude": {
