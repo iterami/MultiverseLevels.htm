@@ -6,6 +6,7 @@
       "entities": [
         {
           "id": "character-top",
+          "attach-offset-y": 3,
           "collision": false,
           "vertex-colors": [
             0, 0.7, 0, 1,
@@ -14,14 +15,15 @@
             0, 0.7, 0, 1
           ],
           "vertices": [
-            2, 3, -2, 1,
-            -2, 3, -2, 1,
-            -2, 3, 2, 1,
-            2, 3, 2, 1
+            2, 0, -2, 1,
+            -2, 0, -2, 1,
+            -2, 0, 2, 1,
+            2, 0, 2, 1
           ]
         },
         {
           "id": "character-bottom",
+          "attach-offset-y": -3,
           "collision": false,
           "rotate-x": 180,
           "vertex-colors": [
@@ -31,14 +33,15 @@
             0, 0.7, 0, 1
           ],
           "vertices": [
-            2, 3, -2, 1,
-            -2, 3, -2, 1,
-            -2, 3, 2, 1,
-            2, 3, 2, 1
+            2, 0, -2, 1,
+            -2, 0, -2, 1,
+            -2, 0, 2, 1,
+            2, 0, 2, 1
           ]
         },
         {
           "id": "character-left",
+          "attach-offset-x": -2,
           "collision": false,
           "rotate-z": 90,
           "vertex-colors": [
@@ -48,14 +51,15 @@
             0, 0.7, 0, 1
           ],
           "vertices": [
-            3, 2, -2, 1,
-            -3, 2, -2, 1,
-            -3, 2, 2, 1,
-            3, 2, 2, 1
+            3, 0, -2, 1,
+            -3, 0, -2, 1,
+            -3, 0, 2, 1,
+            3, 0, 2, 1
           ]
         },
         {
           "id": "character-right",
+          "attach-offset-x": 2,
           "collision": false,
           "rotate-z": 270,
           "vertex-colors": [
@@ -65,14 +69,15 @@
             0, 0.7, 0, 1
           ],
           "vertices": [
-            3, 2, -2, 1,
-            -3, 2, -2, 1,
-            -3, 2, 2, 1,
-            3, 2, 2, 1
+            3, 0, -2, 1,
+            -3, 0, -2, 1,
+            -3, 0, 2, 1,
+            3, 0, 2, 1
           ]
         },
         {
           "id": "character-back",
+          "attach-offset-z": 2,
           "collision": false,
           "rotate-x": 90,
           "vertex-colors": [
@@ -82,14 +87,15 @@
             0, 0.7, 0, 1
           ],
           "vertices": [
-            2, 2, -3, 1,
-            -2, 2, -3, 1,
-            -2, 2, 3, 1,
-            2, 2, 3, 1
+            2, 0, -3, 1,
+            -2, 0, -3, 1,
+            -2, 0, 3, 1,
+            2, 0, 3, 1
           ]
         },
         {
           "id": "character-front",
+          "attach-offset-z": -2,
           "collision": false,
           "rotate-x": 270,
           "vertex-colors": [
@@ -99,10 +105,10 @@
             0.5, 0, 0, 1
           ],
           "vertices": [
-            2, 2, -3, 1,
-            -2, 2, -3, 1,
-            -2, 2, 3, 1,
-            2, 2, 3, 1
+            2, 0, -3, 1,
+            -2, 0, -3, 1,
+            -2, 0, 3, 1,
+            2, 0, 3, 1
           ]
         }
       ],
