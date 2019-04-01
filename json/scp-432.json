@@ -1,0 +1,83 @@
+{
+  "camera-zoom-max": 0,
+  "fog-density": 0.0015,
+  "fog-state": true,
+  "multiplier-jump": 0,
+  "multiplier-speed": 3,
+  "characters": [
+    {
+      "id": "structure",
+      "entities": [
+        {
+          "id": "ground",
+          "attach-offset-y": -3,
+          "draw": false,
+          "vertices": [
+            250, 0, -250, 1,
+            -250, 0, -250, 1,
+            -250, 0, 250, 1,
+            250, 0, 250, 1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "???",
+      "entities": [
+        {
+          "id": "???-face",
+          "alpha": 0.99,
+          "billboard": [
+            "y"
+          ],
+          "collision": false,
+          "draw-type": "TRIANGLE_FAN",
+          "vertex-colors": [
+            0.1, 0, 0, 1,
+            0, 0, 0, 0,
+            0, 0, 0, 0,
+            0, 0, 0, 0,
+            0, 0, 0, 0,
+            0, 0, 0, 0,
+            0, 0, 0, 0,
+            0, 0, 0, 0
+          ],
+          "vertices": [
+            0, 0, 0, 1,
+            0, 6, 0, 1,
+            -4, 2, 0, 1,
+            -4, -2, 0, 1,
+            0, -6, 0, 1,
+            4, -2, 0, 1,
+            4, 2, 0, 1,
+            0, 6, 0, 1
+          ]
+        }
+      ],
+      "translate-y": 50
+    }
+  ],
+  "prefabs": [
+    {
+      "type": "cuboid",
+      "properties": {
+        "prefix": "external",
+        "all-vertex-colors": [
+          0.6, 0.2, 0, 1,
+          0.6, 0.2, 0, 1,
+          0.6, 0.2, 0, 1,
+          0.6, 0.2, 0, 1
+        ],
+        "character": "structure",
+        "properties": {
+          "texture-id": "stone.png",
+          "texture-repeat-x": 20,
+          "texture-repeat-y": 20
+        },
+        "size-x": -400,
+        "size-y": -20,
+        "size-z": -400
+      }
+    }
+  ]
+}
