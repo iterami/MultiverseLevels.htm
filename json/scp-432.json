@@ -18,6 +18,121 @@
             -250, 0, 250, 1,
             250, 0, 250, 1
           ]
+        },
+        {
+          "id": "room-back",
+          "attach-offset-z": 43.2,
+          "rotate-x": 270,
+          "texture-id": "stone.png",
+          "texture-repeat-y": 3,
+          "vertex-colors": [
+            0.6, 0.2, 0, 1,
+            0.6, 0.2, 0, 1,
+            0.6, 0.2, 0, 1,
+            0.6, 0.2, 0, 1
+          ],
+          "vertices": [
+            43.2, 0, -10, 1,
+            -43.2, 0, -10, 1,
+            -43.2, 0, 10, 1,
+            43.2, 0, 10, 1
+          ]
+        },
+        {
+          "id": "room-entrance",
+          "attach-offset-z": 43.19,
+          "rotate-x": 270,
+          "texture-id": "lavaleaf.png",
+          "vertex-colors": [
+            0.432, 0.432, 0.432, 1,
+            0.432, 0.432, 0.432, 1,
+            0.432, 0.432, 0.432, 1,
+            0.432, 0.432, 0.432, 1
+          ],
+          "vertices": [
+            5, 0, -10, 1,
+            -5, 0, -10, 1,
+            -5, 0, 10, 1,
+            5, 0, 10, 1
+          ]
+        },
+        {
+          "id": "room-front-left",
+          "attach-offset-x": -24.6,
+          "attach-offset-z": -43.2,
+          "rotate-x": 90,
+          "texture-id": "stone.png",
+          "texture-repeat-y": 1,
+          "vertex-colors": [
+            0.6, 0.2, 0, 1,
+            0.6, 0.2, 0, 1,
+            0.6, 0.2, 0, 1,
+            0.6, 0.2, 0, 1
+          ],
+          "vertices": [
+            18.6, 0, -10, 1,
+            -18.6, 0, -10, 1,
+            -18.6, 0, 10, 1,
+            18.6, 0, 10, 1
+          ]
+        },
+        {
+          "id": "room-front-right",
+          "attach-offset-x": 24.6,
+          "attach-offset-z": -43.2,
+          "rotate-x": 90,
+          "texture-id": "stone.png",
+          "texture-repeat-y": 1,
+          "vertex-colors": [
+            0.6, 0.2, 0, 1,
+            0.6, 0.2, 0, 1,
+            0.6, 0.2, 0, 1,
+            0.6, 0.2, 0, 1
+          ],
+          "vertices": [
+            18.6, 0, -10, 1,
+            -18.6, 0, -10, 1,
+            -18.6, 0, 10, 1,
+            18.6, 0, 10, 1
+          ]
+        },
+        {
+          "id": "room-left",
+          "attach-offset-x": -43.2,
+          "rotate-z": 270,
+          "texture-id": "stone.png",
+          "texture-repeat-x": 3,
+          "vertex-colors": [
+            0.6, 0.2, 0, 1,
+            0.6, 0.2, 0, 1,
+            0.6, 0.2, 0, 1,
+            0.6, 0.2, 0, 1
+          ],
+          "vertices": [
+            10, 0, -43.2, 1,
+            -10, 0, -43.2, 1,
+            -10, 0, 43.2, 1,
+            10, 0, 43.2, 1
+          ]
+        },
+        {
+          "id": "room-right",
+          "attach-offset-x": 43.2,
+          "rotate-z": 90,
+          "texture-id": "stone.png",
+          "texture-repeat-x": 3,
+          "vertex-colors": [
+            0.6, 0.2, 0, 1,
+            0.6, 0.2, 0, 1,
+            0.6, 0.2, 0, 1,
+            0.6, 0.2, 0, 1
+          ],
+          "vertices": [
+            10, 0, -43.2, 1,
+            -10, 0, -43.2, 1,
+            -10, 0, 43.2, 1,
+            10, 0, 43.2, 1
+          ]
         }
       ]
     },
@@ -58,6 +173,50 @@
     }
   ],
   "prefabs": [
+    {
+      "type": "cuboid",
+      "properties": {
+        "prefix": "cabinet-external",
+        "all-vertex-colors": [
+          0.36, 0.58, 0.32, 1,
+          0.36, 0.58, 0.32, 1,
+          0.36, 0.58, 0.32, 1,
+          0.36, 0.58, 0.32, 1
+        ],
+        "exclude": {
+          "back": true,
+          "bottom": true,
+          "front": true,
+          "top": true
+        },
+        "character": "structure",
+        "size-x": 12,
+        "size-y": 20,
+        "size-z": 10,
+        "translate-z": -38.2
+      }
+    },
+    {
+      "type": "cuboid",
+      "properties": {
+        "prefix": "cabinet-internal",
+        "all-vertex-colors": [
+          0.36, 0.58, 0.32, 1,
+          0.36, 0.58, 0.32, 1,
+          0.36, 0.58, 0.32, 1,
+          0.36, 0.58, 0.32, 1
+        ],
+        "exclude": {
+          "back": true,
+          "front": true
+        },
+        "character": "structure",
+        "size-x": -12,
+        "size-y": -19.9,
+        "size-z": -10,
+        "translate-z": -38.2
+      }
+    },
     {
       "type": "cuboid",
       "properties": {
