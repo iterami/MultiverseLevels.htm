@@ -7,5 +7,4 @@ window.multiverselevels = {
   'labs': 'Labs',
   'platforms': 'Platforms',
   'scp-432': 'SCP-432',
-  'spooky': 'Spooky',
 };
