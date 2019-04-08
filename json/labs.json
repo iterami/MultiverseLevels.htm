@@ -9,13 +9,35 @@
       "id": "lab",
       "entities": [
         {
+          "id": "healing-node",
+          "attach-offset-x": -100,
+          "attach-offset-y": -95,
+          "billboard": [
+            "y"
+          ],
+          "event-modify": {
+            "health-current": 1
+          },
+          "event-range": 50,
+          "vertex-colors": [
+            0, 1, 0, 1,
+            0, 1, 0, 1,
+            0, 1, 0, 1
+          ],
+          "vertices": [
+            -5, 0, 0, 1,
+            5, 0, 0, 1,
+            0, 5, 0, 1
+          ]
+        },
+        {
           "id": "teleport-entrance",
           "attach-offset-y": 101.01,
           "event-modify": {
             "translate-y": -195,
             "translate-z": 30
           },
-          "event-type": "collision",
+          "event-range": 0,
           "texture-id": "stone.png",
           "texture-repeat-x": 1,
           "texture-repeat-y": 1,
@@ -39,7 +61,7 @@
             "translate-y": 205,
             "translate-z": 30
           },
-          "event-type": "collision",
+          "event-range": 0,
           "texture-id": "stone.png",
           "texture-repeat-x": 1,
           "texture-repeat-y": 1,
