@@ -15,9 +15,12 @@
           "billboard": [
             "y"
           ],
-          "event-modify": {
-            "health-current": 1
-          },
+          "event-modify": [
+            {
+              "amount": 1,
+              "stat": "health-current"
+            }
+          ],
           "event-range": 50,
           "vertex-colors": [
             0, 1, 0, 1,
@@ -33,10 +36,18 @@
         {
           "id": "teleport-entrance",
           "attach-offset-y": 101.01,
-          "event-modify": {
-            "translate-y": -195,
-            "translate-z": 30
-          },
+          "event-modify": [
+            {
+              "amount": -90,
+              "set": true,
+              "stat": "translate-y"
+            },
+            {
+              "amount": 40,
+              "set": true,
+              "stat": "translate-z"
+            }
+          ],
           "event-range": 0,
           "texture-id": "stone.png",
           "texture-repeat-x": 1,
@@ -57,10 +68,18 @@
         {
           "id": "teleport-exit",
           "attach-offset-y": -98.99,
-          "event-modify": {
-            "translate-y": 205,
-            "translate-z": 30
-          },
+          "event-modify": [
+            {
+              "amount": 110,
+              "set": true,
+              "stat": "translate-y"
+            },
+            {
+              "amount": 40,
+              "set": true,
+              "stat": "translate-z"
+            }
+          ],
           "event-range": 0,
           "texture-id": "stone.png",
           "texture-repeat-x": 1,

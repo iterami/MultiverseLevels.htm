@@ -33,10 +33,13 @@
       "entities": [
         {
           "id": "lava",
-          "event-modify": {
-            "health-current": -1000
-          },
-          "event-type": "collision",
+          "event-modify": [
+            {
+              "amount": -1000,
+              "stat": "health-current"
+            }
+          ],
+          "event-range": 0,
           "texture-id": "lavaleaf.png",
           "texture-repeat-x": 25,
           "texture-repeat-y": 25,
@@ -58,10 +61,13 @@
           "attach-offset-x": -15,
           "attach-offset-y": 20,
           "attach-offset-z": -155,
-          "event-modify": {
-            "health-current": -1000
-          },
-          "event-type": "collision",
+          "event-modify": [
+            {
+              "amount": -1000,
+              "stat": "health-current"
+            }
+          ],
+          "event-range": 0,
           "rotate-z": 90,
           "texture-id": "lavaleaf.png",
           "texture-repeat-y": 2,
