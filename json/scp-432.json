@@ -92,6 +92,24 @@
           ],
           "collision": false,
           "draw-type": "TRIANGLE_FAN",
+          "event-modify": [
+            {
+              "amount": 0,
+              "set": true,
+              "stat": "translate-x"
+            },
+            {
+              "amount": -43.2,
+              "set": true,
+              "stat": "translate-y"
+            },
+            {
+              "amount": -432,
+              "set": true,
+              "stat": "translate-z"
+            }
+          ],
+          "event-range": 10.8,
           "vertex-colors": [
             0.1, 0, 0, 1,
             0, 0, 0, 0,
@@ -114,7 +132,8 @@
           ]
         }
       ],
-      "translate-y": 50
+      "translate-y": -43.2,
+      "translate-z": -432
     }
   ],
   "prefabs": [
@@ -209,6 +228,24 @@
         "size-x": -86.4,
         "size-y": -20,
         "size-z": -86.4
+      }
+    },
+    {
+      "type": "cuboid",
+      "properties": {
+        "prefix": "????",
+        "all-vertex-colors": [
+          0, 0, 0, 1,
+          0, 0, 0, 1,
+          0, 0, 0, 1,
+          0, 0, 0, 1
+        ],
+        "character": "structure",
+        "size-x": -43.2,
+        "size-y": -43.2,
+        "size-z": -43.2,
+        "translate-y": -43.2,
+        "translate-z": -432
       }
     }
   ]
