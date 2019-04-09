@@ -96,6 +96,11 @@
             {
               "amount": 0,
               "set": true,
+              "stat": "health-current"
+            },
+            {
+              "amount": 0,
+              "set": true,
               "stat": "translate-x"
             },
             {
