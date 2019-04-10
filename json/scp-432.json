@@ -189,31 +189,6 @@
     {
       "type": "cuboid",
       "properties": {
-        "prefix": "corridor-0",
-        "all-vertex-colors": [
-          0.36, 0.58, 0.32, 1,
-          0.36, 0.58, 0.32, 1,
-          0.36, 0.58, 0.32, 1,
-          0.36, 0.58, 0.32, 1
-        ],
-        "exclude": {
-          "back": true
-        },
-        "character": "structure",
-        "properties": {
-          "texture-id": "stone.png",
-          "texture-repeat-x": 10,
-          "texture-repeat-y": 10
-        },
-        "size-x": -12,
-        "size-y": -20,
-        "size-z": -172.8,
-        "translate-z": -129.6
-      }
-    },
-    {
-      "type": "cuboid",
-      "properties": {
         "prefix": "room",
         "all-vertex-colors": [
           0.6, 0.2, 0, 1,
@@ -251,6 +226,96 @@
         "size-z": -43.2,
         "translate-y": -43.2,
         "translate-z": -432
+      }
+    },
+    {
+      "type": "tiles",
+      "properties": {
+        "prefix": "corridors",
+        "character": "structure",
+        "tiles": [
+          {
+            "attach-offset-z": -100,
+            "entities": [
+              {
+                "attach-offset-y": -10,
+                "texture-id": "stone.png",
+                "texture-repeat-x": 25,
+                "texture-repeat-y": 5,
+                "vertex-colors": [
+                  0.36, 0.58, 0.32, 1,
+                  0.36, 0.58, 0.32, 1,
+                  0.36, 0.58, 0.32, 1,
+                  0.36, 0.58, 0.32, 1
+                ],
+                "vertices": [
+                  6, 0, -50, 1,
+                  -6, 0, -50, 1,
+                  -6, 0, 50, 1,
+                  6, 0, 50, 1
+                ]
+              },
+              {
+                "attach-offset-y": 10,
+                "rotate-z": 180,
+                "texture-id": "stone.png",
+                "texture-repeat-x": 25,
+                "texture-repeat-y": 5,
+                "vertex-colors": [
+                  0.36, 0.58, 0.32, 1,
+                  0.36, 0.58, 0.32, 1,
+                  0.36, 0.58, 0.32, 1,
+                  0.36, 0.58, 0.32, 1
+                ],
+                "vertices": [
+                  6, 0, -50, 1,
+                  -6, 0, -50, 1,
+                  -6, 0, 50, 1,
+                  6, 0, 50, 1
+                ]
+              },
+              {
+                "attach-offset-x": -6,
+                "rotate-z": 270,
+                "texture-id": "stone.png",
+                "texture-repeat-x": 25,
+                "texture-repeat-y": 5,
+                "vertex-colors": [
+                  0.36, 0.58, 0.32, 1,
+                  0.36, 0.58, 0.32, 1,
+                  0.36, 0.58, 0.32, 1,
+                  0.36, 0.58, 0.32, 1
+                ],
+                "vertices": [
+                  10, 0, -50, 1,
+                  -10, 0, -50, 1,
+                  -10, 0, 50, 1,
+                  10, 0, 50, 1
+                ]
+              },
+              {
+                "attach-offset-x": 6,
+                "rotate-z": 90,
+                "texture-id": "stone.png",
+                "texture-repeat-x": 25,
+                "texture-repeat-y": 5,
+                "vertex-colors": [
+                  0.36, 0.58, 0.32, 1,
+                  0.36, 0.58, 0.32, 1,
+                  0.36, 0.58, 0.32, 1,
+                  0.36, 0.58, 0.32, 1
+                ],
+                "vertices": [
+                  10, 0, -50, 1,
+                  -10, 0, -50, 1,
+                  -10, 0, 50, 1,
+                  10, 0, 50, 1
+                ]
+              }
+            ]
+          }
+        ],
+        "translate-z": -93.2
       }
     }
   ]
