@@ -32,8 +32,8 @@
           "attach-offset-z": -43.2,
           "rotate-x": 90,
           "texture-id": "stone.png",
-          "texture-repeat-x": 10,
-          "texture-repeat-y": 4,
+          "texture-repeat-x": 9,
+          "texture-repeat-y": 3.9,
           "vertex-colors": [
             0.6, 0.2, 0, 1,
             0.6, 0.2, 0, 1,
@@ -53,8 +53,8 @@
           "attach-offset-z": -43.2,
           "rotate-x": 90,
           "texture-id": "stone.png",
-          "texture-repeat-x": 10,
-          "texture-repeat-y": 4,
+          "texture-repeat-x": 9,
+          "texture-repeat-y": 3.9,
           "vertex-colors": [
             0.6, 0.2, 0, 1,
             0.6, 0.2, 0, 1,
@@ -202,8 +202,8 @@
         "character": "structure",
         "properties": {
           "texture-id": "stone.png",
-          "texture-repeat-x": 10,
-          "texture-repeat-y": 10
+          "texture-repeat-x": 9,
+          "texture-repeat-y": 9
         },
         "size-x": -86.4,
         "size-y": -20,
