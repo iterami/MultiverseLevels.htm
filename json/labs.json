@@ -34,6 +34,47 @@
           ]
         },
         {
+          "id": "rotating-blue",
+          "attach-offset-x": 100,
+          "attach-offset-y": -80,
+          "change": {
+            "rotate-z": 1
+          },
+          "vertex-colors": [
+            0, 0, 1, 1,
+            0, 0, 1, 1,
+            0, 0, 1, 1,
+            0, 0, 1, 1
+          ],
+          "vertices": [
+            10, 0, -10, 1,
+            -10, 0, -10, 1,
+            -10, 0, 10, 1,
+            10, 0, 10, 1
+          ]
+        },
+        {
+          "id": "rotating-green",
+          "attach-offset-x": 100,
+          "attach-offset-y": -80,
+          "change": {
+            "rotate-z": 1
+          },
+          "rotate-z": 180,
+          "vertex-colors": [
+            0, 1, 0, 1,
+            0, 1, 0, 1,
+            0, 1, 0, 1,
+            0, 1, 0, 1
+          ],
+          "vertices": [
+            10, 0, -10, 1,
+            -10, 0, -10, 1,
+            -10, 0, 10, 1,
+            10, 0, 10, 1
+          ]
+        },
+        {
           "id": "teleport-entrance",
           "attach-offset-y": 101.01,
           "event-modify": [
