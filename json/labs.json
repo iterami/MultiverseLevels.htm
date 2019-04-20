@@ -2,7 +2,7 @@
   "multiplier-speed": 5,
   "multiplier-jump": 3,
   "spawn-rotate-x": 25,
-  "spawn-translate-y": 111,
+  "spawn-translate-y": -89,
   "spawn-translate-z": 20,
   "characters": [
     {
