@@ -1,0 +1,50 @@
+{
+  "multiplier-speed": 5,
+  "multiplier-jump": 3,
+  "spawn-rotate-x": 25,
+  "characters": [
+    {
+      "id": "facility"
+    }
+  ],
+  "prefabs": [
+    {
+      "type": "cuboid",
+      "properties": {
+        "prefix": "observation-0",
+        "all": {
+          "vertex-colors": [
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1
+          ]
+        },
+        "character": "facility",
+        "front": {
+          "draw": false
+        },
+        "size-x": -100,
+        "size-y": -50,
+        "size-z": -50
+      }
+    },
+    {
+      "type": "cuboid",
+      "properties": {
+        "prefix": "chamber-0",
+        "all": {
+          "texture-id": "stone.png",
+          "texture-repeat-x": 25,
+          "texture-repeat-y": 25
+        },
+        "character": "facility",
+        "random-colors": true,
+        "size-x": -200,
+        "size-y": -200,
+        "size-z": -200,
+        "translate-z": -125
+      }
+    }
+  ]
+}

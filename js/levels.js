@@ -4,7 +4,7 @@ window.multiversecharacters = {
   'character-default': 'Default',
 };
 window.multiverselevels = {
-  'labs': 'Labs',
+  'facility': 'Facility',
   'platforms': 'Platforms',
   'scp-432': 'SCP-432',
 };
