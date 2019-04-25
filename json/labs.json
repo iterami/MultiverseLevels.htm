@@ -146,12 +146,12 @@
       "type": "cuboid",
       "properties": {
         "prefix": "chamber-external",
-        "character": "lab",
-        "properties": {
+        "all": {
           "texture-id": "stone.png",
           "texture-repeat-x": 80,
           "texture-repeat-y": 80
         },
+        "character": "lab",
         "random-colors": true,
         "size-x": 800,
         "size-y": 202,
@@ -162,12 +162,12 @@
       "type": "cuboid",
       "properties": {
         "prefix": "chamber-internal",
-        "character": "lab",
-        "properties": {
+        "all": {
           "texture-id": "stone.png",
           "texture-repeat-x": 80,
           "texture-repeat-y": 80
         },
+        "character": "lab",
         "random-colors": true,
         "size-x": -800,
         "size-y": -200,
@@ -178,7 +178,9 @@
       "type": "cuboid",
       "properties": {
         "prefix": "skybox",
-        "all-collision": false,
+        "all": {
+          "collision": false
+        },
         "random-colors": true,
         "size-x": -99,
         "size-y": -99,

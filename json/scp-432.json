@@ -146,19 +146,21 @@
       "type": "cuboid",
       "properties": {
         "prefix": "cabinet-external",
-        "all-vertex-colors": [
-          0.36, 0.58, 0.32, 1,
-          0.36, 0.58, 0.32, 1,
-          0.36, 0.58, 0.32, 1,
-          0.36, 0.58, 0.32, 1
-        ],
+        "all": {
+          "vertex-colors": [
+            0.36, 0.58, 0.32, 1,
+            0.36, 0.58, 0.32, 1,
+            0.36, 0.58, 0.32, 1,
+            0.36, 0.58, 0.32, 1
+          ]
+        },
+        "character": "structure",
         "exclude": {
           "back": true,
           "bottom": true,
           "front": true,
           "top": true
         },
-        "character": "structure",
         "size-x": 12,
         "size-y": 20,
         "size-z": 10,
@@ -169,17 +171,19 @@
       "type": "cuboid",
       "properties": {
         "prefix": "cabinet-internal",
-        "all-vertex-colors": [
-          0.36, 0.58, 0.32, 1,
-          0.36, 0.58, 0.32, 1,
-          0.36, 0.58, 0.32, 1,
-          0.36, 0.58, 0.32, 1
-        ],
+        "all": {
+          "vertex-colors": [
+            0.36, 0.58, 0.32, 1,
+            0.36, 0.58, 0.32, 1,
+            0.36, 0.58, 0.32, 1,
+            0.36, 0.58, 0.32, 1
+          ]
+        },
+        "character": "structure",
         "exclude": {
           "back": true,
           "front": true
         },
-        "character": "structure",
         "size-x": -12,
         "size-y": -19.9,
         "size-z": -10,
@@ -190,21 +194,21 @@
       "type": "cuboid",
       "properties": {
         "prefix": "room",
-        "all-vertex-colors": [
-          0.6, 0.2, 0, 1,
-          0.6, 0.2, 0, 1,
-          0.6, 0.2, 0, 1,
-          0.6, 0.2, 0, 1
-        ],
+        "all": {
+          "texture-id": "stone.png",
+          "texture-repeat-x": 9,
+          "texture-repeat-y": 9,
+          "vertex-colors": [
+            0.6, 0.2, 0, 1,
+            0.6, 0.2, 0, 1,
+            0.6, 0.2, 0, 1,
+            0.6, 0.2, 0, 1
+          ]
+        },
         "exclude": {
           "front": true
         },
         "character": "structure",
-        "properties": {
-          "texture-id": "stone.png",
-          "texture-repeat-x": 9,
-          "texture-repeat-y": 9
-        },
         "size-x": -86.4,
         "size-y": -20,
         "size-z": -86.4
@@ -214,12 +218,14 @@
       "type": "cuboid",
       "properties": {
         "prefix": "????",
-        "all-vertex-colors": [
-          0, 0, 0, 1,
-          0, 0, 0, 1,
-          0, 0, 0, 1,
-          0, 0, 0, 1
-        ],
+        "all": {
+          "vertex-colors": [
+            0, 0, 0, 1,
+            0, 0, 0, 1,
+            0, 0, 0, 1,
+            0, 0, 0, 1
+          ]
+        },
         "character": "structure",
         "size-x": -43.2,
         "size-y": -43.2,

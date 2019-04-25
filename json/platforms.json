@@ -278,16 +278,16 @@
       "type": "cuboid",
       "properties": {
         "prefix": "platform-0",
-        "all-vertex-colors": [
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1
-        ],
-        "character": "platform-0",
-        "properties": {
-          "texture-id": "stone.png"
+        "all": {
+          "texture-id": "stone.png",
+          "vertex-colors": [
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1
+          ]
         },
+        "character": "platform-0",
         "size-x": 15,
         "size-y": 2,
         "size-z": 15
@@ -297,20 +297,20 @@
       "type": "cuboid",
       "properties": {
         "prefix": "platform-1",
-        "all-vertex-colors": [
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1
-        ],
+        "all": {
+          "texture-id": "stone.png",
+          "texture-repeat-x": 2,
+          "texture-repeat-y": 2,
+          "vertex-colors": [
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1
+          ]
+        },
         "character": "platform-1",
         "exclude": {
           "bottom": true
-        },
-        "properties": {
-          "texture-id": "stone.png",
-          "texture-repeat-x": 2,
-          "texture-repeat-y": 2
         },
         "size-x": 25,
         "size-y": 20,
@@ -321,20 +321,20 @@
       "type": "cuboid",
       "properties": {
         "prefix": "platform-2",
-        "all-vertex-colors": [
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1
-        ],
+        "all": {
+          "texture-id": "stone.png",
+          "texture-repeat-x": 2,
+          "texture-repeat-y": 2,
+          "vertex-colors": [
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1
+          ]
+        },
         "character": "platform-2",
         "exclude": {
           "bottom": true
-        },
-        "properties": {
-          "texture-id": "stone.png",
-          "texture-repeat-x": 2,
-          "texture-repeat-y": 2
         },
         "size-x": 20,
         "size-y": 2,
@@ -345,20 +345,20 @@
       "type": "cuboid",
       "properties": {
         "prefix": "platform-3",
-        "all-vertex-colors": [
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1
-        ],
+        "all": {
+          "texture-id": "stone.png",
+          "texture-repeat-x": 2,
+          "texture-repeat-y": 2,
+          "vertex-colors": [
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1
+          ]
+        },
         "character": "platform-3",
         "exclude": {
           "bottom": true
-        },
-        "properties": {
-          "texture-id": "stone.png",
-          "texture-repeat-x": 2,
-          "texture-repeat-y": 2
         },
         "size-x": 20,
         "size-y": 2,
@@ -369,20 +369,20 @@
       "type": "cuboid",
       "properties": {
         "prefix": "platform-4",
-        "all-vertex-colors": [
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1
-        ],
+        "all": {
+          "texture-id": "stone.png",
+          "vertex-colors": [
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1
+          ]
+        },
         "character": "platform-4",
         "exclude": {
           "back": true,
           "bottom": true,
           "front": true
-        },
-        "properties": {
-          "texture-id": "stone.png"
         },
         "size-x": 5,
         "size-y": 2,
@@ -393,20 +393,20 @@
       "type": "cuboid",
       "properties": {
         "prefix": "platform-5",
-        "all-vertex-colors": [
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1
-        ],
+        "all": {
+          "texture-id": "stone.png",
+          "texture-repeat-x": 3,
+          "texture-repeat-y": 3,
+          "vertex-colors": [
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1
+          ]
+        },
         "character": "platform-5",
         "exclude": {
           "bottom": true
-        },
-        "properties": {
-          "texture-id": "stone.png",
-          "texture-repeat-x": 3,
-          "texture-repeat-y": 3
         },
         "size-x": 25,
         "size-y": 50,
@@ -417,18 +417,18 @@
       "type": "cuboid",
       "properties": {
         "prefix": "platform-6",
-        "all-vertex-colors": [
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1
-        ],
-        "character": "platform-6",
-        "properties": {
+        "all": {
           "texture-id": "stone.png",
           "texture-repeat-x": 2,
-          "texture-repeat-y": 2
+          "texture-repeat-y": 2,
+          "vertex-colors": [
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1
+          ]
         },
+        "character": "platform-6",
         "size-x": 39,
         "size-y": 20,
         "size-z": 19
@@ -438,20 +438,20 @@
       "type": "cuboid",
       "properties": {
         "prefix": "platform-7",
-        "all-vertex-colors": [
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1
-        ],
+        "all": {
+          "texture-id": "stone.png",
+          "texture-repeat-x": 2,
+          "texture-repeat-y": 2,
+          "vertex-colors": [
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1
+          ]
+        },
         "character": "platform-7",
         "exclude": {
           "bottom": true
-        },
-        "properties": {
-          "texture-id": "stone.png",
-          "texture-repeat-x": 2,
-          "texture-repeat-y": 2
         },
         "size-x": 20,
         "size-y": 2,
@@ -462,20 +462,20 @@
       "type": "cuboid",
       "properties": {
         "prefix": "platform-gate",
-        "all-vertex-colors": [
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1
-        ],
+        "all": {
+          "texture-id": "stone.png",
+          "texture-repeat-x": 4,
+          "texture-repeat-y": 4,
+          "vertex-colors": [
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1
+          ]
+        },
         "character": "platform-gate",
         "exclude": {
           "bottom": true
-        },
-        "properties": {
-          "texture-id": "stone.png",
-          "texture-repeat-x": 4,
-          "texture-repeat-y": 4
         },
         "size-x": 55,
         "size-y": 10,
@@ -486,20 +486,20 @@
       "type": "cuboid",
       "properties": {
         "prefix": "platform-8",
-        "all-vertex-colors": [
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1
-        ],
+        "all": {
+          "texture-id": "stone.png",
+          "texture-repeat-x": 2,
+          "texture-repeat-y": 2,
+          "vertex-colors": [
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1
+          ]
+        },
         "character": "platform-8",
         "exclude": {
           "bottom": true
-        },
-        "properties": {
-          "texture-id": "stone.png",
-          "texture-repeat-x": 2,
-          "texture-repeat-y": 2
         },
         "size-x": 20,
         "size-y": 10,
@@ -510,18 +510,16 @@
       "type": "cuboid",
       "properties": {
         "prefix": "gate-0",
-        "all-vertex-colors": [
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1
-        ],
-        "character": "gate-0",
-        "properties": {
+        "all": {
           "texture-id": "stone.png",
-          "texture-repeat-x": 1,
-          "texture-repeat-y": 1
+          "vertex-colors": [
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1
+          ]
         },
+        "character": "gate-0",
         "size-x": 55,
         "size-y": 50,
         "size-z": 5
@@ -531,20 +529,20 @@
       "type": "cuboid",
       "properties": {
         "prefix": "platform-spawn",
-        "all-vertex-colors": [
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1,
-          0.2, 0.2, 0.2, 1
-        ],
+        "all": {
+          "texture-id": "stone.png",
+          "texture-repeat-x": 3,
+          "texture-repeat-y": 3,
+          "vertex-colors": [
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1
+          ]
+        },
         "character": "platform-spawn",
         "exclude": {
           "bottom": true
-        },
-        "properties": {
-          "texture-id": "stone.png",
-          "texture-repeat-x": 3,
-          "texture-repeat-y": 3
         },
         "size-x": 35,
         "size-y": 10,
