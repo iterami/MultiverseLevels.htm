@@ -4,7 +4,84 @@
   "spawn-rotate-x": 25,
   "characters": [
     {
-      "id": "facility"
+      "id": "facility",
+      "entities": [
+        {
+          "id": "door-chamber",
+          "attach-offset-x": -99.99,
+          "attach-offset-y": -84,
+          "attach-offset-z": -100,
+          "event-modify": [
+            {
+              "amount": -40,
+              "set": true,
+              "stat": "translate-x"
+            },
+            {
+              "amount": -15,
+              "set": true,
+              "stat": "translate-y"
+            },
+            {
+              "amount": 0,
+              "set": true,
+              "stat": "translate-z"
+            }
+          ],
+          "event-range": 0,
+          "rotate-z": 270,
+          "texture-id": "door.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ],
+          "vertices": [
+            16, 0, -8, 1,
+            -16, 0, -8, 1,
+            -16, 0, 8, 1,
+            16, 0, 8, 1
+          ]
+        },
+        {
+          "id": "door-observation",
+          "attach-offset-x": -49.99,
+          "attach-offset-y": -9,
+          "event-modify": [
+            {
+              "amount": -90,
+              "set": true,
+              "stat": "translate-x"
+            },
+            {
+              "amount": -90,
+              "set": true,
+              "stat": "translate-y"
+            },
+            {
+              "amount": -100,
+              "set": true,
+              "stat": "translate-z"
+            }
+          ],
+          "event-range": 0,
+          "rotate-z": 270,
+          "texture-id": "door.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ],
+          "vertices": [
+            16, 0, -8, 1,
+            -16, 0, -8, 1,
+            -16, 0, 8, 1,
+            16, 0, 8, 1
+          ]
+        }
+      ]
     }
   ],
   "prefabs": [
