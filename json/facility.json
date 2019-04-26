@@ -13,6 +13,10 @@
           "attach-offset-z": -100,
           "event-modify": [
             {
+              "amount": 180,
+              "stat": "rotate-y"
+            },
+            {
               "amount": -40,
               "set": true,
               "stat": "translate-x"
@@ -49,6 +53,10 @@
           "attach-offset-x": -49.99,
           "attach-offset-y": -9,
           "event-modify": [
+            {
+              "amount": 180,
+              "stat": "rotate-y"
+            },
             {
               "amount": -90,
               "set": true,
