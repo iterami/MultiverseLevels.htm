@@ -90,9 +90,56 @@
           ]
         }
       ]
+    },
+    {
+      "id": "cuboid-0",
+      "translate-y": -85,
+      "translate-z": -125
+    },
+    {
+      "id": "tree-0",
+      "translate-x": -25,
+      "translate-y": -100,
+      "translate-z": -125
     }
   ],
   "prefabs": [
+    {
+      "type": "cuboid",
+      "properties": {
+        "prefix": "chamber-0",
+        "all": {
+          "texture-id": "stone.png",
+          "texture-repeat-x": 25,
+          "texture-repeat-y": 25
+        },
+        "character": "facility",
+        "random-colors": true,
+        "size-x": -200,
+        "size-y": -200,
+        "size-z": -200,
+        "translate-z": -125
+      }
+    },
+    {
+      "type": "cuboid",
+      "properties": {
+        "prefix": "cuboid-0",
+        "all": {
+          "texture-id": "debug.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ]
+        },
+        "character": "cuboid-0",
+        "size-x": 10,
+        "size-y": 10,
+        "size-z": 10
+      }
+    },
     {
       "type": "cuboid",
       "properties": {
@@ -115,20 +162,10 @@
       }
     },
     {
-      "type": "cuboid",
+      "type": "cuboid_tree",
       "properties": {
-        "prefix": "chamber-0",
-        "all": {
-          "texture-id": "stone.png",
-          "texture-repeat-x": 25,
-          "texture-repeat-y": 25
-        },
-        "character": "facility",
-        "random-colors": true,
-        "size-x": -200,
-        "size-y": -200,
-        "size-z": -200,
-        "translate-z": -125
+        "prefix": "tree-0",
+        "character": "tree-0"
       }
     }
   ]
