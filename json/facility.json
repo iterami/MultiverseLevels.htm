@@ -10,7 +10,7 @@
           "id": "door-chamber",
           "attach-offset-x": -99.99,
           "attach-offset-y": -84,
-          "attach-offset-z": -100,
+          "attach-offset-z": -50,
           "event-modify": [
             {
               "amount": 180,
@@ -68,7 +68,7 @@
               "stat": "translate-y"
             },
             {
-              "amount": -100,
+              "amount": -50,
               "set": true,
               "stat": "translate-z"
             }
@@ -99,6 +99,12 @@
     {
       "id": "tree-0",
       "translate-x": -25,
+      "translate-y": -100,
+      "translate-z": -125
+    },
+    {
+      "id": "tree-1",
+      "translate-x": -50,
       "translate-y": -100,
       "translate-z": -125
     }
@@ -166,6 +172,13 @@
       "properties": {
         "prefix": "tree-0",
         "character": "tree-0"
+      }
+    },
+    {
+      "type": "lines_tree",
+      "properties": {
+        "prefix": "tree-1",
+        "character": "tree-1"
       }
     }
   ]
