@@ -143,17 +143,13 @@
           ]
         },
         {
-          "id": "door-chamber",
-          "attach-offset-x": -99.99,
-          "attach-offset-y": -84,
-          "attach-offset-z": 75,
+          "id": "door-0",
+          "attach-offset-x": -49.99,
+          "attach-offset-y": -9,
+          "attach-offset-z": 125,
           "event-modify": [
             {
-              "amount": 180,
-              "stat": "rotate-y"
-            },
-            {
-              "amount": -40,
+              "amount": 90,
               "set": true,
               "stat": "translate-x"
             },
@@ -163,7 +159,7 @@
               "stat": "translate-y"
             },
             {
-              "amount": -125,
+              "amount": 200,
               "set": true,
               "stat": "translate-z"
             }
@@ -185,10 +181,48 @@
           ]
         },
         {
-          "id": "door-observation",
-          "attach-offset-x": -49.99,
+          "id": "door-1",
+          "attach-offset-x": 99.99,
           "attach-offset-y": -9,
-          "attach-offset-z": 125,
+          "attach-offset-z": 200,
+          "event-modify": [
+            {
+              "amount": -40,
+              "set": true,
+              "stat": "translate-x"
+            },
+            {
+              "amount": -15,
+              "set": true,
+              "stat": "translate-y"
+            },
+            {
+              "amount": 125,
+              "set": true,
+              "stat": "translate-z"
+            }
+          ],
+          "event-range": 0,
+          "rotate-z": 90,
+          "texture-id": "door.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ],
+          "vertices": [
+            16, 0, -8, 1,
+            -16, 0, -8, 1,
+            -16, 0, 8, 1,
+            16, 0, 8, 1
+          ]
+        },
+        {
+          "id": "door-2",
+          "attach-offset-x": -99.99,
+          "attach-offset-y": -9,
+          "attach-offset-z": 200,
           "event-modify": [
             {
               "amount": 180,
@@ -206,6 +240,48 @@
             },
             {
               "amount": 75,
+              "set": true,
+              "stat": "translate-z"
+            }
+          ],
+          "event-range": 0,
+          "rotate-z": 270,
+          "texture-id": "door.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ],
+          "vertices": [
+            16, 0, -8, 1,
+            -16, 0, -8, 1,
+            -16, 0, 8, 1,
+            16, 0, 8, 1
+          ]
+        },
+        {
+          "id": "door-3",
+          "attach-offset-x": -99.99,
+          "attach-offset-y": -84,
+          "attach-offset-z": 75,
+          "event-modify": [
+            {
+              "amount": 180,
+              "stat": "rotate-y"
+            },
+            {
+              "amount": -90,
+              "set": true,
+              "stat": "translate-x"
+            },
+            {
+              "amount": -15,
+              "set": true,
+              "stat": "translate-y"
+            },
+            {
+              "amount": 200,
               "set": true,
               "stat": "translate-z"
             }
@@ -258,6 +334,25 @@
         "size-x": -200,
         "size-y": -200,
         "size-z": -200
+      }
+    },
+    {
+      "type": "cuboid",
+      "properties": {
+        "prefix": "corridor-0",
+        "all": {
+          "vertex-colors": [
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1
+          ]
+        },
+        "character": "facility",
+        "size-x": -200,
+        "size-y": -50,
+        "size-z": -50,
+        "translate-z": 200
       }
     },
     {
