@@ -301,6 +301,101 @@
             -16, 0, 8, 1,
             16, 0, 8, 1
           ]
+        },
+        {
+          "id": "door-4",
+          "attach-offset-y": -9,
+          "attach-offset-z": 224.99,
+          "event-modify": [
+            {
+              "amount": -40,
+              "set": true,
+              "stat": "translate-y"
+            },
+            {
+              "amount": 245,
+              "set": true,
+              "stat": "translate-z"
+            }
+          ],
+          "event-range": 0,
+          "rotate-x": 270,
+          "texture-align": [
+            1, 0,
+            0, 0,
+            0, 1,
+            1, 1
+          ],
+          "texture-id": "door.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ],
+          "vertices": [
+            8, 0, -16, 1,
+            -8, 0, -16, 1,
+            -8, 0, 16, 1,
+            8, 0, 16, 1
+          ]
+        },
+        {
+          "id": "door-5",
+          "attach-offset-y": -40,
+          "attach-offset-z": 235.01,
+          "event-modify": [
+            {
+              "amount": -15,
+              "set": true,
+              "stat": "translate-y"
+            },
+            {
+              "amount": 220,
+              "set": true,
+              "stat": "translate-z"
+            }
+          ],
+          "event-range": 0,
+          "rotate-x": 90,
+          "texture-align": [
+            1, 0,
+            0, 0,
+            0, 1,
+            1, 1
+          ],
+          "texture-id": "door.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ],
+          "vertices": [
+            8, 0, -16, 1,
+            -8, 0, -16, 1,
+            -8, 0, 16, 1,
+            8, 0, 16, 1
+          ]
+        },
+        {
+          "id": "water-0",
+          "alpha": 0.4,
+          "attach-offset-y": -65,
+          "attach-offset-z": 310,
+          "collision": false,
+          "vertex-colors": [
+            0, 0, 1, 1,
+            0, 0, 1, 1,
+            0, 0, 1, 1,
+            0, 0, 1, 1
+          ],
+          "vertices": [
+            75, 0, -75, 1,
+            -75, 0, -75, 1,
+            -75, 0, 75, 1,
+            75, 0, 75, 1
+          ]
         }
       ]
     },
@@ -323,17 +418,56 @@
     {
       "type": "cuboid",
       "properties": {
-        "prefix": "chamber-0",
+        "prefix": "chamber-test",
         "all": {
           "texture-id": "stone.png",
-          "texture-repeat-x": 25,
-          "texture-repeat-y": 25
+          "texture-repeat-x": 20,
+          "texture-repeat-y": 20
         },
         "character": "facility",
         "random-colors": true,
         "size-x": -200,
         "size-y": -200,
         "size-z": -200
+      }
+    },
+    {
+      "type": "cuboid",
+      "properties": {
+        "prefix": "chamber-water",
+        "all": {
+          "texture-id": "stone.png",
+          "texture-repeat-x": 15,
+          "texture-repeat-y": 15
+        },
+        "character": "facility",
+        "random-colors": true,
+        "size-x": -150,
+        "size-y": -150,
+        "size-z": -150,
+        "translate-z": 310
+      }
+    },
+    {
+      "type": "cuboid",
+      "properties": {
+        "prefix": "chamber-water-platform",
+        "all": {
+          "texture-id": "stone.png",
+          "texture-repeat-x": 3,
+          "texture-repeat-y": 3
+        },
+        "character": "facility",
+        "exclude": {
+          "back": true,
+          "bottom": true
+        },
+        "random-colors": true,
+        "size-x": 30,
+        "size-y": 30,
+        "size-z": 30,
+        "translate-y": -70,
+        "translate-z": 250
       }
     },
     {
