@@ -154,16 +154,22 @@
             0.36, 0.58, 0.32, 1
           ]
         },
+        "back": {
+          "exclude": true
+        },
+        "bottom": {
+          "exclude": true
+        },
         "character": "structure",
-        "exclude": {
-          "back": true,
-          "bottom": true,
-          "front": true,
-          "top": true
+        "front": {
+          "exclude": true
         },
         "size-x": 12,
         "size-y": 20,
         "size-z": 10,
+        "top": {
+          "exclude": true
+        },
         "translate-z": -38.2
       }
     },
@@ -179,10 +185,12 @@
             0.36, 0.58, 0.32, 1
           ]
         },
+        "back": {
+          "exclude": true
+        },
         "character": "structure",
-        "exclude": {
-          "back": true,
-          "front": true
+        "front": {
+          "exclude": true
         },
         "size-x": -12,
         "size-y": -19.9,
@@ -205,10 +213,10 @@
             0.6, 0.2, 0, 1
           ]
         },
-        "exclude": {
-          "front": true
-        },
         "character": "structure",
+        "front": {
+          "exclude": true
+        },
         "size-x": -86.4,
         "size-y": -20,
         "size-z": -86.4

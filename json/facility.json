@@ -454,10 +454,10 @@
           "texture-repeat-y": 3
         },
         "back": {
-          "draw": false
+          "exclude": true
         },
         "bottom": {
-          "draw": false
+          "exclude": true
         },
         "character": "facility",
         "random-colors": true,
