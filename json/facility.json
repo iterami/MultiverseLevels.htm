@@ -1,6 +1,19 @@
 {
   "multiplier-speed": 5,
   "multiplier-jump": 3,
+  "paths": {
+    "path-moving-test": {
+      "end": -1,
+      "points": [
+        {
+          "translate-x": -75
+        },
+        {
+          "translate-x": 75
+        }
+      ]
+    }
+  },
   "spawn-rotate-x": 25,
   "spawn-rotate-y": 270,
   "spawn-translate-z": 125,
@@ -417,6 +430,29 @@
     {
       "id": "cuboid-0",
       "translate-y": -85
+    },
+    {
+      "id": "moving-test",
+      "entities": [
+        {
+          "id": "moving-test",
+          "vertex-colors": [
+            0.5, 0, 0, 1,
+            0.5, 0, 0, 1,
+            0.5, 0, 0, 1,
+            0.5, 0, 0, 1
+          ],
+          "vertices": [
+            15, 0, -15, 1,
+            -15, 0, -15, 1,
+            -15, 0, 15, 1,
+            15, 0, 15, 1
+          ]
+        }
+      ],
+      "path-id": "path-moving-test",
+      "translate-y": -85,
+      "translate-z": -85
     },
     {
       "id": "tree-0",
