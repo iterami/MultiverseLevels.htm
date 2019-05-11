@@ -342,7 +342,7 @@
           "attach-offset-z": 149.99,
           "event-modify": [
             {
-              "amount": -40,
+              "amount": -65,
               "set": true,
               "stat": "translate-y"
             },
