@@ -183,7 +183,7 @@
         },
         {
           "id": "door-0",
-          "attach-offset-x": -49.99,
+          "attach-offset-x": -99.99,
           "attach-offset-y": -9,
           "attach-offset-z": 125,
           "event-modify": [
@@ -221,7 +221,7 @@
           "attach-offset-z": 125,
           "event-modify": [
             {
-              "amount": -40,
+              "amount": -90,
               "set": true,
               "stat": "translate-x"
             },
@@ -376,7 +376,7 @@
         },
         {
           "id": "door-5",
-          "attach-offset-y": -40,
+          "attach-offset-y": -65,
           "attach-offset-z": 150.01,
           "event-modify": [
             {
@@ -434,8 +434,8 @@
         {
           "id": "water-0",
           "alpha": 0.4,
-          "attach-offset-y": -65,
-          "attach-offset-z": 225,
+          "attach-offset-y": -90,
+          "attach-offset-z": 250,
           "collision": false,
           "vertex-colors": [
             0, 0, 1, 1,
@@ -444,10 +444,10 @@
             0, 0, 1, 1
           ],
           "vertices": [
-            75, 0, -75, 1,
-            -75, 0, -75, 1,
-            -75, 0, 75, 1,
-            75, 0, 75, 1
+            100, 0, -100, 1,
+            -100, 0, -100, 1,
+            -100, 0, 100, 1,
+            100, 0, 100, 1
           ]
         }
       ]
@@ -565,10 +565,10 @@
         },
         "character": "facility",
         "random-colors": true,
-        "size-x": -150,
-        "size-y": -150,
-        "size-z": -150,
-        "translate-z": 225
+        "size-x": -200,
+        "size-y": -200,
+        "size-z": -200,
+        "translate-z": 250
       }
     },
     {
@@ -591,7 +591,7 @@
         "size-x": 30,
         "size-y": 30,
         "size-z": 30,
-        "translate-y": -70,
+        "translate-y": -95,
         "translate-z": 165
       }
     },
@@ -607,10 +607,43 @@
             0.2, 0.2, 0.2, 1
           ]
         },
+        "back": {
+          "texture-align": [
+            1, 0,
+            0, 0,
+            0, 1,
+            1, 1
+          ],
+          "texture-id": "wall.png",
+          "texture-repeat-x": 20
+        },
         "character": "facility",
+        "front": {
+          "texture-align": [
+            1, 0,
+            0, 0,
+            0, 1,
+            1, 1
+          ],
+          "texture-id": "wall.png",
+          "texture-repeat-x": 20
+        },
+        "left": {
+          "texture-id": "wall.png",
+          "texture-repeat-x": 5
+        },
+        "right": {
+          "texture-id": "wall.png",
+          "texture-repeat-x": 5
+        },
         "size-x": -200,
         "size-y": -50,
         "size-z": -50,
+        "top": {
+          "texture-id": "stone.png",
+          "texture-repeat-x": 5,
+          "texture-repeat-y": 20
+        },
         "translate-y": -55,
         "translate-z": 125
       }
@@ -653,9 +686,22 @@
         "front": {
           "draw": false
         },
-        "size-x": -100,
+        "left": {
+          "texture-id": "wall.png",
+          "texture-repeat-x": 5
+        },
+        "right": {
+          "texture-id": "wall.png",
+          "texture-repeat-x": 5
+        },
+        "size-x": -200,
         "size-y": -50,
         "size-z": -50,
+        "top": {
+          "texture-id": "stone.png",
+          "texture-repeat-x": 5,
+          "texture-repeat-y": 20
+        },
         "translate-z": 125
       }
     },
