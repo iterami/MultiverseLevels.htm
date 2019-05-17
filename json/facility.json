@@ -193,7 +193,7 @@
               "stat": "translate-x"
             },
             {
-              "amount": -65,
+              "amount": -165,
               "set": true,
               "stat": "translate-y"
             }
@@ -217,7 +217,7 @@
         {
           "id": "door-1",
           "attach-offset-x": 99.99,
-          "attach-offset-y": -64,
+          "attach-offset-y": -164,
           "attach-offset-z": 125,
           "event-modify": [
             {
@@ -255,7 +255,7 @@
         {
           "id": "door-2",
           "attach-offset-x": -99.99,
-          "attach-offset-y": -64,
+          "attach-offset-y": -164,
           "attach-offset-z": 125,
           "event-modify": [
             {
@@ -310,7 +310,7 @@
               "stat": "translate-x"
             },
             {
-              "amount": -65,
+              "amount": -165,
               "set": true,
               "stat": "translate-y"
             },
@@ -338,7 +338,7 @@
         },
         {
           "id": "door-4",
-          "attach-offset-y": -64,
+          "attach-offset-y": -164,
           "attach-offset-z": 149.99,
           "event-modify": [
             {
@@ -380,7 +380,7 @@
           "attach-offset-z": 150.01,
           "event-modify": [
             {
-              "amount": -65,
+              "amount": -165,
               "set": true,
               "stat": "translate-y"
             },
@@ -644,7 +644,7 @@
           "texture-repeat-x": 5,
           "texture-repeat-y": 20
         },
-        "translate-y": -55,
+        "translate-y": -155,
         "translate-z": 125
       }
     },
