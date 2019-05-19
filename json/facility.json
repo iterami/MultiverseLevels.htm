@@ -560,8 +560,8 @@
         "prefix": "chamber-water",
         "all": {
           "texture-id": "stone.png",
-          "texture-repeat-x": 15,
-          "texture-repeat-y": 15
+          "texture-repeat-x": 20,
+          "texture-repeat-y": 20
         },
         "character": "facility",
         "random-colors": true,
@@ -717,6 +717,68 @@
       "properties": {
         "prefix": "tree-1",
         "character": "tree-1"
+      }
+    },
+    {
+      "type": "tiles",
+      "properties": {
+        "prefix": "test-tiles",
+        "character": "facility",
+        "tiles": [
+          {
+            "attach-offset-x": 15,
+            "entities": [
+              {
+                "attach-offset-x": 6,
+                "rotate-z": 90,
+                "texture-id": "stone.png",
+                "texture-repeat-x": 2,
+                "texture-repeat-y": 2,
+                "vertex-colors": [
+                  0.36, 0.58, 0.32, 1,
+                  0.36, 0.58, 0.32, 1,
+                  0.36, 0.58, 0.32, 1,
+                  0.36, 0.58, 0.32, 1
+                ],
+                "vertices": [
+                  10, 0, -10, 1,
+                  -10, 0, -10, 1,
+                  -10, 0, 10, 1,
+                  10, 0, 10, 1
+                ]
+              }
+            ]
+          },
+          {
+            "attach-offset-x": 15,
+            "attach-rotate-y": 270,
+            "entities": [
+              {
+                "attach-offset-x": 6,
+                "rotate-z": 90,
+                "texture-id": "stone.png",
+                "texture-repeat-x": 2,
+                "texture-repeat-y": 2,
+                "vertex-colors": [
+                  0.58, 0.36, 0.32, 1,
+                  0.58, 0.36, 0.32, 1,
+                  0.58, 0.36, 0.32, 1,
+                  0.58, 0.36, 0.32, 1
+                ],
+                "vertices": [
+                  10, 0, -10, 1,
+                  -10, 0, -10, 1,
+                  -10, 0, 10, 1,
+                  10, 0, 10, 1
+                ]
+              }
+            ]
+          }
+        ],
+        "tiles-max": 5,
+        "tiles-min": 3,
+        "translate-y": -90,
+        "translate-z": 75
       }
     }
   ]
