@@ -1,4 +1,6 @@
 {
+  "fog-density": 0.00001,
+  "fog-state": true,
   "multiplier-speed": 5,
   "multiplier-jump": 3,
   "paths": {
