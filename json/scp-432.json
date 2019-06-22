@@ -143,7 +143,7 @@
   ],
   "prefabs": [
     {
-      "type": "cuboid",
+      "type": "prefabs_webgl_cuboid",
       "properties": {
         "prefix": "cabinet-external",
         "all": {
@@ -174,7 +174,7 @@
       }
     },
     {
-      "type": "cuboid",
+      "type": "prefabs_webgl_cuboid",
       "properties": {
         "prefix": "cabinet-internal",
         "all": {
@@ -199,7 +199,7 @@
       }
     },
     {
-      "type": "cuboid",
+      "type": "prefabs_webgl_cuboid",
       "properties": {
         "prefix": "room",
         "all": {
@@ -223,7 +223,7 @@
       }
     },
     {
-      "type": "cuboid",
+      "type": "prefabs_webgl_cuboid",
       "properties": {
         "prefix": "????",
         "all": {
@@ -243,7 +243,7 @@
       }
     },
     {
-      "type": "tiles",
+      "type": "prefabs_webgl_tiles",
       "properties": {
         "prefix": "corridors",
         "character": "structure",

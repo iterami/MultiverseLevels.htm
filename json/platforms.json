@@ -275,7 +275,7 @@
   ],
   "prefabs": [
     {
-      "type": "cuboid",
+      "type": "prefabs_webgl_cuboid",
       "properties": {
         "prefix": "platform-0",
         "all": {
@@ -294,7 +294,7 @@
       }
     },
     {
-      "type": "cuboid",
+      "type": "prefabs_webgl_cuboid",
       "properties": {
         "prefix": "platform-1",
         "all": {
@@ -318,7 +318,7 @@
       }
     },
     {
-      "type": "cuboid",
+      "type": "prefabs_webgl_cuboid",
       "properties": {
         "prefix": "platform-2",
         "all": {
@@ -342,7 +342,7 @@
       }
     },
     {
-      "type": "cuboid",
+      "type": "prefabs_webgl_cuboid",
       "properties": {
         "prefix": "platform-3",
         "all": {
@@ -366,7 +366,7 @@
       }
     },
     {
-      "type": "cuboid",
+      "type": "prefabs_webgl_cuboid",
       "properties": {
         "prefix": "platform-4",
         "all": {
@@ -394,7 +394,7 @@
       }
     },
     {
-      "type": "cuboid",
+      "type": "prefabs_webgl_cuboid",
       "properties": {
         "prefix": "platform-5",
         "all": {
@@ -418,7 +418,7 @@
       }
     },
     {
-      "type": "cuboid",
+      "type": "prefabs_webgl_cuboid",
       "properties": {
         "prefix": "platform-6",
         "all": {
@@ -439,7 +439,7 @@
       }
     },
     {
-      "type": "cuboid",
+      "type": "prefabs_webgl_cuboid",
       "properties": {
         "prefix": "platform-7",
         "all": {
@@ -463,7 +463,7 @@
       }
     },
     {
-      "type": "cuboid",
+      "type": "prefabs_webgl_cuboid",
       "properties": {
         "prefix": "platform-gate",
         "all": {
@@ -487,7 +487,7 @@
       }
     },
     {
-      "type": "cuboid",
+      "type": "prefabs_webgl_cuboid",
       "properties": {
         "prefix": "platform-8",
         "all": {
@@ -511,7 +511,7 @@
       }
     },
     {
-      "type": "cuboid",
+      "type": "prefabs_webgl_cuboid",
       "properties": {
         "prefix": "gate-0",
         "all": {
@@ -530,7 +530,7 @@
       }
     },
     {
-      "type": "cuboid",
+      "type": "prefabs_webgl_cuboid",
       "properties": {
         "prefix": "platform-spawn",
         "all": {
@@ -554,7 +554,7 @@
       }
     },
     {
-      "type": "skybox",
+      "type": "prefabs_webgl_skybox",
       "properties": {
         "prefix": "skybox",
         "bottom-color-bottom": [
@@ -573,7 +573,7 @@
       }
     },
     {
-      "type": "cuboid_tree",
+      "type": "prefabs_webgl_cuboid_tree",
       "properties": {
         "prefix": "tree-0",
         "character": "tree-0",
@@ -586,7 +586,7 @@
       }
     },
     {
-      "type": "cuboid_tree",
+      "type": "prefabs_webgl_cuboid_tree",
       "properties": {
         "prefix": "tree-1",
         "character": "tree-1",

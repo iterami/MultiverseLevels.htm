@@ -601,7 +601,7 @@
   ],
   "prefabs": [
     {
-      "type": "cuboid",
+      "type": "prefabs_webgl_cuboid",
       "properties": {
         "prefix": "chamber-test",
         "all": {
@@ -617,7 +617,7 @@
       }
     },
     {
-      "type": "cuboid",
+      "type": "prefabs_webgl_cuboid",
       "properties": {
         "prefix": "chamber-water",
         "all": {
@@ -634,7 +634,7 @@
       }
     },
     {
-      "type": "cuboid",
+      "type": "prefabs_webgl_cuboid",
       "properties": {
         "prefix": "chamber-water-platform",
         "all": {
@@ -658,7 +658,7 @@
       }
     },
     {
-      "type": "cuboid",
+      "type": "prefabs_webgl_cuboid",
       "properties": {
         "prefix": "corridor-0",
         "all": {
@@ -711,7 +711,7 @@
       }
     },
     {
-      "type": "cuboid",
+      "type": "prefabs_webgl_cuboid",
       "properties": {
         "prefix": "cuboid-0",
         "all": {
@@ -730,7 +730,7 @@
       }
     },
     {
-      "type": "cuboid",
+      "type": "prefabs_webgl_cuboid",
       "properties": {
         "prefix": "observation-0",
         "all": {
@@ -768,21 +768,21 @@
       }
     },
     {
-      "type": "cuboid_tree",
+      "type": "prefabs_webgl_cuboid_tree",
       "properties": {
         "prefix": "tree-0",
         "character": "tree-0"
       }
     },
     {
-      "type": "lines_tree",
+      "type": "prefabs_webgl_lines_tree",
       "properties": {
         "prefix": "tree-1",
         "character": "tree-1"
       }
     },
     {
-      "type": "tiles",
+      "type": "prefabs_webgl_tiles",
       "properties": {
         "prefix": "test-tiles",
         "character": "facility",
