@@ -1,0 +1,127 @@
+{
+  "camera-zoom-max": 25,
+  "fog-density": 0.00023,
+  "fog-state": true,
+  "multiplier-speed": 2,
+  "characters": [
+    {
+      "id": "hive",
+      "entities": [
+        {
+          "id": "wall-0",
+          "attach-offset-x": 110,
+          "attach-offset-z": -50,
+          "rotate-x": 90,
+          "texture-id": "lavaleaf.png",
+          "vertex-colors": [
+            0.45, 0.15, 0, 1,
+            0.45, 0.15, 0, 1,
+            0.45, 0.15, 0, 1,
+            0.45, 0.15, 0, 1
+          ],
+          "vertices": [
+            140, 0, -25, 1,
+            -140, 0, -25, 1,
+            -140, 0, 25, 1,
+            140, 0, 25, 1
+          ]
+        },
+        {
+          "id": "wall-1",
+          "attach-offset-x": -30,
+          "attach-offset-z": -150,
+          "rotate-z": 90,
+          "texture-id": "lavaleaf.png",
+          "vertex-colors": [
+            0.45, 0.15, 0, 1,
+            0.45, 0.15, 0, 1,
+            0.45, 0.15, 0, 1,
+            0.45, 0.15, 0, 1
+          ],
+          "vertices": [
+            25, 0, -100, 1,
+            -25, 0, -100, 1,
+            -25, 0, 100, 1,
+            25, 0, 100, 1
+          ]
+        },
+        {
+          "id": "wall-2",
+          "attach-offset-x": 60,
+          "attach-offset-z": 50,
+          "rotate-x": 270,
+          "texture-id": "lavaleaf.png",
+          "vertex-colors": [
+            0.45, 0.15, 0, 1,
+            0.45, 0.15, 0, 1,
+            0.45, 0.15, 0, 1,
+            0.45, 0.15, 0, 1
+          ],
+          "vertices": [
+            190, 0, -25, 1,
+            -190, 0, -25, 1,
+            -190, 0, 25, 1,
+            190, 0, 25, 1
+          ]
+        },
+        {
+          "id": "wall-3",
+          "attach-offset-x": -130,
+          "attach-offset-z": -100,
+          "rotate-z": 270,
+          "texture-id": "lavaleaf.png",
+          "vertex-colors": [
+            0.45, 0.15, 0, 1,
+            0.45, 0.15, 0, 1,
+            0.45, 0.15, 0, 1,
+            0.45, 0.15, 0, 1
+          ],
+          "vertices": [
+            25, 0, -150, 1,
+            -25, 0, -150, 1,
+            -25, 0, 150, 1,
+            25, 0, 150, 1
+          ]
+        }
+      ]
+    }
+  ],
+  "prefabs": [
+    {
+      "type": "prefabs_webgl_cuboid",
+      "properties": {
+        "prefix": "cage",
+        "all": {
+          "texture-id": "lavaleaf.png",
+          "vertex-colors": [
+            0.45, 0.15, 0, 1,
+            0.45, 0.15, 0, 1,
+            0.45, 0.15, 0, 1,
+            0.45, 0.15, 0, 1
+          ]
+        },
+        "bottom": {
+          "texture-repeat-x": 2,
+          "texture-repeat-y": 2,
+          "vertex-colors": [
+            0.3, 0.1, 0, 1,
+            0.3, 0.1, 0, 1,
+            0.3, 0.1, 0, 1,
+            0.3, 0.1, 0, 1
+          ]
+        },
+        "character": "hive",
+        "size-x": -500,
+        "size-y": -50,
+        "size-z": -500,
+        "top": {
+          "texture-repeat-x": 3,
+          "texture-repeat-y": 3
+        },
+        "translate-x": 0,
+        "translate-y": 0,
+        "translate-z": 0
+      }
+    }
+  ]
+}
