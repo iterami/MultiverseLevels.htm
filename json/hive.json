@@ -9,7 +9,7 @@
       "entities": [
         {
           "id": "wall-0",
-          "attach-offset-x": 110,
+          "attach-offset-x": 235,
           "attach-offset-z": -50,
           "rotate-x": 90,
           "texture-id": "lavaleaf.png",
@@ -20,16 +20,16 @@
             0.45, 0.15, 0, 1
           ],
           "vertices": [
-            140, 0, -25, 1,
-            -140, 0, -25, 1,
-            -140, 0, 25, 1,
-            140, 0, 25, 1
+            265, 0, -25, 1,
+            -265, 0, -25, 1,
+            -265, 0, 25, 1,
+            265, 0, 25, 1
           ]
         },
         {
           "id": "wall-1",
           "attach-offset-x": -30,
-          "attach-offset-z": -150,
+          "attach-offset-z": -275,
           "rotate-z": 90,
           "texture-id": "lavaleaf.png",
           "vertex-colors": [
@@ -39,15 +39,15 @@
             0.45, 0.15, 0, 1
           ],
           "vertices": [
-            25, 0, -100, 1,
-            -25, 0, -100, 1,
-            -25, 0, 100, 1,
-            25, 0, 100, 1
+            25, 0, -225, 1,
+            -25, 0, -225, 1,
+            -25, 0, 225, 1,
+            25, 0, 225, 1
           ]
         },
         {
           "id": "wall-2",
-          "attach-offset-x": 60,
+          "attach-offset-x": 185,
           "attach-offset-z": 50,
           "rotate-x": 270,
           "texture-id": "lavaleaf.png",
@@ -58,16 +58,16 @@
             0.45, 0.15, 0, 1
           ],
           "vertices": [
-            190, 0, -25, 1,
-            -190, 0, -25, 1,
-            -190, 0, 25, 1,
-            190, 0, 25, 1
+            315, 0, -25, 1,
+            -315, 0, -25, 1,
+            -315, 0, 25, 1,
+            315, 0, 25, 1
           ]
         },
         {
           "id": "wall-3",
           "attach-offset-x": -130,
-          "attach-offset-z": -100,
+          "attach-offset-z": -225,
           "rotate-z": 270,
           "texture-id": "lavaleaf.png",
           "vertex-colors": [
@@ -77,10 +77,10 @@
             0.45, 0.15, 0, 1
           ],
           "vertices": [
-            25, 0, -150, 1,
-            -25, 0, -150, 1,
-            -25, 0, 150, 1,
-            25, 0, 150, 1
+            25, 0, -275, 1,
+            -25, 0, -275, 1,
+            -25, 0, 275, 1,
+            25, 0, 275, 1
           ]
         }
       ]
@@ -101,8 +101,8 @@
           ]
         },
         "bottom": {
-          "texture-repeat-x": 2,
-          "texture-repeat-y": 2,
+          "texture-repeat-x": 4,
+          "texture-repeat-y": 4,
           "vertex-colors": [
             0.3, 0.1, 0, 1,
             0.3, 0.1, 0, 1,
@@ -111,16 +111,75 @@
           ]
         },
         "character": "hive",
-        "size-x": -500,
+        "size-x": -1000,
         "size-y": -50,
-        "size-z": -500,
+        "size-z": -1000,
         "top": {
-          "texture-repeat-x": 3,
-          "texture-repeat-y": 3
+          "texture-repeat-x": 5,
+          "texture-repeat-y": 5
+        }
+      }
+    },
+    {
+      "type": "prefabs_webgl_cuboid",
+      "properties": {
+        "prefix": "corridor-0",
+        "all": {
+          "texture-id": "lavaleaf.png",
+          "vertex-colors": [
+            0.44, 0.14, 0, 1,
+            0.44, 0.14, 0, 1,
+            0.44, 0.14, 0, 1,
+            0.44, 0.14, 0, 1
+          ]
         },
-        "translate-x": 0,
-        "translate-y": 0,
-        "translate-z": 0
+        "character": "hive",
+        "left": {
+          "exclude": true
+        },
+        "right": {
+          "exclude": true
+        },
+        "size-x": -370,
+        "size-y": -40,
+        "size-z": -70,
+        "top": {
+          "exclude": true
+        },
+        "translate-x": -315,
+        "translate-y": -5,
+        "translate-z": -100
+      }
+    },
+    {
+      "type": "prefabs_webgl_cuboid",
+      "properties": {
+        "prefix": "corridor-1",
+        "all": {
+          "texture-id": "lavaleaf.png",
+          "vertex-colors": [
+            0.44, 0.14, 0, 1,
+            0.44, 0.14, 0, 1,
+            0.44, 0.14, 0, 1,
+            0.44, 0.14, 0, 1
+          ]
+        },
+        "back": {
+          "exclude": true
+        },
+        "character": "hive",
+        "front": {
+          "exclude": true
+        },
+        "size-x": -70,
+        "size-y": -40,
+        "size-z": -450,
+        "top": {
+          "exclude": true
+        },
+        "translate-x": 275,
+        "translate-y": -5,
+        "translate-z": 275
       }
     }
   ]
