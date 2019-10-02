@@ -46,9 +46,9 @@
       "entities": [
         {
           "id": "ground",
-          "texture-id": "stone.png",
-          "texture-repeat-x": 100,
-          "texture-repeat-y": 100,
+          "texture-id": "grid.png",
+          "texture-repeat-x": 200,
+          "texture-repeat-y": 200,
           "vertex-colors": [
             0.2, 0.2, 0.2, 1,
             0.2, 0.2, 0.2, 1,
@@ -141,6 +141,65 @@
       "translate-z": -85
     },
     {
+      "id": "npc-0",
+      "entities": [
+        {
+          "id": "npc-0-face",
+          "billboard": "y",
+          "collision": false,
+          "vertex-colors": [
+            1, 0, 0, 1,
+            0, 1, 0, 1,
+            0, 0, 1, 1
+          ],
+          "vertices": [
+            -2, 0, 0, 1,
+            2, 0, 0, 1,
+            0, 2, 0, 1
+          ]
+        }
+      ],
+      "inventory": {
+        "test-hat": {
+          "amount": 100,
+          "entities": [
+            {
+              "attach-offset-y": 2.5,
+              "billboard": [
+                "y"
+              ],
+              "collision": false,
+              "vertex-colors": [
+                1, 0, 0, 1,
+                0, 1, 0, 1,
+                0, 0, 1, 1
+              ],
+              "vertices": [
+                -2, 0, 0, 1,
+                2, 0, 0, 1,
+                0, 2, 0, 1
+              ]
+            }
+          ],
+          "equipped": false,
+          "spell": false,
+          "stats": {}
+        }
+      },
+      "level": 23,
+      "talk": "Welcome to the facility!",
+      "trade": [
+        {
+          "get-amount": 10,
+          "get-id": "Coins",
+          "give-amount": 1,
+          "give-id": "test-hat"
+        }
+      ],
+      "translate-x": 50,
+      "translate-y": 5
+    },
+    {
       "id": "tree-0",
       "translate-x": -25,
       "translate-z": -25
@@ -183,6 +242,24 @@
       "properties": {
         "prefix": "tree-1",
         "character": "tree-1"
+      }
+    },
+    {
+      "type": "prefabs_webgl_skybox",
+      "properties": {
+        "prefix": "skybox",
+        "bottom-color-bottom": [
+          0, 0, 0, 1
+        ],
+        "bottom-color-top": [
+          0, 0, 0.1, 1
+        ],
+        "top-color-bottom": [
+          0, 0, 0.1, 1
+        ],
+        "top-color-top": [
+          0, 0, 0, 1
+        ]
       }
     },
     {
