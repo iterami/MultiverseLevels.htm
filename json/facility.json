@@ -61,6 +61,144 @@
             -100, 0, 100, 1,
             100, 0, 100, 1
           ]
+        },
+        {
+          "id": "billboard-x",
+          "attach-offset-x": -40,
+          "attach-offset-y": 5,
+          "attach-offset-z": 15,
+          "billboard": [
+            "x"
+          ],
+          "vertex-colors": [
+            1, 0, 0, 1,
+            1, 0, 0, 1,
+            1, 0, 0, 1
+          ],
+          "vertices": [
+            -5, 0, 0, 1,
+            5, 0, 0, 1,
+            0, 5, 0, 1
+          ]
+        },
+        {
+          "id": "billboard-xy",
+          "attach-offset-x": -40,
+          "attach-offset-y": 5,
+          "attach-offset-z": 25,
+          "billboard": [
+            "x",
+            "y"
+          ],
+          "vertex-colors": [
+            1, 0, 0, 1,
+            1, 0, 0, 1,
+            1, 0, 0, 1
+          ],
+          "vertices": [
+            -5, 0, 0, 1,
+            5, 0, 0, 1,
+            0, 5, 0, 1
+          ]
+        },
+        {
+          "id": "billboard-xyz",
+          "attach-offset-x": -50,
+          "attach-offset-y": 5,
+          "attach-offset-z": 35,
+          "billboard": [
+            "x",
+            "y",
+            "z"
+          ],
+          "vertex-colors": [
+            1, 0, 0, 1,
+            1, 0, 0, 1,
+            1, 0, 0, 1
+          ],
+          "vertices": [
+            -5, 0, 0, 1,
+            5, 0, 0, 1,
+            0, 5, 0, 1
+          ]
+        },
+        {
+          "id": "billboard-xz",
+          "attach-offset-x": -50,
+          "attach-offset-y": 5,
+          "attach-offset-z": 25,
+          "billboard": [
+            "x",
+            "z"
+          ],
+          "vertex-colors": [
+            1, 0, 0, 1,
+            1, 0, 0, 1,
+            1, 0, 0, 1
+          ],
+          "vertices": [
+            -5, 0, 0, 1,
+            5, 0, 0, 1,
+            0, 5, 0, 1
+          ]
+        },
+        {
+          "id": "billboard-yz",
+          "attach-offset-x": -60,
+          "attach-offset-y": 5,
+          "attach-offset-z": 25,
+          "billboard": [
+            "y",
+            "z"
+          ],
+          "vertex-colors": [
+            1, 0, 0, 1,
+            1, 0, 0, 1,
+            1, 0, 0, 1
+          ],
+          "vertices": [
+            -5, 0, 0, 1,
+            5, 0, 0, 1,
+            0, 5, 0, 1
+          ]
+        },
+        {
+          "id": "billboard-y",
+          "attach-offset-x": -50,
+          "attach-offset-y": 5,
+          "attach-offset-z": 15,
+          "billboard": [
+            "y"
+          ],
+          "vertex-colors": [
+            0, 1, 0, 1,
+            0, 1, 0, 1,
+            0, 1, 0, 1
+          ],
+          "vertices": [
+            -5, 0, 0, 1,
+            5, 0, 0, 1,
+            0, 5, 0, 1
+          ]
+        },
+        {
+          "id": "billboard-z",
+          "attach-offset-x": -60,
+          "attach-offset-y": 5,
+          "attach-offset-z": 15,
+          "billboard": [
+            "z"
+          ],
+          "vertex-colors": [
+            1, 0, 0, 1,
+            1, 0, 0, 1,
+            1, 0, 0, 1
+          ],
+          "vertices": [
+            -5, 0, 0, 1,
+            5, 0, 0, 1,
+            0, 5, 0, 1
+          ]
         }
       ]
     },
