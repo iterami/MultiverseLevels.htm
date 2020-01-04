@@ -199,6 +199,33 @@
             5, 0, 0, 1,
             0, 5, 0, 1
           ]
+        },
+        {
+          "id": "door-0",
+          "attach-offset-x": 100,
+          "attach-offset-y": 8,
+          "event-modify": [
+            {
+              "amount": -90,
+              "set": true,
+              "stat": "translate-x"
+            }
+          ],
+          "event-range": 0,
+          "rotate-z": 90,
+          "texture-id": "door.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ],
+          "vertices": [
+            8, 0, -4, 1,
+            -8, 0, -4, 1,
+            -8, 0, 4, 1,
+            8, 0, 4, 1
+          ]
         }
       ]
     },
