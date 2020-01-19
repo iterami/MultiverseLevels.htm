@@ -236,6 +236,12 @@
       "translate-z": -25
     },
     {
+      "id": "ellipsoid-0",
+      "translate-x": 65,
+      "translate-y": 15,
+      "translate-z": -25
+    },
+    {
       "id": "moving-test-x",
       "entities": [
         {
@@ -400,6 +406,13 @@
       "properties": {
         "prefix": "tree-0",
         "character": "tree-0"
+      }
+    },
+    {
+      "type": "prefabs_webgl_ellipsoid",
+      "properties": {
+        "character": "ellipsoid-0",
+        "prefix": "ellipsoid-0"
       }
     },
     {
