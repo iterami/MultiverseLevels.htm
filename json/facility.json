@@ -412,7 +412,10 @@
       "type": "prefabs_webgl_ellipsoid",
       "properties": {
         "character": "ellipsoid-0",
-        "prefix": "ellipsoid-0"
+        "prefix": "ellipsoid-0",
+        "radius-x": 7,
+        "radius-y": 10,
+        "radius-z": 2
       }
     },
     {
