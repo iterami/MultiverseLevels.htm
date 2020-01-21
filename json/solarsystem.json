@@ -1,0 +1,205 @@
+{
+  "multiplier-speed": 10,
+  "spawn-rotate-x": 25,
+  "spawn-translate-y": 5,
+  "spawn-translate-z": 100,
+  "characters": [
+    {
+      "id": "museum",
+      "entities": [
+        {
+          "attach-offset-z": 100,
+          "id": "ground",
+          "texture-id": "grid.png",
+          "texture-repeat-x": 25,
+          "texture-repeat-y": 400,
+          "vertex-colors": [
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1
+          ],
+          "vertices": [
+            750, 0, -25, 1,
+            -50, 0, -25, 1,
+            -50, 0, 25, 1,
+            750, 0, 25, 1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0-sun",
+      "translate-x": -1150,
+      "translate-y": 10
+    },
+    {
+      "id": "1-mercury",
+      "translate-x": -40,
+      "translate-y": 10
+    },
+    {
+      "id": "2-venus",
+      "translate-x": -23,
+      "translate-y": 10
+    },
+    {
+      "id": "3-earth",
+      "translate-y": 10
+    },
+    {
+      "id": "4-mars",
+      "translate-x": 20,
+      "translate-y": 10
+    },
+    {
+      "id": "5-jupiter",
+      "translate-x": 150,
+      "translate-y": 10
+    },
+    {
+      "id": "6-saturn",
+      "translate-x": 370,
+      "translate-y": 10
+    },
+    {
+      "id": "7-uranus",
+      "translate-x": 510,
+      "translate-y": 10
+    },
+    {
+      "id": "8-neptune",
+      "translate-x": 600,
+      "translate-y": 10
+    },
+    {
+      "id": "9-pluto",
+      "translate-x": 650,
+      "translate-y": 10
+    }
+  ],
+  "prefabs": [
+    {
+      "type": "prefabs_webgl_ellipsoid",
+      "properties": {
+        "character": "0-sun",
+        "color0": [1, 1, 0, 1],
+        "color1": [1, 0, 0, 1],
+        "prefix": "0-sun",
+        "radius-x": 1093,
+        "radius-y": 1093,
+        "radius-z": 1093,
+        "slices-latitude": 50,
+        "slices-longitude": 50
+      }
+    },
+    {
+      "type": "prefabs_webgl_ellipsoid",
+      "properties": {
+        "character": "1-mercury",
+        "color0": [1, 1, 1, 1],
+        "color1": [0, 0, 0, 1],
+        "prefix": "1-mercury",
+        "radius-x": 3.829,
+        "radius-y": 3.829,
+        "radius-z": 3.829
+      }
+    },
+    {
+      "type": "prefabs_webgl_ellipsoid",
+      "properties": {
+        "character": "2-venus",
+        "color0": [1, 1, 1, 1],
+        "color1": [1, 1, 0, 1],
+        "prefix": "2-venus",
+        "radius-x": 9.499,
+        "radius-y": 9.499,
+        "radius-z": 9.499
+      }
+    },
+    {
+      "type": "prefabs_webgl_ellipsoid",
+      "properties": {
+        "character": "3-earth",
+        "color0": [0, 1, 0, 1],
+        "color1": [0, 0, 1, 1],
+        "prefix": "3-earth",
+        "radius-x": 10,
+        "radius-y": 10,
+        "radius-z": 10
+      }
+    },
+    {
+      "type": "prefabs_webgl_ellipsoid",
+      "properties": {
+        "character": "4-mars",
+        "color0": [0.5, 1, 0, 1],
+        "color1": [1, 0, 0, 1],
+        "prefix": "4-mars",
+        "radius-x": 5.32,
+        "radius-y": 5.32,
+        "radius-z": 5.32
+      }
+    },
+    {
+      "type": "prefabs_webgl_ellipsoid",
+      "properties": {
+        "character": "5-jupiter",
+        "color0": [1, 0.6, 0.1, 1],
+        "color1": [1, 0.3, 0.3, 1],
+        "prefix": "5-jupiter",
+        "radius-x": 109.7,
+        "radius-y": 109.7,
+        "radius-z": 109.7
+      }
+    },
+    {
+      "type": "prefabs_webgl_ellipsoid",
+      "properties": {
+        "character": "6-saturn",
+        "color0": [0.8, 0.4, 0.1, 1],
+        "color1": [1, 0.5, 0, 1],
+        "prefix": "6-saturn",
+        "radius-x": 91.4,
+        "radius-y": 91.4,
+        "radius-z": 91.4
+      }
+    },
+    {
+      "type": "prefabs_webgl_ellipsoid",
+      "properties": {
+        "character": "7-uranus",
+        "color0": [0.3, 0.3, 1, 1],
+        "color1": [0.5, 0.5, 1, 1],
+        "prefix": "7-uranus",
+        "radius-x": 39.81,
+        "radius-y": 39.81,
+        "radius-z": 39.81
+      }
+    },
+    {
+      "type": "prefabs_webgl_ellipsoid",
+      "properties": {
+        "character": "8-neptune",
+        "color0": [0.3, 0.3, 1, 1],
+        "color1": [0, 0, 1, 1],
+        "prefix": "8-neptune",
+        "radius-x": 38.65,
+        "radius-y": 38.65,
+        "radius-z": 38.65
+      }
+    },
+    {
+      "type": "prefabs_webgl_ellipsoid",
+      "properties": {
+        "character": "9-pluto",
+        "color0": [0.5, 0.5, 0.5, 1],
+        "color1": [0.5, 0.3, 0, 1],
+        "prefix": "9-pluto",
+        "radius-x": 1.86,
+        "radius-y": 1.86,
+        "radius-z": 1.86
+      }
+    }
+  ]
+}

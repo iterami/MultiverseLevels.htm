@@ -8,4 +8,5 @@ window.multiverselevels = {
   'hive': 'Hive',
   'platforms': 'Platforms',
   'scp-432': 'SCP-432',
+  'solarsystem': 'Solar System',
 };
