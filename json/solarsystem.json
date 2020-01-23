@@ -30,52 +30,42 @@
     },
     {
       "id": "0-sun",
-      "translate-x": -1150,
-      "translate-y": 10
+      "translate-x": -1150
     },
     {
       "id": "1-mercury",
-      "translate-x": -40,
-      "translate-y": 10
+      "translate-x": -40
     },
     {
       "id": "2-venus",
-      "translate-x": -23,
-      "translate-y": 10
+      "translate-x": -23
     },
     {
-      "id": "3-earth",
-      "translate-y": 10
+      "id": "3-earth"
     },
     {
       "id": "4-mars",
-      "translate-x": 20,
-      "translate-y": 10
+      "translate-x": 20
     },
     {
       "id": "5-jupiter",
-      "translate-x": 150,
-      "translate-y": 10
+      "translate-x": 150
     },
     {
       "id": "6-saturn",
-      "translate-x": 370,
-      "translate-y": 10
+      "translate-x": 370
     },
     {
       "id": "7-uranus",
-      "translate-x": 510,
-      "translate-y": 10
+      "translate-x": 510
     },
     {
       "id": "8-neptune",
-      "translate-x": 600,
-      "translate-y": 10
+      "translate-x": 600
     },
     {
       "id": "9-pluto",
-      "translate-x": 650,
-      "translate-y": 10
+      "translate-x": 650
     }
   ],
   "prefabs": [
