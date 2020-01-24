@@ -554,25 +554,6 @@
       }
     },
     {
-      "type": "prefabs_webgl_skybox",
-      "properties": {
-        "prefix": "skybox",
-        "bottom-color-bottom": [
-          0, 0, 0, 1
-        ],
-        "bottom-color-top": [
-          0.3, 0, 0, 1
-        ],
-        "sides": 5,
-        "top-color-bottom": [
-          0.3, 0, 0, 1
-        ],
-        "top-color-top": [
-          0, 0, 0, 1
-        ]
-      }
-    },
-    {
       "type": "prefabs_webgl_cuboid_tree",
       "properties": {
         "prefix": "tree-0",
@@ -596,6 +577,26 @@
           0.666, 0, 0, 1,
           0.666, 0, 0, 1
         ]
+      }
+    },
+    {
+      "type": "prefabs_webgl_ellipsoid",
+      "properties": {
+        "groups": [
+          "skybox"
+        ],
+        "prefix": "skybox",
+        "color0": [
+          0, 0, 0, 1
+        ],
+        "color1": [
+          0.3, 0, 0, 1
+        ],
+        "radius-x": -10,
+        "radius-y": -10,
+        "radius-z": -10,
+        "slices-latitude": 5,
+        "slices-longitude": 2
       }
     }
   ]
