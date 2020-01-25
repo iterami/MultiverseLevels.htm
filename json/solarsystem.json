@@ -1,6 +1,7 @@
 {
   "multiplier-speed": 10,
   "spawn-rotate-x": 25,
+  "spawn-translate-x": 1150,
   "spawn-translate-y": 5,
   "spawn-translate-z": 100,
   "characters": [
@@ -8,6 +9,7 @@
       "id": "museum",
       "entities": [
         {
+          "attach-offset-x": 1150,
           "attach-offset-z": 100,
           "id": "ground",
           "texture-id": "grid.png",
@@ -29,43 +31,79 @@
       ]
     },
     {
-      "id": "0-sun",
-      "translate-x": -1150
+      "id": "0-sun"
     },
     {
       "id": "1-mercury",
-      "translate-x": -40
+      "translate-x": 1110
     },
     {
       "id": "2-venus",
-      "translate-x": -23
+      "translate-x": 1127
     },
     {
-      "id": "3-earth"
+      "id": "3-earth",
+      "translate-x": 1150
     },
     {
       "id": "4-mars",
-      "translate-x": 20
+      "translate-x": 1170
     },
     {
       "id": "5-jupiter",
-      "translate-x": 150
+      "translate-x": 1300
     },
     {
       "id": "6-saturn",
-      "translate-x": 370
+      "translate-x": 1520
     },
     {
       "id": "7-uranus",
-      "translate-x": 510
+      "translate-x": 1660
     },
     {
       "id": "8-neptune",
-      "translate-x": 600
+      "translate-x": 1750
     },
     {
       "id": "9-pluto",
-      "translate-x": 650
+      "translate-x": 1800
+    },
+    {
+      "id": "far-1-mercury",
+      "translate-z": 91473.72
+    },
+    {
+      "id": "far-2-venus",
+      "translate-z": 168874.56
+    },
+    {
+      "id": "far-3-earth",
+      "translate-z": 234548
+    },
+    {
+      "id": "far-4-mars",
+      "translate-z": 356512.96
+    },
+    {
+      "id": "far-5-jupiter",
+      "translate-z": 1219649.6
+    },
+    {
+      "id": "far-6-saturn",
+      "translate-z": 2251660.8
+    },
+    {
+      "id": "far-7-uranus",
+      "translate-z": 4503321.6
+    },
+    {
+      "id": "far-8-neptune",
+      "translate-z": 7059894.8
+    },
+    {
+      "id": "far-9-pluto",
+      "translate-z": 9264646
     }
   ],
   "prefabs": [
@@ -186,6 +224,114 @@
         "color0": [0.5, 0.5, 0.5, 1],
         "color1": [0.5, 0.3, 0, 1],
         "prefix": "9-pluto",
+        "radius-x": 1.86,
+        "radius-y": 1.86,
+        "radius-z": 1.86
+      }
+    },
+    {
+      "type": "prefabs_webgl_ellipsoid",
+      "properties": {
+        "character": "far-1-mercury",
+        "color0": [1, 1, 1, 1],
+        "color1": [0, 0, 0, 1],
+        "prefix": "far-1-mercury",
+        "radius-x": 3.829,
+        "radius-y": 3.829,
+        "radius-z": 3.829
+      }
+    },
+    {
+      "type": "prefabs_webgl_ellipsoid",
+      "properties": {
+        "character": "far-2-venus",
+        "color0": [1, 1, 1, 1],
+        "color1": [1, 1, 0, 1],
+        "prefix": "far-2-venus",
+        "radius-x": 9.499,
+        "radius-y": 9.499,
+        "radius-z": 9.499
+      }
+    },
+    {
+      "type": "prefabs_webgl_ellipsoid",
+      "properties": {
+        "character": "far-3-earth",
+        "color0": [0, 1, 0, 1],
+        "color1": [0, 0, 1, 1],
+        "prefix": "far-3-earth",
+        "radius-x": 10,
+        "radius-y": 10,
+        "radius-z": 10
+      }
+    },
+    {
+      "type": "prefabs_webgl_ellipsoid",
+      "properties": {
+        "character": "far-4-mars",
+        "color0": [0.5, 1, 0, 1],
+        "color1": [1, 0, 0, 1],
+        "prefix": "far-4-mars",
+        "radius-x": 5.32,
+        "radius-y": 5.32,
+        "radius-z": 5.32
+      }
+    },
+    {
+      "type": "prefabs_webgl_ellipsoid",
+      "properties": {
+        "character": "far-5-jupiter",
+        "color0": [1, 0.6, 0.1, 1],
+        "color1": [1, 0.3, 0.3, 1],
+        "prefix": "far-5-jupiter",
+        "radius-x": 109.7,
+        "radius-y": 109.7,
+        "radius-z": 109.7
+      }
+    },
+    {
+      "type": "prefabs_webgl_ellipsoid",
+      "properties": {
+        "character": "far-6-saturn",
+        "color0": [0.8, 0.4, 0.1, 1],
+        "color1": [1, 0.5, 0, 1],
+        "prefix": "far-6-saturn",
+        "radius-x": 91.4,
+        "radius-y": 91.4,
+        "radius-z": 91.4
+      }
+    },
+    {
+      "type": "prefabs_webgl_ellipsoid",
+      "properties": {
+        "character": "far-7-uranus",
+        "color0": [0.3, 0.3, 1, 1],
+        "color1": [0.5, 0.5, 1, 1],
+        "prefix": "far-7-uranus",
+        "radius-x": 39.81,
+        "radius-y": 39.81,
+        "radius-z": 39.81
+      }
+    },
+    {
+      "type": "prefabs_webgl_ellipsoid",
+      "properties": {
+        "character": "far-8-neptune",
+        "color0": [0.3, 0.3, 1, 1],
+        "color1": [0, 0, 1, 1],
+        "prefix": "far-8-neptune",
+        "radius-x": 38.65,
+        "radius-y": 38.65,
+        "radius-z": 38.65
+      }
+    },
+    {
+      "type": "prefabs_webgl_ellipsoid",
+      "properties": {
+        "character": "far-9-pluto",
+        "color0": [0.5, 0.5, 0.5, 1],
+        "color1": [0.5, 0.3, 0, 1],
+        "prefix": "far-9-pluto",
         "radius-x": 1.86,
         "radius-y": 1.86,
         "radius-z": 1.86
