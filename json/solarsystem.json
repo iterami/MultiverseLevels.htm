@@ -932,7 +932,9 @@
         "prefix": "1-mercury",
         "radius-x": 3.829,
         "radius-y": 3.829,
-        "radius-z": 3.829
+        "radius-z": 3.829,
+        "slices-latitude": 6,
+        "slices-longitude": 6
       }
     },
     {
@@ -944,7 +946,9 @@
         "prefix": "2-venus",
         "radius-x": 9.499,
         "radius-y": 9.499,
-        "radius-z": 9.499
+        "radius-z": 9.499,
+        "slices-latitude": 8,
+        "slices-longitude": 8
       }
     },
     {
@@ -956,7 +960,9 @@
         "prefix": "3-earth",
         "radius-x": 10,
         "radius-y": 10,
-        "radius-z": 10
+        "radius-z": 10,
+        "slices-latitude": 8,
+        "slices-longitude": 8
       }
     },
     {
@@ -968,7 +974,9 @@
         "prefix": "4-mars",
         "radius-x": 5.32,
         "radius-y": 5.32,
-        "radius-z": 5.32
+        "radius-z": 5.32,
+        "slices-latitude": 8,
+        "slices-longitude": 8
       }
     },
     {
@@ -1028,7 +1036,9 @@
         "prefix": "9-pluto",
         "radius-x": 1.86,
         "radius-y": 1.86,
-        "radius-z": 1.86
+        "radius-z": 1.86,
+        "slices-latitude": 6,
+        "slices-longitude": 6
       }
     },
     {
@@ -1040,7 +1050,9 @@
         "prefix": "far-1-mercury",
         "radius-x": 3.829,
         "radius-y": 3.829,
-        "radius-z": 3.829
+        "radius-z": 3.829,
+        "slices-latitude": 6,
+        "slices-longitude": 6
       }
     },
     {
@@ -1052,7 +1064,9 @@
         "prefix": "far-2-venus",
         "radius-x": 9.499,
         "radius-y": 9.499,
-        "radius-z": 9.499
+        "radius-z": 9.499,
+        "slices-latitude": 8,
+        "slices-longitude": 8
       }
     },
     {
@@ -1064,7 +1078,9 @@
         "prefix": "far-3-earth",
         "radius-x": 10,
         "radius-y": 10,
-        "radius-z": 10
+        "radius-z": 10,
+        "slices-latitude": 8,
+        "slices-longitude": 8
       }
     },
     {
@@ -1076,7 +1092,9 @@
         "prefix": "far-4-mars",
         "radius-x": 5.32,
         "radius-y": 5.32,
-        "radius-z": 5.32
+        "radius-z": 5.32,
+        "slices-latitude": 8,
+        "slices-longitude": 8
       }
     },
     {
@@ -1136,7 +1154,9 @@
         "prefix": "far-9-pluto",
         "radius-x": 1.86,
         "radius-y": 1.86,
-        "radius-z": 1.86
+        "radius-z": 1.86,
+        "slices-latitude": 6,
+        "slices-longitude": 6
       }
     }
   ]
