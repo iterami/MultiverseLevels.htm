@@ -11,7 +11,7 @@
         {
           "attach-offset-x": 1150,
           "attach-offset-z": 100,
-          "id": "ground",
+          "id": "ground-scale",
           "texture-id": "grid.png",
           "texture-repeat-x": 25,
           "texture-repeat-y": 400,
@@ -26,6 +26,808 @@
             -50, 0, -25, 1,
             -50, 0, 25, 1,
             750, 0, 25, 1
+          ]
+        },
+        {
+          "id": "door-scale-mercury",
+          "attach-offset-x": 1150,
+          "attach-offset-y": 8,
+          "attach-offset-z": 125,
+          "event-modify": [
+            {
+              "amount": 120,
+              "set": true,
+              "stat": "translate-x"
+            },
+            {
+              "amount": 91473.72,
+              "set": true,
+              "stat": "translate-z"
+            }
+          ],
+          "event-range": 0,
+          "rotate-x": 270,
+          "texture-align": [
+            1, 0,
+            0, 0,
+            0, 1,
+            1, 1
+          ],
+          "texture-id": "door.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ],
+          "vertices": [
+            4, 0, -8, 1,
+            -4, 0, -8, 1,
+            -4, 0, 8, 1,
+            4, 0, 8, 1
+          ]
+        },
+        {
+          "id": "door-mercury-scale",
+          "attach-offset-x": 120,
+          "attach-offset-y": 8,
+          "attach-offset-z": 91448.72,
+          "event-modify": [
+            {
+              "amount": 1150,
+              "set": true,
+              "stat": "translate-x"
+            },
+            {
+              "amount": 100,
+              "set": true,
+              "stat": "translate-z"
+            }
+          ],
+          "event-range": 0,
+          "rotate-x": 90,
+          "texture-align": [
+            1, 0,
+            0, 0,
+            0, 1,
+            1, 1
+          ],
+          "texture-id": "door.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ],
+          "vertices": [
+            4, 0, -8, 1,
+            -4, 0, -8, 1,
+            -4, 0, 8, 1,
+            4, 0, 8, 1
+          ]
+        },
+        {
+          "attach-offset-x": 100,
+          "attach-offset-z": 91473.72,
+          "id": "ground-far-1-mercury",
+          "texture-id": "grid.png",
+          "texture-repeat-x": 25,
+          "texture-repeat-y": 25,
+          "vertex-colors": [
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1
+          ],
+          "vertices": [
+            25, 0, -25, 1,
+            -25, 0, -25, 1,
+            -25, 0, 25, 1,
+            25, 0, 25, 1
+          ]
+        },
+        {
+          "id": "door-mercury-venus",
+          "attach-offset-x": 120,
+          "attach-offset-y": 8,
+          "attach-offset-z": 91498.72,
+          "event-modify": [
+            {
+              "amount": 168874.56,
+              "set": true,
+              "stat": "translate-z"
+            }
+          ],
+          "event-range": 0,
+          "rotate-x": 270,
+          "texture-align": [
+            1, 0,
+            0, 0,
+            0, 1,
+            1, 1
+          ],
+          "texture-id": "door.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ],
+          "vertices": [
+            4, 0, -8, 1,
+            -4, 0, -8, 1,
+            -4, 0, 8, 1,
+            4, 0, 8, 1
+          ]
+        },
+        {
+          "id": "door-venus-mercury",
+          "attach-offset-x": 120,
+          "attach-offset-y": 8,
+          "attach-offset-z": 168849.56,
+          "event-modify": [
+            {
+              "amount": 91473.72,
+              "set": true,
+              "stat": "translate-z"
+            }
+          ],
+          "event-range": 0,
+          "rotate-x": 90,
+          "texture-align": [
+            1, 0,
+            0, 0,
+            0, 1,
+            1, 1
+          ],
+          "texture-id": "door.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ],
+          "vertices": [
+            4, 0, -8, 1,
+            -4, 0, -8, 1,
+            -4, 0, 8, 1,
+            4, 0, 8, 1
+          ]
+        },
+        {
+          "attach-offset-x": 100,
+          "attach-offset-z": 168874.56,
+          "id": "ground-far-2-venus",
+          "texture-id": "grid.png",
+          "texture-repeat-x": 25,
+          "texture-repeat-y": 25,
+          "vertex-colors": [
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1
+          ],
+          "vertices": [
+            25, 0, -25, 1,
+            -25, 0, -25, 1,
+            -25, 0, 25, 1,
+            25, 0, 25, 1
+          ]
+        },
+        {
+          "id": "door-venus-earth",
+          "attach-offset-x": 120,
+          "attach-offset-y": 8,
+          "attach-offset-z": 168899.56,
+          "event-modify": [
+            {
+              "amount": 234548,
+              "set": true,
+              "stat": "translate-z"
+            }
+          ],
+          "event-range": 0,
+          "rotate-x": 270,
+          "texture-align": [
+            1, 0,
+            0, 0,
+            0, 1,
+            1, 1
+          ],
+          "texture-id": "door.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ],
+          "vertices": [
+            4, 0, -8, 1,
+            -4, 0, -8, 1,
+            -4, 0, 8, 1,
+            4, 0, 8, 1
+          ]
+        },
+        {
+          "id": "door-earth-venus",
+          "attach-offset-x": 120,
+          "attach-offset-y": 8,
+          "attach-offset-z": 234523,
+          "event-modify": [
+            {
+              "amount": 168874.56,
+              "set": true,
+              "stat": "translate-z"
+            }
+          ],
+          "event-range": 0,
+          "rotate-x": 90,
+          "texture-align": [
+            1, 0,
+            0, 0,
+            0, 1,
+            1, 1
+          ],
+          "texture-id": "door.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ],
+          "vertices": [
+            4, 0, -8, 1,
+            -4, 0, -8, 1,
+            -4, 0, 8, 1,
+            4, 0, 8, 1
+          ]
+        },
+        {
+          "attach-offset-x": 100,
+          "attach-offset-z": 234548,
+          "id": "ground-far-3-earth",
+          "texture-id": "grid.png",
+          "texture-repeat-x": 25,
+          "texture-repeat-y": 25,
+          "vertex-colors": [
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1
+          ],
+          "vertices": [
+            25, 0, -25, 1,
+            -25, 0, -25, 1,
+            -25, 0, 25, 1,
+            25, 0, 25, 1
+          ]
+        },
+        {
+          "id": "door-earth-mars",
+          "attach-offset-x": 120,
+          "attach-offset-y": 8,
+          "attach-offset-z": 234573,
+          "event-modify": [
+            {
+              "amount": 356512.96,
+              "set": true,
+              "stat": "translate-z"
+            }
+          ],
+          "event-range": 0,
+          "rotate-x": 270,
+          "texture-align": [
+            1, 0,
+            0, 0,
+            0, 1,
+            1, 1
+          ],
+          "texture-id": "door.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ],
+          "vertices": [
+            4, 0, -8, 1,
+            -4, 0, -8, 1,
+            -4, 0, 8, 1,
+            4, 0, 8, 1
+          ]
+        },
+        {
+          "id": "door-mars-earth",
+          "attach-offset-x": 120,
+          "attach-offset-y": 8,
+          "attach-offset-z": 356487.96,
+          "event-modify": [
+            {
+              "amount": 234548,
+              "set": true,
+              "stat": "translate-z"
+            }
+          ],
+          "event-range": 0,
+          "rotate-x": 90,
+          "texture-align": [
+            1, 0,
+            0, 0,
+            0, 1,
+            1, 1
+          ],
+          "texture-id": "door.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ],
+          "vertices": [
+            4, 0, -8, 1,
+            -4, 0, -8, 1,
+            -4, 0, 8, 1,
+            4, 0, 8, 1
+          ]
+        },
+        {
+          "attach-offset-x": 100,
+          "attach-offset-z": 356512.96,
+          "id": "ground-far-4-mars",
+          "texture-id": "grid.png",
+          "texture-repeat-x": 25,
+          "texture-repeat-y": 25,
+          "vertex-colors": [
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1
+          ],
+          "vertices": [
+            25, 0, -25, 1,
+            -25, 0, -25, 1,
+            -25, 0, 25, 1,
+            25, 0, 25, 1
+          ]
+        },
+        {
+          "id": "door-mars-jupiter",
+          "attach-offset-x": 120,
+          "attach-offset-y": 8,
+          "attach-offset-z": 356537.96,
+          "event-modify": [
+            {
+              "amount": 1219649.6,
+              "set": true,
+              "stat": "translate-z"
+            }
+          ],
+          "event-range": 0,
+          "rotate-x": 270,
+          "texture-align": [
+            1, 0,
+            0, 0,
+            0, 1,
+            1, 1
+          ],
+          "texture-id": "door.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ],
+          "vertices": [
+            4, 0, -8, 1,
+            -4, 0, -8, 1,
+            -4, 0, 8, 1,
+            4, 0, 8, 1
+          ]
+        },
+        {
+          "id": "door-jupiter-mars",
+          "attach-offset-x": 120,
+          "attach-offset-y": 8,
+          "attach-offset-z": 1219624.6,
+          "event-modify": [
+            {
+              "amount": 356512.96,
+              "set": true,
+              "stat": "translate-z"
+            }
+          ],
+          "event-range": 0,
+          "rotate-x": 90,
+          "texture-align": [
+            1, 0,
+            0, 0,
+            0, 1,
+            1, 1
+          ],
+          "texture-id": "door.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ],
+          "vertices": [
+            4, 0, -8, 1,
+            -4, 0, -8, 1,
+            -4, 0, 8, 1,
+            4, 0, 8, 1
+          ]
+        },
+        {
+          "attach-offset-x": 100,
+          "attach-offset-z": 1219649.6,
+          "id": "ground-far-5-jupiter",
+          "texture-id": "grid.png",
+          "texture-repeat-x": 25,
+          "texture-repeat-y": 25,
+          "vertex-colors": [
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1
+          ],
+          "vertices": [
+            25, 0, -25, 1,
+            -25, 0, -25, 1,
+            -25, 0, 25, 1,
+            25, 0, 25, 1
+          ]
+        },
+        {
+          "id": "door-jupiter-saturn",
+          "attach-offset-x": 120,
+          "attach-offset-y": 8,
+          "attach-offset-z": 1219674.6,
+          "event-modify": [
+            {
+              "amount": 2251660.8,
+              "set": true,
+              "stat": "translate-z"
+            }
+          ],
+          "event-range": 0,
+          "rotate-x": 270,
+          "texture-align": [
+            1, 0,
+            0, 0,
+            0, 1,
+            1, 1
+          ],
+          "texture-id": "door.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ],
+          "vertices": [
+            4, 0, -8, 1,
+            -4, 0, -8, 1,
+            -4, 0, 8, 1,
+            4, 0, 8, 1
+          ]
+        },
+        {
+          "id": "door-saturn-jupiter",
+          "attach-offset-x": 120,
+          "attach-offset-y": 8,
+          "attach-offset-z": 2251635.8,
+          "event-modify": [
+            {
+              "amount": 1219649.6,
+              "set": true,
+              "stat": "translate-z"
+            }
+          ],
+          "event-range": 0,
+          "rotate-x": 90,
+          "texture-align": [
+            1, 0,
+            0, 0,
+            0, 1,
+            1, 1
+          ],
+          "texture-id": "door.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ],
+          "vertices": [
+            4, 0, -8, 1,
+            -4, 0, -8, 1,
+            -4, 0, 8, 1,
+            4, 0, 8, 1
+          ]
+        },
+        {
+          "attach-offset-x": 100,
+          "attach-offset-z": 2251660.8,
+          "id": "ground-far-6-saturn",
+          "texture-id": "grid.png",
+          "texture-repeat-x": 25,
+          "texture-repeat-y": 25,
+          "vertex-colors": [
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1
+          ],
+          "vertices": [
+            25, 0, -25, 1,
+            -25, 0, -25, 1,
+            -25, 0, 25, 1,
+            25, 0, 25, 1
+          ]
+        },
+        {
+          "id": "door-saturn-uranus",
+          "attach-offset-x": 120,
+          "attach-offset-y": 8,
+          "attach-offset-z": 2251685.8,
+          "event-modify": [
+            {
+              "amount": 4503321.6,
+              "set": true,
+              "stat": "translate-z"
+            }
+          ],
+          "event-range": 0,
+          "rotate-x": 270,
+          "texture-align": [
+            1, 0,
+            0, 0,
+            0, 1,
+            1, 1
+          ],
+          "texture-id": "door.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ],
+          "vertices": [
+            4, 0, -8, 1,
+            -4, 0, -8, 1,
+            -4, 0, 8, 1,
+            4, 0, 8, 1
+          ]
+        },
+        {
+          "id": "door-uranus-saturn",
+          "attach-offset-x": 120,
+          "attach-offset-y": 8,
+          "attach-offset-z": 4503296.6,
+          "event-modify": [
+            {
+              "amount": 2251660.8,
+              "set": true,
+              "stat": "translate-z"
+            }
+          ],
+          "event-range": 0,
+          "rotate-x": 90,
+          "texture-align": [
+            1, 0,
+            0, 0,
+            0, 1,
+            1, 1
+          ],
+          "texture-id": "door.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ],
+          "vertices": [
+            4, 0, -8, 1,
+            -4, 0, -8, 1,
+            -4, 0, 8, 1,
+            4, 0, 8, 1
+          ]
+        },
+        {
+          "attach-offset-x": 100,
+          "attach-offset-z": 4503321.6,
+          "id": "ground-far-7-uranus",
+          "texture-id": "grid.png",
+          "texture-repeat-x": 25,
+          "texture-repeat-y": 25,
+          "vertex-colors": [
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1
+          ],
+          "vertices": [
+            25, 0, -25, 1,
+            -25, 0, -25, 1,
+            -25, 0, 25, 1,
+            25, 0, 25, 1
+          ]
+        },
+        {
+          "id": "door-uranus-neptune",
+          "attach-offset-x": 120,
+          "attach-offset-y": 8,
+          "attach-offset-z": 4503346.6,
+          "event-modify": [
+            {
+              "amount": 7059894.8,
+              "set": true,
+              "stat": "translate-z"
+            }
+          ],
+          "event-range": 0,
+          "rotate-x": 270,
+          "texture-align": [
+            1, 0,
+            0, 0,
+            0, 1,
+            1, 1
+          ],
+          "texture-id": "door.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ],
+          "vertices": [
+            4, 0, -8, 1,
+            -4, 0, -8, 1,
+            -4, 0, 8, 1,
+            4, 0, 8, 1
+          ]
+        },
+        {
+          "id": "door-neptune-uranus",
+          "attach-offset-x": 120,
+          "attach-offset-y": 8,
+          "attach-offset-z": 7059871.8,
+          "event-modify": [
+            {
+              "amount": 4503321.6,
+              "set": true,
+              "stat": "translate-z"
+            }
+          ],
+          "event-range": 0,
+          "rotate-x": 90,
+          "texture-align": [
+            1, 0,
+            0, 0,
+            0, 1,
+            1, 1
+          ],
+          "texture-id": "door.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ],
+          "vertices": [
+            4, 0, -8, 1,
+            -4, 0, -8, 1,
+            -4, 0, 8, 1,
+            4, 0, 8, 1
+          ]
+        },
+        {
+          "attach-offset-x": 100,
+          "attach-offset-z": 7059894.8,
+          "id": "ground-far-8-neptune",
+          "texture-id": "grid.png",
+          "texture-repeat-x": 25,
+          "texture-repeat-y": 25,
+          "vertex-colors": [
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1
+          ],
+          "vertices": [
+            25, 0, -25, 1,
+            -25, 0, -25, 1,
+            -25, 0, 25, 1,
+            25, 0, 25, 1
+          ]
+        },
+        {
+          "id": "door-neptune-pluto",
+          "attach-offset-x": 120,
+          "attach-offset-y": 8,
+          "attach-offset-z": 7059921.8,
+          "event-modify": [
+            {
+              "amount": 9264646,
+              "set": true,
+              "stat": "translate-z"
+            }
+          ],
+          "event-range": 0,
+          "rotate-x": 270,
+          "texture-align": [
+            1, 0,
+            0, 0,
+            0, 1,
+            1, 1
+          ],
+          "texture-id": "door.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ],
+          "vertices": [
+            4, 0, -8, 1,
+            -4, 0, -8, 1,
+            -4, 0, 8, 1,
+            4, 0, 8, 1
+          ]
+        },
+        {
+          "id": "door-pluto-neptune",
+          "attach-offset-x": 120,
+          "attach-offset-y": 8,
+          "attach-offset-z": 9264621,
+          "event-modify": [
+            {
+              "amount": 7059894.8,
+              "set": true,
+              "stat": "translate-z"
+            }
+          ],
+          "event-range": 0,
+          "rotate-x": 90,
+          "texture-align": [
+            1, 0,
+            0, 0,
+            0, 1,
+            1, 1
+          ],
+          "texture-id": "door.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ],
+          "vertices": [
+            4, 0, -8, 1,
+            -4, 0, -8, 1,
+            -4, 0, 8, 1,
+            4, 0, 8, 1
+          ]
+        },
+        {
+          "attach-offset-x": 100,
+          "attach-offset-z": 9264646,
+          "id": "ground-far-9-pluto",
+          "texture-id": "grid.png",
+          "texture-repeat-x": 25,
+          "texture-repeat-y": 25,
+          "vertex-colors": [
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1
+          ],
+          "vertices": [
+            25, 0, -25, 1,
+            -25, 0, -25, 1,
+            -25, 0, 25, 1,
+            25, 0, 25, 1
           ]
         }
       ]
