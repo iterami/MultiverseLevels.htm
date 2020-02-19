@@ -1,9 +1,9 @@
 'use strict';
 
-window.multiversecharacters = {
+globalThis.multiversecharacters = {
   'character-default': 'Default',
 };
-window.multiverselevels = {
+globalThis.multiverselevels = {
   'facility': 'Facility',
   'hive': 'Hive',
   'platforms': 'Platforms',
