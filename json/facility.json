@@ -39,7 +39,6 @@
     }
   },
   "spawn-rotate-x": 25,
-  "spawn-translate-y": 5,
   "characters": [
     {
       "id": "facility",

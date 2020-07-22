@@ -26,7 +26,7 @@
     }
   },
   "spawn-rotate-x": 30,
-  "spawn-translate-y": 15,
+  "spawn-translate-y": 10,
   "characters": [
     {
       "id": "lava",
