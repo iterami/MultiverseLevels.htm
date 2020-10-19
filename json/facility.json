@@ -376,7 +376,36 @@
     },
     {
       "id": "tree-1",
-      "translate-x": -50,
+      "translate-x": -40,
+      "translate-z": -25
+    },
+    {
+      "id": "flower-0",
+      "entities": [
+        {
+          "id": "flower-0-base",
+          "draw-type": "LINES",
+          "vertex-colors": [
+            0, 1, 0, 1,
+            0, 1, 0, 1
+          ],
+          "vertices": [
+            0, 0, 0, 1,
+            0, 3, 0, 1
+          ]
+        },
+        {
+          "id": "flower-0-top",
+          "draw-type": "POINTS",
+          "vertex-colors": [
+            1, 0.5, 0, 1
+          ],
+          "vertices": [
+            0, 3, 0, 1
+          ]
+        }
+      ],
+      "translate-x": -33,
       "translate-z": -25
     }
   ],
