@@ -4,8 +4,7 @@ globalThis.multiversecharacters = {
   'character-default': 'Default',
 };
 globalThis.multiverselevels = {
-  'facility': 'Facility',
-  'hive': 'Hive',
+  'labs': 'Labs',
   'platforms': 'Platforms',
   'scp-432': 'SCP-432',
   'solarsystem': 'Solar System',
