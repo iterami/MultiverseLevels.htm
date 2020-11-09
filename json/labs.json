@@ -1,0 +1,104 @@
+{
+  "fog-density": 0.00001,
+  "fog-state": true,
+  "spawn-rotate-x": 25,
+  "characters": [
+    {
+      "id": "labs",
+      "entities": [
+        {
+          "id": "base",
+          "texture-id": "grid.png",
+          "texture-repeat-x": 10,
+          "texture-repeat-y": 10,
+          "vertex-colors": [
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1,
+            0.2, 0.2, 0.2, 1
+          ],
+          "vertices": [
+            50, 0, -50, 1,
+            -50, 0, -50, 1,
+            -50, 0, 50, 1,
+            50, 0, 50, 1
+          ]
+        },
+        {
+          "id": "forest",
+          "attach-offset-x": 100,
+          "texture-id": "grid.png",
+          "texture-repeat-x": 10,
+          "texture-repeat-y": 10,
+          "vertex-colors": [
+            0.2, 1, 0.2, 1,
+            0.2, 1, 0.2, 1,
+            0.2, 1, 0.2, 1,
+            0.2, 1, 0.2, 1
+          ],
+          "vertices": [
+            50, 0, -50, 1,
+            -50, 0, -50, 1,
+            -50, 0, 50, 1,
+            50, 0, 50, 1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tree-cuboid-0",
+      "translate-x": 55,
+      "translate-z": -45
+    },
+    {
+      "id": "tree-lines-0",
+      "translate-x": 55,
+      "translate-z": -35
+    },
+    {
+      "id": "flower-0",
+      "entities": [
+        {
+          "id": "flower-0-base",
+          "draw-type": "LINES",
+          "vertex-colors": [
+            0, 1, 0, 1,
+            0, 1, 0, 1
+          ],
+          "vertices": [
+            0, 0, 0, 1,
+            0, 3, 0, 1
+          ]
+        },
+        {
+          "id": "flower-0-top",
+          "draw-type": "POINTS",
+          "vertex-colors": [
+            1, 0.5, 0, 1
+          ],
+          "vertices": [
+            0, 3, 0, 1
+          ]
+        }
+      ],
+      "translate-x": 55,
+      "translate-z": -25
+    }
+  ],
+  "prefabs": [
+    {
+      "type": "prefabs_webgl_cuboid_tree",
+      "properties": {
+        "prefix": "tree-cuboid-0",
+        "character": "tree-cuboid-0"
+      }
+    },
+    {
+      "type": "prefabs_webgl_lines_tree",
+      "properties": {
+        "prefix": "tree-lines-0",
+        "character": "tree-lines-0"
+      }
+    }
+  ]
+}
