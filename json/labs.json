@@ -46,14 +46,32 @@
       ]
     },
     {
+      "id": "cuboid-0",
+      "translate-x": -35,
+      "translate-y": 10,
+      "translate-z": -35
+    },
+    {
+      "id": "ellipsoid-0",
+      "translate-x": -35,
+      "translate-y": 15,
+      "translate-z": 35
+    },
+    {
       "id": "tree-cuboid-0",
-      "translate-x": 55,
-      "translate-z": -45
+      "translate-x": 60,
+      "translate-z": -40
+    },
+    {
+      "id": "tree-cuboid-1",
+      "translate-x": 80,
+      "translate-y": 0.01,
+      "translate-z": -40
     },
     {
       "id": "tree-lines-0",
-      "translate-x": 55,
-      "translate-z": -35
+      "translate-x": 60,
+      "translate-z": -20
     },
     {
       "id": "flower-0",
@@ -81,16 +99,61 @@
           ]
         }
       ],
-      "translate-x": 55,
-      "translate-z": -25
+      "translate-x": 60
     }
   ],
   "prefabs": [
+    {
+      "type": "prefabs_webgl_cuboid",
+      "properties": {
+        "prefix": "cuboid-0",
+        "all": {
+          "texture-id": "debug.png",
+          "vertex-colors": [
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1,
+            1, 1, 1, 1
+          ]
+        },
+        "character": "cuboid-0",
+        "size-x": 10,
+        "size-y": 20,
+        "size-z": 10
+      }
+    },
+    {
+      "type": "prefabs_webgl_ellipsoid",
+      "properties": {
+        "character": "ellipsoid-0",
+        "color0": [
+          0, 0, 1, 1
+        ],
+        "color1": [
+          1, 0, 1, 1
+        ],
+        "prefix": "ellipsoid-0",
+        "radius-x": 5,
+        "radius-y": 15,
+        "radius-z": 10
+      }
+    },
     {
       "type": "prefabs_webgl_cuboid_tree",
       "properties": {
         "prefix": "tree-cuboid-0",
         "character": "tree-cuboid-0"
+      }
+    },
+    {
+      "type": "prefabs_webgl_cuboid_tree",
+      "properties": {
+        "prefix": "tree-cuboid-1",
+        "character": "tree-cuboid-1",
+        "collision-leaves": false,
+        "leaves-size-x": -10,
+        "leaves-size-y": -10,
+        "leaves-size-z": -10
       }
     },
     {
